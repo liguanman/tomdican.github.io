@@ -2,4 +2,4 @@
 ####Install
 ####CONFIG
 ####Notice
-▒р┬ы
+ч╝ЦчаБ
