@@ -2,86 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tomdican.github.io/2017/01/18/HexoInstallConfig/</loc>
-    
-    <lastmod>2017-01-18T19:37:59.547Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/15/lorem-ipsum/</loc>
-    
-    <lastmod>2017-01-18T14:23:29.974Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2013/12/25/traditional-chinese-test/</loc>
-    
-    <lastmod>2017-01-18T14:23:22.197Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/15/code-highlight/</loc>
-    
-    <lastmod>2017-01-18T14:23:13.804Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/16/tag-plugins/</loc>
-    
-    <lastmod>2017-01-18T14:23:03.008Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/16/tag-plugins-cn/</loc>
-    
-    <lastmod>2017-01-18T14:22:47.916Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2013/12/25/simplified-chinese-test/</loc>
-    
-    <lastmod>2017-01-18T14:22:24.575Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/16/qna-cn/</loc>
-    
-    <lastmod>2017-01-18T14:21:47.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/03/16/qna/</loc>
-    
-    <lastmod>2017-01-18T14:21:16.186Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tomdican.github.io/2014/10/18/hello-world/</loc>
-    
-    <lastmod>2017-01-18T14:20:52.502Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://tomdican.github.io/reading/index.html</loc>
     
-    <lastmod>2017-01-14T18:03:11.745Z</lastmod>
+    <lastmod>2017-01-18T20:32:06.407Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://tomdican.github.io/about/index.html</loc>
     
-    <lastmod>2017-01-14T18:03:11.698Z</lastmod>
+    <lastmod>2017-01-18T20:32:06.404Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2013/12/25/traditional-chinese-test/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.401Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/16/tag-plugins/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.400Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/16/tag-plugins-cn/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.399Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2013/12/25/simplified-chinese-test/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.398Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/16/qna/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.397Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/16/qna-cn/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/15/lorem-ipsum/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.395Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/19/life-read-plan/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.394Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/18/HexoInstallConfig/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.288Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/10/18/hello-world/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.287Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2014/03/15/code-highlight/</loc>
+    
+    <lastmod>2017-01-18T20:32:06.287Z</lastmod>
     
   </url>
   
