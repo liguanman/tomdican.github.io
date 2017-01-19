@@ -1,11 +1,19 @@
 ---
 title: 一生的阅读计划
 date: 2017-01-19 04:12:11
+updated: 2017-01-19 15:26:26
 tags: 阅读，计划，清单，书籍
-categories: 读书
+categories: 0读书
 grammar_cjkRuby: true
+grammer_table: true
+grammer_extratable: true
 ---
 
+|     |     |
+| --- | --- |
+|     |     |
+
+注：hexo博客中格式混乱，github中格式清晰，[链接](https://github.com/tomdican/tomdican.github.io/blob/source/_posts/life-read-plan.md)
 
 |   书籍类别  |   著者  |    作品 |   第一期  |
 | --- | --- | --- | --- |

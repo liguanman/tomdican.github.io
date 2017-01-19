@@ -39,15 +39,25 @@ $ vi deploy.sh  # 添加如下脚本，然后保存退出
 $ sh deploy.sh #运行脚本，更新github中文章内容
 ```
 deploy.sh内容如下：
+
 ```bash
-hexo clean # 清除缓存
-hexo generate   #  生成结果到public中
-cp -R public/* .deploy/tomdican.github.io # 复制到指定目录
+hexo clean
+hexo generate #  生成结果到public中
 cd .deploy/tomdican.github.io
-git add .
-git commit -m "update"
-git push -u origin master # 上传到github中
+git pull
+git checkout master
+cp -R ../../public/* .
+git add -A
+git commit -m "master update"
+git push -u origin master  # 上传到github中
+
+git checkout source   # 提交源文件到github的source分支中
+cp -R ../../source/* .
+git add -A
+git commit -m "source update"
+git push -u origin source
 ```
+
 运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。
 
 ### 2.3 select theme
