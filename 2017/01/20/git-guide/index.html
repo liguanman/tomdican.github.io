@@ -3,20 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Questions and Answers（中文） | 多是少</title>
+  <title>多是少</title>
   <meta name="author" content="John Doe">
   
-  <meta name="description" content="Q Wixo 这名字有何含义？
-A Wixo 意思是 A wiki theme for hexo 。
-Q 如何指定某些页面生成 ToC(Table of Contents) ？
-A 在文章头部添加 toc: true 。
-Q 从哪里可以找到你的这几篇文档的 Markdown 源码？
-A 在项目的 s">
+  <meta name="description" content="title: git-guidedate: 2017-1-20 03:02:02udpated: 2017-1-20 03:02:02tags: git, guide, 技术, Docscategories: Docs
+grammar_cjkRuby: truegit commands
+add or">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Questions and Answers（中文）"/>
+  
   <meta property="og:site_name" content="多是少"/>
 
   
@@ -72,7 +69,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
   <div class="container" id="container">
 	<div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">Questions and Answers（中文）</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2014-03-16</span></h1>
+  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title"></span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-01-20</span></h1>
 </div>		
 
 <div class="row page">
@@ -85,14 +82,37 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	  
 
 	  <!-- content -->
-	  <p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
-<p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
-<p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p>
-<p><span class="label label-success">A</span> 在<a href="https://github.com/wzpan/hexo-theme-freemind#front-matter" target="_blank" rel="external">文章头部</a>添加 <code>toc: true</code> 。</p>
-<p><span class="label label-danger">Q</span> 从哪里可以找到你的这几篇文档的 Markdown 源码？</p>
-<p><span class="label label-success">A</span> 在项目的 <a href="https://github.com/wzpan/hexo-theme-wixo/tree/source" target="_blank" rel="external">source</a> 分支。</p>
-<p><span class="label label-danger">Q</span> 为什么我有些笔记本打不开？</p>
-<p><span class="label label-success">A</span> 给你的笔记本/文章分类取名时不要加空格，例如 “饭 祷 爱” 。如果非加不可，可以考虑使用 <code>_</code> ，例如 “饭_祷_爱” 。</p>
+	  <hr>
+<p>title: git-guide<br>date: 2017-1-20 03:02:02<br>udpated: 2017-1-20 03:02:02<br>tags: git, guide, 技术, Docs<br>categories: Docs</p>
+<h2 id="grammar-cjkRuby-true"><a href="#grammar-cjkRuby-true" class="headerlink" title="grammar_cjkRuby: true"></a>grammar_cjkRuby: true</h2><h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br> git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo</p>
+<pre><code>git pull origin master (fetch,merge)
+</code></pre></li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab:"></a>gitlab:</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
 	  
 
 	  <div>
@@ -106,63 +126,43 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 	
 		
-	
-		
-			
-		
-	
-		
-	
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
 			
 			
 		
 	
 		
-			
-			
-			
-		
-			
+	
 		
 	
 		
-			
+	
 		
 	
 		
-			
+	
 		
 	
 		
-			
+	
+		
+	
 		
 	
 		
-			
+	
+		
+	
+		
+	
 		
 	
 	
 	
-		<li class="prev"><a href="/2014/03/16/qna/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2014/03/16/tag-plugins/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next disabled"><a>next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
