@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tomdican.github.io/"/>
-  <updated>2017-01-19T19:28:14.568Z</updated>
+  <updated>2017-01-19T18:26:26.000Z</updated>
   <id>http://tomdican.github.io/</id>
   
   <author>
@@ -14,57 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://tomdican.github.io/2017/01/20/git-guide/"/>
-    <id>http://tomdican.github.io/2017/01/20/git-guide/</id>
-    <published>2017-01-19T18:52:53.485Z</published>
-    <updated>2017-01-19T19:28:14.568Z</updated>
-    
-    <content type="html"><![CDATA[<hr>
-<p>title: git-guide<br>date: 2017-1-20 03:02:02<br>udpated: 2017-1-20 03:02:02<br>tags: git, guide, 技术, Docs<br>categories: Docs</p>
-<h2 id="grammar-cjkRuby-true"><a href="#grammar-cjkRuby-true" class="headerlink" title="grammar_cjkRuby: true"></a>grammar_cjkRuby: true</h2><h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br> git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo</p>
-<pre><code>git pull origin master (fetch,merge)
-</code></pre></li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab:"></a>gitlab:</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;hr&gt;
-&lt;p&gt;title: git-guide&lt;br&gt;date: 2017-1-20 03:02:02&lt;br&gt;udpated: 2017-1-20 03:02:02&lt;br&gt;tags: git, guide, 技术, Docs&lt;br&gt;categories: Docs&lt;/p&gt;
-&lt;h
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Mongodb-guide</title>
@@ -166,7 +115,59 @@
       <category term="Docs" scheme="http://tomdican.github.io/categories/Docs/"/>
     
     
-      <category term="技术，mongo，指南" scheme="http://tomdican.github.io/tags/%E6%8A%80%E6%9C%AF%EF%BC%8Cmongo%EF%BC%8C%E6%8C%87%E5%8D%97/"/>
+      <category term="技术,mongo,指南" scheme="http://tomdican.github.io/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git-guide</title>
+    <link href="http://tomdican.github.io/2017/01/20/git-guide/"/>
+    <id>http://tomdican.github.io/2017/01/20/git-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br> git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo</p>
+<pre><code>git pull origin master (fetch,merge)
+</code></pre></li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;add or update file:&lt;b
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://tomdican.github.io/categories/Docs/"/>
+    
+    
+      <category term="技术,git,指南,guide" scheme="http://tomdican.github.io/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   
