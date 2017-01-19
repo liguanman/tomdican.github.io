@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tomdican.github.io/"/>
-  <updated>2017-01-19T19:00:59.670Z</updated>
+  <updated>2017-01-19T19:28:14.568Z</updated>
   <id>http://tomdican.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://tomdican.github.io/2017/01/20/git-guide/"/>
     <id>http://tomdican.github.io/2017/01/20/git-guide/</id>
     <published>2017-01-19T18:52:53.485Z</published>
-    <updated>2017-01-19T19:00:59.670Z</updated>
+    <updated>2017-01-19T19:28:14.568Z</updated>
     
     <content type="html"><![CDATA[<hr>
 <p>title: git-guide<br>date: 2017-1-20 03:02:02<br>udpated: 2017-1-20 03:02:02<br>tags: git, guide, 技术, Docs<br>categories: Docs</p>
@@ -264,7 +264,7 @@
     <link href="http://tomdican.github.io/2017/01/18/HexoInstallConfig/"/>
     <id>http://tomdican.github.io/2017/01/18/HexoInstallConfig/</id>
     <published>2017-01-18T10:19:46.000Z</published>
-    <updated>2017-01-19T19:10:25.072Z</updated>
+    <updated>2017-01-19T19:31:05.322Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
