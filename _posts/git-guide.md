@@ -1,8 +1,8 @@
---- 
+---
 title: git-guide
-date: 2017-1-20 03:02:02
-udpated: 2017-1-20 03:02:02
-tags: git, guide, 技术, Docs
+date: 2017-01-20 02:12:11
+updated: 2017-01-20 02:26:26
+tags: 技术,git,指南,guide
 categories: Docs
 grammar_cjkRuby: true
 ---
@@ -59,7 +59,7 @@ rm myfile.txt
 git commit -am "delete myfile.txt"
 
 
-## gitlab:
+## gitlab
 
 Git global setup
 git config --global user.name "Administrator"
