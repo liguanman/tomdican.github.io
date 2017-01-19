@@ -1,24 +1,24 @@
 ---
 title: git-guide
-date: 2017-01-20 02:12:11
-updated: 2017-01-20 02:26:26
+date: 2017-01-20 2:12:11
+updated: 2017-01-20 2:26:26
 tags: 技术,git,指南,guide
 categories: Docs
-grammar_cjkRuby: true
+toc: true
 ---
 
 ## git commands
 1. add or update file:
-   git add *
-   git status
-   git commit -m "scripts"
-   git push -u origin master(contain git pull)
+  git add *
+  git status
+  git commit -m "scripts"
+  git push -u origin master(contain git pull)
 
 2. modify remote url:(old version git)
-   git remote set-url origin https://user@github.com/user/scripts.git
+  git remote set-url origin https://user@github.com/user/scripts.git
 
 3. clone remote git
-    git clone https://github.com/great/scripts.git
+  git clone https://github.com/great/scripts.git
      
 4. create branch ,merge branch,delete local or remote branch:
   git checkout -b master
@@ -35,7 +35,7 @@ grammar_cjkRuby: true
   git push -u origin master
 
 6. update local git repo
-             git pull origin master (fetch,merge)
+  git pull origin master (fetch,merge)
 
 7. cache accout
 git config --global credential.helper cache
