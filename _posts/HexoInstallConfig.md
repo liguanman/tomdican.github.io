@@ -17,8 +17,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ### 2.1 start hexo server
 
-```bash
-$ cd d:/hexo   # 新建hexo目录
+```bashcd d:/hexo   # 新建hexo目录
 $ npm install hexo-cli -g # 安装hexo
 $ hexo init blog # 初始化hexo的根目录
 $ cd blog
@@ -44,8 +43,8 @@ deploy.sh内容如下：
 hexo clean
 hexo generate #  生成结果到public中
 cd .deploy/tomdican.github.io
-git pull
 git checkout master
+git pull
 cp -R ../../public/* .
 git add -A
 git commit -m "master update"
@@ -56,6 +55,7 @@ cp -R ../../source/* .
 git add -A
 git commit -m "source update"
 git push -u origin source
+git checkout master
 ```
 
 运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。
