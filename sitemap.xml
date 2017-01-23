@@ -2,9 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tomdican.github.io/2017/01/24/shadowsocks/</loc>
+    
+    <lastmod>2017-01-23T19:48:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/23/notes-memoirs/</loc>
+    
+    <lastmod>2017-01-22T18:21:34.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/23/notes-sex/</loc>
+    
+    <lastmod>2017-01-22T18:16:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/22/about-life/</loc>
+    
+    <lastmod>2017-01-21T17:27:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/20/how-manage-time/</loc>
+    
+    <lastmod>2017-01-20T09:58:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tomdican.github.io/2017/01/20/personalLog/</loc>
+    
+    <lastmod>2017-01-20T07:15:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tomdican.github.io/2017/01/18/HexoInstallConfig/</loc>
     
-    <lastmod>2017-01-19T19:31:05.322Z</lastmod>
+    <lastmod>2017-01-19T20:38:57.210Z</lastmod>
     
   </url>
   
@@ -16,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://tomdican.github.io/2017/01/20/git-guide/</loc>
+    <loc>http://tomdican.github.io/2017/01/20/Mongodb-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://tomdican.github.io/2017/01/20/Mongodb-guide/</loc>
+    <loc>http://tomdican.github.io/2017/01/20/git-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     
