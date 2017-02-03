@@ -1,6 +1,6 @@
 cd .deploy/tomdican.github.io
-git pull
 git checkout source 
+git pull
 cp ./* ../../source/ -R
 git checkout master
 cd ../..
