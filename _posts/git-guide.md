@@ -58,6 +58,11 @@ git checkout -b mybranch
 rm myfile.txt
 git commit -am "delete myfile.txt"
 
+13. add  subdir  including .git in subdir   20170203 17:11
+rm -rf subdir/.git
+git rm --cached subdir/* -r
+git add subdir/*
+
 
 ## gitlab
 
