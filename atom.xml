@@ -348,6 +348,31 @@
   </entry>
   
   <entry>
+    <title>personalLog</title>
+    <link href="http://tomdican.github.io/2017/01/20/personalLog/"/>
+    <id>http://tomdican.github.io/2017/01/20/personalLog/</id>
+    <published>2017-01-20T07:15:36.000Z</published>
+    <updated>2017-01-20T07:15:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="20170124-04：27-北京新龙城"><a href="#20170124-04：27-北京新龙城" class="headerlink" title="20170124 04：27  北京新龙城"></a>20170124 04：27  北京新龙城</h2><p>今天从凌晨4点多睡到晚上5点，一直在思考人的本质，怎样权衡工作时间和读书时间，是否做的事情足够专注。然后起床整理凌晨写的名人传笔记，写了一篇人的本质的博客，晚上8点左右去华联吃饭，在麦当劳看楞严经和马太福音6、7章，22点到家，查看楞严经的解释，见无舒卷，表示人的意识和内心是没有舒卷的，但人却认为在舒卷，所以出现念念生灭。看史记，写读书感。然后开始在vps上面搭建shadowsocks服务，手机端也安装，然后写相关博客，在4点左右才完成。在读书和博客上面花的时间太多，每天才有16个小时的工作时间和吃饭时间，有效时间也就13个小时左右，争取读书和博客控制在3小时左右，抓紧时间工作。4点38写完</p>
+<h2 id="20170122-00：40-北京新龙城"><a href="#20170122-00：40-北京新龙城" class="headerlink" title="20170122 00：40  北京新龙城"></a>20170122 00：40  北京新龙城</h2><p>前天晚上，从写完管理时间的博客后，计划下载日历软件，然后需要将手机实现http代理，在locvps上面安装http代理，从cow到squid，发现都不行，不安全，结果软件没安装成功，系统不能开机了，一直弄到凌晨三点也弄不好，咨询客服等回答，然后去睡觉；早上8点多，开始查看回答，结果说只能重装系统，我还是觉得服务商怕麻烦，才这样回答的，僵持到下午还是要重装。中间寻找性价比更高的vps，发现价钱都至少贵一倍，亚马逊还使用免费的诱惑来让你花钱，手段更高明，然后还是打算重装系统和软件把，下午安装终端同步日历的方案，终于确定了，手机端需要安装outlook才能实现双向日历同步，计划使用日记作为每日事情反省的方法，日历用来确定具体事情的时间，把控时间的合理性，一段时间后，能将日历导出成excel，进行归档。昨天晚上九点多去吃饭，然后去东亚上北，今天凌晨0点半才打车回家。做事情，和思考一件事情，还是走的弯路太多，也有不少不必要的事情，系统开不来机耽误不少时间，今天白天还要装软件，耽误两天时间，做决定太慢了，早上就应该想好查看价格比较不合适就马上决定。装日历软件，真是不少坑，事情完美点，就要付出代价，所以必须的聚焦，必须减法。2点34写完，中间写了一篇博客。</p>
+<h2 id="20170120-15：15-北京新龙城"><a href="#20170120-15：15-北京新龙城" class="headerlink" title="20170120 15：15  北京新龙城"></a>20170120 15：15  北京新龙城</h2><p>购买域名，将域名接入IP中，今天接到电话说xyz后缀域名不能在北京的阿里云使用；检查发现服务器的mongodb被人攻击过，重新添加数据，然后为数据库添加权限，书写mongodb的文档到博客中；整理git的文档到博客中，修复hexo中deploy.sh脚本的bug，git删除文件在commit时需要使用“-am”；用markdown写git-guide.md博客时，发现头部的标签无法识别,不能分类，删掉后重新写才成功。<br>总共花了十四个小时，假设不购买域名呢，不影响事情，可以不干的，假设不弄mongodb了，不影响，假设不修护deploy.sh的bug呢，无法写博客，可以避免git脚本吗，用网页写博客或者不部署hexo的话，可能以后数据会丢失，也不方便收集整理，其实可以不使用hexo，直接用github使用markdown，当时不知道，github中唯一缺点可能是样式太简单和不方便添加评论。做不必要的事情花了太多时间，应该直接做书籍的网站，在做一件事情之前，先问为什么做这件事情，是否符合最初的目标。16点13写完。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;20170124-04：27-北京新龙城&quot;&gt;&lt;a href=&quot;#20170124-04：27-北京新龙城&quot; class=&quot;headerlink&quot; title=&quot;20170124 04：27  北京新龙城&quot;&gt;&lt;/a&gt;20170124 04：27  北京新龙城&lt;/h2
+    
+    </summary>
+    
+      <category term="0读书" scheme="http://tomdican.github.io/categories/0%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="person,log,life,总结" scheme="http://tomdican.github.io/tags/person-log-life-%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git-guide</title>
     <link href="http://tomdican.github.io/2017/01/20/git-guide/"/>
     <id>http://tomdican.github.io/2017/01/20/git-guide/</id>
@@ -595,7 +620,7 @@
     <link href="http://tomdican.github.io/2017/01/18/HexoInstallConfig/"/>
     <id>http://tomdican.github.io/2017/01/18/HexoInstallConfig/</id>
     <published>2017-01-18T10:19:46.000Z</published>
-    <updated>2017-02-03T12:27:05.650Z</updated>
+    <updated>2017-02-03T12:51:54.310Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
@@ -609,8 +634,8 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
 <p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
 <ul>
-<li><p>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.<br>  beforeWrite.sh source code beblow:</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">	</div></pre></td></tr></table></figure>
+<li><p><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</p>
+  <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git pull</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
 </li>
 </ul>
 <h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
@@ -671,7 +696,8 @@
 <p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>5） 调整文章标题字体大小</p>
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a></p>
+<p>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
 ]]></content>
     
     <summary type="html">
@@ -683,6 +709,8 @@
       <category term="Docs" scheme="http://tomdican.github.io/categories/Docs/"/>
     
     
+      <category term="hexo,install,guide,tech" scheme="http://tomdican.github.io/tags/hexo-install-guide-tech/"/>
+    
   </entry>
   
   <entry>
@@ -690,7 +718,7 @@
     <link href="http://tomdican.github.io/2014/10/18/hello-world/"/>
     <id>http://tomdican.github.io/2014/10/18/hello-world/</id>
     <published>2014-10-18T15:38:19.000Z</published>
-    <updated>2017-01-18T20:32:06.287Z</updated>
+    <updated>2017-02-03T12:33:32.685Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -719,7 +747,7 @@
     <link href="http://tomdican.github.io/2014/03/16/qna/"/>
     <id>http://tomdican.github.io/2014/03/16/qna/</id>
     <published>2014-03-16T10:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.397Z</updated>
+    <updated>2017-02-03T12:33:32.690Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> What does <code>Wixo</code> stands for?</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> means A <strong>wi</strong>ki theme for he<strong>xo</strong>.</p>
@@ -748,7 +776,7 @@
     <link href="http://tomdican.github.io/2014/03/16/qna-cn/"/>
     <id>http://tomdican.github.io/2014/03/16/qna-cn/</id>
     <published>2014-03-16T10:10:16.000Z</published>
-    <updated>2017-01-18T20:32:06.396Z</updated>
+    <updated>2017-02-03T12:33:32.689Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
@@ -777,7 +805,7 @@
     <link href="http://tomdican.github.io/2014/03/16/tag-plugins/"/>
     <id>http://tomdican.github.io/2014/03/16/tag-plugins/</id>
     <published>2014-03-16T02:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.400Z</updated>
+    <updated>2017-02-03T12:33:32.693Z</updated>
     
     <content type="html"><![CDATA[<p>Like the <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> theme, you can use <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> to fully take advantages of Bootstrap. To use these tag plugins, you need to install it first. In your blog root folder, execute the following command:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
@@ -846,7 +874,7 @@
     <link href="http://tomdican.github.io/2014/03/16/tag-plugins-cn/"/>
     <id>http://tomdican.github.io/2014/03/16/tag-plugins-cn/</id>
     <published>2014-03-16T02:10:16.000Z</published>
-    <updated>2017-01-18T20:32:06.399Z</updated>
+    <updated>2017-02-03T12:33:32.693Z</updated>
     
     <content type="html"><![CDATA[<p>和 <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> 一样，你可以使用 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 来充分发挥 Bootstrap 的威力。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
@@ -908,11 +936,36 @@
   </entry>
   
   <entry>
+    <title>Lorem Ipsum</title>
+    <link href="http://tomdican.github.io/2014/03/15/lorem-ipsum/"/>
+    <id>http://tomdican.github.io/2014/03/15/lorem-ipsum/</id>
+    <published>2014-03-15T12:17:16.000Z</published>
+    <updated>2017-02-03T12:33:32.687Z</updated>
+    
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://tomdican.github.io/categories/Docs/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Code Highlight</title>
     <link href="http://tomdican.github.io/2014/03/15/code-highlight/"/>
     <id>http://tomdican.github.io/2014/03/15/code-highlight/</id>
     <published>2014-03-15T12:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.287Z</updated>
+    <updated>2017-02-03T12:33:32.684Z</updated>
     
     <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -945,36 +998,11 @@
   </entry>
   
   <entry>
-    <title>Lorem Ipsum</title>
-    <link href="http://tomdican.github.io/2014/03/15/lorem-ipsum/"/>
-    <id>http://tomdican.github.io/2014/03/15/lorem-ipsum/</id>
-    <published>2014-03-15T12:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.395Z</updated>
-    
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://tomdican.github.io/categories/Docs/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>繁體中文測試</title>
     <link href="http://tomdican.github.io/2013/12/25/traditional-chinese-test/"/>
     <id>http://tomdican.github.io/2013/12/25/traditional-chinese-test/</id>
     <published>2013-12-25T13:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.401Z</updated>
+    <updated>2017-02-03T12:33:32.694Z</updated>
     
     <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p>
 <p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p>
@@ -1006,7 +1034,7 @@
     <link href="http://tomdican.github.io/2013/12/25/simplified-chinese-test/"/>
     <id>http://tomdican.github.io/2013/12/25/simplified-chinese-test/</id>
     <published>2013-12-25T12:17:16.000Z</published>
-    <updated>2017-01-18T20:32:06.398Z</updated>
+    <updated>2017-02-03T12:33:32.692Z</updated>
     
     <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
 <p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
