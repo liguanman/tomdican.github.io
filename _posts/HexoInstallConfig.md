@@ -47,18 +47,25 @@ git checkout master
 git pull
 cp -R ../../public/* .
 git add -A
-git commit -m "master update"
+git commit -am "master update"
 git push -u origin master  # 上传到github中
 
 git checkout source   # 提交源文件到github的source分支中
 cp -R ../../source/* .
 git add -A
-git commit -m "source update"
+git commit -am "source update"
 git push -u origin source
 git checkout master
 ```
 
 运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。
+
+- notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.
+	beforeWrite.sh source code beblow:
+	
+	```bash
+	
+	```
 
 ### 2.3 select theme
 
