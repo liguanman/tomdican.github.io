@@ -5,12 +5,12 @@ git checkout master
 git pull
 cp -R ../../public/* .
 git add -A
-git commit -m "master update"
+git commit -am "master update"
 git push -u origin master 
 
 git checkout source
 cp -R ../../source/* .
 git add -A
-git commit -m "source update"
+git commit -am "source update"
 git push -u origin source 
 git checkout master
