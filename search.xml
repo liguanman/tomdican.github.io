@@ -249,51 +249,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[personalLog]]></title>
-      <url>http://tomdican.github.io/2017/01/20/personalLog/</url>
-      <content type="html"><![CDATA[<h2 id="20170124-04：27-北京新龙城"><a href="#20170124-04：27-北京新龙城" class="headerlink" title="20170124 04：27  北京新龙城"></a>20170124 04：27  北京新龙城</h2><p>今天从凌晨4点多睡到晚上5点，一直在思考人的本质，怎样权衡工作时间和读书时间，是否做的事情足够专注。然后起床整理凌晨写的名人传笔记，写了一篇人的本质的博客，晚上8点左右去华联吃饭，在麦当劳看楞严经和马太福音6、7章，22点到家，查看楞严经的解释，见无舒卷，表示人的意识和内心是没有舒卷的，但人却认为在舒卷，所以出现念念生灭。看史记，写读书感。然后开始在vps上面搭建shadowsocks服务，手机端也安装，然后写相关博客，在4点左右才完成。在读书和博客上面花的时间太多，每天才有16个小时的工作时间和吃饭时间，有效时间也就13个小时左右，争取读书和博客控制在3小时左右，抓紧时间工作。4点38写完</p>
-<h2 id="20170122-00：40-北京新龙城"><a href="#20170122-00：40-北京新龙城" class="headerlink" title="20170122 00：40  北京新龙城"></a>20170122 00：40  北京新龙城</h2><p>前天晚上，从写完管理时间的博客后，计划下载日历软件，然后需要将手机实现http代理，在locvps上面安装http代理，从cow到squid，发现都不行，不安全，结果软件没安装成功，系统不能开机了，一直弄到凌晨三点也弄不好，咨询客服等回答，然后去睡觉；早上8点多，开始查看回答，结果说只能重装系统，我还是觉得服务商怕麻烦，才这样回答的，僵持到下午还是要重装。中间寻找性价比更高的vps，发现价钱都至少贵一倍，亚马逊还使用免费的诱惑来让你花钱，手段更高明，然后还是打算重装系统和软件把，下午安装终端同步日历的方案，终于确定了，手机端需要安装outlook才能实现双向日历同步，计划使用日记作为每日事情反省的方法，日历用来确定具体事情的时间，把控时间的合理性，一段时间后，能将日历导出成excel，进行归档。昨天晚上九点多去吃饭，然后去东亚上北，今天凌晨0点半才打车回家。做事情，和思考一件事情，还是走的弯路太多，也有不少不必要的事情，系统开不来机耽误不少时间，今天白天还要装软件，耽误两天时间，做决定太慢了，早上就应该想好查看价格比较不合适就马上决定。装日历软件，真是不少坑，事情完美点，就要付出代价，所以必须的聚焦，必须减法。2点34写完，中间写了一篇博客。</p>
-<h2 id="20170120-15：15-北京新龙城"><a href="#20170120-15：15-北京新龙城" class="headerlink" title="20170120 15：15  北京新龙城"></a>20170120 15：15  北京新龙城</h2><p>购买域名，将域名接入IP中，今天接到电话说xyz后缀域名不能在北京的阿里云使用；检查发现服务器的mongodb被人攻击过，重新添加数据，然后为数据库添加权限，书写mongodb的文档到博客中；整理git的文档到博客中，修复hexo中deploy.sh脚本的bug，git删除文件在commit时需要使用“-am”；用markdown写git-guide.md博客时，发现头部的标签无法识别,不能分类，删掉后重新写才成功。<br>总共花了十四个小时，假设不购买域名呢，不影响事情，可以不干的，假设不弄mongodb了，不影响，假设不修护deploy.sh的bug呢，无法写博客，可以避免git脚本吗，用网页写博客或者不部署hexo的话，可能以后数据会丢失，也不方便收集整理，其实可以不使用hexo，直接用github使用markdown，当时不知道，github中唯一缺点可能是样式太简单和不方便添加评论。做不必要的事情花了太多时间，应该直接做书籍的网站，在做一件事情之前，先问为什么做这件事情，是否符合最初的目标。16点13写完。</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://tomdican.github.io/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
       <url>http://tomdican.github.io/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
@@ -361,6 +316,42 @@
 <p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
 <p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://tomdican.github.io/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
 ]]></content>
     </entry>
     
@@ -437,10 +428,9 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
 <p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
 <ul>
-<li><p><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</p>
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git pull</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
-</li>
+<li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
 </ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
 <h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
 <p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
 <p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
@@ -499,8 +489,7 @@
 <p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>5） 调整文章标题字体大小</p>
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a></p>
-<p>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
 ]]></content>
     </entry>
     
