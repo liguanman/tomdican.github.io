@@ -22,3 +22,4 @@
 ## optional
 
 deploy.sh script can update your blog and source online
+detail: http://tomdican.xyz/2017/01/18/HexoInstallConfig/#2-2-deploy-into-github
