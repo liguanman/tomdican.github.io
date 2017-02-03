@@ -1,7 +1,7 @@
 ---
 title: Hexo install&config
 date: 2017-01-18 18:19:46
-tags:
+tags: hexo,install,guide,tech
 categories: Docs
 toc: true
 ---
@@ -60,11 +60,16 @@ git checkout master
 
 运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。
 
-- notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.
+- **notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.** 20170203 addition
 	beforeWrite.sh source code beblow:
 	
 	```bash
-	
+	cd .deploy/tomdican.github.io
+	git pull
+	git checkout source
+	cp ./* ../../source/ -R
+	git checkout master
+	cd ../..
 	```
 
 ### 2.3 select theme
@@ -307,4 +312,5 @@ h1{
 
 [1] https://github.com/wzpan/hexo-theme-wixo/tree/master
 [2] https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/
+
 [3] http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/
