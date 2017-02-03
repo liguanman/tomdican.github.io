@@ -10,10 +10,8 @@
 
 ## usage
 
-- mkdir hexo/blog -P
+- git clone 'the url' hexo/blog
 - cd hexo/blog
-- git clone 'the url'
-- cd tomdican.github.io
 - git checkout hexo-blog
 - hexo clean
 - hexo s  
