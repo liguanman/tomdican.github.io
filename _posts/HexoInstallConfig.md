@@ -313,3 +313,14 @@ h1{
 [1] https://github.com/wzpan/hexo-theme-wixo/tree/master
 [2] https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/
 [3] http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/
+
+
+## bug retore
+
+- bug1,search result can not redirect to url.**20170205 22:09**
+	- in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;
+	- commit to the hexo-blog branch of github;
+	- update blog;
+
+- bug2,
+
