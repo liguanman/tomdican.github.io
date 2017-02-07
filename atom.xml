@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://tomdican.xyz/"/>
+  <link href="http://www.tomdican.xyz/"/>
   <updated>2017-01-23T19:48:47.000Z</updated>
-  <id>http://tomdican.xyz/</id>
+  <id>http://www.tomdican.xyz/</id>
   
   <author>
     <name>John Doe</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>shadowsocks-install</title>
-    <link href="http://tomdican.xyz/2017/01/24/shadowsocks/"/>
-    <id>http://tomdican.xyz/2017/01/24/shadowsocks/</id>
+    <link href="http://www.tomdican.xyz/2017/01/24/shadowsocks/"/>
+    <id>http://www.tomdican.xyz/2017/01/24/shadowsocks/</id>
     <published>2017-01-23T19:48:47.000Z</published>
     <updated>2017-01-23T19:48:47.000Z</updated>
     
@@ -60,17 +60,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="翻墙,socks,代理" scheme="http://tomdican.xyz/tags/%E7%BF%BB%E5%A2%99-socks-%E4%BB%A3%E7%90%86/"/>
+      <category term="翻墙,socks,代理" scheme="http://www.tomdican.xyz/tags/%E7%BF%BB%E5%A2%99-socks-%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>notes-memoirs</title>
-    <link href="http://tomdican.xyz/2017/01/23/notes-memoirs/"/>
-    <id>http://tomdican.xyz/2017/01/23/notes-memoirs/</id>
+    <link href="http://www.tomdican.xyz/2017/01/23/notes-memoirs/"/>
+    <id>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</id>
     <published>2017-01-22T18:21:34.000Z</published>
     <updated>2017-01-22T18:21:34.000Z</updated>
     
@@ -164,17 +164,17 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="notes,memoirs,book,biography,回忆录" scheme="http://tomdican.xyz/tags/notes-memoirs-book-biography-%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+      <category term="notes,memoirs,book,biography,回忆录" scheme="http://www.tomdican.xyz/tags/notes-memoirs-book-biography-%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>notes-sex</title>
-    <link href="http://tomdican.xyz/2017/01/23/notes-sex/"/>
-    <id>http://tomdican.xyz/2017/01/23/notes-sex/</id>
+    <link href="http://www.tomdican.xyz/2017/01/23/notes-sex/"/>
+    <id>http://www.tomdican.xyz/2017/01/23/notes-sex/</id>
     <published>2017-01-22T18:16:56.000Z</published>
     <updated>2017-01-22T18:16:56.000Z</updated>
     
@@ -272,17 +272,17 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="sex,book,note,读书笔记" scheme="http://tomdican.xyz/tags/sex-book-note-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="sex,book,note,读书笔记" scheme="http://www.tomdican.xyz/tags/sex-book-note-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>about-life</title>
-    <link href="http://tomdican.xyz/2017/01/22/about-life/"/>
-    <id>http://tomdican.xyz/2017/01/22/about-life/</id>
+    <link href="http://www.tomdican.xyz/2017/01/22/about-life/"/>
+    <id>http://www.tomdican.xyz/2017/01/22/about-life/</id>
     <published>2017-01-21T17:27:48.000Z</published>
     <updated>2017-01-21T17:27:48.000Z</updated>
     
@@ -349,17 +349,17 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="life,思考,体会,笔记" scheme="http://tomdican.xyz/tags/life-%E6%80%9D%E8%80%83-%E4%BD%93%E4%BC%9A-%E7%AC%94%E8%AE%B0/"/>
+      <category term="life,思考,体会,笔记" scheme="http://www.tomdican.xyz/tags/life-%E6%80%9D%E8%80%83-%E4%BD%93%E4%BC%9A-%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>how-manage-time</title>
-    <link href="http://tomdican.xyz/2017/01/20/how-manage-time/"/>
-    <id>http://tomdican.xyz/2017/01/20/how-manage-time/</id>
+    <link href="http://www.tomdican.xyz/2017/01/20/how-manage-time/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/how-manage-time/</id>
     <published>2017-01-20T09:58:09.000Z</published>
     <updated>2017-01-20T09:58:09.000Z</updated>
     
@@ -414,17 +414,17 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="时间,思考" scheme="http://tomdican.xyz/tags/%E6%97%B6%E9%97%B4-%E6%80%9D%E8%80%83/"/>
+      <category term="时间,思考" scheme="http://www.tomdican.xyz/tags/%E6%97%B6%E9%97%B4-%E6%80%9D%E8%80%83/"/>
     
   </entry>
   
   <entry>
     <title>git-guide</title>
-    <link href="http://tomdican.xyz/2017/01/20/git-guide/"/>
-    <id>http://tomdican.xyz/2017/01/20/git-guide/</id>
+    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
     <published>2017-01-19T18:12:11.000Z</published>
     <updated>2017-01-19T18:26:26.000Z</updated>
     
@@ -467,17 +467,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="技术,git,指南,guide" scheme="http://tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
+      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   
   <entry>
     <title>Mongodb-guide</title>
-    <link href="http://tomdican.xyz/2017/01/20/Mongodb-guide/"/>
-    <id>http://tomdican.xyz/2017/01/20/Mongodb-guide/</id>
+    <link href="http://www.tomdican.xyz/2017/01/20/Mongodb-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</id>
     <published>2017-01-19T18:12:11.000Z</published>
     <updated>2017-01-19T18:26:26.000Z</updated>
     
@@ -554,17 +554,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="技术,mongo,指南" scheme="http://tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
+      <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
     
   </entry>
   
   <entry>
     <title>经典书籍的日记</title>
-    <link href="http://tomdican.xyz/2017/01/19/read-record/"/>
-    <id>http://tomdican.xyz/2017/01/19/read-record/</id>
+    <link href="http://www.tomdican.xyz/2017/01/19/read-record/"/>
+    <id>http://www.tomdican.xyz/2017/01/19/read-record/</id>
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
@@ -601,17 +601,17 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="书籍，经典，日记" scheme="http://tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D%EF%BC%8C%E7%BB%8F%E5%85%B8%EF%BC%8C%E6%97%A5%E8%AE%B0/"/>
+      <category term="书籍，经典，日记" scheme="http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D%EF%BC%8C%E7%BB%8F%E5%85%B8%EF%BC%8C%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>一生的阅读计划</title>
-    <link href="http://tomdican.xyz/2017/01/19/life-read-plan/"/>
-    <id>http://tomdican.xyz/2017/01/19/life-read-plan/</id>
+    <link href="http://www.tomdican.xyz/2017/01/19/life-read-plan/"/>
+    <id>http://www.tomdican.xyz/2017/01/19/life-read-plan/</id>
     <published>2017-01-18T20:12:11.000Z</published>
     <updated>2017-01-19T07:26:26.000Z</updated>
     
@@ -667,19 +667,19 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="阅读，计划，清单，书籍" scheme="http://tomdican.xyz/tags/%E9%98%85%E8%AF%BB%EF%BC%8C%E8%AE%A1%E5%88%92%EF%BC%8C%E6%B8%85%E5%8D%95%EF%BC%8C%E4%B9%A6%E7%B1%8D/"/>
+      <category term="阅读，计划，清单，书籍" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB%EF%BC%8C%E8%AE%A1%E5%88%92%EF%BC%8C%E6%B8%85%E5%8D%95%EF%BC%8C%E4%B9%A6%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>Hexo install&amp;config</title>
-    <link href="http://tomdican.xyz/2017/01/18/HexoInstallConfig/"/>
-    <id>http://tomdican.xyz/2017/01/18/HexoInstallConfig/</id>
+    <link href="http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/"/>
+    <id>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</id>
     <published>2017-01-18T10:19:46.000Z</published>
-    <updated>2017-02-05T14:13:35.899Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
@@ -774,19 +774,19 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="hexo,install,guide,tech" scheme="http://tomdican.xyz/tags/hexo-install-guide-tech/"/>
+      <category term="hexo,install,guide,tech" scheme="http://www.tomdican.xyz/tags/hexo-install-guide-tech/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://tomdican.xyz/2014/10/18/hello-world/"/>
-    <id>http://tomdican.xyz/2014/10/18/hello-world/</id>
+    <link href="http://www.tomdican.xyz/2014/10/18/hello-world/"/>
+    <id>http://www.tomdican.xyz/2014/10/18/hello-world/</id>
     <published>2014-10-18T15:38:19.000Z</published>
-    <updated>2017-02-03T13:03:34.809Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -805,17 +805,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>Questions and Answers</title>
-    <link href="http://tomdican.xyz/2014/03/16/qna/"/>
-    <id>http://tomdican.xyz/2014/03/16/qna/</id>
+    <link href="http://www.tomdican.xyz/2014/03/16/qna/"/>
+    <id>http://www.tomdican.xyz/2014/03/16/qna/</id>
     <published>2014-03-16T10:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.816Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> What does <code>Wixo</code> stands for?</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> means A <strong>wi</strong>ki theme for he<strong>xo</strong>.</p>
@@ -834,17 +834,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>Questions and Answers（中文）</title>
-    <link href="http://tomdican.xyz/2014/03/16/qna-cn/"/>
-    <id>http://tomdican.xyz/2014/03/16/qna-cn/</id>
+    <link href="http://www.tomdican.xyz/2014/03/16/qna-cn/"/>
+    <id>http://www.tomdican.xyz/2014/03/16/qna-cn/</id>
     <published>2014-03-16T10:10:16.000Z</published>
-    <updated>2017-02-03T13:03:34.816Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
@@ -863,17 +863,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>Tag Plugins</title>
-    <link href="http://tomdican.xyz/2014/03/16/tag-plugins/"/>
-    <id>http://tomdican.xyz/2014/03/16/tag-plugins/</id>
+    <link href="http://www.tomdican.xyz/2014/03/16/tag-plugins/"/>
+    <id>http://www.tomdican.xyz/2014/03/16/tag-plugins/</id>
     <published>2014-03-16T02:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.824Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>Like the <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> theme, you can use <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> to fully take advantages of Bootstrap. To use these tag plugins, you need to install it first. In your blog root folder, execute the following command:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
@@ -932,17 +932,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>Tag Plugins（中文）</title>
-    <link href="http://tomdican.xyz/2014/03/16/tag-plugins-cn/"/>
-    <id>http://tomdican.xyz/2014/03/16/tag-plugins-cn/</id>
+    <link href="http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/"/>
+    <id>http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/</id>
     <published>2014-03-16T02:10:16.000Z</published>
-    <updated>2017-02-03T13:03:34.823Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>和 <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> 一样，你可以使用 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 来充分发挥 Bootstrap 的威力。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
@@ -998,42 +998,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Lorem Ipsum</title>
-    <link href="http://tomdican.xyz/2014/03/15/lorem-ipsum/"/>
-    <id>http://tomdican.xyz/2014/03/15/lorem-ipsum/</id>
-    <published>2014-03-15T12:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.814Z</updated>
-    
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>Code Highlight</title>
-    <link href="http://tomdican.xyz/2014/03/15/code-highlight/"/>
-    <id>http://tomdican.xyz/2014/03/15/code-highlight/</id>
+    <link href="http://www.tomdican.xyz/2014/03/15/code-highlight/"/>
+    <id>http://www.tomdican.xyz/2014/03/15/code-highlight/</id>
     <published>2014-03-15T12:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.808Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1060,17 +1035,42 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lorem Ipsum</title>
+    <link href="http://www.tomdican.xyz/2014/03/15/lorem-ipsum/"/>
+    <id>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</id>
+    <published>2014-03-15T12:17:16.000Z</published>
+    <updated>2017-02-07T01:14:15.819Z</updated>
+    
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>繁體中文測試</title>
-    <link href="http://tomdican.xyz/2013/12/25/traditional-chinese-test/"/>
-    <id>http://tomdican.xyz/2013/12/25/traditional-chinese-test/</id>
+    <link href="http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/"/>
+    <id>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</id>
     <published>2013-12-25T13:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.824Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p>
 <p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p>
@@ -1092,17 +1092,17 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>
   
   <entry>
     <title>简体中文测试</title>
-    <link href="http://tomdican.xyz/2013/12/25/simplified-chinese-test/"/>
-    <id>http://tomdican.xyz/2013/12/25/simplified-chinese-test/</id>
+    <link href="http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/"/>
+    <id>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</id>
     <published>2013-12-25T12:17:16.000Z</published>
-    <updated>2017-02-03T13:03:34.822Z</updated>
+    <updated>2017-02-07T01:14:15.819Z</updated>
     
     <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
 <p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
@@ -1124,7 +1124,7 @@
     
     </summary>
     
-      <category term="Docs" scheme="http://tomdican.xyz/categories/Docs/"/>
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
   </entry>

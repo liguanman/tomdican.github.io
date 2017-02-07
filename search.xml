@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[shadowsocks-install]]></title>
-      <url>http://tomdican.xyz/2017/01/24/shadowsocks/</url>
+      <url>http://www.tomdican.xyz/2017/01/24/shadowsocks/</url>
       <content type="html"><![CDATA[<h2 id="shadowsocks使用比较方便："><a href="#shadowsocks使用比较方便：" class="headerlink" title="shadowsocks使用比较方便："></a>shadowsocks使用比较方便：</h2><h3 id="1-服务端安装："><a href="#1-服务端安装：" class="headerlink" title="1) 服务端安装："></a>1) 服务端安装：</h3><p>yum update<br> in centos 6<br>yum install python34-setuptools &amp;&amp; easy_install pip ， pip install shadowsocks</p>
 <ul>
 <li>配置：</li>
@@ -41,7 +41,7 @@
     
     <entry>
       <title><![CDATA[notes-memoirs]]></title>
-      <url>http://tomdican.xyz/2017/01/23/notes-memoirs/</url>
+      <url>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</url>
       <content type="html"><![CDATA[<h1 id="约翰-克里斯多夫-罗曼罗兰-20170203-22-18"><a href="#约翰-克里斯多夫-罗曼罗兰-20170203-22-18" class="headerlink" title="约翰.克里斯多夫 罗曼罗兰 20170203 22:18"></a>约翰.克里斯多夫 罗曼罗兰 20170203 22:18</h1><ul>
 <li>节场章节，主要内容为一对亲姐弟的求生磨难经历。<ul>
 <li>出生在资本主义家庭，父亲经营一个爷爷留下来的银行，最后由于经营不善而破产，逃避现实而自杀了，在母亲的决定下搬到巴黎重新开始生活，由于缺乏钱，目前拼命的挣钱来养活女儿和儿子的读书生活，母亲劳累过度死亡只留下了无依无靠的姐姐和弟弟，还欠亲戚两百法郎；</li>
@@ -129,7 +129,7 @@
     
     <entry>
       <title><![CDATA[notes-sex]]></title>
-      <url>http://tomdican.xyz/2017/01/23/notes-sex/</url>
+      <url>http://www.tomdican.xyz/2017/01/23/notes-sex/</url>
       <content type="html"><![CDATA[<ul>
 <li>有不少经典书籍的笔记，也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。</li>
 </ul>
@@ -218,7 +218,7 @@
     
     <entry>
       <title><![CDATA[about-life]]></title>
-      <url>http://tomdican.xyz/2017/01/22/about-life/</url>
+      <url>http://www.tomdican.xyz/2017/01/22/about-life/</url>
       <content type="html"><![CDATA[<h2 id="读书时间安排的尝试-20170206-12-38"><a href="#读书时间安排的尝试-20170206-12-38" class="headerlink" title="读书时间安排的尝试 20170206 12:38"></a>读书时间安排的尝试 20170206 12:38</h2><ul>
 <li><p>问题</p>
 <ul>
@@ -279,7 +279,7 @@
     
     <entry>
       <title><![CDATA[how-manage-time]]></title>
-      <url>http://tomdican.xyz/2017/01/20/how-manage-time/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/how-manage-time/</url>
       <content type="html"><![CDATA[<h2 id="1-问题"><a href="#1-问题" class="headerlink" title="1 问题"></a>1 问题</h2><ul>
 <li>不知道自己的时间去哪儿了；</li>
 <li>不知道时间是否充分利用；</li>
@@ -325,7 +325,7 @@
     
     <entry>
       <title><![CDATA[git-guide]]></title>
-      <url>http://tomdican.xyz/2017/01/20/git-guide/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
       <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
 <li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
 </li>
@@ -361,7 +361,7 @@
     
     <entry>
       <title><![CDATA[Mongodb-guide]]></title>
-      <url>http://tomdican.xyz/2017/01/20/Mongodb-guide/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
 <pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
 </code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
@@ -432,7 +432,7 @@
     
     <entry>
       <title><![CDATA[经典书籍的日记]]></title>
-      <url>http://tomdican.xyz/2017/01/19/read-record/</url>
+      <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
       <content type="html"><![CDATA[<h2 id="20170207-00-14"><a href="#20170207-00-14" class="headerlink" title="20170207 00:14"></a>20170207 00:14</h2><ul>
 <li>楞严经，汝身汝心，皆是妙明真精妙心中所现物。认悟中迷。所有一切都是内心的显现物，有生灭的，而人一直对显现物的辨认所迷惑，其实你只看到了泡沫没看到大海。泡沫就是显现物，大海就是晦暗，没有色的东西，即空的东西。就像人的内心是镜子，没有事物时，镜子是空的。</li>
 <li>创世记2 en,第七天，休息；然后创造雨水和雾水；使人有灵魂；在伊甸园有果子树，中间的树的果子能区别好与坏；为了有依靠，而从男人的肋骨中创建女人，都是裸露的，但不会害羞。</li>
@@ -462,7 +462,7 @@
     
     <entry>
       <title><![CDATA[一生的阅读计划]]></title>
-      <url>http://tomdican.xyz/2017/01/19/life-read-plan/</url>
+      <url>http://www.tomdican.xyz/2017/01/19/life-read-plan/</url>
       <content type="html"><![CDATA[<table>
 <thead>
 <tr>
@@ -499,7 +499,7 @@
     
     <entry>
       <title><![CDATA[Hexo install&config]]></title>
-      <url>http://tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
+      <url>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
 <li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
@@ -590,7 +590,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>http://tomdican.xyz/2014/10/18/hello-world/</url>
+      <url>http://www.tomdican.xyz/2014/10/18/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -605,7 +605,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers]]></title>
-      <url>http://tomdican.xyz/2014/03/16/qna/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/qna/</url>
       <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> What does <code>Wixo</code> stands for?</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> means A <strong>wi</strong>ki theme for he<strong>xo</strong>.</p>
 <p><span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?</p>
@@ -619,7 +619,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers（中文）]]></title>
-      <url>http://tomdican.xyz/2014/03/16/qna-cn/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/qna-cn/</url>
       <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
 <p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p>
@@ -633,7 +633,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins]]></title>
-      <url>http://tomdican.xyz/2014/03/16/tag-plugins/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/tag-plugins/</url>
       <content type="html"><![CDATA[<p>Like the <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> theme, you can use <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> to fully take advantages of Bootstrap. To use these tag plugins, you need to install it first. In your blog root folder, execute the following command:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
 <p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p>
@@ -686,7 +686,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins（中文）]]></title>
-      <url>http://tomdican.xyz/2014/03/16/tag-plugins-cn/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/</url>
       <content type="html"><![CDATA[<p>和 <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> 一样，你可以使用 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 来充分发挥 Bootstrap 的威力。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
 <p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p>
@@ -737,18 +737,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Code Highlight]]></title>
-      <url>http://tomdican.xyz/2014/03/15/code-highlight/</url>
+      <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -769,8 +759,18 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[繁體中文測試]]></title>
-      <url>http://tomdican.xyz/2013/12/25/traditional-chinese-test/</url>
+      <url>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</url>
       <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p>
 <p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p>
 <p>舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。</p>
@@ -785,7 +785,7 @@
     
     <entry>
       <title><![CDATA[简体中文测试]]></title>
-      <url>http://tomdican.xyz/2013/12/25/simplified-chinese-test/</url>
+      <url>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</url>
       <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
 <p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
 <p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p>
