@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://tomdican.xyz
+url: http://www.tomdican.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -84,6 +84,14 @@ feed:
  path: atom.xml
  limit: 20
 
+#baiduSpider
+#baidu_url_submit
+baidu_url_submit:
+ count: 1 ## submit new url
+ host: www.tomdican.xyz
+ token: G8zqCU9R6RgbR8JU
+ path: baidu_urls.txt
+
 #sitemap
 sitemap:
  path: sitemap.xml
@@ -97,4 +105,4 @@ theme: wixo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: baidu_url_submiiter
