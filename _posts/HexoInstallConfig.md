@@ -347,7 +347,7 @@ h1{
 	- commit to the hexo-blog branch of github;
 	- update blog;
 
-- bug2,title can not contain & sign,because baidusitemap can not deal it;
+- bug2,title can not contain & and blank space sign,because baidusitemap can not deal it;
 
 - bug3 
 
