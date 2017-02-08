@@ -614,7 +614,11 @@
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="20170207-22-00"><a href="#20170207-22-00" class="headerlink" title="20170207 22:00"></a>20170207 22:00</h2><ul>
+    <content type="html"><![CDATA[<h2 id="20170209-1-06"><a href="#20170209-1-06" class="headerlink" title="20170209 1:06"></a>20170209 1:06</h2><ul>
+<li>楞严经，见精明元，此见虽非妙精明心，如第二月，非是月影。内心本来是纯净的，但你的见不是纯净的，不是月亮的影子。</li>
+<li>创世记 4、5 en,abel由于嫉妒，杀死了cain，但上帝没有用死罪惩罚abel，还产生了子孙后代。亚当夏娃后面又生了一个孩子。当时人的寿命都是好几百岁，最高的寿命接近一千岁，这两章主要介绍子孙的繁衍。</li>
+</ul>
+<h2 id="20170207-22-00"><a href="#20170207-22-00" class="headerlink" title="20170207 22:00"></a>20170207 22:00</h2><ul>
 <li>楞严经，若真汝心，则无所去。如是乃至分别都无。真心是没有分别的，但有分别时，就不是真心了。这和圣经里面的能辨别好坏的果子一个道理。</li>
 <li>创世记3 en,撒旦引诱夏娃吃辨别好坏的果子，最后夏娃和亚当都吃了，然后人和上帝都能辨别好坏，上帝让人从尘土出来到尘土中去，一生辛劳才能得到食物。</li>
 </ul>
@@ -639,15 +643,17 @@
 </ul>
 <h2 id="20170119-15-11-北京新龙城"><a href="#20170119-15-11-北京新龙城" class="headerlink" title="20170119 15:11  北京新龙城"></a>20170119 15:11  北京新龙城</h2><ul>
 <li>地藏经，心如工画师，能画诸世间。要做到心中无彩画，忘我，才能做到’而由心故画‘。</li>
-<li>传道书第12章，所有事情都循环重复，没有永恒，所以极其空虚，但在空虚的前提下，要知道自己的渺小和不可期遇，再好的事情也要学会适可而止，包括增长智慧，珍惜眼前的吃吃喝喝吧。</li>
-<li>史记，苏秦列传，齐打败燕，杀掉王，然后立燕昭王，最后伐齐成功，湣王出走。</li>
+<li><p>传道书第12章，所有事情都循环重复，没有永恒，所以极其空虚，但在空虚的前提下，要知道自己的渺小和不可期遇，再好的事情也要学会适可而止，包括增长智慧，珍惜眼前的吃吃喝喝吧。</p>
+</li>
+<li><p>史记，苏秦列传，齐打败燕，杀掉王，然后立燕昭王，最后伐齐成功，湣王出走。</p>
+</li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;20170207-22-00&quot;&gt;&lt;a href=&quot;#20170207-22-00&quot; class=&quot;headerlink&quot; title=&quot;20170207 22:00&quot;&gt;&lt;/a&gt;20170207 22:00&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;楞严经，若真汝心，则无所去。如是
+      &lt;h2 id=&quot;20170209-1-06&quot;&gt;&lt;a href=&quot;#20170209-1-06&quot; class=&quot;headerlink&quot; title=&quot;20170209 1:06&quot;&gt;&lt;/a&gt;20170209 1:06&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;楞严经，见精明元，此见虽非妙精明心，如第
     
     </summary>
     
@@ -729,7 +735,7 @@
     <link href="http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/"/>
     <id>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</id>
     <published>2017-01-18T10:19:46.000Z</published>
-    <updated>2017-02-08T16:13:49.463Z</updated>
+    <updated>2017-02-08T16:16:48.549Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
@@ -829,7 +835,7 @@
 <li>update blog;</li>
 </ul>
 </li>
-<li><p>bug2,title can not contain &amp; sign,because baidusitemap can not deal it;</p>
+<li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
 </li>
 <li><p>bug3 </p>
 </li>
