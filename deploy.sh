@@ -17,4 +17,4 @@ git checkout master
 cd ../..
 
 ## dropbox upload 
-~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
+~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
