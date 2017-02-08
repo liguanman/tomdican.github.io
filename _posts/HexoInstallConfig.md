@@ -1,5 +1,5 @@
 ---
-title: Hexo install&config
+title: Hexo install config
 date: 2017-01-18 18:19:46
 tags: hexo,install,guide,tech
 categories: Docs
@@ -229,6 +229,7 @@ o</a>.
 ```bash
 cd hexo/blog
 npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save
 vi  _config.yml # 添加sitemap的配置，然后保存退出
 ```
 在_config.yml中添加sitemap配置
@@ -239,6 +240,8 @@ plugins:
 #sitemap
 sitemap:
  path: sitemap.xml
+baidusitemap:
+ path: baidusitemap.xml 
 ```
 重启hexo服务，输入http://localhost:4000/sitemap.xml 检查是否生效，然后更新github博客的部署。还需要在[google search](https://www.google.com/webmasters/tools/home?hl=zh-CN&authuser=0&pli=1)中进行站点添加，步骤如下：
 
@@ -248,6 +251,7 @@ sitemap:
 - 依次点击抓取>站点地图，在页面右上角点击添加站点地图；
 - 在输入框中输入sitemap.xml即可，会显示网页数量。
 
+登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加
 第二天就能通过搜索引擎查看到你的网站。
 
 4) 添加rss
@@ -342,5 +346,8 @@ h1{
 	- commit to the hexo-blog branch of github;
 	- update blog;
 
-- bug2,
+- bug2,title can not contain & sign,because baidusitemap can not deal it;
+
+- bug3 
+
 
