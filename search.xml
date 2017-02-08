@@ -4,6 +4,24 @@
   
     
     <entry>
+      <title><![CDATA[read-product]]></title>
+      <url>http://www.tomdican.xyz/2017/02/07/readProduct/</url>
+      <content type="html"><![CDATA[<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
+<li>目标：获取最好的书籍</li>
+<li>问题<ul>
+<li>什么是好书<ul>
+<li>公认（含有名人推荐）</li>
+<li>专业权威（含有专业人士推荐）</li>
+<li>名人推荐（说书的书，随笔，聊天演讲）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[shadowsocks-install]]></title>
       <url>http://www.tomdican.xyz/2017/01/24/shadowsocks/</url>
       <content type="html"><![CDATA[<h2 id="shadowsocks使用比较方便："><a href="#shadowsocks使用比较方便：" class="headerlink" title="shadowsocks使用比较方便："></a>shadowsocks使用比较方便：</h2><h3 id="1-服务端安装："><a href="#1-服务端安装：" class="headerlink" title="1) 服务端安装："></a>1) 服务端安装：</h3><p>yum update<br> in centos 6<br>yum install python34-setuptools &amp;&amp; easy_install pip ， pip install shadowsocks</p>
