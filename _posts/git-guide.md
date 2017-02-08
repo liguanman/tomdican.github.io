@@ -40,7 +40,9 @@ toc: true
 7. cache accout
 git config --global credential.helper cache
 git config --global credential.helper "cache --timeout=3600"
-windows：git config --global credential.helper wincred  20170208 add
+windows：git config --global credential.helper wincred  (store)
+git config --global --unset credential.helper  (reset)
+20170208 add
 
 8. checkout remote tag
      git tag -l  (show tags)
