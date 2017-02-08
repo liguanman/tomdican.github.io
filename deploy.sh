@@ -14,3 +14,7 @@ git add -A
 git commit -am "source update"
 git push -u origin source 
 git checkout master
+cd ../..
+
+## dropbox upload 
+~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
