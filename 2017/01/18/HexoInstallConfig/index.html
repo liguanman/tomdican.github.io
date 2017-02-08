@@ -61,6 +61,23 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 
 
+  <!-- baiduSpider -->
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+	      if (curProtocol === 'https') {
+	              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+		          }
+			      else {
+			              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+				          }
+					      var s = document.getElementsByTagName("script")[0];
+					          s.parentNode.insertBefore(bp, s);
+						  })();
+						  </script>
+
+
 </head>
 
 <body id="body" data-spy="scroll" data-target=".toc">
@@ -162,6 +179,21 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>5） 调整文章标题字体大小</p>
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><ul>
+<li>download<ul>
+<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
+</li>
+<li>config<ul>
+<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration;</li>
+<li>dropbox command</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
+<ul>
+<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
 <h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
 <li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>

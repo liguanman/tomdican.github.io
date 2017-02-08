@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[shadowsocks-install]]></title>
-      <url>http://tomdican.xyz/2017/01/24/shadowsocks/</url>
+      <url>http://www.tomdican.xyz/2017/01/24/shadowsocks/</url>
       <content type="html"><![CDATA[<h2 id="shadowsocks使用比较方便："><a href="#shadowsocks使用比较方便：" class="headerlink" title="shadowsocks使用比较方便："></a>shadowsocks使用比较方便：</h2><h3 id="1-服务端安装："><a href="#1-服务端安装：" class="headerlink" title="1) 服务端安装："></a>1) 服务端安装：</h3><p>yum update<br> in centos 6<br>yum install python34-setuptools &amp;&amp; easy_install pip ， pip install shadowsocks</p>
 <ul>
 <li>配置：</li>
@@ -41,7 +41,7 @@
     
     <entry>
       <title><![CDATA[notes-memoirs]]></title>
-      <url>http://tomdican.xyz/2017/01/23/notes-memoirs/</url>
+      <url>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</url>
       <content type="html"><![CDATA[<h2 id="约翰-克里斯多夫-罗曼罗兰-20170203-22-18"><a href="#约翰-克里斯多夫-罗曼罗兰-20170203-22-18" class="headerlink" title="约翰.克里斯多夫 罗曼罗兰 20170203 22:18"></a>约翰.克里斯多夫 罗曼罗兰 20170203 22:18</h2><ul>
 <li>节场章节，主要内容为一对亲姐弟的求生磨难经历。<ul>
 <li>出生在资本主义家庭，父亲经营一个爷爷留下来的银行，最后由于经营不善而破产，逃避现实而自杀了，在母亲的决定下搬到巴黎重新开始生活，由于缺乏钱，目前拼命的挣钱来养活女儿和儿子的读书生活，母亲劳累过度死亡只留下了无依无靠的姐姐和弟弟，还欠亲戚两百法郎；</li>
@@ -129,7 +129,7 @@
     
     <entry>
       <title><![CDATA[notes-sex]]></title>
-      <url>http://tomdican.xyz/2017/01/23/notes-sex/</url>
+      <url>http://www.tomdican.xyz/2017/01/23/notes-sex/</url>
       <content type="html"><![CDATA[<ul>
 <li>有不少经典书籍的笔记，也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。</li>
 </ul>
@@ -218,7 +218,7 @@
     
     <entry>
       <title><![CDATA[about-life]]></title>
-      <url>http://tomdican.xyz/2017/01/22/about-life/</url>
+      <url>http://www.tomdican.xyz/2017/01/22/about-life/</url>
       <content type="html"><![CDATA[<h2 id="待解决问题"><a href="#待解决问题" class="headerlink" title="待解决问题"></a>待解决问题</h2><ul>
 <li>先找人还是先做产品</li>
 <li>如何和赵勇见面</li>
@@ -283,7 +283,7 @@
     
     <entry>
       <title><![CDATA[how-manage-time]]></title>
-      <url>http://tomdican.xyz/2017/01/20/how-manage-time/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/how-manage-time/</url>
       <content type="html"><![CDATA[<h2 id="1-问题"><a href="#1-问题" class="headerlink" title="1 问题"></a>1 问题</h2><ul>
 <li>不知道自己的时间去哪儿了；</li>
 <li>不知道时间是否充分利用；</li>
@@ -329,7 +329,7 @@
     
     <entry>
       <title><![CDATA[Mongodb-guide]]></title>
-      <url>http://tomdican.xyz/2017/01/20/Mongodb-guide/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
 <pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
 </code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
@@ -400,7 +400,7 @@
     
     <entry>
       <title><![CDATA[git-guide]]></title>
-      <url>http://tomdican.xyz/2017/01/20/git-guide/</url>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
       <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
 <li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
 </li>
@@ -436,7 +436,7 @@
     
     <entry>
       <title><![CDATA[经典书籍的日记]]></title>
-      <url>http://tomdican.xyz/2017/01/19/read-record/</url>
+      <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
       <content type="html"><![CDATA[<h2 id="20170207-22-00"><a href="#20170207-22-00" class="headerlink" title="20170207 22:00"></a>20170207 22:00</h2><ul>
 <li>楞严经，若真汝心，则无所去。如是乃至分别都无。真心是没有分别的，但有分别时，就不是真心了。这和圣经里面的能辨别好坏的果子一个道理。</li>
 <li>创世记3 en,撒旦引诱夏娃吃辨别好坏的果子，最后夏娃和亚当都吃了，然后人和上帝都能辨别好坏，上帝让人从尘土出来到尘土中去，一生辛劳才能得到食物。</li>
@@ -470,7 +470,7 @@
     
     <entry>
       <title><![CDATA[一生的阅读计划]]></title>
-      <url>http://tomdican.xyz/2017/01/19/life-read-plan/</url>
+      <url>http://www.tomdican.xyz/2017/01/19/life-read-plan/</url>
       <content type="html"><![CDATA[<table>
 <thead>
 <tr>
@@ -507,7 +507,7 @@
     
     <entry>
       <title><![CDATA[Hexo install&config]]></title>
-      <url>http://tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
+      <url>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
 <li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
@@ -581,6 +581,21 @@
 <p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>5） 调整文章标题字体大小</p>
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><ul>
+<li>download<ul>
+<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
+</li>
+<li>config<ul>
+<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration;</li>
+<li>dropbox command</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
+<ul>
+<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
 <h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
 <li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
@@ -598,7 +613,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>http://tomdican.xyz/2014/10/18/hello-world/</url>
+      <url>http://www.tomdican.xyz/2014/10/18/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -613,7 +628,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers]]></title>
-      <url>http://tomdican.xyz/2014/03/16/qna/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/qna/</url>
       <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> What does <code>Wixo</code> stands for?</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> means A <strong>wi</strong>ki theme for he<strong>xo</strong>.</p>
 <p><span class="label label-danger">Q</span> How to generate ToC(Table of Contents) in a certain page?</p>
@@ -627,7 +642,7 @@
     
     <entry>
       <title><![CDATA[Questions and Answers（中文）]]></title>
-      <url>http://tomdican.xyz/2014/03/16/qna-cn/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/qna-cn/</url>
       <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
 <p><span class="label label-danger">Q</span> 如何指定某些页面生成 ToC(Table of Contents) ？</p>
@@ -641,7 +656,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins]]></title>
-      <url>http://tomdican.xyz/2014/03/16/tag-plugins/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/tag-plugins/</url>
       <content type="html"><![CDATA[<p>Like the <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> theme, you can use <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> to fully take advantages of Bootstrap. To use these tag plugins, you need to install it first. In your blog root folder, execute the following command:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
 <p>Then you can use these tag plugins in your blog, as easily as you normally do using hexo tag plugins. </p>
@@ -694,7 +709,7 @@
     
     <entry>
       <title><![CDATA[Tag Plugins（中文）]]></title>
-      <url>http://tomdican.xyz/2014/03/16/tag-plugins-cn/</url>
+      <url>http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/</url>
       <content type="html"><![CDATA[<p>和 <a href="http://github.com/wzpan/hexo-theme-freemind" target="_blank" rel="external">Freemind</a> 一样，你可以使用 <a href="https://github.com/wzpan/hexo-tag-bootstrap" target="_blank" rel="external">hexo-tag-bootstrap</a> 来充分发挥 Bootstrap 的威力。在你的 Hexo 博客目录，执行下列命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure>
 <p>然后就可以像使用其他 hexo tag plugins 一样使用这些 Bootstrap tag plugins 了。</p>
@@ -746,7 +761,7 @@
     
     <entry>
       <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
       <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
 <a id="more"></a>
@@ -756,7 +771,7 @@
     
     <entry>
       <title><![CDATA[Code Highlight]]></title>
-      <url>http://tomdican.xyz/2014/03/15/code-highlight/</url>
+      <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="C-1"><a href="#C-1" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C++</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"Hello World"</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <a id="more"></a>
@@ -778,7 +793,7 @@
     
     <entry>
       <title><![CDATA[繁體中文測試]]></title>
-      <url>http://tomdican.xyz/2013/12/25/traditional-chinese-test/</url>
+      <url>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</url>
       <content type="html"><![CDATA[<p>觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。</p>
 <p>舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。</p>
 <p>舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。</p>
@@ -793,7 +808,7 @@
     
     <entry>
       <title><![CDATA[简体中文测试]]></title>
-      <url>http://tomdican.xyz/2013/12/25/simplified-chinese-test/</url>
+      <url>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</url>
       <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
 <p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
 <p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p>
