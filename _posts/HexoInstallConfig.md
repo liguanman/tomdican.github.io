@@ -308,6 +308,26 @@ h1{
   margin-bottom:0.6667em;
 }
 ```
+
+## dropbox sync(optional)
+
+- download
+	- git clone https://github.com/andreafabrizi/Dropbox-Uploader
+- config
+	- in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration;
+	- dropbox command
+	
+```bash
+## dropbox upload
+~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
+
+## dropbox download
+~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/
+
+```
+
+- detail infomation from https://github.com/andreafabrizi/Dropbox-Uploader
+
 ## refrence
 
 [1] https://github.com/wzpan/hexo-theme-wixo/tree/master
