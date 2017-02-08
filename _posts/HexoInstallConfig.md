@@ -1,5 +1,5 @@
 ---
-title: Hexo install config
+title: Hexo-install-config
 date: 2017-01-18 18:19:46
 tags: hexo,install,guide,tech
 categories: Docs
@@ -251,7 +251,8 @@ baidusitemap:
 - 依次点击抓取>站点地图，在页面右上角点击添加站点地图；
 - 在输入框中输入sitemap.xml即可，会显示网页数量。
 
-登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加
+登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加http://www.tomdican.xyz/baidusitemap.xml。
+
 第二天就能通过搜索引擎查看到你的网站。
 
 4) 添加rss
