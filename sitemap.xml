@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</loc>
+    
+    <lastmod>2017-02-08T16:11:17.163Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tomdican.xyz/reading/index.html</loc>
     
     <lastmod>2017-02-08T10:55:17.569Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://www.tomdican.xyz/about/index.html</loc>
     
     <lastmod>2017-02-08T10:55:17.568Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</loc>
-    
-    <lastmod>2017-02-08T10:55:17.566Z</lastmod>
     
   </url>
   
@@ -44,14 +44,14 @@
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</loc>
+    <loc>http://www.tomdican.xyz/2014/03/15/code-highlight/</loc>
     
     <lastmod>2017-02-08T10:55:17.559Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/15/code-highlight/</loc>
+    <loc>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</loc>
     
     <lastmod>2017-02-08T10:55:17.559Z</lastmod>
     
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
+    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
     
     <lastmod>2017-02-08T10:55:17.557Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
+    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
     
     <lastmod>2017-02-08T10:55:17.557Z</lastmod>
     
@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     
