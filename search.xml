@@ -524,7 +524,7 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Hexo install config]]></title>
+      <title><![CDATA[Hexo-install-config]]></title>
       <url>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
@@ -584,7 +584,8 @@
 <li>依次点击抓取&gt;站点地图，在页面右上角点击添加站点地图；</li>
 <li>在输入框中输入sitemap.xml即可，会显示网页数量。</li>
 </ul>
-<p>登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<br>第二天就能通过搜索引擎查看到你的网站。</p>
+<p>登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<a href="http://www.tomdican.xyz/baidusitemap.xml。">http://www.tomdican.xyz/baidusitemap.xml。</a></p>
+<p>第二天就能通过搜索引擎查看到你的网站。</p>
 <p>4) 添加rss</p>
 <ul>
 <li>首先安装rss插件</li>
