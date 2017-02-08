@@ -314,15 +314,15 @@ h1{
 - download
 	- git clone https://github.com/andreafabrizi/Dropbox-Uploader
 - config
-	- in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration;
+	- in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;
 	- dropbox command
 	
 ```bash
 ## dropbox upload
-~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
+~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
 
 ## dropbox download
-~/Documents/hexo/dropbox/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/
+~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/
 
 ```
 
