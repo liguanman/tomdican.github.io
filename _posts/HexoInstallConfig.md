@@ -334,6 +334,21 @@ h1{
 
 - detail infomation from https://github.com/andreafabrizi/Dropbox-Uploader
 
+## coding.net
+将博客在部署到github的同时，部署到coding.net上面，方便中国使用。
+```bash
+vi .git/config
+```
+在cofig文件中，添加coding.net的git地址：
+```bash
+[remote "origin"]
+        url = https://github.com/tomdican/tomdican.github.io.git
+        url = https://git.coding.net/tomdican/tomdican.coding.me.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+
+```
+
+
 ## refrence
 
 [1] https://github.com/wzpan/hexo-theme-wixo/tree/master
