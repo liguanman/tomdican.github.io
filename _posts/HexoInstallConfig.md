@@ -229,7 +229,7 @@ o</a>.
 ```bash
 cd hexo/blog
 npm install hexo-generator-sitemap --save
-npm install hexo-generator-baidu-sitemap --save
+npm install hexo-generator-baidu-sitemap --save  # 百度不能抓取github
 vi  _config.yml # 添加sitemap的配置，然后保存退出
 ```
 在_config.yml中添加sitemap配置
@@ -240,6 +240,7 @@ plugins:
 #sitemap
 sitemap:
  path: sitemap.xml
+# 百度无法抓取github
 baidusitemap:
  path: baidusitemap.xml 
 ```
@@ -251,7 +252,7 @@ baidusitemap:
 - 依次点击抓取>站点地图，在页面右上角点击添加站点地图；
 - 在输入框中输入sitemap.xml即可，会显示网页数量。
 
-登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加http://www.tomdican.xyz/baidusitemap.xml。
+不能用于github。登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加http://www.tomdican.xyz/baidusitemap.xml。
 
 第二天就能通过搜索引擎查看到你的网站。
 
