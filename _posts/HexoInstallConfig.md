@@ -334,20 +334,23 @@ h1{
 
 - detail infomation from https://github.com/andreafabrizi/Dropbox-Uploader
 
-## coding.net
+## coding.net (optional)
 20170209 added
 - 将博客在部署到github的同时，部署到coding.net上面，方便中国使用。
+
 ```bash
 vi .git/config
 ```
-在cofig文件中，添加coding.net的git地址：
+
+	在cofig文件中，添加coding.net的git地址：
+	
 ```bash
 [remote "origin"]
         url = https://github.com/tomdican/tomdican.github.io.git
         url = https://git.coding.net/tomdican/tomdican.coding.me.git
         fetch = +refs/heads/*:refs/remotes/origin/*
-
 ```
+
 - 将coding中的pages服务选项，
 	- 选择master分支
 	- 绑定域名，我的是tomdican.xyz
@@ -370,6 +373,6 @@ vi .git/config
 
 - bug2,title can not contain & and blank space sign,because baidusitemap can not deal it;
 
-- bug3 
+- bug3 toc structure too long without scroll 
 
 
