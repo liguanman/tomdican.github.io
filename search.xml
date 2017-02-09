@@ -606,7 +606,8 @@
 <p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>5） 调整文章标题字体大小</p>
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><ul>
+<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
+<ul>
 <li>download<ul>
 <li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
 </ul>
@@ -621,8 +622,23 @@
 <ul>
 <li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
 </ul>
-<h2 id="coding-net"><a href="#coding-net" class="headerlink" title="coding.net"></a>coding.net</h2><p>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure></p>
+<h2 id="coding-net"><a href="#coding-net" class="headerlink" title="coding.net"></a>coding.net</h2><p>20170209 added</p>
+<ul>
+<li>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure>
+</li>
+</ul>
 <p>在cofig文件中，添加coding.net的git地址：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[remote <span class="string">"origin"</span>]</div><div class="line">        url = https://github.com/tomdican/tomdican.github.io.git</div><div class="line">        url = https://git.coding.net/tomdican/tomdican.coding.me.git</div><div class="line">        fetch = +refs/heads/*:refs/remotes/origin/*</div></pre></td></tr></table></figure></p>
+<ul>
+<li>将coding中的pages服务选项，<ul>
+<li>选择master分支</li>
+<li>绑定域名，我的是tomdican.xyz</li>
+</ul>
+</li>
+<li>将域名解析进行设置<ul>
+<li>其中coding.me选择默认服务商，github选择海外服务商</li>
+</ul>
+</li>
+</ul>
 <h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
 <li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
