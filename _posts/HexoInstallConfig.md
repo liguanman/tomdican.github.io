@@ -316,7 +316,7 @@ h1{
 ```
 
 ## dropbox sync(optional)
-
+20170208 added
 - download
 	- git clone https://github.com/andreafabrizi/Dropbox-Uploader
 - config
@@ -335,7 +335,8 @@ h1{
 - detail infomation from https://github.com/andreafabrizi/Dropbox-Uploader
 
 ## coding.net
-将博客在部署到github的同时，部署到coding.net上面，方便中国使用。
+20170209 added
+- 将博客在部署到github的同时，部署到coding.net上面，方便中国使用。
 ```bash
 vi .git/config
 ```
@@ -347,7 +348,11 @@ vi .git/config
         fetch = +refs/heads/*:refs/remotes/origin/*
 
 ```
-
+- 将coding中的pages服务选项，
+	- 选择master分支
+	- 绑定域名，我的是tomdican.xyz
+- 将域名解析进行设置
+	- 其中coding.me选择默认服务商，github选择海外服务商
 
 ## refrence
 
