@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://www.tomdican.xyz/2017/02/10/vim-commands/</loc>
+    <lastmod>2017-02-10T05:38:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>vim-commands</title>
+        <pubTime>2017-02-10T05:38:51.000Z</pubTime>
+        
+        <tag>vim,tech,guide</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</loc>
     <lastmod>2017-02-09T12:23:42.663Z</lastmod>
     <data>
@@ -135,12 +155,12 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
+    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
     <lastmod>2017-02-08T10:55:17.557Z</lastmod>
     <data>
         <display>
-        <title>简体中文测试</title>
-        <pubTime>2013-12-25T12:17:16.000Z</pubTime>
+        <title>Questions and Answers（中文）</title>
+        <pubTime>2014-03-16T10:10:16.000Z</pubTime>
         
          
            
@@ -153,12 +173,12 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
+    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
     <lastmod>2017-02-08T10:55:17.557Z</lastmod>
     <data>
         <display>
-        <title>Questions and Answers（中文）</title>
-        <pubTime>2014-03-16T10:10:16.000Z</pubTime>
+        <title>简体中文测试</title>
+        <pubTime>2013-12-25T12:17:16.000Z</pubTime>
         
          
            
@@ -330,14 +350,14 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     <data>
         <display>
-        <title>Mongodb-guide</title>
+        <title>git-guide</title>
         <pubTime>2017-01-19T18:12:11.000Z</pubTime>
         
-        <tag>技术,mongo,指南</tag>
+        <tag>技术,git,指南,guide</tag>
          
          
            
@@ -350,14 +370,14 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     <data>
         <display>
-        <title>git-guide</title>
+        <title>Mongodb-guide</title>
         <pubTime>2017-01-19T18:12:11.000Z</pubTime>
         
-        <tag>技术,git,指南,guide</tag>
+        <tag>技术,mongo,指南</tag>
          
          
            

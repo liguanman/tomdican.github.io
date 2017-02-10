@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tomdican.xyz/"/>
-  <updated>2017-02-07T04:48:50.000Z</updated>
+  <updated>2017-02-10T05:38:51.000Z</updated>
   <id>http://www.tomdican.xyz/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vim-commands</title>
+    <link href="http://www.tomdican.xyz/2017/02/10/vim-commands/"/>
+    <id>http://www.tomdican.xyz/2017/02/10/vim-commands/</id>
+    <published>2017-02-10T05:38:51.000Z</published>
+    <updated>2017-02-10T05:38:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><ol>
+<li><p>indent 7 lines:  7 &gt; &gt;</p>
+</li>
+<li><p>Recording keys for repeating jobs: q letter recording  q  @ letter</p>
+</li>
+</ol>
+<h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a>gvim config</h2><ol>
+<li>set chinese encoding<br> in _vimrc file,add below lines at top  <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;vim-commands&quot;&gt;&lt;a href=&quot;#vim-commands&quot; class=&quot;headerlink&quot; title=&quot;vim commands&quot;&gt;&lt;/a&gt;vim commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;indent 7 lines:  7 &amp;g
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="vim,tech,guide" scheme="http://www.tomdican.xyz/tags/vim-tech-guide/"/>
+    
+  </entry>
   
   <entry>
     <title>read-product</title>
@@ -134,6 +167,7 @@
 </ul>
 </li>
 </ul>
+<h2 id="基于定位的书籍社交"><a href="#基于定位的书籍社交" class="headerlink" title="基于定位的书籍社交"></a>基于定位的书籍社交</h2><p>附近的书籍共享，收费为1元，有押金。</p>
 ]]></content>
     
     <summary type="html">
@@ -423,11 +457,7 @@
     <published>2017-01-21T17:27:48.000Z</published>
     <updated>2017-01-21T17:27:48.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="待解决问题"><a href="#待解决问题" class="headerlink" title="待解决问题"></a>待解决问题</h2><ul>
-<li>先找人还是先做产品</li>
-<li>如何和赵勇见面</li>
-</ul>
-<h2 id="读书时间安排的尝试-20170206-12-38"><a href="#读书时间安排的尝试-20170206-12-38" class="headerlink" title="读书时间安排的尝试 20170206 12:38"></a>读书时间安排的尝试 20170206 12:38</h2><ul>
+    <content type="html"><![CDATA[<h2 id="读书时间安排的尝试-20170206-12-38"><a href="#读书时间安排的尝试-20170206-12-38" class="headerlink" title="读书时间安排的尝试 20170206 12:38"></a>读书时间安排的尝试 20170206 12:38</h2><ul>
 <li><p>问题</p>
 <ul>
 <li>读书时间经常泛滥</li>
@@ -486,11 +516,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;待解决问题&quot;&gt;&lt;a href=&quot;#待解决问题&quot; class=&quot;headerlink&quot; title=&quot;待解决问题&quot;&gt;&lt;/a&gt;待解决问题&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;先找人还是先做产品&lt;/li&gt;
-&lt;li&gt;如何和赵勇见面&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;读书时间安排
+      &lt;h2 id=&quot;读书时间安排的尝试-20170206-12-38&quot;&gt;&lt;a href=&quot;#读书时间安排的尝试-20170206-12-38&quot; class=&quot;headerlink&quot; title=&quot;读书时间安排的尝试 20170206 12:38&quot;&gt;&lt;/a&gt;读书时间安排的尝试 2017
     
     </summary>
     
@@ -713,7 +739,11 @@
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="20170209-23：55"><a href="#20170209-23：55" class="headerlink" title="20170209 23：55"></a>20170209 23：55</h2><ul>
+    <content type="html"><![CDATA[<h2 id="20170210-21-53"><a href="#20170210-21-53" class="headerlink" title="20170210 21:53"></a>20170210 21:53</h2><p>-楞严经，汝即见物，物亦见汝。性汝不真，取我求实。自己和周围物体是相互看见的，观见是真实的，只是很少有人意识到而已，观见就是一面镜子。</p>
+<ul>
+<li>创世记 7 en,本章，Naoh按照上帝的意思进入了Ark里面，还包括家人，以及，每个种类的一对动物也在ark里面。下了40天雨，洪水持续了150天，地球上面生物全死了。为什么上帝看不惯人类的邪恶就发动这场洪水，难道邪恶会导致人类彻底的相互残杀吗，最后导致人类向着倒着走路一样吗，猜测的话，邪恶是相互排斥的毁灭性的丑陋的，正义是相互吸引相互帮助的快乐的，上帝造人的目的是为了人类的快乐和和谐？</li>
+</ul>
+<h2 id="20170209-23：55"><a href="#20170209-23：55" class="headerlink" title="20170209 23：55"></a>20170209 23：55</h2><ul>
 <li>楞严经，诺还于明，则不明时，无复见暗，虽明暗等。种种差别，见无差别。诸可还者，自然非汝，不汝还者，非汝而谁。汝紫迷闷，丧本受轮，于生死中，常被飘溺。主要讲明暗有差别，能够归还，而人的观见却没有归还，只是一个媒介而已，是不动和变化的。但人往往认为那些变化的事物就是自己的，导致丧失了本心，产生了生死烦恼。</li>
 <li>创世记 6 en,上帝的儿子发现人类的女儿是很漂亮的，于是和女儿性交，产生了后代，发现后代越来越邪恶，上帝实在看不下去了，甚至后悔创造了地球和人类，决心想消灭人类，仅仅留下一个唯一的好人Noah及其他的后代，造了一个ark，Noah及家人，以及每个种类的动物一对，进入ark里面，上帝然后发动洪水，来消灭地球上的生物，除了ark里面的。从上面看出，上帝不喜欢全部是斗争相互残杀的局面，希望是和谐的局面。</li>
 </ul>
@@ -755,8 +785,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;20170209-23：55&quot;&gt;&lt;a href=&quot;#20170209-23：55&quot; class=&quot;headerlink&quot; title=&quot;20170209 23：55&quot;&gt;&lt;/a&gt;20170209 23：55&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;楞严经，诺还于明，则不明时，无复
+      &lt;h2 id=&quot;20170210-21-53&quot;&gt;&lt;a href=&quot;#20170210-21-53&quot; class=&quot;headerlink&quot; title=&quot;20170210 21:53&quot;&gt;&lt;/a&gt;20170210 21:53&lt;/h2&gt;&lt;p&gt;-楞严经，汝即见物，物亦见汝。性汝不真，取我
     
     </summary>
     
@@ -1200,6 +1229,31 @@
   </entry>
   
   <entry>
+    <title>Lorem Ipsum</title>
+    <link href="http://www.tomdican.xyz/2014/03/15/lorem-ipsum/"/>
+    <id>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</id>
+    <published>2014-03-15T12:17:16.000Z</published>
+    <updated>2017-02-08T10:55:17.564Z</updated>
+    
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Code Highlight</title>
     <link href="http://www.tomdican.xyz/2014/03/15/code-highlight/"/>
     <id>http://www.tomdican.xyz/2014/03/15/code-highlight/</id>
@@ -1237,31 +1291,6 @@
   </entry>
   
   <entry>
-    <title>Lorem Ipsum</title>
-    <link href="http://www.tomdican.xyz/2014/03/15/lorem-ipsum/"/>
-    <id>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</id>
-    <published>2014-03-15T12:17:16.000Z</published>
-    <updated>2017-02-08T10:55:17.564Z</updated>
-    
-    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg&quot; alt=&quot;Lorem Ipsum&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>繁體中文測試</title>
     <link href="http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/"/>
     <id>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</id>
@@ -1285,38 +1314,6 @@
 &lt;p&gt;舍利子，色不異空，空不異色；色即是空，空即是色。受、想、行、識，亦復如是。&lt;/p&gt;
 &lt;p&gt;舍利子，是諸法空相，不生不滅，不垢不淨，不增不減，是故空中無色，無受、想、行、識；無眼、耳、鼻、舌、身、意；無色、聲、香、味、觸、法；無眼界，乃至無意識界；無無明，亦無無明盡；乃至無老死，亦無老死盡。無苦、集、滅、道，無智亦無得，以無所得故。&lt;/p&gt;
 &lt;p&gt;菩提薩埵(&lt;code&gt;duǒ&lt;/code&gt;)，依般若波羅蜜多故，心無罣礙(&lt;code&gt;guà ài&lt;/code&gt;)。無罣礙，故無有恐怖，遠離顛倒夢想，究竟涅槃。三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>简体中文测试</title>
-    <link href="http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/"/>
-    <id>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</id>
-    <published>2013-12-25T12:17:16.000Z</published>
-    <updated>2017-02-08T10:55:17.557Z</updated>
-    
-    <content type="html"><![CDATA[<p>观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。</p>
-<p>舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。</p>
-<p>舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。</p>
-<p>菩提萨埵(<code>duǒ</code>)，依般若波罗蜜多故，心无罣碍(<code>guà ài</code>)。无罣碍，故无有恐怖，远离颠倒梦想，究竟涅盘。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。<a id="more"></a></p>
-<p>故知般若波罗蜜多，大神咒，是大明咒，是无上咒，是无等等咒，能除一切苦，真实不虚。</p>
-<p>故说般若波罗蜜多咒， 即说咒曰，</p>
-<blockquote>
-<p>揭谛揭谛 波罗揭谛 波罗僧揭谛 菩提萨婆诃</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;观自在菩萨，行深般若波罗蜜多时，照见五蕴皆空，度一切苦厄。&lt;/p&gt;
-&lt;p&gt;舍利子，色不异空，空不异色；色即是空，空即是色。受、想、行、识，亦复如是。&lt;/p&gt;
-&lt;p&gt;舍利子，是诸法空相，不生不灭，不垢不净，不增不减，是故空中无色，无受、想、行、识；无眼、耳、鼻、舌、身、意；无色、声、香、味、触、法；无眼界，乃至无意识界；无无明，亦无无明尽；乃至无老死，亦无老死尽。无苦、集、灭、道，无智亦无得，以无所得故。&lt;/p&gt;
-&lt;p&gt;菩提萨埵(&lt;code&gt;duǒ&lt;/code&gt;)，依般若波罗蜜多故，心无罣碍(&lt;code&gt;guà ài&lt;/code&gt;)。无罣碍，故无有恐怖，远离颠倒梦想，究竟涅盘。三世诸佛，依般若波罗蜜多故，得阿耨多罗三藐三菩提。
     
     </summary>
     
