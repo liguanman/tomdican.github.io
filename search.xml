@@ -205,7 +205,28 @@
     <entry>
       <title><![CDATA[notes-memoirs]]></title>
       <url>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</url>
-      <content type="html"><![CDATA[<h2 id="拿破仑传-路德维希著-陈瑶译-20170216-15-36"><a href="#拿破仑传-路德维希著-陈瑶译-20170216-15-36" class="headerlink" title="拿破仑传 路德维希著 陈瑶译 20170216 15:36"></a>拿破仑传 路德维希著 陈瑶译 20170216 15:36</h2><ul>
+      <content type="html"><![CDATA[<h2 id="宋史演义-蔡东藩著-20170222-8-51"><a href="#宋史演义-蔡东藩著-20170222-8-51" class="headerlink" title="宋史演义 蔡东藩著 20170222 8:51"></a>宋史演义 蔡东藩著 20170222 8:51</h2><ul>
+<li>宋朝前一百七十年的疆土包括整个中原的长江黄河流域，后一百五十年的疆土中原由于被金国掠夺而只剩下一部分了。</li>
+<li>北宋时期出现了很多大家，比如司马光、王安石、二程、苏轼、范仲淹等等；南宋时期出现的大家少，比如朱熹，将军比较多、比如岳飞、张浚等，由于皇帝昏庸而长期被周边国家侵略，导致国内动乱，也助长了奸臣当道而使国家民不聊生；<ul>
+<li>为什么会出现这样的局面，<ul>
+<li>因为皇帝一代不如一代，传位没传好，英雄惜英雄，但人才的选择和现实环境所束缚无法保证继承的延续性；加上皇帝大多沉迷于酒色寿命比较短；</li>
+<li>经过战争和动乱的洗礼后，国民才会珍惜自己所处的环境，一旦处于安逸的环境太久，人就开始软弱，一代不如一代，思维逐渐僵化，人越来越没耐心，阅历也越来越少，关键是只有非常厉害的皇帝不会轻信小人和辨识出忠臣和奸臣，大奸当道就会像细菌繁殖一样出现无法收拾的局面，让整个机构腐烂，还能快速的进化；</li>
+<li>皇帝只有让国家的动乱和稳定保持在一个平衡点上才会让国家不出现被国外欺压，让国民不太安逸和不太动乱；</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>宋朝开国时期，留下的都是大忠臣，很少有奸臣，就算有奸臣也奸的少。忠奸臣时刻存在，关键要有公正的主子；</li>
+<li>宋朝当兵的少，从文的多，整个国家制度相对比较开明，尤其在文化上面，所以出现了很多大家，在皇帝不公正的情况下，大臣主动辞职多次是常有的事情；</li>
+<li>不管是忠臣还是奸臣，都在为自己的目的而壮大实力，有一定偏见，主要为激进和保守两派，争来争去，只留下悲剧和空虚，周围的人不会因为个人的意志而转移的；</li>
+<li>在继位的时期，出现过多次太后干政来保证皇帝继位的稳定；</li>
+<li>在国家的大臣中，基本上后来者居上，后来者打败前辈们，能完好退朝的几乎没有；</li>
+<li>奸臣的路子比忠臣的路子宽，想要做事情，在一人堂的环境下，缺乏制度的监督，首先需要和环境里面所有人搞好关系，<br>不然事情没搞好还赔了性命；</li>
+<li>做事情或改革需要循序渐进，潜移默化，太明显阻碍太大风险太高，最好有团队的支撑，切忌一意孤行和求大；</li>
+<li>不管是动乱还是稳定时期，每个人都只是寻找生活的安逸，出现四种人，生活不稳定的人、生活安逸但沉迷的人、生活安逸的人、生活安逸还能做出贡献的人。大部分人生活不稳定，生活安逸但沉迷的人也不少，比如很多皇帝和奸臣；生活安逸保持中庸的人几乎没有，生活安逸还能做出贡献的人也少，比如大家和功臣。</li>
+<li>所有人不停的劳作或追寻，由于人的内心把世界看得太幻想。</li>
+</ul>
+<h2 id="拿破仑传-路德维希著-陈瑶译-20170216-15-36"><a href="#拿破仑传-路德维希著-陈瑶译-20170216-15-36" class="headerlink" title="拿破仑传 路德维希著 陈瑶译 20170216 15:36"></a>拿破仑传 路德维希著 陈瑶译 20170216 15:36</h2><ul>
 <li><p>埃米尔.路德希尔（1881-1948），德国著名的传记作家，传记作品包括歌德传、拿破仑传、俾斯麦传、人之子、林肯、罗斯福、三幅画像：希特勒、墨索里尼、斯大林、贝多芬等等。</p>
 </li>
 <li><p>拿破仑的传记有很多版本，</p>
@@ -650,6 +671,42 @@
     </entry>
     
     <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –global credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
@@ -717,42 +774,6 @@
 <p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
 <p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –global credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
 ]]></content>
     </entry>
     
