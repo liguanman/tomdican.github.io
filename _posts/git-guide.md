@@ -40,7 +40,7 @@ toc: true
 7. cache accout
 git config --global credential.helper cache
 git config --global credential.helper "cache --timeout=3600"
-windows：git config --global credential.helper wincred  (store)
+windows：git config --system credential.helper wincred  (store)
 git config --system --unset credential.helper  (reset)
 20170208 add
 
