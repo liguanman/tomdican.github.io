@@ -4,28 +4,8 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2017/02/10/vim-commands/</loc>
-    <lastmod>2017-02-10T05:38:51.000Z</lastmod>
-    <data>
-        <display>
-        <title>vim-commands</title>
-        <pubTime>2017-02-10T05:38:51.000Z</pubTime>
-        
-        <tag>vim,tech,guide</tag>
-         
-         
-           
-             
-              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</loc>
-    <lastmod>2017-02-09T12:23:42.663Z</lastmod>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     <data>
         <display>
         <title>Hexo-install-config</title>
@@ -44,65 +24,9 @@
 
     
     
-    
-    
-  <url>
-    <loc>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</loc>
-    <lastmod>2017-02-08T10:55:17.564Z</lastmod>
-    <data>
-        <display>
-        <title>Lorem Ipsum</title>
-        <pubTime>2014-03-15T12:17:16.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/tag-plugins/</loc>
-    <lastmod>2017-02-08T10:55:17.562Z</lastmod>
-    <data>
-        <display>
-        <title>Tag Plugins</title>
-        <pubTime>2014-03-16T02:17:16.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.tomdican.xyz/2014/10/18/hello-world/</loc>
-    <lastmod>2017-02-08T10:55:17.561Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2014-10-18T15:38:19.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
   <url>
     <loc>http://www.tomdican.xyz/2014/03/15/code-highlight/</loc>
-    <lastmod>2017-02-08T10:55:17.559Z</lastmod>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     <data>
         <display>
         <title>Code Highlight</title>
@@ -118,9 +42,11 @@
     </url>
 
     
+    
+    
   <url>
     <loc>http://www.tomdican.xyz/2013/12/25/traditional-chinese-test/</loc>
-    <lastmod>2017-02-08T10:55:17.559Z</lastmod>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     <data>
         <display>
         <title>繁體中文測試</title>
@@ -137,8 +63,44 @@
 
     
   <url>
+    <loc>http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/</loc>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
+    <data>
+        <display>
+        <title>Tag Plugins（中文）</title>
+        <pubTime>2014-03-16T02:10:16.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
+    <data>
+        <display>
+        <title>简体中文测试</title>
+        <pubTime>2013-12-25T12:17:16.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.tomdican.xyz/2014/03/16/qna/</loc>
-    <lastmod>2017-02-08T10:55:17.558Z</lastmod>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     <data>
         <display>
         <title>Questions and Answers</title>
@@ -156,7 +118,7 @@
     
   <url>
     <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
-    <lastmod>2017-02-08T10:55:17.557Z</lastmod>
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     <data>
         <display>
         <title>Questions and Answers（中文）</title>
@@ -173,12 +135,12 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2013/12/25/simplified-chinese-test/</loc>
-    <lastmod>2017-02-08T10:55:17.557Z</lastmod>
+    <loc>http://www.tomdican.xyz/2014/03/16/tag-plugins/</loc>
+    <lastmod>2017-02-24T16:54:37.860Z</lastmod>
     <data>
         <display>
-        <title>简体中文测试</title>
-        <pubTime>2013-12-25T12:17:16.000Z</pubTime>
+        <title>Tag Plugins</title>
+        <pubTime>2014-03-16T02:17:16.000Z</pubTime>
         
          
            
@@ -191,12 +153,12 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/tag-plugins-cn/</loc>
-    <lastmod>2017-02-08T10:55:17.556Z</lastmod>
+    <loc>http://www.tomdican.xyz/2014/10/18/hello-world/</loc>
+    <lastmod>2017-02-24T16:54:37.860Z</lastmod>
     <data>
         <display>
-        <title>Tag Plugins（中文）</title>
-        <pubTime>2014-03-16T02:10:16.000Z</pubTime>
+        <title>Hello World</title>
+        <pubTime>2014-10-18T15:38:19.000Z</pubTime>
         
          
            
@@ -208,6 +170,79 @@
     </url>
 
     
+  <url>
+    <loc>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</loc>
+    <lastmod>2017-02-24T16:54:37.860Z</lastmod>
+    <data>
+        <display>
+        <title>Lorem Ipsum</title>
+        <pubTime>2014-03-15T12:17:16.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.tomdican.xyz/2017/02/25/baidu_verify_hDarFueSBy/</loc>
+    <lastmod>2017-02-24T16:54:37.845Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2017-02-24T16:39:47.860Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://www.tomdican.xyz/2017/02/23/general-commands/</loc>
+    <lastmod>2017-02-23T05:51:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>general-commands</title>
+        <pubTime>2017-02-23T05:51:25.000Z</pubTime>
+        
+        <tag>guide,command</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.tomdican.xyz/2017/02/10/vim-commands/</loc>
+    <lastmod>2017-02-10T05:38:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>vim-commands</title>
+        <pubTime>2017-02-10T05:38:51.000Z</pubTime>
+        
+        <tag>vim,tech,guide</tag>
+         
+         
+           
+             
+              <breadCrumb title="Docs" url="http://www.tomdican.xyz/categories/Docs/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://www.tomdican.xyz/2017/02/07/readProduct/</loc>
@@ -350,14 +385,14 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     <data>
         <display>
-        <title>Mongodb-guide</title>
+        <title>git-guide</title>
         <pubTime>2017-01-19T18:12:11.000Z</pubTime>
         
-        <tag>技术,mongo,指南</tag>
+        <tag>技术,git,指南,guide</tag>
          
          
            
@@ -370,14 +405,14 @@
 
     
   <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
+    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     <data>
         <display>
-        <title>git-guide</title>
+        <title>Mongodb-guide</title>
         <pubTime>2017-01-19T18:12:11.000Z</pubTime>
         
-        <tag>技术,git,指南,guide</tag>
+        <tag>技术,mongo,指南</tag>
          
          
            
