@@ -2,21 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.tomdican.xyz/2014/03/16/qna/</loc>
+    
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</loc>
-    
-    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/reading/index.html</loc>
-    
-    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/2014/03/15/code-highlight/</loc>
     
     <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     
@@ -31,6 +24,13 @@
   
   <url>
     <loc>http://www.tomdican.xyz/baidu_verify_hDarFueSBy.html</loc>
+    
+    <lastmod>2017-02-24T16:54:37.876Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.tomdican.xyz/2014/03/15/code-highlight/</loc>
     
     <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     
@@ -58,16 +58,23 @@
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/qna/</loc>
+    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
     
     <lastmod>2017-02-24T16:54:37.876Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.tomdican.xyz/2014/03/16/qna-cn/</loc>
+    <loc>http://www.tomdican.xyz/reading/index.html</loc>
     
     <lastmod>2017-02-24T16:54:37.876Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</loc>
+    
+    <lastmod>2017-02-24T16:54:37.860Z</lastmod>
     
   </url>
   
@@ -80,13 +87,6 @@
   
   <url>
     <loc>http://www.tomdican.xyz/2014/10/18/hello-world/</loc>
-    
-    <lastmod>2017-02-24T16:54:37.860Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</loc>
     
     <lastmod>2017-02-24T16:54:37.860Z</lastmod>
     
