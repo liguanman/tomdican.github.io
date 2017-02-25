@@ -1,13 +1,14 @@
 ---
 title: Hexo-install-config
-date: 2017-01-18 18:19:46
-tags: hexo,install,guide,tech
+date: 2017-01-20 2:12:11
+updated: 2017-01-20 2:26:26
+tags: hexo,tech,install,guide
 categories: Docs
 toc: true
-
 ---
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+
+- Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## 1 Ready
 
