@@ -84,6 +84,12 @@ toc: true
 					   - [ ] javascript
 					   - [ ] java
 
+	- 具体实现过程
+		- 用bootstrap实现瀑布流布局
+		- 测试amazon的product advertising api
+		- 测试ajax和jsonp
+			1. 了解ajax和jsonp；
+			2. 
 
 
 ## 基于定位的书籍社交
