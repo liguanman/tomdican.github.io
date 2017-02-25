@@ -30,12 +30,6 @@
     </entry>
     
     <entry>
-      <title></title>
-      <url>http://www.tomdican.xyz/2017/02/09/baidu_verify_hDarFueSBy/</url>
-      <content type="html"><![CDATA[hDarFueSBy]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[read-product]]></title>
       <url>http://www.tomdican.xyz/2017/02/07/readProduct/</url>
       <content type="html"><![CDATA[<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
@@ -687,40 +681,132 @@
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+      <title><![CDATA[Hexo-install-config]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
+      <content type="html"><![CDATA[<ul>
+<li>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</li>
+</ul>
+<h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
+<li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
+<li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
+<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
+</ul>
+<h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
+<h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
+<p>deploy.sh内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
+<p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
+<ul>
+<li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
+<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
+<p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
+<p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
+<p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
+<p>4) theme configuration<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">rss: atom.xml</div><div class="line">fancybox: true</div><div class="line">favicon: favicon.png</div><div class="line">inverse_sort: false</div><div class="line">fold: true</div><div class="line">google_analytics: true</div><div class="line">scratch_name: Others</div><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: all</div></pre></td></tr></table></figure></p>
+<p>5) add wixo theme to blog</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">vi _config.yml <span class="comment"># 修改主题后，双击大写Z保存退出</span></div></pre></td></tr></table></figure>
+<p>将theme: landscape这行改为theme: wixo,然后保存，修改主题成功</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="comment"># 清除缓存</span></div><div class="line">hexo s <span class="comment"># 开启服务，然后查看生效的主题</span></div></pre></td></tr></table></figure>
+<h3 id="2-4-Quick-Start"><a href="#2-4-Quick-Start" class="headerlink" title="2.4 Quick Start"></a>2.4 Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
+<p>也可以不用hexo new命令，直接在source/_posts目录中创建md文件，然后添加如下开头内容：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2017-01-18 18:19:46</div><div class="line">tags:</div><div class="line">categories: Docs</div><div class="line">toc: true</div><div class="line">---‘</div></pre></td></tr></table></figure></p>
+<p>其中：<br>title为博客中文章的标题；<br>tags为标签，我的博客没有使用标签；<br>categories为文章的类别，比如这篇文章在Docs类别里面，博客会自动识别然后将文章进行分类，这是关键的地方；<br>toc为文章中内容的目录结构；<br>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="3-Blog-Configuration（optional）"><a href="#3-Blog-Configuration（optional）" class="headerlink" title="3 Blog Configuration（optional）"></a>3 Blog Configuration（optional）</h2><p>不进行博客的配置，部署到网上也能使用，影响不大，根据自己需要进行配置。</p>
+<p>1) 修改博客标题和域名<br>打开hexo/blog/_config.yml文件，下面仅仅列出我修改的内容，没列出的内容保持默认就行<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: Hexo # 从title: Hexo改为title: 你的标题</div><div class="line">url: http://tomdican.github.io  # 更改为你的域名</div><div class="line"></div><div class="line">#search</div><div class="line">search:</div><div class="line"> path: search.xml</div><div class="line"> field: all</div></pre></td></tr></table></figure></p>
+<p>2) 添加网站统计</p>
+<p>google analytics用来收集访问用户的情况，不蒜子用来在页面显示用户访问量。</p>
+<ul>
+<li>google analytics</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> theme/wixo</div><div class="line">vi _config.yml <span class="comment"># 改为google_analytics: true,保存退出</span></div><div class="line">vi layout\_partial\post\google_analytics.ejs <span class="comment">#粘贴来自google analytics网站的脚本，获取脚本的步骤如下所示</span></div></pre></td></tr></table></figure>
+<p>首先登录到<a href="https//analytics.google.com">google统计网站</a>,添加个人的域名成功后，进入admin&gt;user management&gt;tracking info&gt;tracking code后，选择website tracking中的脚本内容复制，我脚本内容的如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">'GoogleAnalyticsObject'</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  (i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),</div><div class="line">  m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;m.parentNode.insertBefore(a,m)</div><div class="line">  &#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">'script'</span>,<span class="string">'https://www.google-analytics.com/analytics.js'</span>,<span class="string">'ga'</span>);</div><div class="line"></div><div class="line">  ga(<span class="string">'create'</span>, <span class="string">'xxxxxxxxxxxxxxx'</span>, <span class="string">'auto'</span>);</div><div class="line">  ga(<span class="string">'send'</span>, <span class="string">'pageview'</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure></p>
+<p>当把博客部署到网上后，就能看到google analytics的统计信息了。</p>
+<ul>
+<li>访客统计</li>
+</ul>
+<p>使用<a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子统计</a>，简单好用，我仅仅添加了本站访问总量，在wixo\layout_partial\gooter.ejs文件中修改为如下内容：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wix</div><div class="line">o<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>3) 添加站内搜索</p>
+<p>需要安装sitemap插件，引导搜索引擎爬取<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-sitemap --save</div><div class="line">npm install hexo-generator-baidu-sitemap --save  <span class="comment"># 百度不能抓取github</span></div><div class="line">vi  _config.yml <span class="comment"># 添加sitemap的配置，然后保存退出</span></div></pre></td></tr></table></figure></p>
+<p>在_config.yml中添加sitemap配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">- hexo-generator-sitemap</div><div class="line"></div><div class="line">#sitemap</div><div class="line">sitemap:</div><div class="line"> path: sitemap.xml</div><div class="line"># 百度无法抓取github</div><div class="line">baidusitemap:</div><div class="line"> path: baidusitemap.xml</div></pre></td></tr></table></figure></p>
+<p>重启hexo服务，输入<a href="http://localhost:4000/sitemap.xml" target="_blank" rel="external">http://localhost:4000/sitemap.xml</a> 检查是否生效，然后更新github博客的部署。还需要在<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>中进行站点添加，步骤如下：</p>
+<ul>
+<li>确保google analytics已经加入博客中;</li>
+<li>进入<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>；</li>
+<li>添加你的域名站点，比如我的，<a href="https://tomdican.github.io；" target="_blank" rel="external">https://tomdican.github.io；</a></li>
+<li>依次点击抓取&gt;站点地图，在页面右上角点击添加站点地图；</li>
+<li>在输入框中输入sitemap.xml即可，会显示网页数量。</li>
+</ul>
+<p>不能用于github。登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<a href="http://www.tomdican.xyz/baidusitemap.xml。">http://www.tomdican.xyz/baidusitemap.xml。</a></p>
+<p>第二天就能通过搜索引擎查看到你的网站。</p>
+<p>4) 添加rss</p>
+<ul>
+<li>首先安装rss插件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-feed  --save</div><div class="line">vi _config.yml  <span class="comment"># 添加rss内容如下</span></div></pre></td></tr></table></figure>
+<p>在_config.yml添加如下内容</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">#Feed Atom</div><div class="line">feed:</div><div class="line"> type: atom</div><div class="line"> path: atom.xml</div><div class="line"> limit: 20</div></pre></td></tr></table></figure>
+<ul>
+<li>页面样式配置<br>我的博客有rss功能，也有github链接，但注释掉了，只需要添加wixo\layout_partial\footer.ejs文件的注释行就行，用于在页面显示，如下所示：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- &lt;a href="&lt;%= config.root %&gt;&lt;%= theme.rss %&gt;"&gt;rss&lt;/a&gt;</span></div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      &lt;a href="https://github.com/tomdican/tomdican.github.io"&gt;github&lt;/a&gt;</div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      --&gt;</div><div class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line">      Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wixo<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>5） 调整文章标题字体大小</p>
+<p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
+<ul>
+<li>download<ul>
+<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
 </li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+<li>config<ul>
+<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;</li>
+<li>dropbox command</li>
+</ul>
 </li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
+<ul>
+<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
+<h2 id="coding-net-optional"><a href="#coding-net-optional" class="headerlink" title="coding.net (optional)"></a>coding.net (optional)</h2><p>20170209 added</p>
+<ul>
+<li>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure>
+<pre><code>在cofig文件中，添加coding.net的git地址：
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[remote <span class="string">"origin"</span>]</div><div class="line">        url = https://github.com/tomdican/tomdican.github.io.git</div><div class="line">        url = https://git.coding.net/tomdican/tomdican.coding.me.git</div><div class="line">        fetch = +refs/heads/*:refs/remotes/origin/*</div></pre></td></tr></table></figure>
+<ul>
+<li>将coding中的pages服务选项，<ul>
+<li>选择master分支</li>
+<li>绑定域名，我的是tomdican.xyz</li>
+</ul>
 </li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+<li>将域名解析进行设置<ul>
+<li>其中coding.me选择默认服务商，github选择海外服务商</li>
+</ul>
 </li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</ul>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
+<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
+<ul>
+<li>in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;</li>
+<li>commit to the hexo-blog branch of github;</li>
+<li>update blog;</li>
+</ul>
 </li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+<li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
 </li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+<li><p>bug3 toc structure too long without scroll </p>
 </li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+</ul>
 ]]></content>
     </entry>
     
@@ -792,6 +878,44 @@
 <p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
 <p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
 ]]></content>
     </entry>
     
@@ -1176,134 +1300,6 @@
 </tbody>
 </table>
 <p>罗兰巴特、鲍亚士、刘易斯·芒福德，諾思洛普·弗萊、伊格尔顿   |   |  |黑格尔、康德、马克思、叔本华、尼采、杜威、维特根斯坦、波普尔、佛洛依德、斯特劳斯、拉康、福柯、德留兹、罗兰巴特、鲍亚士、刘易斯芒福德、佛莱、伊格尔顿<br>|   经典  |   莎士比亚、但丁、荷马、弥尔顿、司汤达、狄更斯、陀思妥耶夫斯基、托尔斯泰、易卜生、马克吐温、萧伯纳、索尔仁尼琴、巴尔扎克、雨果、薄伽丘、海明威、柏拉图、亚里士多德、蒙田、笛福、柯尔律治、奥斯丁、达尔文、托马斯曼、索尔仁尼琴、乔伊斯、萨特、卡夫卡、罗素、普鲁斯特，庞加勒、威廉詹姆斯、罗曼罗兰、莫泊桑、米切尔、海勒、紫氏部、川端康成、渡边淳一、马尔克斯、昆德拉、莫里哀  |    神曲、伊利亚特、莎士比亚全集、浮士德、失乐园、红与黑、狄更斯全集、罪与罚、易卜生全集、萧伯纳全集、十日谈、老人与海、对话录、亚里士多德全集、蒙田随笔、鲁滨孙漂流记、尤利西斯、物种起源、第一圈、癌病房、恶心、审判、变形记、哲学问题、精神分析、追忆似水年华、科学与假设、科学与方法，心理学原理、实用主义、约翰克里斯朵夫、漂亮朋友、飘、第二十二条军规、源氏物语、雪国、失乐园、生命不能承受之轻、伪君子、无病呻呤 中国的 |     |莎士比亚全集（40集）、浮士德、神曲、伊利亚特、十日谈、蒙田随笔、鲁滨孙漂流记、尤利西斯、对话录、亚里士多德全集、失乐园、红与黑、罪与罚、老人与海、物种起源、狄更斯全集（4）、萧伯纳全集（圣女贞德、千岁人、卖花女）、易卜生全集（8卷）、变形记、约翰克里斯朵夫、漂亮朋友、源氏物语、失乐园、生命不能承受之轻、西游记、老残游记、聊斋志异、东周列国志、桃花扇、汤显祖集、元人杂剧选<br>|   诗歌  |    歌德、拜伦、柯尔律治、弥尔顿、艾略特、华兹华斯、 |     |     |<br>|  小说戏剧  |  莎士比亚、但丁、荷马、埃斯库罗斯、索福克勒斯、欧里庇得斯、阿里斯托芬、维吉尔、贺拉斯、奥维德、乔叟、塞万提斯、斯宾塞、霍布斯、弥尔顿、莫里哀、拉辛、笛福、斯威夫特、康格里夫、伏尔泰、菲尔丁、约翰逊、奥斯丁、司汤达、霍桑、狄更斯、梅尔维尔、陀思妥耶夫斯基、托尔斯泰、易卜生、马克吐温、亨利詹姆斯、萧伯纳、托马斯曼、乔伊斯、卡夫卡、索尔仁尼琴、巴尔扎克、雨果、普里莫·莱维、米兰·昆德拉论、库切、威廉·梅克比斯·萨克雷，哈代、巴尔加斯·略萨，欧内斯特·米勒尔·海明威，斯托夫人，乔万尼·薄伽丘，杰克·凯鲁亚克，乔治奥威尔，克努特·汉姆生，扎米亚京，阿道司·赫胥黎 |   |  |<br>| 随笔杂文  | 柏拉图、亚里士多德、伊壁鸠鲁、西塞罗、卢克莱修、爱比克泰德、卢奇安、奥勒留、加伦、普罗提诺、奥古斯丁、阿奎那、伊拉斯谟、路德、蒙田、培根、帕斯卡、斯宾诺莎、洛克、巴克莱、浦柏、孟德斯鸠、孔德、爱默生、彭加勒、怀特海、桑塔亚那、马利旦、施韦泽（史怀哲）、  |   |  |<br>| 传记  |普鲁塔克、拉伯雷、鲍斯维尔，阿登纳，罗曼罗兰 商业人物 摩根、洛克菲勒、安德鲁卡内基、戴尔卡内基、沃尔顿、福特、郭士纳、松下幸之助、盛田昭夫、稻盛和夫、丰田喜一郎、本田宗一郎，（住友财团、三菱财团、安田财团、三井财团） 政治人物 富兰克林、华盛顿、杰斐逊、汉密尔顿、林肯、罗斯福、尼克松、丘吉尔、维多利亚、伊丽莎白、拿破仑、希特勒、亚历山大、查理曼大帝、凯撒、列宁、斯大林、亨利八世、墨索里尼、彼得大帝、穆罕默德、毛泽东、蒋介石、孙中山，明治天皇、圣德太子   |  名人列传；巨人传； 约翰生传；富兰克林自传；读史阅世四十年；卓别林自传；甘地自传；何新人生自述；丘吉尔回忆录；梵高传；我的奋斗；蛤蟆的油；月亮和六便士；旁观者的经历；人类群星闪耀时；日本制造；沃尔顿自传；将心注入；谁说大象不会跳舞；像一块滚石；doom启示录；拿破仑传（温森特.克罗宁，其他）；人性的光辉林肯传；鞋狗、我生活的种种模式、阿拉伯的劳伦斯、领袖们、阿登纳 四卷回忆录 |  |<br>| 科学  | 希波克拉底、欧几里德、阿基米德、阿波罗尼奥斯、尼科马科斯、托勒密、达芬奇、哥白尼、吉伯特、伽利略、开普勒、哈维、惠根斯、牛顿、莱布尼茨、拉瓦锡、法拉第、赖尔、达尔文、贝尔纳、普朗克、爱因斯坦、詹姆斯·乔治·弗雷泽、马尔萨斯、卡逊、  |   |  |<br>| 历史  |修昔底德 、希罗多德、李维、塔西佗、吉本、汤恩比、布尔斯廷、費爾南·布勞岱爾（15至18世紀的物質文明、經濟和資本主義， 文明史綱， 論歷史， 資本主義的動力）、艾根·凯撒·科迪（ 第六帝国， 茜茜公主：伊丽莎白传， 弗兰茨·约瑟夫皇帝三部曲，金融风暴）；利奥波德·冯·兰克；特奥多尔·蒙森， 费尔南·布罗代尔，戈培尔，张戎   | 伯罗奔尼撒战争史；波斯战争、历史；美国人三部曲和人类文明史三部曲；The Creation of the American Republic  1776-1787；美国史(1492-1997)(第10版)(彩色插图版)；inside the third reich；中世纪之秋；意大利文艺复兴史文化史；东线；The Rise and Fall of the Third Reich；教皇史；罗马史；柏林日记；罗马帝国衰亡史；历史、编年史；《菲利普二世时期的地中海和地中海地区》、《法国经济社会史》、《十五至十八世纪的物质文明、经济和资本主义》及《资本主义论丛》，戈培尔日记，安东尼-比弗写的《斯大林格勒》，鸿；中国的  | （10个月）伯罗奔尼撒战争史、史记、罗马帝国衰亡史；美国人三部曲和人类文明史三部曲；历史研究；《十五至十八世纪的物质文明、经济和资本主义》及《资本主义论丛》；（估计500本书，每周两本要5年读完）二十四史，资治通鉴，演义史，近代史 |<br>|商业经济   |尼尔佛格森（罗斯柴尔德家族， 金钱关系， 顶级金融家，西方的衰落）查莫斯·约翰逊，艾伦•布林克利， 米尔顿·弗里德曼，凯恩斯，哈耶克，熊彼特，哈里科斯的变革中国 ，曼昆的《经济学原理》和萨缪尔森的《经济学》，顾准，森岛通夫写过一本《透视日本——兴与衰的怪圈 青木昌彦，藤本隆宏（《制品开发力》、《生产管理入门》（共2卷）、《丰田制造系统的演进》等作品，能力构据竞争）；尼尔.波兹曼（娱乐至死，技术垄断，童年的消逝），   | 反脆弱、中世纪技术与社会变化、《枪支、帆船与帝国：欧洲早期扩张时期的技术创新，1400–1700》、赛局理论和经济行为、国富论、在不确定的世界：从华尔街到华盛顿的艰难选择，房间里最聪明的人：安然公司是怎样破产的；大牛市；基业长青；长日将尽；货币崛起；通产省和日本奇迹， 反弹三部曲；我所知道的爱迪生；摩根财团；小沃森自传， 一个企业和它的信条；出版人( 亨利·卢斯和他的美国世纪)，巴菲特致股东的信， 福布斯推荐商业需要的75本书，资本主义与自由，通往奴役之路，个人主义与经济秩序， 经济发展理论，经济分析史，透视日本——兴与衰的怪圈，聪明的投资者，证劵分析  | 中世纪技术与社会变化、《枪支、帆船与帝国：欧洲早期扩张时期的技术创新，1400–1700》、赛局理论和经济行为、 |<br>| 心理学  |  罗伯特伯顿，荣格，米尔顿·艾瑞克森， 维琴尼亚·萨提尔， |  忧郁的解剖； |  |<br>| 物理学  |   |   |  |<br>| 性学，人类学  | 霭理士、马斯特，强生，西范德，金赛，鲁思·本尼迪克特，玛格丽特·米德， 格利葛利·贝特森， 法兰兹·鲍亚士  |  肉蒲团、痴婆子传、左拉、素女经、香艳丛书、性心理学的研究、裸猿、自私的基因、 |  |<br>| 管理  |  德鲁克 |   |  |<br>| 社科  |  莫提默·J.艾德勒 |   |  |<br>|  政治 | 莫尔、加尔文、休谟、卢梭、杰伊、德托克维尔、约翰穆勒、梭罗、列宁| 现代君主论、哥达纲领批判、  |  |<br>| 法律  | 女权辩护、足球比赛规则、大宪章、  |   |  |<br>| 军事  | 马基雅维利、克劳塞维茨、索尔·阿林斯基、马汉、麦金德、  |   君主论、孙子兵法、孙膑兵法、尉缭子、三略、六韬、 蓝契斯特法则、反叛手册、海军战略论、地缘政治论、|  |<br>| 文学  |   |   |  |<br>| 名家名著  |   | 论语、古兰经、圣经、佛经、道德经、塔木德经  |  |<br>| 中国 | 参考未读书籍计划 何炳棣、鬼谷子、张之洞、张舜徽、非常道、世说新语、  |   |  |<br>|  |   |   |  |</p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hexo-install-config]]></title>
-      <url>http://www.tomdican.xyz/2017/01/18/HexoInstallConfig/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
-<li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
-<li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
-<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
-</ul>
-<h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
-<h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
-<p>deploy.sh内容如下：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
-<p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
-<ul>
-<li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
-<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
-<p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
-<p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
-<p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
-<p>4) theme configuration<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">rss: atom.xml</div><div class="line">fancybox: true</div><div class="line">favicon: favicon.png</div><div class="line">inverse_sort: false</div><div class="line">fold: true</div><div class="line">google_analytics: true</div><div class="line">scratch_name: Others</div><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: all</div></pre></td></tr></table></figure></p>
-<p>5) add wixo theme to blog</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">vi _config.yml <span class="comment"># 修改主题后，双击大写Z保存退出</span></div></pre></td></tr></table></figure>
-<p>将theme: landscape这行改为theme: wixo,然后保存，修改主题成功</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="comment"># 清除缓存</span></div><div class="line">hexo s <span class="comment"># 开启服务，然后查看生效的主题</span></div></pre></td></tr></table></figure>
-<h3 id="2-4-Quick-Start"><a href="#2-4-Quick-Start" class="headerlink" title="2.4 Quick Start"></a>2.4 Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
-<p>也可以不用hexo new命令，直接在source/_posts目录中创建md文件，然后添加如下开头内容：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2017-01-18 18:19:46</div><div class="line">tags:</div><div class="line">categories: Docs</div><div class="line">toc: true</div><div class="line">---‘</div></pre></td></tr></table></figure></p>
-<p>其中：<br>title为博客中文章的标题；<br>tags为标签，我的博客没有使用标签；<br>categories为文章的类别，比如这篇文章在Docs类别里面，博客会自动识别然后将文章进行分类，这是关键的地方；<br>toc为文章中内容的目录结构；<br>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<h2 id="3-Blog-Configuration（optional）"><a href="#3-Blog-Configuration（optional）" class="headerlink" title="3 Blog Configuration（optional）"></a>3 Blog Configuration（optional）</h2><p>不进行博客的配置，部署到网上也能使用，影响不大，根据自己需要进行配置。</p>
-<p>1) 修改博客标题和域名<br>打开hexo/blog/_config.yml文件，下面仅仅列出我修改的内容，没列出的内容保持默认就行<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: Hexo # 从title: Hexo改为title: 你的标题</div><div class="line">url: http://tomdican.github.io  # 更改为你的域名</div><div class="line"></div><div class="line">#search</div><div class="line">search:</div><div class="line"> path: search.xml</div><div class="line"> field: all</div></pre></td></tr></table></figure></p>
-<p>2) 添加网站统计</p>
-<p>google analytics用来收集访问用户的情况，不蒜子用来在页面显示用户访问量。</p>
-<ul>
-<li>google analytics</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> theme/wixo</div><div class="line">vi _config.yml <span class="comment"># 改为google_analytics: true,保存退出</span></div><div class="line">vi layout\_partial\post\google_analytics.ejs <span class="comment">#粘贴来自google analytics网站的脚本，获取脚本的步骤如下所示</span></div></pre></td></tr></table></figure>
-<p>首先登录到<a href="https//analytics.google.com">google统计网站</a>,添加个人的域名成功后，进入admin&gt;user management&gt;tracking info&gt;tracking code后，选择website tracking中的脚本内容复制，我脚本内容的如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">'GoogleAnalyticsObject'</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  (i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),</div><div class="line">  m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;m.parentNode.insertBefore(a,m)</div><div class="line">  &#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">'script'</span>,<span class="string">'https://www.google-analytics.com/analytics.js'</span>,<span class="string">'ga'</span>);</div><div class="line"></div><div class="line">  ga(<span class="string">'create'</span>, <span class="string">'xxxxxxxxxxxxxxx'</span>, <span class="string">'auto'</span>);</div><div class="line">  ga(<span class="string">'send'</span>, <span class="string">'pageview'</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure></p>
-<p>当把博客部署到网上后，就能看到google analytics的统计信息了。</p>
-<ul>
-<li>访客统计</li>
-</ul>
-<p>使用<a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子统计</a>，简单好用，我仅仅添加了本站访问总量，在wixo\layout_partial\gooter.ejs文件中修改为如下内容：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wix</div><div class="line">o<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>3) 添加站内搜索</p>
-<p>需要安装sitemap插件，引导搜索引擎爬取<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-sitemap --save</div><div class="line">npm install hexo-generator-baidu-sitemap --save  <span class="comment"># 百度不能抓取github</span></div><div class="line">vi  _config.yml <span class="comment"># 添加sitemap的配置，然后保存退出</span></div></pre></td></tr></table></figure></p>
-<p>在_config.yml中添加sitemap配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">- hexo-generator-sitemap</div><div class="line"></div><div class="line">#sitemap</div><div class="line">sitemap:</div><div class="line"> path: sitemap.xml</div><div class="line"># 百度无法抓取github</div><div class="line">baidusitemap:</div><div class="line"> path: baidusitemap.xml</div></pre></td></tr></table></figure></p>
-<p>重启hexo服务，输入<a href="http://localhost:4000/sitemap.xml" target="_blank" rel="external">http://localhost:4000/sitemap.xml</a> 检查是否生效，然后更新github博客的部署。还需要在<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>中进行站点添加，步骤如下：</p>
-<ul>
-<li>确保google analytics已经加入博客中;</li>
-<li>进入<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>；</li>
-<li>添加你的域名站点，比如我的，<a href="https://tomdican.github.io；" target="_blank" rel="external">https://tomdican.github.io；</a></li>
-<li>依次点击抓取&gt;站点地图，在页面右上角点击添加站点地图；</li>
-<li>在输入框中输入sitemap.xml即可，会显示网页数量。</li>
-</ul>
-<p>不能用于github。登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<a href="http://www.tomdican.xyz/baidusitemap.xml。">http://www.tomdican.xyz/baidusitemap.xml。</a></p>
-<p>第二天就能通过搜索引擎查看到你的网站。</p>
-<p>4) 添加rss</p>
-<ul>
-<li>首先安装rss插件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-feed  --save</div><div class="line">vi _config.yml  <span class="comment"># 添加rss内容如下</span></div></pre></td></tr></table></figure>
-<p>在_config.yml添加如下内容</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">#Feed Atom</div><div class="line">feed:</div><div class="line"> type: atom</div><div class="line"> path: atom.xml</div><div class="line"> limit: 20</div></pre></td></tr></table></figure>
-<ul>
-<li>页面样式配置<br>我的博客有rss功能，也有github链接，但注释掉了，只需要添加wixo\layout_partial\footer.ejs文件的注释行就行，用于在页面显示，如下所示：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- &lt;a href="&lt;%= config.root %&gt;&lt;%= theme.rss %&gt;"&gt;rss&lt;/a&gt;</span></div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      &lt;a href="https://github.com/tomdican/tomdican.github.io"&gt;github&lt;/a&gt;</div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      --&gt;</div><div class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line">      Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wixo<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>5） 调整文章标题字体大小</p>
-<p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
-<ul>
-<li>download<ul>
-<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
-</ul>
-</li>
-<li>config<ul>
-<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;</li>
-<li>dropbox command</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
-<ul>
-<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
-</ul>
-<h2 id="coding-net-optional"><a href="#coding-net-optional" class="headerlink" title="coding.net (optional)"></a>coding.net (optional)</h2><p>20170209 added</p>
-<ul>
-<li>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure>
-<pre><code>在cofig文件中，添加coding.net的git地址：
-</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[remote <span class="string">"origin"</span>]</div><div class="line">        url = https://github.com/tomdican/tomdican.github.io.git</div><div class="line">        url = https://git.coding.net/tomdican/tomdican.coding.me.git</div><div class="line">        fetch = +refs/heads/*:refs/remotes/origin/*</div></pre></td></tr></table></figure>
-<ul>
-<li>将coding中的pages服务选项，<ul>
-<li>选择master分支</li>
-<li>绑定域名，我的是tomdican.xyz</li>
-</ul>
-</li>
-<li>将域名解析进行设置<ul>
-<li>其中coding.me选择默认服务商，github选择海外服务商</li>
-</ul>
-</li>
-</ul>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
-<h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
-<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
-<ul>
-<li>in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;</li>
-<li>commit to the hexo-blog branch of github;</li>
-<li>update blog;</li>
-</ul>
-</li>
-<li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
-</li>
-<li><p>bug3 toc structure too long without scroll </p>
-</li>
-</ul>
 ]]></content>
     </entry>
     
