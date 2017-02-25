@@ -66,6 +66,10 @@ rm -rf subdir/.git
 git rm --cached subdir/* -r
 git add subdir/*
 
+14. change remote repo  _20170224 9:51_
+git reset origin/master
+git remote  set-url origin "git repo url"
+
 
 ## gitlab
 
