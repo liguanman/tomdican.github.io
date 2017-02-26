@@ -1,5 +1,5 @@
 ---
-title: 经典书籍的日记
+title: great-book-record
 date: 2017-01-19 14:42:41
 updated: 2017-01-20 02:43:43
 tags: 书籍,经典,日记

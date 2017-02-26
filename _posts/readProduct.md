@@ -89,7 +89,11 @@ toc: true
 		- 测试amazon的product advertising api
 		- 测试ajax和jsonp
 			1. 了解ajax和jsonp；
-			2. 
+		- 搭建spring boot
+			1. restfull
+			2. mongodb
+			3. cross domain
+	
 
 
 ## 基于定位的书籍社交
