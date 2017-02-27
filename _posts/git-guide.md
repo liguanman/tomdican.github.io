@@ -70,6 +70,11 @@ git add subdir/*
 git reset origin/master
 git remote  set-url origin "git repo url"
 
+15.  addd a git repo url in exit project without git repo
+cp .git    projectDir  -rf
+git add -A
+git commit -am "init"
+git push  -u origin master
 
 ## gitlab
 
