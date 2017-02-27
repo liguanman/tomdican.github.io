@@ -262,7 +262,13 @@
     <entry>
       <title><![CDATA[notes-memoirs]]></title>
       <url>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</url>
-      <content type="html"><![CDATA[<h2 id="角斗场上-尼克松著-20170226-22：09"><a href="#角斗场上-尼克松著-20170226-22：09" class="headerlink" title="角斗场上 尼克松著 20170226 22：09"></a>角斗场上 尼克松著 20170226 22：09</h2><ul>
+      <content type="html"><![CDATA[<h2 id="内战记-凯撒著-20170227-23：21"><a href="#内战记-凯撒著-20170227-23：21" class="headerlink" title="内战记 凯撒著 20170227 23：21"></a>内战记 凯撒著 20170227 23：21</h2><ul>
+<li>主要讲凯撒在掌握军队的情况下，与掌握政府的庞培进行战争。通过几场关键性的战役看出，凯撒能够时刻保持自己不犯大错误，有小错误或处于劣势地位时，能够在困境中充分利用自己的优势，克服自己的不足之处，一步步战胜对方，全部以实际情况为标准，不存在内心大的波动起伏。总的原则是，不进行大的行动改变，一点点来蚕食对方，不是一下子来消灭对方，哪怕自己非常有优势。</li>
+<li>大的胜利，需要大的苦难，非一般人能忍受的苦难，当时和庞培最后决斗的几场战争时，没食物，只能啃树皮，环境非常恶劣，自己的军队数量也远远少于对手。</li>
+<li>在能不战争的情况下，凯撒尽量谈判求和，能免则免。非常懂的战争的破坏性和人生的苦难太多，也从凯撒年青时候的行为看出凯撒对人生的珍惜，好好做自己该做的事情。</li>
+<li>内心是善良的人，尽量会朝好的方向走，当然一般针对大的方向，小的方向不适用此原则。</li>
+</ul>
+<h2 id="角斗场上-尼克松著-20170226-22：09"><a href="#角斗场上-尼克松著-20170226-22：09" class="headerlink" title="角斗场上 尼克松著 20170226 22：09"></a>角斗场上 尼克松著 20170226 22：09</h2><ul>
 <li>这本书主要写了作者在总统辞职之前的经历和感想。回忆了自己选为总统之前和在当总统期间的奋斗，失败过很多次，拼命的方式来工作。还有自己疾病一直缠身的痛苦，能感觉到作者的生不如死。作者在总统期间兢兢业业，时常招到别人的误解。非常喜欢读书，写书和演讲是为了稿费，因为不想动用不动产。10分钟写完。</li>
 </ul>
 <h2 id="领袖们-尼克松著-20170226-20：58"><a href="#领袖们-尼克松著-20170226-20：58" class="headerlink" title="领袖们  尼克松著 20170226 20：58"></a>领袖们  尼克松著 20170226 20：58</h2><ul>
@@ -747,44 +753,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hexo-install-config]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<ul>
@@ -915,6 +883,46 @@
     </entry>
     
     <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>cp .git    projectDir  -rf<br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
@@ -988,8 +996,12 @@
     <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
-      <content type="html"><![CDATA[<h2 id="20170226-22：42"><a href="#20170226-22：42" class="headerlink" title="20170226 22：42"></a>20170226 22：42</h2><ul>
-<li>楞严经，第20页，性非因缘，非自然性。不与暗合，不与明合。本性既不是种种相的因缘，也不是自在的。观见不与黑暗相合，也不与光明相合，当以黑暗或光明相合时，就看不到对立的一面了，但事实上观见能看到对立的一面。</li>
+      <content type="html"><![CDATA[<h2 id="20170227-22-36"><a href="#20170227-22-36" class="headerlink" title="20170227 22:36"></a>20170227 22:36</h2><ul>
+<li>楞严经，汝犹未明一切浮尘，诸幻化相，当处出生，随处灭尽，幻妄称相，其性真为妙觉明体。世间一切都是幻相，哪里出生哪里灭亡，本性本来是妙觉明体的。</li>
+<li>创世纪 21 en, Abraham的妻子生了一个儿子，在第八天就割去了包皮，妻子赶走了佣人和佣人所生的儿子，佣人将儿子放在肩上出发，走了很长一段路程后，玻璃瓶内的水喝完了，最后只能等着被渴死，佣人决定将儿子放在灌木丛内，因为不想亲眼看见自己的儿子死去，最后上帝听到了儿子的哭声，将儿子救活了，在野外生存了下来，他的妈妈给他介绍了一个埃及的姑娘作为妻子。Abraham和邻居建立了盟约，留下了盟约相关的纪念物。</li>
+</ul>
+<h2 id="20170226-22：42"><a href="#20170226-22：42" class="headerlink" title="20170226 22：42"></a>20170226 22：42</h2><ul>
+<li>楞严经，第20页，性非因缘，非自然性。不与暗合，不与明合。本性既不是种种相的因缘，也不是自在的。观见不与黑暗相合，也不与光明相合，当以黑暗或光明相合时，就看不到光明或黑暗的对立的一面了，但事实上观见能看到对立的一面。也不是不与光明或黑暗和合，当不与光明或黑暗和合时，那就是宁外一种物质，能和光明或黑暗分清楚，可事实是分不清楚。佛学只有否定或模拟两可，就没看见确定的东西存在。</li>
 <li>创世纪 20 en，Abraham来到一个国家，为了不让自己被国王杀死而让自己的妻子冒充妹妹献给国王，由于上帝通过梦境显示给国王那个妹妹是Abraham的妻子，然后第二天国王将妹妹还给了Abraham，送了一块土地和许多银子食物。Abraham拜祭上帝，上帝让Abraham有后代。17分钟写完</li>
 </ul>
 <h2 id="20170225-21：40"><a href="#20170225-21：40" class="headerlink" title="20170225 21：40"></a>20170225 21：40</h2><ul>
@@ -1266,63 +1278,14 @@
 <ul>
 <li><p>哲学(近代以后)</p>
 <ul>
-<li>近代西方哲学<pre><code>早期自然哲学
-（培根、达芬奇、牛顿等一大批科学家、哲学理论家）（主张以实验观察为基础的科学来支持解释自然的理论）
-唯理论（理性主义）
-（笛卡儿）（我思故我在，知识的最终来源是上帝，物质、灵魂互为对应平行）
-（斯宾诺莎）（强调思维/观念和广延/物质是无限的上帝的两种不同表现形态，一种为内在，一种为外在）
-（莱布尼茨）（世界由性质连续的“单子”组成，包括精神和物质，都是“单子”觉醒程度不同的表现）
-经验论（经验主义）
-（洛克）（经验是知识的唯一来源，物质有第一性质和第二性质，前者在物本身，后者则是知觉产物）
-（休谟）（最初知觉是知识的唯一来源，时空和因果都是知觉的产物）
-（贝克莱）（存在就是被自我感知，对世界整体的感知则是上帝） （德国古典哲学）
-先验唯心论
-（康德）（知识最初来源于不可言说的“物自体”，经过认识主体用时间、空间、因果性的主观规范，才成为可表述的知识或观念/现象）
-绝对唯心论
-（费希特）（经验知识，是由意识深处的绝对自我，通过不断设定非我，把握非我而产生）
-（谢林）（自然逐渐自我觉醒，发展为与客观自然对立的自我意识，然后自我意识回归到自然中去，最终会与客观的自然达到绝对同一，即能意识自身的绝对实在）
-（黑格尔）（唯心辩证法，客观唯心主义，世界在一方面，是客观存在性历史的发展演化，另一方面又是主观意识从感性到理性的不断飞跃，当意识到自我意识的发展就是客观存在性的发展时，你就达到了上帝的绝对真理）
-青年黑格尔派
-（费尔巴哈）（唯物主义，指出神是人类本质追求的外化，崇仰“爱”） 早期马克思主义（马克思）（实践论唯物主义，强调实践劳动的决定性作用，使自然一方面在人类面前呈现出客观规律，另一方面又随着人的认识的深入而不断发展——即“历史的自然，自然的历史”
-</code></pre></li>
-<li>现代西方哲学<pre><code>早期非理性主义
-（克尔凯郭尔）（否认人有固定统一的本质，强调个体存在的偶然性与自由性，此为接近上帝之路，存在主义之先驱）
-唯意志论
-（叔本华）（世界的本体是无因果的本然的意志，时空、因果则是理性认识意志的结果，人生因欲求的无止境和受阻碍而痛苦）
-（尼采）（命运由自己把握，而非上帝的规范，故主张弱肉强食的“权力意志”）
-生命哲学
-（伯格森、狄尔泰）（世界是“生命之流”在时间上的“绵延”与进化）
-新黑格尔主义
-（布拉德雷）（绝对唯心辩证法的发展）
-新康德主义
-（柯亨、卡西尔）（先验唯心论与科学哲学结合的产物，但否认独立于意识的物自体的存在） 现代英美哲学
-功利主义
-（边沁、密尔）（社会上人的行为其实是在追求个人幸福的最大化）
-实用主义
-（詹姆士、杜威）（事物成为知识对象的前提，就是它的实用性，只有经过人的追求和实验，才能得到真理）
-早期分析哲学
-（弗雷格、罗素、维特根斯坦）（主张逻辑本体论，世界的本体并非分离的实体，而是相互关联的逻辑关系）
-后期分析哲学
-（维特根斯坦、斯特劳森、罗蒂等）（认为哲学问题的产生是日常的语言遭到错误理解的结果，主张从语义进行分析达到语言与实在的本质关系）
-证伪主义科学哲学
-（波普尔）（否认科学可以达到绝对真理，提出三个世界——物质世界、精神世界、观念世界）
-历史主义科学哲学
-（库恩、费耶阿本德）（反对以脱离实践的纯粹逻辑作为表述世界的方式，而强调科学经验在历史上的积累）
-弗洛伊德主义
-（弗洛伊德）（强调潜意识和性欲对个人行为的决定性作用，梦、文明活动等是潜意识受外在道德压抑而在意识层面变相体现的结果）
-西方马克思主义
-之法兰克福学派（马尔库塞、哈伯马斯）（以马克思的辩证法、弗洛伊德的本能说，着重研究物质文明对人的奴役与异化作用，主张改变人的社会交往模式，减轻资本主义的社会危机）
-现象学/欧陆哲学
-（胡塞尔）（提出现象学方法，主张回到事物本身，研究意识对知识的构建性作用）
-存在主义
-（海德格尔、萨特、加缪等）（强调个人在世界上的先于反思意识的存在，是一切知识的来源，人的存在不同于物的存在，人的存在是自由的，不是被完全规定的——存在先于本质）
-解释学
-（伽达默尔、德里达）（认为对历史的研究，不可能还原为历史事实，而是现代视角与历史遗物的对话）
-结构主义
-（索绪尔、阿尔图赛、斯特劳斯、拉康)（主张对各种知识系统，优先进行整体结构的研究，并强调这种结构的先验性、永恒性，它是正确研究系统各要素的前提）
-解构主义
-（德里达、福柯、德留兹）（否认统一的知识结构的存在，批判理性在片面追求本质的同时丧失了世界的丰富性，认为人与世界、作者与读者的关系不是主客认知关系，而是主体间对话关系，肯定思想的多元化）
-</code></pre></li>
+<li>近代西方哲学<ul>
+<li>早期自然哲学<br>  （培根、达芬奇、牛顿等一大批科学家、哲学理论家）（主张以实验观察为基础的科学来支持解释自然的理论）<br>  唯理论（理性主义）<br>  （笛卡儿）（我思故我在，知识的最终来源是上帝，物质、灵魂互为对应平行）<br>  （斯宾诺莎）（强调思维/观念和广延/物质是无限的上帝的两种不同表现形态，一种为内在，一种为外在）<br>  （莱布尼茨）（世界由性质连续的“单子”组成，包括精神和物质，都是“单子”觉醒程度不同的表现）<br>  经验论（经验主义）<br>  （洛克）（经验是知识的唯一来源，物质有第一性质和第二性质，前者在物本身，后者则是知觉产物）<br>  （休谟）（最初知觉是知识的唯一来源，时空和因果都是知觉的产物）<br>  （贝克莱）（存在就是被自我感知，对世界整体的感知则是上帝） （德国古典哲学）<br>  先验唯心论<br>  （康德）（知识最初来源于不可言说的“物自体”，经过认识主体用时间、空间、因果性的主观规范，才成为可表述的知识或观念/现象）<br>  绝对唯心论<br>  （费希特）（经验知识，是由意识深处的绝对自我，通过不断设定非我，把握非我而产生）<br>  （谢林）（自然逐渐自我觉醒，发展为与客观自然对立的自我意识，然后自我意识回归到自然中去，最终会与客观的自然达到绝对同一，即能意识自身的绝对实在）<br>  （黑格尔）（唯心辩证法，客观唯心主义，世界在一方面，是客观存在性历史的发展演化，另一方面又是主观意识从感性到理性的不断飞跃，当意识到自我意识的发展就是客观存在性的发展时，你就达到了上帝的绝对真理）<br>  青年黑格尔派<br>  （费尔巴哈）（唯物主义，指出神是人类本质追求的外化，崇仰“爱”） 早期马克思主义（马克思）（实践论唯物主义，强调实践劳动的决定性作用，使自然一方面在人类面前呈现出客观规律，另一方面又随着人的认识的深入而不断发展——即“历史的自然，自然的历史”</li>
+<li>现代西方哲学<ul>
+<li>早期非理性主义<br>   （克尔凯郭尔）（否认人有固定统一的本质，强调个体存在的偶然性与自由性，此为接近上帝之路，存在主义之先驱）<br>  唯意志论<br>  （叔本华）（世界的本体是无因果的本然的意志，时空、因果则是理性认识意志的结果，人生因欲求的无止境和受阻碍而痛苦）<br>  （尼采）（命运由自己把握，而非上帝的规范，故主张弱肉强食的“权力意志”）<br>  生命哲学<br>  （伯格森、狄尔泰）（世界是“生命之流”在时间上的“绵延”与进化）<br>  新黑格尔主义<br>  （布拉德雷）（绝对唯心辩证法的发展）<br>  新康德主义<br>  （柯亨、卡西尔）（先验唯心论与科学哲学结合的产物，但否认独立于意识的物自体的存在） 现代英美哲学<br>  功利主义<br>  （边沁、密尔）（社会上人的行为其实是在追求个人幸福的最大化）<br>  实用主义<br>  （詹姆士、杜威）（事物成为知识对象的前提，就是它的实用性，只有经过人的追求和实验，才能得到真理）<br>  早期分析哲学<br>  （弗雷格、罗素、维特根斯坦）（主张逻辑本体论，世界的本体并非分离的实体，而是相互关联的逻辑关系）<br>  后期分析哲学<br>  （维特根斯坦、斯特劳森、罗蒂等）（认为哲学问题的产生是日常的语言遭到错误理解的结果，主张从语义进行分析达到语言与实在的本质关系）<br>  证伪主义科学哲学<br>  （波普尔）（否认科学可以达到绝对真理，提出三个世界——物质世界、精神世界、观念世界）<br>  历史主义科学哲学<br>  （库恩、费耶阿本德）（反对以脱离实践的纯粹逻辑作为表述世界的方式，而强调科学经验在历史上的积累）<br>  弗洛伊德主义<br>  （弗洛伊德）（强调潜意识和性欲对个人行为的决定性作用，梦、文明活动等是潜意识受外在道德压抑而在意识层面变相体现的结果）<br>  西方马克思主义<br>  之法兰克福学派（马尔库塞、哈伯马斯）（以马克思的辩证法、弗洛伊德的本能说，着重研究物质文明对人的奴役与异化作用，主张改变人的社会交往模式，减轻资本主义的社会危机）<br>  现象学/欧陆哲学<br>  （胡塞尔）（提出现象学方法，主张回到事物本身，研究意识对知识的构建性作用）<br>  存在主义<br>  （海德格尔、萨特、加缪等）（强调个人在世界上的先于反思意识的存在，是一切知识的来源，人的存在不同于物的存在，人的存在是自由的，不是被完全规定的——存在先于本质）<br>  解释学<br>  （伽达默尔、德里达）（认为对历史的研究，不可能还原为历史事实，而是现代视角与历史遗物的对话）<br>  结构主义<br>  （索绪尔、阿尔图赛、斯特劳斯、拉康)（主张对各种知识系统，优先进行整体结构的研究，并强调这种结构的先验性、永恒性，它是正确研究系统各要素的前提）<br>  解构主义<br>  （德里达、福柯、德留兹）（否认统一的知识结构的存在，批判理性在片面追求本质的同时丧失了世界的丰富性，认为人与世界、作者与读者的关系不是主客认知关系，而是主体间对话关系，肯定思想的多元化）</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p>历史</p>
@@ -1526,6 +1489,16 @@
     </entry>
     
     <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1544,16 +1517,6 @@
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     
