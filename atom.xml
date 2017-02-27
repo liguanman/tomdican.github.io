@@ -116,7 +116,20 @@
     <published>2017-02-07T04:48:50.000Z</published>
     <updated>2017-02-07T04:48:50.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
+    <content type="html"><![CDATA[<h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
+<li>201703月<ul>
+<li>第一周<ol>
+<li>实现页面访问服务端获取书籍信息；</li>
+<li>通过书籍名称自动获取amazon的书籍信息存入数据库；</li>
+<li>在页面实现书籍信息添加到数据库（UI）；</li>
+<li>输入推荐人名称自动显示用户微博信息存入数据库；</li>
+<li>实现微博分享书籍；</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
 <li><p><strong>目标</strong>：获取最好的书籍</p>
 </li>
 <li><p><strong>个人场景模拟</strong></p>
@@ -277,10 +290,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;个人需求&quot;&gt;&lt;a href=&quot;#个人需求&quot; class=&quot;headerlink&quot; title=&quot;个人需求&quot;&gt;&lt;/a&gt;个人需求&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;目标&lt;/strong&gt;：获取最好的书籍&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;
+      &lt;h2 id=&quot;产品迭代&quot;&gt;&lt;a href=&quot;#产品迭代&quot; class=&quot;headerlink&quot; title=&quot;产品迭代&quot;&gt;&lt;/a&gt;产品迭代&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;201703月&lt;ul&gt;
+&lt;li&gt;第一周&lt;ol&gt;
+&lt;li&gt;实现页面访问服务端获取书籍信息；&lt;/li&gt;
+&lt;li&gt;通过
     
     </summary>
     
@@ -731,7 +745,14 @@
     <published>2017-01-21T17:27:48.000Z</published>
     <updated>2017-01-21T17:27:48.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="工作场所的分析"><a href="#工作场所的分析" class="headerlink" title="工作场所的分析"></a>工作场所的分析</h2><h2 id="个人缺点分析"><a href="#个人缺点分析" class="headerlink" title="个人缺点分析"></a>个人缺点分析</h2><ul>
+    <content type="html"><![CDATA[<h2 id="无法离开生活"><a href="#无法离开生活" class="headerlink" title="无法离开生活"></a>无法离开生活</h2><ul>
+<li>世界上所有一切事物都无法离开生活，个人的工作是为了生活的保障，个人工作实现的产品是为了解决生活中的问题或更加方便生活认识生活，建筑是为了让人避开天气的恶劣环境，音乐是为了给生活带来心灵的慰藉和快乐，太多太多而无法全部列举。</li>
+<li>可是，什么是生活，世界万物到底是什么，怎么才能够实现自己想要的事物，怎么才能够和周围事物协调好。这些问题没有确定的答案，每个人的回答都完全不一样，但有一点是确定的，人类的发展过程就是不断地尝试去解决这些问题，使结果更加接近自己想要的状态。</li>
+<li>生活和所有事物都是模糊的或混沌的，当你不停地问为什么时，会让你自己喘不过气来，甚至会让你得抑郁症。举个例子，假设你想实现一个令人满意的产品，可结果是，要么总做不到你想要的状态，要么你自己觉得满意的产品可周围人不满意，而且也无法知道周围人到底想要什么类型的产品，周围人也无法描述清楚自己想要什么样的产品。</li>
+<li>周围人到底想要什么样的产品，无法回答清楚，但可以知道，人类需要生活，需要快乐，需要自我的存在，需要自我的满足，需要解决自己内心的疑惑。总的来说，就是想通过办法来实现自己想要的事物或思考自己与宇宙所产生的联系，所有这些都离不开人的意识、语言或视觉，即信息。</li>
+<li>信息对于个人来说，一定无法完全获取到，总是存在偏差，导致对事物的看法总是存在错误的认识或认识不足，这样的话，想要实现一件事情，就需要不断地实现一步然后思考然后再实现下一步，不能一步登天，想再多也是多余的。20170227 10：50，半个小时写完，以后待续。</li>
+</ul>
+<h2 id="工作场所的分析"><a href="#工作场所的分析" class="headerlink" title="工作场所的分析"></a>工作场所的分析</h2><h2 id="个人缺点分析"><a href="#个人缺点分析" class="headerlink" title="个人缺点分析"></a>个人缺点分析</h2><ul>
 <li>对所有事情太追求完美。原因为，小时候经历的事情比较少，有很浓的理想主义色彩，长大后，对周围的事情总是想完美，这就导致在小事情上面有强迫症，浪费大量精力。在重要的事情上面计划的很完美，浪费大量时间，而且行动时发现与现实不太吻合，导致执行能力很差。解决办法为，小不忍乱大谋，不重要的事情能避开就避开，重要的事情学会大概的计划，留有变动的余地，采用迭代的方式推进，说白了，首先不要把事情做的很完美，先做好基础部分就可以了。</li>
 <li>做事情需要持之以恒，一点点来完成，切记心血来潮。学会放弃周围的干扰信号，尤其一些小的不重要的事情。</li>
 </ul>
@@ -817,7 +838,8 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;工作场所的分析&quot;&gt;&lt;a href=&quot;#工作场所的分析&quot; class=&quot;headerlink&quot; title=&quot;工作场所的分析&quot;&gt;&lt;/a&gt;工作场所的分析&lt;/h2&gt;&lt;h2 id=&quot;个人缺点分析&quot;&gt;&lt;a href=&quot;#个人缺点分析&quot; class=&quot;headerlink&quot; 
+      &lt;h2 id=&quot;无法离开生活&quot;&gt;&lt;a href=&quot;#无法离开生活&quot; class=&quot;headerlink&quot; title=&quot;无法离开生活&quot;&gt;&lt;/a&gt;无法离开生活&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;世界上所有一切事物都无法离开生活，个人的工作是为了生活的保障，个人工作实现的产品是为了解决生活中
     
     </summary>
     
