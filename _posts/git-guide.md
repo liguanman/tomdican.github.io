@@ -71,7 +71,8 @@ git reset origin/master
 git remote  set-url origin "git repo url"
 
 15.  addd a git repo url in exit project without git repo
-cp .git    projectDir  -rf
+git init
+git remote add origin http://182.92.xx.xx:9090/software/profe.git
 git add -A
 git commit -am "init"
 git push  -u origin master
