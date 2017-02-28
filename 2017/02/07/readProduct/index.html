@@ -8,23 +8,19 @@
   
   <meta name="description" content="产品迭代
 201703月
+
 第一周
-实现页面访问服务端获取书籍信息；
-通过书籍名称自动获取amazon的书籍信息存入数据库；
-在页面实现书籍信息添加到数据库（UI）；
-输入推荐人名称自动显示用户微博信息存入数据库；
-实现微博分享书籍；
+
+实现页面访问服务端获取书籍信息；（正常，到周二中午完成）
+
+在mongodb的数据库中新建collection，存入book.json;
+
+admin密码重置失败；
+进入数据库后无法加载book.json;
+添加新用户的权限有些问题；
 
 
-
-
-
-个人需求
-目标：获取最好的书籍
-
-个人场景模拟
-
-我要看">
+在服务端readwor">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -125,19 +121,54 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 	  <!-- content -->
 	  <h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
-<li>201703月<ul>
-<li>第一周<ol>
-<li>实现页面访问服务端获取书籍信息；</li>
-<li>通过书籍名称自动获取amazon的书籍信息存入数据库；</li>
-<li>在页面实现书籍信息添加到数据库（UI）；</li>
-<li>输入推荐人名称自动显示用户微博信息存入数据库；</li>
-<li>实现微博分享书籍；</li>
+<li><p>201703月</p>
+<ul>
+<li><p>第一周</p>
+<ol>
+<li><p>实现页面访问服务端获取书籍信息；（正常，到周二中午完成）</p>
+<ul>
+<li><p>在mongodb的数据库中新建collection，存入book.json;</p>
+<ul>
+<li>admin密码重置失败；</li>
+<li>进入数据库后无法加载book.json;</li>
+<li>添加新用户的权限有些问题；</li>
+</ul>
+</li>
+<li><p>在服务端readworld-rest中添加相应bookReferrer的api;</p>
+</li>
+<li><p>在前端页面中通过ajax连接服务端，使用JAVASCRIPT将数据映射到页面中；</p>
+<ul>
+<li>nth-child()使用有些不能正常使用，待确定；</li>
+<li>json和jsonp需要进一步测试，是否实现自动映射数据到页面，不用遍历；</li>
+<li>当有多个子样式类时，获取失败；</li>
+</ul>
+</li>
+<li><p>在chrome，firefox，ie浏览器中都显示正常；</p>
+</li>
+</ul>
+</li>
 </ol>
 </li>
 </ul>
 </li>
 </ul>
-<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
+<pre><code>2. 通过书籍名称自动获取amazon的书籍信息存入数据库；
+
+    - 之前已经注册亚马逊的product advertising和调试通amazon的api；
+
+    - 在服务端添加amazon的api例子，能通过页面请求来查询；
+        - 在maven工程中添加本地jar成功；
+
+    - amazon的api中获取指定的字段存入数据库；
+
+    - 
+
+3. 在页面实现书籍信息添加到数据库（UI）；‘
+
+4. 输入推荐人名称自动显示用户微博信息存入数据库；
+
+5. 实现微博分享书籍；
+</code></pre><h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
 <li><p><strong>目标</strong>：获取最好的书籍</p>
 </li>
 <li><p><strong>个人场景模拟</strong></p>
