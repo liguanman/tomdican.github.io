@@ -47,4 +47,27 @@ This response not only has the person's name, but includes the self-linking URL 
 
 
 
-## 
+##  maven
+### add local jar to project
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-install-plugin</artifactId>
+    <version>2.5.2</version>
+    <executions>
+        <execution>
+            <phase>initialize</phase>
+            <goals>
+                <goal>install-file</goal>
+            </goals>
+            <configuration>
+                <file>lib/commons-codec-1.3.jar</file>
+                <groupId>com.commons.codec</groupId>
+                <artifactId>commonsCodec</artifactId>
+                <version>1.0.0</version>
+                <packaging>jar</packaging>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+```
