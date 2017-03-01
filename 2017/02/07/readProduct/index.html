@@ -157,11 +157,26 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     - 之前已经注册亚马逊的product advertising和调试通amazon的api；
 
     - 在服务端添加amazon的api例子，能通过页面请求来查询；
-        - 在maven工程中添加本地jar成功；
+        - 在maven工程中添加本地jar成功（改为远程添加）；
+            - 本地直接添加jar包有问题；
+
+        - 新建书籍查询的api；
+            - 没有relevance的排序；
+            - 查询次数有限制；
+            - 前十个结果没找到包含此名称的书籍时，默认选择第一个结果；
+            - 排序使用salesrank；
+            - 名称查找使用的Title，keyword查询不准确；
+            - 检查是否含有名称的漏洞为，可能含有的名字是陪衬，不是正确的书；
+
+        - 将数据转化为json;
+            - 使用map&lt;String,String&gt;作为返回结果；
+
 
     - amazon的api中获取指定的字段存入数据库；
+        - 区分val()、text()、html()
+        - 
 
-    - 
+    - 在页面可以查询书籍然后显示名称最合适的一本书；
 
 3. 在页面实现书籍信息添加到数据库（UI）；‘
 
