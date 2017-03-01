@@ -1,5 +1,5 @@
 ---
-title: general-commands
+title: general-tech-tricks
 date: 2017-2-23  13:51:25
 updated: 2017-2-23 13:51:25
 tags: guide,command
@@ -14,4 +14,11 @@ toc: true
 . ./cd.sh
 ```
 
+## jquery
 
+1. different from val(),text(),html();
+2. selector
+	- first-child()
+	- eq(),gt(),lt()
+
+3. 
