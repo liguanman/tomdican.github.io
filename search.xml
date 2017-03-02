@@ -28,7 +28,7 @@
 <li>go to the specified dir<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure>
 </li>
 </ol>
-<h2 id="jquery"><a href="#jquery" class="headerlink" title="jquery"></a>jquery</h2><ol>
+<h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
 <li>different from val(),text(),html();</li>
 <li><p>selector</p>
 <ul>
@@ -36,7 +36,13 @@
 <li>eq(),gt(),lt()</li>
 </ul>
 </li>
-<li></li>
+<li><p>button press style</p>
+<ul>
+<li>.btn-default:hover,.btn-default:active,.btn-default:focus {<pre><code>background-color: gray;
+box-shadow: none;
+</code></pre>}</li>
+</ul>
+</li>
 </ol>
 ]]></content>
     </entry>
