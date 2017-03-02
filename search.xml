@@ -36,11 +36,18 @@
 <li>eq(),gt(),lt()</li>
 </ul>
 </li>
-<li><p>button press style</p>
+<li><p>button press style（bootstrap）</p>
 <ul>
 <li>.btn-default:hover,.btn-default:active,.btn-default:focus {<pre><code>background-color: gray;
 box-shadow: none;
 </code></pre>}</li>
+</ul>
+</li>
+<li><p>input validation（bootstrap）</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/32933165/validate-input-fields-on-bootstrap-modal-window-button-clicks-using-angular" target="_blank" rel="external">refrence</a></li>
+<li>disable input validation , remove control-lable class</li>
+<li></li>
 </ul>
 </li>
 </ol>
@@ -116,19 +123,42 @@ box-shadow: none;
 
         - 将数据转化为json;
             - 使用map&lt;String,String&gt;作为返回结果；
+            - 使用post，获取页面的值；
 
 
     - amazon的api中获取指定的字段存入数据库；
         - 区分val()、text()、html()
-        - 
+        - 在后台添加存入数据库的代码
 
     - 在页面可以查询书籍然后显示名称最合适的一本书；
+        - 调试搜索书籍名称最合适，由于relevance无法使用
+        - 有时名称检索不对，一般少见
 
-3. 在页面实现书籍信息添加到数据库（UI）；‘
+3. 在页面实现书籍信息添加到数据库（UI）；
+        - 添加navbar没成功；
+        - bootstrap.js版本有些问题，用其他版本modal无法使用；
+        - modal远程的url没找到最高版本，后面尝试低版本试试；
+        - 添加了书籍信息和推荐人信息，写了js提交后自动关闭刷新；
+        - 在后台添加了书籍信息检查和搜索；
+        - 推荐人名称职位能存入，但微博信息api有待打通解决；
+        - 样式等navbar使用后再说把。
 
 4. 输入推荐人名称自动显示用户微博信息存入数据库；
+    - 微博用户搜索的api需要申请为新浪合作开发者才行；
+        - [详情](http://open.weibo.com/wiki/Search_API)
+    - 在后台添加获取帐号文本的类，提交到服务端，避免密码泄漏；
+    - 禁用输入框的校验，追求细节就费时间；
+    - git中添加忽略文件，需要清除缓存；
+    - 您好，搜索用户的api需要新浪开发合作者，怎样才能成为新浪开发合作者？正在开发一个书籍的产品需要调用微博的用户搜索api，或者寻找微博用户还有qita其他api吗。
+    - AccessToken [accessToken=2.00UIbp9C0sWJ9K30e4412d1bAGAUVE, expireIn=157679999, refreshToken=,uid=2258300554];
+    - [weibo api test](http://open.weibo.com/tools/console)
+    - [搜索微博用户的api](http://open.weibo.com/wiki/2/search/suggestions/users)
+    - 接口页面  : [注册授权后](http://open.weibo.com/apps/154473178/privilege);[不用注册的](http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI)
+    - [新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)。1.注册；2.填写开发资料邮箱手机认证；3.创建应用；4.下载SDK；5.查看readme；6.获取access_token,其中回调地址随便添加只要格式正确；7.可通过api工具测试或者直接用sdk测试。
 
 5. 实现微博分享书籍；
+    - 微博分享连接，&lt;meta property=&quot;wb:webmaster&quot; content=&quot;c5e337bc54783748&quot; /&gt;
+    - 
 </code></pre><h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
 <li><p><strong>目标</strong>：获取最好的书籍</p>
 </li>
@@ -949,46 +979,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
@@ -1060,9 +1050,57 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
-      <content type="html"><![CDATA[<h2 id="20170301-23-45"><a href="#20170301-23-45" class="headerlink" title="20170301 23:45"></a>20170301 23:45</h2><ul>
+      <content type="html"><![CDATA[<h2 id="20170302-23：20"><a href="#20170302-23：20" class="headerlink" title="20170302 23：20"></a>20170302 23：20</h2><ul>
+<li>楞严经，第二卷最后一段。如是虚空，非彼方来，非此方入。虚空不是从另一个地方来的，也不是从这个地方进入的。假设从另一个地方来的，那就会到另一个地方去，那应该这个地方少一些虚空才对，如果从这个地方进去的，那就应该能让虚空从瓶子里面出来。瓶子里面的虚空不是因缘而来，也不是自有自在。从这个意思可以看出，所有事物的背后本质不是你所认为的那样子，根本就没有本质，不是这，也不是那，不是正面也不是反面。</li>
+<li>创世纪 24 en，Abraham快死之前要他的管家去老家为儿子isaac找一个妻子，在天使的指引下，最后找到了未婚妻，然后带到了isaac定居的地方。</li>
+</ul>
+<h2 id="20170301-23-45"><a href="#20170301-23-45" class="headerlink" title="20170301 23:45"></a>20170301 23:45</h2><ul>
 <li>楞严经，不从梅生，非从口入，若梅生者，梅合自谈，若从口入，自合口闻，何须待耳。通过梅流口水，不是由梅产生的，也不是从口进来的，也不是单独从耳朵产生的，不是单一某一个事物产生的，需要多个事物组合。</li>
 <li>创世纪 23 en，Abraham的妻子一百二十岁死了，去请求老家获得一块死后能安葬自己地方，最后老家的人同意了，向对方支付了钱。7分钟写完</li>
 </ul>
@@ -1563,16 +1601,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1591,6 +1619,16 @@ box-shadow: none;
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     
