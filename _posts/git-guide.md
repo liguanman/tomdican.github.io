@@ -77,6 +77,14 @@ git add -A
 git commit -am "init"
 git push  -u origin master
 
+16. undo git add
+git reset
+
+17. git ignore  a file
+add file path in .gitignore
+git rm --cache 'file path'
+
+
 ## gitlab
 
 Git global setup
