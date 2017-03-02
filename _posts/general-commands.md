@@ -14,11 +14,15 @@ toc: true
 . ./cd.sh
 ```
 
-## jquery
+## jquery-css
 
 1. different from val(),text(),html();
 2. selector
 	- first-child()
 	- eq(),gt(),lt()
 
-3. 
+3. button press style
+	- .btn-default:hover,.btn-default:active,.btn-default:focus {
+		  background-color: gray;
+		  box-shadow: none;
+  }
