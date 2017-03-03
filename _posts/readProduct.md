@@ -76,6 +76,18 @@ toc: true
 	- 添加weibo中sdk的相关搜索用户和显示用户详情这两个API到服务端中，由于类引用的问题和包的问题，需要将一个个没引用的类加入到服务端中，发现微博api相关类太多了太繁杂；
 	- 服务端刚启动，马上使用亚马逊api查询会报错需要等会儿才行。
 	- 添加完成服务端微博api查询然后存入数据库的操作
+	- 问题，maven下载的jar包没看到
+	- 微博api调用频率限制蛮高
+	- list-group
+```html
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">...</p>
+  </a>
+</div>
+```
+	- 添加下拉样式覆盖下面内容，使用z-index：1和position：absolute
 
 - 5.实现微博分享书籍；
 	- 微博分享连接，<meta property="wb:webmaster" content="c5e337bc54783748" />
