@@ -12,80 +12,74 @@ toc: true
 
 - 201703月
 	- 第一周
-		1. 实现页面访问服务端获取书籍信息；（正常，到周二中午完成）
-			- 在mongodb的数据库中新建collection，存入book.json;
-				- admin密码重置失败；
-				- 进入数据库后无法加载book.json;
-				- 添加新用户的权限有些问题；
-				
-			- 在服务端readworld-rest中添加相应bookReferrer的api;
-		
-			- 在前端页面中通过ajax连接服务端，使用JAVASCRIPT将数据映射到页面中；
-				- nth-child()使用有些不能正常使用，待确定；
-				- json和jsonp需要进一步测试，是否实现自动映射数据到页面，不用遍历；
-				- 当有多个子样式类时，获取失败；
+- 1.实现页面访问服务端获取书籍信息；（正常，到周二中午完成）
+	- 在mongodb的数据库中新建collection，存入book.json;
+		- admin密码重置失败；
+		- 进入数据库后无法加载book.json;
+		- 添加新用户的权限有些问题；
+
+	- 在服务端readworld-rest中添加相应bookReferrer的api;
+
+	- 在前端页面中通过ajax连接服务端，使用JAVASCRIPT将数据映射到页面中；
+		- nth-child()使用有些不能正常使用，待确定；
+		- json和jsonp需要进一步测试，是否实现自动映射数据到页面，不用遍历；
+		- 当有多个子样式类时，获取失败；
+
+	- 在chrome，firefox，ie浏览器中都显示正常；
+- 2.通过书籍名称自动获取amazon的书籍信息存入数据库；
 			
-			- 在chrome，firefox，ie浏览器中都显示正常；
+	- 之前已经注册亚马逊的product advertising和调试通amazon的api；
 
+	- 在服务端添加amazon的api例子，能通过页面请求来查询；
+		- 在maven工程中添加本地jar成功（改为远程添加）；
+			- 本地直接添加jar包有问题；
 
-		2. 通过书籍名称自动获取amazon的书籍信息存入数据库；
+		- 新建书籍查询的api；
+			- 没有relevance的排序；
+			- 查询次数有限制；
+			- 前十个结果没找到包含此名称的书籍时，默认选择第一个结果；
+			- 排序使用salesrank；
+			- 名称查找使用的Title，keyword查询不准确；
+			- 检查是否含有名称的漏洞为，可能含有的名字是陪衬，不是正确的书；
+		- 将数据转化为json;
+			- 使用map<String,String>作为返回结果；
+			- 使用post，获取页面的值；
+	- amazon的api中获取指定的字段存入数据库；
+		- 区分val()、text()、html()
+		- 在后台添加存入数据库的代码
+
+	- 在页面可以查询书籍然后显示名称最合适的一本书；
+		- 调试搜索书籍名称最合适，由于relevance无法使用
+		- 有时名称检索不对，一般少见
+- 3.在页面实现书籍信息添加到数据库（UI）；
+	- 添加navbar没成功；
+	- bootstrap.js版本有些问题，用其他版本modal无法使用；
+	- modal远程的url没找到最高版本，后面尝试低版本试试；
+	- 添加了书籍信息和推荐人信息，写了js提交后自动关闭刷新；
+	- 在后台添加了书籍信息检查和搜索；
+	- 推荐人名称职位能存入，但微博信息api有待打通解决；
+	- 样式等navbar使用后再说把。
 			
-			- 之前已经注册亚马逊的product advertising和调试通amazon的api；
+- 4.输入推荐人名称自动显示用户微博信息存入数据库；
+	- 微博用户搜索的api需要申请为新浪合作开发者才行；
+		- [详情](http://open.weibo.com/wiki/Search_API)
+	- 在后台添加获取帐号文本的类，提交到服务端，避免密码泄漏；
+	- 禁用输入框的校验，追求细节就费时间；
+	- git中添加忽略文件，需要清除缓存；
+	- 您好，搜索用户的api需要新浪开发合作者，怎样才能成为新浪开发合作者？正在开发一个书籍的产品需要调用微博的用户搜索api，或者寻找微博用户还有qita其他api吗。
+	- AccessToken [accessToken=, expireIn=157679999, refreshToken=,uid=2258300554];
+	- [weibo api test](http://open.weibo.com/tools/console)
+	- [搜索微博用户的api](http://open.weibo.com/wiki/2/search/suggestions/users)
+	- 接口页面  : [注册授权后](http://open.weibo.com/apps/154473178/privilege);[不用注册的](http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI)
+	- [新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)。1.注册；2.填写开发资料邮箱手机认证；3.创建应用；4.下载SDK；5.查看readme；6.获取access_token,其中回调地址随便添加只要格式正确；7.可通过api工具测试或者直接用sdk测试。
+	- 遇到的问题：base64三个不同包，[例子](https://www.javacodegeeks.com/2014/04/base64-in-java-8-its-not-too-late-to-join-in-the-fun.html)
+	- 添加weibo中sdk的相关搜索用户和显示用户详情这两个API到服务端中，由于类引用的问题和包的问题，需要将一个个没引用的类加入到服务端中，发现微博api相关类太多了太繁杂；
+	- 服务端刚启动，马上使用亚马逊api查询会报错需要等会儿才行。
+	- 添加完成服务端微博api查询然后存入数据库的操作
 
-			- 在服务端添加amazon的api例子，能通过页面请求来查询；
-				- 在maven工程中添加本地jar成功（改为远程添加）；
-					- 本地直接添加jar包有问题；
-					
-				- 新建书籍查询的api；
-					- 没有relevance的排序；
-					- 查询次数有限制；
-					- 前十个结果没找到包含此名称的书籍时，默认选择第一个结果；
-					- 排序使用salesrank；
-					- 名称查找使用的Title，keyword查询不准确；
-					- 检查是否含有名称的漏洞为，可能含有的名字是陪衬，不是正确的书；
-
-				- 将数据转化为json;
-					- 使用map<String,String>作为返回结果；
-					- 使用post，获取页面的值；
-
-				
-			- amazon的api中获取指定的字段存入数据库；
-				- 区分val()、text()、html()
-				- 在后台添加存入数据库的代码
-
-			- 在页面可以查询书籍然后显示名称最合适的一本书；
-				- 调试搜索书籍名称最合适，由于relevance无法使用
-				- 有时名称检索不对，一般少见
-		
-		3. 在页面实现书籍信息添加到数据库（UI）；
-				- 添加navbar没成功；
-				- bootstrap.js版本有些问题，用其他版本modal无法使用；
-				- modal远程的url没找到最高版本，后面尝试低版本试试；
-				- 添加了书籍信息和推荐人信息，写了js提交后自动关闭刷新；
-				- 在后台添加了书籍信息检查和搜索；
-				- 推荐人名称职位能存入，但微博信息api有待打通解决；
-				- 样式等navbar使用后再说把。
-			
-		4. 输入推荐人名称自动显示用户微博信息存入数据库；
-			- 微博用户搜索的api需要申请为新浪合作开发者才行；
-				- [详情](http://open.weibo.com/wiki/Search_API)
-			- 在后台添加获取帐号文本的类，提交到服务端，避免密码泄漏；
-			- 禁用输入框的校验，追求细节就费时间；
-			- git中添加忽略文件，需要清除缓存；
-			- 您好，搜索用户的api需要新浪开发合作者，怎样才能成为新浪开发合作者？正在开发一个书籍的产品需要调用微博的用户搜索api，或者寻找微博用户还有qita其他api吗。
-			- AccessToken [accessToken=, expireIn=157679999, refreshToken=,uid=2258300554];
-			- [weibo api test](http://open.weibo.com/tools/console)
-			- [搜索微博用户的api](http://open.weibo.com/wiki/2/search/suggestions/users)
-			- 接口页面  : [注册授权后](http://open.weibo.com/apps/154473178/privilege);[不用注册的](http://open.weibo.com/wiki/%E5%BE%AE%E5%8D%9AAPI)
-			- [新手指南](http://open.weibo.com/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)。1.注册；2.填写开发资料邮箱手机认证；3.创建应用；4.下载SDK；5.查看readme；6.获取access_token,其中回调地址随便添加只要格式正确；7.可通过api工具测试或者直接用sdk测试。
-			- 遇到的问题：base64三个不同包，[例子](https://www.javacodegeeks.com/2014/04/base64-in-java-8-its-not-too-late-to-join-in-the-fun.html)
-			- 添加weibo中sdk的相关搜索用户和显示用户详情这两个API到服务端中，由于类引用的问题和包的问题，需要将一个个没引用的类加入到服务端中，发现微博api相关类太多了太繁杂；
-			- 服务端刚启动，马上使用亚马逊api查询会报错需要等会儿才行。
-			- 添加完成服务端微博api查询然后存入数据库的操作
-			
-		5. 实现微博分享书籍；
-			- 微博分享连接，<meta property="wb:webmaster" content="c5e337bc54783748" />
-			- 
+- 5.实现微博分享书籍；
+	- 微博分享连接，<meta property="wb:webmaster" content="c5e337bc54783748" />
+	- 
 
 
 
