@@ -61,7 +61,8 @@
 </li>
 </ol>
 <h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
-<li>different from val(),text(),html();</li>
+<li><p>different from val(),text(),html();</p>
+</li>
 <li><p>selector</p>
 <ul>
 <li>first-child()</li>
@@ -79,9 +80,12 @@ box-shadow: none;
 <ul>
 <li><a href="https://stackoverflow.com/questions/32933165/validate-input-fields-on-bootstrap-modal-window-button-clicks-using-angular" target="_blank" rel="external">refrence</a></li>
 <li>disable input validation , remove control-lable class</li>
-<li>stack order of the element<br>  z-index: 1;z-index:-1</li>
-<li></li>
 </ul>
+</li>
+<li><p>stack order of the element</p>
+<pre><code>z-index: 1;z-index:-1
+</code></pre></li>
+<li><p>jquery change  css value，$( this ).css( “width”, “+=200” )</p>
 </li>
 </ol>
 ]]></content>
@@ -244,8 +248,9 @@ box-shadow: none;
 <li><p>list-group</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"list-group"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span> <span class="attr">class</span>=<span class="string">"list-group-item active"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"list-group-item-heading"</span>&gt;</span>List group item heading<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"list-group-item-text"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
 </li>
-<li><p>添加下拉样式覆盖下面内容，使用z-index：1和position：absolute</p>
+<li><p>添加下拉样式覆盖下面内容，使用z-index：1和position：absolute；花了3个小时尝试</p>
 </li>
+<li>放弃下拉样式选择书籍或微博用户，直接覆盖整个内容来选择，选择后能自动存入输入框；</li>
 </ul>
 </li>
 <li><p>5.实现微博分享书籍；</p>
@@ -254,8 +259,30 @@ box-shadow: none;
 <li></li>
 </ul>
 </li>
+<li><p><strong>第二周（第二版）</strong></p>
+<ul>
+<li>1.显示点击数和排序；</li>
+<li>2.实现微博认证登录、点赞、点赞数显示和排序；</li>
+<li>3.查看某位推荐人推荐的所有书籍；</li>
+<li>4.查看某本书的所有推荐人；</li>
 </ul>
-<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
+</li>
+</ul>
+<h2 id="产品需求"><a href="#产品需求" class="headerlink" title="产品需求"></a>产品需求</h2><ul>
+<li><strong>总目标</strong>：推销书籍</li>
+<li><strong>总需求</strong>：实现专业人士、名人、人气来带动书籍推销，</li>
+<li><strong>需求细化</strong>：<ul>
+<li>1.任何人可以选择亚马逊任何一本书和任何一个推荐这本书的微博用户；</li>
+<li>2.使用微博登录后，能查看自己推荐的所有书籍，个人推荐的点赞数点击量，个人点赞点击书籍一览；</li>
+<li>3.将微博用户按照行业专业性和名气进行分类和排序，能按照类别容易查看到有人气的人或相对靠谱的人推荐的书籍<strong>**</strong>；</li>
+<li>4.能查看某人点赞或推荐的所有书籍；</li>
+<li>5.能查看一本书籍的所有点赞人和推荐人；</li>
+<li>6.能围绕一本书进行评论，甚至各个维度的评论，书中每句话都能进行评论，目的是彻底吸收许多人对这本书想法和角度，模仿金圣叹李渔李贽评论书籍的效果。</li>
+</ul>
+</li>
+</ul>
+<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><p>登录</p>
+<ul>
 <li><p><strong>目标</strong>：获取最好的书籍</p>
 </li>
 <li><p><strong>个人场景模拟</strong></p>
@@ -1049,6 +1076,93 @@ box-shadow: none;
   </entry>
   
   <entry>
+    <title>Mongodb-guide</title>
+    <link href="http://www.tomdican.xyz/2017/01/20/Mongodb-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
+<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
+</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
+<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
+<pre><code>* yum repolist
+</code></pre><p>Output</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
+<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
+<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
+<pre><code>* sudo yum install mongodb-org
+</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
+<p>Next, start the MongoDB service<br>service mongod start </p>
+<p>configuration </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
+<p>add below:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
+<p> login admin database</p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u root -p root authenticationDatabase admin</div></pre></td></tr></table></figure>
+<p>import mongo collection :</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
+<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
+<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>Now try to connect with above credentials through command line.<br>$ mongo -u myadmin -p  –authenticationDatabase admin</p>
+<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
+<p>To list all users for a database, use following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
+<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
+<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
+<ul>
+<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
+<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
+<p>use DATABASE_NAME</p>
+<ul>
+<li>新建数据库使用use命令新建数据库：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
+<ul>
+<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<p>4) 查询数据</p>
+<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div></pre></td></tr></table></figure>
+<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
+<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git-guide</title>
     <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
     <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
@@ -1257,100 +1371,17 @@ box-shadow: none;
   </entry>
   
   <entry>
-    <title>Mongodb-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/Mongodb-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
-<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
-</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
-<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
-<pre><code>* yum repolist
-</code></pre><p>Output</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
-<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
-<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
-<pre><code>* sudo yum install mongodb-org
-</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
-<p>Next, start the MongoDB service<br>service mongod start </p>
-<p>configuration </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
-<p>add below:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
-<p> login admin database</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u root -p root authenticationDatabase admin</div></pre></td></tr></table></figure>
-<p>import mongo collection :</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
-<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
-<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>Now try to connect with above credentials through command line.<br>$ mongo -u myadmin -p  –authenticationDatabase admin</p>
-<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
-<p>To list all users for a database, use following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
-<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
-<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
-<ul>
-<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
-<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
-<p>use DATABASE_NAME</p>
-<ul>
-<li>新建数据库使用use命令新建数据库：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
-<ul>
-<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<p>4) 查询数据</p>
-<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div></pre></td></tr></table></figure>
-<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
-<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
-    
-  </entry>
-  
-  <entry>
     <title>great-book-record</title>
     <link href="http://www.tomdican.xyz/2017/01/19/read-record/"/>
     <id>http://www.tomdican.xyz/2017/01/19/read-record/</id>
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="20170302-23：20"><a href="#20170302-23：20" class="headerlink" title="20170302 23：20"></a>20170302 23：20</h2><ul>
+    <content type="html"><![CDATA[<h2 id="20170304-0：23"><a href="#20170304-0：23" class="headerlink" title="20170304 0：23"></a>20170304 0：23</h2><ul>
+<li>楞严经，第三卷第一段，当知是见，非明暗来，非于根出，不于空出。假设从明暗来，明暗就不会共存。假设从根出，就没有明暗。假设从空出，空就是空，跟明暗没有关系，空没有任何意义，因为这样也能通过眼睛就能看到明暗。观见什么也不是，没有源头，只是一种状态，没有因缘和自性。</li>
+<li>创世纪 25 en, Abraham到127岁死了，然后isaac继承了所有财产，当财产和子孙非常多时，遭到周围人的嫉妒，然后搬到其他地方，最后其他人知道上帝爱护isaac后，开始和isaac和好，建立协约。</li>
+</ul>
+<h2 id="20170302-23：20"><a href="#20170302-23：20" class="headerlink" title="20170302 23：20"></a>20170302 23：20</h2><ul>
 <li>楞严经，第二卷最后一段。如是虚空，非彼方来，非此方入。虚空不是从另一个地方来的，也不是从这个地方进入的。假设从另一个地方来的，那就会到另一个地方去，那应该这个地方少一些虚空才对，如果从这个地方进去的，那就应该能让虚空从瓶子里面出来。瓶子里面的虚空不是因缘而来，也不是自有自在。从这个意思可以看出，所有事物的背后本质不是你所认为的那样子，根本就没有本质，不是这，也不是那，不是正面也不是反面。</li>
 <li>创世纪 24 en，Abraham快死之前要他的管家去老家为儿子isaac找一个妻子，在天使的指引下，最后找到了未婚妻，然后带到了isaac定居的地方。</li>
 </ul>
@@ -1452,8 +1483,8 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;h2 id=&quot;20170302-23：20&quot;&gt;&lt;a href=&quot;#20170302-23：20&quot; class=&quot;headerlink&quot; title=&quot;20170302 23：20&quot;&gt;&lt;/a&gt;20170302 23：20&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;楞严经，第二卷最后一段。如是虚空
+      &lt;h2 id=&quot;20170304-0：23&quot;&gt;&lt;a href=&quot;#20170304-0：23&quot; class=&quot;headerlink&quot; title=&quot;20170304 0：23&quot;&gt;&lt;/a&gt;20170304 0：23&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;楞严经，第三卷第一段，当知是见，非明暗来
     
     </summary>
     

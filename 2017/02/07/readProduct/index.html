@@ -224,8 +224,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li><p>list-group</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"list-group"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span> <span class="attr">class</span>=<span class="string">"list-group-item active"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">h4</span> <span class="attr">class</span>=<span class="string">"list-group-item-heading"</span>&gt;</span>List group item heading<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">p</span> <span class="attr">class</span>=<span class="string">"list-group-item-text"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div></pre></td></tr></table></figure>
 </li>
-<li><p>添加下拉样式覆盖下面内容，使用z-index：1和position：absolute</p>
+<li><p>添加下拉样式覆盖下面内容，使用z-index：1和position：absolute；花了3个小时尝试</p>
 </li>
+<li>放弃下拉样式选择书籍或微博用户，直接覆盖整个内容来选择，选择后能自动存入输入框；</li>
 </ul>
 </li>
 <li><p>5.实现微博分享书籍；</p>
@@ -234,8 +235,30 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li></li>
 </ul>
 </li>
+<li><p><strong>第二周（第二版）</strong></p>
+<ul>
+<li>1.显示点击数和排序；</li>
+<li>2.实现微博认证登录、点赞、点赞数显示和排序；</li>
+<li>3.查看某位推荐人推荐的所有书籍；</li>
+<li>4.查看某本书的所有推荐人；</li>
 </ul>
-<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><ul>
+</li>
+</ul>
+<h2 id="产品需求"><a href="#产品需求" class="headerlink" title="产品需求"></a>产品需求</h2><ul>
+<li><strong>总目标</strong>：推销书籍</li>
+<li><strong>总需求</strong>：实现专业人士、名人、人气来带动书籍推销，</li>
+<li><strong>需求细化</strong>：<ul>
+<li>1.任何人可以选择亚马逊任何一本书和任何一个推荐这本书的微博用户；</li>
+<li>2.使用微博登录后，能查看自己推荐的所有书籍，个人推荐的点赞数点击量，个人点赞点击书籍一览；</li>
+<li>3.将微博用户按照行业专业性和名气进行分类和排序，能按照类别容易查看到有人气的人或相对靠谱的人推荐的书籍<strong>**</strong>；</li>
+<li>4.能查看某人点赞或推荐的所有书籍；</li>
+<li>5.能查看一本书籍的所有点赞人和推荐人；</li>
+<li>6.能围绕一本书进行评论，甚至各个维度的评论，书中每句话都能进行评论，目的是彻底吸收许多人对这本书想法和角度，模仿金圣叹李渔李贽评论书籍的效果。</li>
+</ul>
+</li>
+</ul>
+<h2 id="个人需求"><a href="#个人需求" class="headerlink" title="个人需求"></a>个人需求</h2><p>登录</p>
+<ul>
 <li><p><strong>目标</strong>：获取最好的书籍</p>
 </li>
 <li><p><strong>个人场景模拟</strong></p>
