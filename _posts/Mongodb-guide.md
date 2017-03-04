@@ -68,19 +68,26 @@ security:
   authorization: enabled
  ```
  
- login admin database
+ create and login admin database
+ ```sql
+$ mongo
+
+> use admin
+
+> db.createUser(
+     {
+       user:"admin",
+       pwd:"secret",
+       roles:[{role:"root",db:"admin"}]
+     }
+  )
+
+> exit
+```
  
  ```bash
-mongo -u root -p root authenticationDatabase admin
+mongo -u admin -p secret -authenticationDatabase admin
 ```
-
-import mongo collection :
-
-```bash
-mongoimport --db test --collection bookCategory --file bookCategory.json
-mongoexport --host localhost --port 27017 -u test -p tset --collection bookC ategory   --out bookCategory.json
-```
-
 
 ## manage user
 
@@ -107,7 +114,9 @@ $ mongo
 ```
 
 Now try to connect with above credentials through command line.
+```bash
 $ mongo -u myadmin -p  --authenticationDatabase admin
+```
 
 ### Add User for Database
 
@@ -225,6 +234,8 @@ test          (empty)
 find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中"SELECT * FROM TABLENAME"语句。
 
 ```sql
+// 显示
+show collections
 //将返回集合中所有文档
 db.collection.find()
 //或者
@@ -241,3 +252,10 @@ dbContext.user.select(p=>p.age==16)
 ```
 
 　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。
+
+## import mongo collection :
+
+```bash
+mongoimport --db test --collection bookCategory --file bookCategory.json
+mongoexport --host localhost --port 27017 -u test -p tset --collection bookC ategory   --out bookCategory.json
+```

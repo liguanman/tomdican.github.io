@@ -108,3 +108,54 @@ git push -u origin master
      
 
 
+## install git or upgrade git 
+
+- [**refrence link**](https://www.edureka.co/blog/install-git/)：detail install and configure step with sketch map.
+- my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.
+
+### upgrade steps
+- ready to some tools 
+```bash
+1. yum groupinstall "Development Tools"
+2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
+3. yum install wget
+```
+- download git
+```bash
+4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz
+```
+- install and compile git
+```bash
+5. tar -zxf git.tar.gz
+6. cd git-2.7.2
+7. make configure
+8. ./configure --prefix=/usr/local
+9. make install
+```
+- check git  version
+```bash
+10. git --version
+```
+
+- git config 
+```bash
+11. git config --global user.name "greatestfutility"
+12. git config --global user.email "futility@yeah.net"
+```
+
+- git account cache 
+```bash
+13. git config --global credential.helper cache
+```
+
+## problem
+1. git clone https://github.com/lity/re.git
+fatal: Unable to find remote helper for 'https'
+the way1：replace https  with git 
+or the way2：
+$ yum install curl-devel
+$ # cd to wherever the source for git is
+$ make configure
+$ ./configure --prefix=/usr/local
+$ make install
+
