@@ -87,6 +87,8 @@ box-shadow: none;
 </code></pre></li>
 <li><p>jquery change  css value，$( this ).css( “width”, “+=200” )</p>
 </li>
+<li><p>jquery add event to new element</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure></li>
 </ol>
 ]]></content>
     
@@ -251,13 +253,57 @@ box-shadow: none;
 <li><p>添加下拉样式覆盖下面内容，使用z-index：1和position：absolute；花了3个小时尝试</p>
 </li>
 <li>放弃下拉样式选择书籍或微博用户，直接覆盖整个内容来选择，选择后能自动存入输入框；</li>
+<li>实现微博用户选择；20170303，到凌晨才弄好，花了将近4个小时<ul>
+<li>微博选择页面位置确认</li>
+<li>微博选择页面布局</li>
+<li>微博选择按钮添加</li>
+<li>微博选择后参数传递</li>
+<li>微博传递的参数存取</li>
+<li>将存取的微博参数获取</li>
+<li>实现选择微博失败后页面的关闭</li>
+<li>添加微博参数到存入后台的功能中</li>
+<li>添加微博选择页面的滚动条</li>
+</ul>
+</li>
+<li>实现检索亚马逊10本书籍的api；20170304，下午13点开始，将近2个小时<ul>
+<li>xml标签名称不一致，需要验证</li>
+<li>替换之前标签遍历的思路；</li>
+</ul>
+</li>
+<li><p>实现亚马逊书籍选择；20170304，早上9点开始，4个小时弄好</p>
+<ul>
+<li>和微博的方法协调一致；</li>
+<li>避免和之前亚马逊书籍查找命名冲突；</li>
+<li>添加新的多本书籍查找方法；</li>
+</ul>
+</li>
+<li><p>实现</p>
+</li>
 </ul>
 </li>
 <li><p>5.实现微博分享书籍；</p>
 <ul>
 <li>微博分享连接，<meta property="wb:webmaster" content="c5e337bc54783748"></li>
-<li></li>
 </ul>
+</li>
+<li><ol>
+<li>上线（部署到home目录；<ul>
+<li>部署mongodb；</li>
+<li>部署maven；</li>
+<li>部署igninx；</li>
+<li>获取代码；</li>
+<li>尝试开启服务；</li>
+<li>添加数据库自动备份其他服务器；</li>
+<li>配置域名；</li>
+<li>修改微博审核资料中页面；</li>
+<li>添加每天自动更新服务的脚本；</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><ol>
+<li>整理本周的产品开发情况（工作进度、任务完成情况、功能评价、产品使用感受、学到的知识和感受、下一版本产品需求讨论、时间安排确定和产品关键点，全部写入博客中，最后分享讨论。</li>
+</ol>
 </li>
 <li><p><strong>第二周（第二版）</strong></p>
 <ul>
@@ -1163,67 +1209,6 @@ box-shadow: none;
   </entry>
   
   <entry>
-    <title>git-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;add or update file:&lt;b
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo-install-config</title>
     <link href="http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/"/>
     <id>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</id>
@@ -1367,6 +1352,67 @@ box-shadow: none;
     
     
       <category term="hexo,tech,install,guide" scheme="http://www.tomdican.xyz/tags/hexo-tech-install-guide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git-guide</title>
+    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;add or update file:&lt;b
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   

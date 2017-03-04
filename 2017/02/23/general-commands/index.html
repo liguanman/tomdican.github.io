@@ -150,6 +150,8 @@ box-shadow: none;
 </code></pre></li>
 <li><p>jquery change  css value，$( this ).css( “width”, “+=200” )</p>
 </li>
+<li><p>jquery add event to new element</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure></li>
 </ol>
 	  
 
