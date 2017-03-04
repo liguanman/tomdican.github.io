@@ -37,3 +37,24 @@ toc: true
 		
 6. jquery change  css value，$( this ).css( "width", "+=200" )
 
+7. jquery add event to new element
+```html
+$("#search-info").on("click","button",function () {
+    console.log("1");
+	var p = $(this).parent();
+    var bookReferrerWeiboUrl = p.find("a").attr("href");
+});
+```
+
+## java
+1. DOM child tag operator
+```java
+public static Element getDirectChild(Element parent, String name)
+{
+    for(Node child = parent.getFirstChild(); child != null; child = child.getNextSibling())
+    {
+        if(child instanceof Element && name.equals(child.getNodeName())) return (Element) child;
+    }
+    return null;
+}
+```
