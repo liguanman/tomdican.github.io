@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>tools-install | 多是少</title>
+  <meta name="author" content="John Doe">
+  
+  <meta name="description" content="jdk8 install
+OS: _centos6x64
+refrence:
+
+http://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-centos/
+https://tecadmin.net/install-java-8-on-cento">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="tools-install"/>
+  <meta property="og:site_name" content="多是少"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+    <link rel="alternative" href="/atom.xml" title="多是少" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'true']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90489929-1', 'auto');
+	    ga('send', 'pageview');
+</script>
+
+
+
+  <!-- baiduSpider -->
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+	      if (curProtocol === 'https') {
+	              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+		          }
+			      else {
+			              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+				          }
+					      var s = document.getElementsByTagName("script")[0];
+					          s.parentNode.insertBefore(bp, s);
+						  })();
+						  </script>
+
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">		
+  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">tools-install</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-03-04</span></h1>
+</div>		
+
+<div class="row page">
+  <!-- cols -->	
+  
+  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
+	<!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>
+  </div><!-- col-md-3 -->
+  
+  
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="jdk8-install"><a href="#jdk8-install" class="headerlink" title="jdk8 install"></a>jdk8 install</h2><ul>
+<li>OS: _centos6<em>x64</em></li>
+<li><p>refrence:</p>
+<ul>
+<li><a href="http://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-centos/" target="_blank" rel="external">http://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-centos/</a></li>
+<li><a href="https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/" target="_blank" rel="external">https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/</a></li>
+</ul>
+</li>
+<li><ol>
+<li>download<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ wget --no-cookies --no-check-certificate --header <span class="string">"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"</span> <span class="string">"http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz"</span></div><div class="line">$ tar xzf jdk-8u121-linux-x64.tar.gz</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<p>Note: If Above wget command does not work for you watch this <a href="https://www.youtube.com/watch?v=McuF7g14hYw" target="_blank" rel="external">example video</a> to download java source archive using terminal.</p>
+<ul>
+<li><ol>
+<li>config<ul>
+<li>JAVA_HOME Environment Variables,This is good practice to set the JAVA_HOME environment variable.</li>
+<li>Edit the .bash_profile, and append the export JAVA_HOME at the end of the file, for example :</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /root/.bash_profile</div></pre></td></tr></table></figure>
+<ul>
+<li><p>edit .bash_profile</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Get the aliases and functions</span></div><div class="line"><span class="keyword">if</span> [ <span class="_">-f</span> ~/.bashrc ]; <span class="keyword">then</span></div><div class="line">	. ~/.bashrc</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="comment"># User specific environment and startup programs</span></div><div class="line"></div><div class="line"><span class="built_in">export</span> JAVA_HOME=/opt/jdk1.8.0_121/</div><div class="line"><span class="built_in">export</span> JRE_HOME=/opt/jdk1.8.0_121/jre</div><div class="line"></div><div class="line">PATH=<span class="variable">$PATH</span>:<span class="variable">$HOME</span>/bin:<span class="variable">$JAVA_HOME</span>/bin</div><div class="line"></div><div class="line"><span class="built_in">export</span> PATH</div></pre></td></tr></table></figure>
+</li>
+<li><p>take effect</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> /root/.bash_profile</div></pre></td></tr></table></figure>
+</li>
+<li><p>test java</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ java -version</div></pre></td></tr></table></figure>
+</li>
+<li><ol>
+<li>Multiple JDK installed</li>
+</ol>
+</li>
+</ul>
+<p>If the CentOS has multiple JDK installed, you can use the alternatives command to set the default java<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$ sudo alternatives --config java</div><div class="line"></div><div class="line">There are 2 programs <span class="built_in">which</span> provide <span class="string">'java'</span>.</div><div class="line"></div><div class="line">  Selection    Command</div><div class="line">-----------------------------------------------</div><div class="line">   1           /usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin/java</div><div class="line">*+ 2           /opt/jdk1.8.0_121/jre/bin/java</div><div class="line"></div><div class="line">Enter to keep the current selection[+], or <span class="built_in">type</span> selection number:</div></pre></td></tr></table></figure></p>
+<h2 id="install-maven"><a href="#install-maven" class="headerlink" title="install maven"></a>install maven</h2><ul>
+<li>OS:centos6_x64</li>
+<li>require:jdk8</li>
+<li><p>refrence</p>
+<ul>
+<li><a href="https://tecadmin.net/install-apache-maven-on-centos/" target="_blank" rel="external">https://tecadmin.net/install-apache-maven-on-centos/</a></li>
+</ul>
+</li>
+<li><p>install steps</p>
+</li>
+<li><ol>
+<li>download<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /opt</div><div class="line">wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz</div><div class="line">tar xzf apache-maven-3.3.9-bin.tar.gz</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><ol>
+<li>config<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi /etc/profile.d/maven.sh</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p>add content below to maven.sh file</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> M2_HOME=/opt/ apache-maven-3.3.9</div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$&#123;M2_HOME&#125;</span>/bin:<span class="variable">$&#123;PATH&#125;</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>take effect</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> /etc/profiel.d/maven.sh</div></pre></td></tr></table></figure>
+</li>
+<li><ol>
+<li>test maven<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -version</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="nginx-install"><a href="#nginx-install" class="headerlink" title="nginx install"></a>nginx install</h2><ul>
+<li>OS：centos6_x64</li>
+<li>refrence:<a href="https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/" target="_blank" rel="external">https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/</a></li>
+</ul>
+	  
+
+	  <div>
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+			
+			
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+	
+	
+		<li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
+	
+		<li class="next"><a href="/2017/03/04/good-websites/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+      <!-- <a href="/atom.xml">rss</a>
+      <span class="split"></span>
+      <a href="https://github.com/tomdican/tomdican.github.io">github</a>    
+      <span class="split"></span>
+      -->
+      <span id="busuanzi_value_site_pv"></span> hits.
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
+      Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+
+</p>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+ </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+</body>
+</html>

@@ -4,6 +4,103 @@
   
     
     <entry>
+      <title><![CDATA[tools-install]]></title>
+      <url>http://www.tomdican.xyz/2017/03/04/tools-install/</url>
+      <content type="html"><![CDATA[<h2 id="jdk8-install"><a href="#jdk8-install" class="headerlink" title="jdk8 install"></a>jdk8 install</h2><ul>
+<li>OS: _centos6<em>x64</em></li>
+<li><p>refrence:</p>
+<ul>
+<li><a href="http://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-centos/" target="_blank" rel="external">http://www.mkyong.com/java/how-to-install-oracle-jdk-8-on-centos/</a></li>
+<li><a href="https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/" target="_blank" rel="external">https://tecadmin.net/install-java-8-on-centos-rhel-and-fedora/</a></li>
+</ul>
+</li>
+<li><ol>
+<li>download<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ wget --no-cookies --no-check-certificate --header <span class="string">"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie"</span> <span class="string">"http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.tar.gz"</span></div><div class="line">$ tar xzf jdk-8u121-linux-x64.tar.gz</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<p>Note: If Above wget command does not work for you watch this <a href="https://www.youtube.com/watch?v=McuF7g14hYw" target="_blank" rel="external">example video</a> to download java source archive using terminal.</p>
+<ul>
+<li><ol>
+<li>config<ul>
+<li>JAVA_HOME Environment Variables,This is good practice to set the JAVA_HOME environment variable.</li>
+<li>Edit the .bash_profile, and append the export JAVA_HOME at the end of the file, for example :</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /root/.bash_profile</div></pre></td></tr></table></figure>
+<ul>
+<li><p>edit .bash_profile</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Get the aliases and functions</span></div><div class="line"><span class="keyword">if</span> [ <span class="_">-f</span> ~/.bashrc ]; <span class="keyword">then</span></div><div class="line">	. ~/.bashrc</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="comment"># User specific environment and startup programs</span></div><div class="line"></div><div class="line"><span class="built_in">export</span> JAVA_HOME=/opt/jdk1.8.0_121/</div><div class="line"><span class="built_in">export</span> JRE_HOME=/opt/jdk1.8.0_121/jre</div><div class="line"></div><div class="line">PATH=<span class="variable">$PATH</span>:<span class="variable">$HOME</span>/bin:<span class="variable">$JAVA_HOME</span>/bin</div><div class="line"></div><div class="line"><span class="built_in">export</span> PATH</div></pre></td></tr></table></figure>
+</li>
+<li><p>take effect</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> /root/.bash_profile</div></pre></td></tr></table></figure>
+</li>
+<li><p>test java</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ java -version</div></pre></td></tr></table></figure>
+</li>
+<li><ol>
+<li>Multiple JDK installed</li>
+</ol>
+</li>
+</ul>
+<p>If the CentOS has multiple JDK installed, you can use the alternatives command to set the default java<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$ sudo alternatives --config java</div><div class="line"></div><div class="line">There are 2 programs <span class="built_in">which</span> provide <span class="string">'java'</span>.</div><div class="line"></div><div class="line">  Selection    Command</div><div class="line">-----------------------------------------------</div><div class="line">   1           /usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin/java</div><div class="line">*+ 2           /opt/jdk1.8.0_121/jre/bin/java</div><div class="line"></div><div class="line">Enter to keep the current selection[+], or <span class="built_in">type</span> selection number:</div></pre></td></tr></table></figure></p>
+<h2 id="install-maven"><a href="#install-maven" class="headerlink" title="install maven"></a>install maven</h2><ul>
+<li>OS:centos6_x64</li>
+<li>require:jdk8</li>
+<li><p>refrence</p>
+<ul>
+<li><a href="https://tecadmin.net/install-apache-maven-on-centos/" target="_blank" rel="external">https://tecadmin.net/install-apache-maven-on-centos/</a></li>
+</ul>
+</li>
+<li><p>install steps</p>
+</li>
+<li><ol>
+<li>download<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /opt</div><div class="line">wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz</div><div class="line">tar xzf apache-maven-3.3.9-bin.tar.gz</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><ol>
+<li>config<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi /etc/profile.d/maven.sh</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p>add content below to maven.sh file</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> M2_HOME=/opt/ apache-maven-3.3.9</div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$&#123;M2_HOME&#125;</span>/bin:<span class="variable">$&#123;PATH&#125;</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>take effect</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> /etc/profiel.d/maven.sh</div></pre></td></tr></table></figure>
+</li>
+<li><ol>
+<li>test maven<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -version</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="nginx-install"><a href="#nginx-install" class="headerlink" title="nginx install"></a>nginx install</h2><ul>
+<li>OS：centos6_x64</li>
+<li>refrence:<a href="https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/" target="_blank" rel="external">https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/</a></li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[good-websites]]></title>
+      <url>http://www.tomdican.xyz/2017/03/04/good-websites/</url>
+      <content type="html"><![CDATA[<ul>
+<li>video<ul>
+<li>1.<a href="https://asciinema.org/browse/featured?order=popularity" target="_blank" rel="external">https://asciinema.org/browse/featured?order=popularity</a></li>
+<li>2.</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[about-spring]]></title>
       <url>http://www.tomdican.xyz/2017/02/26/about-spring/</url>
       <content type="html"><![CDATA[<h2 id="spring-HATEOAS"><a href="#spring-HATEOAS" class="headerlink" title="spring  HATEOAS"></a>spring  HATEOAS</h2><p>ref link: <a href="https://spring.io/understanding/HATEOAS" target="_blank" rel="external">https://spring.io/understanding/HATEOAS</a></p>
@@ -25,9 +122,82 @@
       <title><![CDATA[general-tech-tricks]]></title>
       <url>http://www.tomdican.xyz/2017/02/23/general-commands/</url>
       <content type="html"><![CDATA[<h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><ol>
-<li>go to the specified dir<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure>
+<li><p>go to the specified dir</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure>
+</li>
+<li><p><a href="https://liuxd.github.io/posts/Command.html" target="_blank" rel="external">refrence</a></p>
 </li>
 </ol>
+<ul>
+<li>watch 监控命令输出内容。<br>eg: watch ‘ps -ef|grep php’</li>
+<li>wc 计算输出的行数或字符数等。<br>eg: cat test.txt|wc -l</li>
+<li>curl 发http请求。<br>eg: curl “<a href="http://baidu.com" target="_blank" rel="external">http://baidu.com</a>“ -H “Host: baidu.com”<br>eg: curl -I <a href="http://google.com" target="_blank" rel="external">http://google.com</a> 只获得头信息。<br>eg: curl “<a href="http://google.com" target="_blank" rel="external">http://google.com</a>“ -x 10.10.100.12 指定IP<br>eg: curl ipinfo.io 获得公网出口IP。</li>
+<li>rsync 文件同步。<br>eg: rsync -av –delete-before /home/www/release/ -e ssh evans@app10-099:/home/www/release/<br>eg: rsync -av –delete-before foler1/ folder2/ #注意：后面的斜杠很重要，如果没有则在folder2中建立folder1文件夹。</li>
+<li>dd 转换并复制文件。</li>
+<li>script 记录终端会话的内容。</li>
+<li>tee 从标准输出读取并写入到文件内。</li>
+<li>w 显示当前登录用户的行为。</li>
+<li>zcat 可以察看gz压缩文件的内容。<br>eg: zcat test.gz</li>
+<li>seq 获得等差数列。<br>eg: seq 2 20</li>
+<li>renice 修改进程优先级。<br>eg: renice -n 2 -p 3432。-n，后面是优先级的值；-p，是进程号。</li>
+<li>tree 现实目录结构。<br>eg: tree -N $path 正确显示中文。</li>
+<li>httpd -S 察看apache使用的配置文件路径</li>
+<li>bc 计算器。</li>
+<li>du 计算每个文件的磁盘用量，目录则取总量。<br>eg: du -sh ＊ 获得目录下所有文件／文件夹的容量。</li>
+<li>df 显示文件系统的信息。<br>eg: df -h</li>
+<li>find 文件搜索。<br>eg: find ./mexec/ -name “<em>.php” |xargs cat|grep -v ^$|wc -l 统计php文件的代码行数，不包括空行。<br>eg: find . -type d -name “.svn”|xargs rm -rf 删除”.svn”文件夹。<br>eg: find . -maxdepth 1 -name ‘error.log</em>‘ -print0|xargs -0 sudo rm 批量删除当前目录的文件。<br>eg: find /home -size +2000k 找出/home文件夹下大于200M的文件。<br>eg: find . -newer filename 表示比 filename 要新的文件。</li>
+<li>realpath 获得文件的完整路径。<br>eg: realpath test.php</li>
+<li>sed 文本替换<br>eg: sed -e ‘s/foo/bar/‘ myfile.txt 将myfile.txt中的foo都改成bar。</li>
+<li>wget 下载<br>eg: wget -U “Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB5)“ -r -p -k -nc -o down.log <a href="http://www.nintendo.co.jp/fe/fe_museum/" target="_blank" rel="external">http://www.nintendo.co.jp/fe/fe_museum/</a> 整站下载<br>eg: wget <a href="http://members.3322.org/dyndns/getip" target="_blank" rel="external">http://members.3322.org/dyndns/getip</a> 获得本地的外网IP。</li>
+<li>nl 带行号的cat<br>eg: nl -b a text.txt 带行号的显示文件内容。</li>
+<li>last 显示用户登录历史</li>
+<li>whoami 显示当前用户。</li>
+<li>chsh 修改默认shell。<br>eg: chsh -s /bin/zsh</li>
+<li>grep 正则匹配。<br>eg: grep -v “ignore” 不包含某个字符串。</li>
+<li>select-editor 修改crontab的文本编辑器</li>
+<li>ntpdate 校正时间。<br>sudo ntpdate -u time.apple.com 校正苹果电脑的时间。</li>
+<li>scutil 管理Mac系统的配置参数<br>sudo scutil –set HostName yourname</li>
+<li>iconv 编码转换。<br>iconv -f GB18030 -t UTF-8 old.txt &gt; new.txt</li>
+<li>netstat 显示网络状态。<br>netstat -nltp 查看所有占用的端口号。</li>
+<li>awk 字符串处理。<br>cat test.txt|awk ‘{print $1”,”$2}’ 打印test.txt的第一列和第二列，用逗号隔开。<br>awk ‘{sum += $1};END {print sum}’ sum.txt 按列求和。</li>
+<li>cut 文件截取。<br>echo “liuxd”|cut -c1-3 截取字符串。</li>
+<li>md5 &amp; md5sum 计算文件的md5值。md5 - MacOS，md5sum - Linux<br>md5 test.txt</li>
+<li>split 切割文件。<br>split -l 500000 url.csv sp<em> 切割url.csv文件，每个文件500000行。前缀是“sp</em>”</li>
+<li>file 识别文件类型和编码。<br>file -i test.txt 检查test.txt的编码。</li>
+<li>sshpass 带密码的ssh登录<br>sshpass -p 123456 ssh root@192.168.11.20</li>
+<li><p>noti 终端命令提醒器<br>noti echo 123</p>
+</li>
+<li><p>别名</p>
+<ul>
+<li>alias dns=’sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed’</li>
+<li>alias ds=’find . -name “.DS_Store” -print0 |xargs -0 rm’</li>
+<li>alias subl=”‘/Applications/Sublime.app/Contents/SharedSupport/bin/subl’”</li>
+<li>alias p=’ps -ef|grep’</li>
+</ul>
+</li>
+</ul>
+<h2 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h2><ul>
+<li><p>1.Search in a folder</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure>
+</li>
+<li><ol>
+<li><p>Delete the lines</p>
+<ul>
+<li><p>delete the matched</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:g/pattern/d</div></pre></td></tr></table></figure>
+</li>
+<li><p>delete the not matched</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:v/pattern/d</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li><a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">ide install</a></li>
+</ol>
+<h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><p><a href="https://liuxd.github.io/posts/Docker.html" target="_blank" rel="external">refrence:</a></p>
 <h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
 <li><p>different from val(),text(),html();</p>
 </li>
@@ -56,7 +226,12 @@ box-shadow: none;
 <li><p>jquery change  css value，$( this ).css( “width”, “+=200” )</p>
 </li>
 <li><p>jquery add event to new element</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure></li>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+</li>
+<li></li>
+</ol>
+<h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
+<li>DOM child tag operator<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Element <span class="title">getDirectChild</span><span class="params">(Element parent, String name)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">for</span>(Node child = parent.getFirstChild(); child != <span class="keyword">null</span>; child = child.getNextSibling())</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span>(child <span class="keyword">instanceof</span> Element &amp;&amp; name.equals(child.getNodeName())) <span class="keyword">return</span> (Element) child;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></li>
 </ol>
 ]]></content>
     </entry>
@@ -222,19 +397,28 @@ box-shadow: none;
 </li>
 <li><ol>
 <li>上线（部署到home目录；<ul>
-<li>部署mongodb；</li>
-<li>部署maven；</li>
-<li>部署igninx；</li>
-<li>获取代码；</li>
-<li>尝试开启服务；</li>
+<li>[x] 部署mongodb；1个小时</li>
+<li>[x] 部署maven；半个小时</li>
+<li>[x] 部署igninx；1个小时</li>
+<li>[x] 获取代码；20分钟</li>
+<li>[x] 尝试开启服务；20分钟</li>
 <li>添加数据库自动备份其他服务器；</li>
-<li>配置域名；</li>
+<li>[x] 配置域名；</li>
 <li>修改微博审核资料中页面；</li>
 <li>添加每天自动更新服务的脚本；</li>
+<li>[x] 配置linux的hostname到/etc/hosts,微博才能正常使用；</li>
+<li>bug:<ul>
+<li>修改弹出页面中关闭按钮的刷新</li>
+<li>去掉搜索框</li>
+<li>增加微博选择数到10</li>
+</ul>
+</li>
 </ul>
 </li>
 </ol>
 </li>
+</ul>
+<ul>
 <li><ol>
 <li>整理本周的产品开发情况（工作进度、任务完成情况、功能评价、产品使用感受、学到的知识和感受、下一版本产品需求讨论、时间安排确定和产品关键点，全部写入博客中，最后分享讨论。</li>
 </ol>
@@ -248,6 +432,7 @@ box-shadow: none;
 </ul>
 </li>
 </ul>
+<h2 id="微信开发"><a href="#微信开发" class="headerlink" title="微信开发"></a>微信开发</h2><p><a href="https://liuxd.github.io/posts/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97.html" target="_blank" rel="external">https://liuxd.github.io/posts/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97.html</a><br><a href="https://liuxd.github.io/posts/WeChatAPP.html" target="_blank" rel="external">https://liuxd.github.io/posts/WeChatAPP.html</a></p>
 <h2 id="产品需求"><a href="#产品需求" class="headerlink" title="产品需求"></a>产品需求</h2><ul>
 <li><strong>总目标</strong>：推销书籍</li>
 <li><strong>总需求</strong>：实现专业人士、名人、人气来带动书籍推销，</li>
@@ -971,14 +1156,12 @@ box-shadow: none;
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
 <p>add below:</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
-<p> login admin database</p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u root -p root authenticationDatabase admin</div></pre></td></tr></table></figure>
-<p>import mongo collection :</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
+<p> create and login admin database<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"admin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure></p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u admin -p secret -authenticationDatabase admin</div></pre></td></tr></table></figure>
 <h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
 <h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>Now try to connect with above credentials through command line.<br>$ mongo -u myadmin -p  –authenticationDatabase admin</p>
+<p>Now try to connect with above credentials through command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mongo -u myadmin -p  --authenticationDatabase admin</div></pre></td></tr></table></figure></p>
 <h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
 <p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
@@ -1015,10 +1198,81 @@ box-shadow: none;
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
 <p>4) 查询数据</p>
 <p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">// 显示</div><div class="line"><span class="keyword">show</span> collections</div><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div></pre></td></tr></table></figure>
 <p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
 <p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
+<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
+<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
+</ul>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
+<li><p>ready to some tools </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
+</li>
+<li><p>download git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>install and compile git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
+</li>
+<li><p>check git  version</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
+</li>
+<li><p>git config </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>git account cache </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
+<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
+</ol>
 ]]></content>
     </entry>
     
@@ -1149,50 +1403,6 @@ box-shadow: none;
 <li><p>bug3 toc structure too long without scroll </p>
 </li>
 </ul>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
 ]]></content>
     </entry>
     
@@ -1708,6 +1918,16 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -1726,16 +1946,6 @@ box-shadow: none;
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     
