@@ -240,6 +240,8 @@ show collections
 db.collection.find()
 //或者
 db.collection.find({})
+//重命名
+db.rrecord.renameCollection("record")
 ```
 
 第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。
@@ -252,6 +254,7 @@ dbContext.user.select(p=>p.age==16)
 ```
 
 　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。
+
 
 ## import mongo collection :
 
