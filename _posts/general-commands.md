@@ -172,3 +172,7 @@ public static Element getDirectChild(Element parent, String name)
     return null;
 }
 ```
+
+
+## nginx
+1. 一般缓存过段时间才过期，或者需要手动清除缓存，修改的文件才生效，但可以直接按照访问的路径请求，然后修改的文件生效了
