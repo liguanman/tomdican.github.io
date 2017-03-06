@@ -298,7 +298,11 @@ box-shadow: none;
 <li></li>
 </ol>
 <h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
-<li>DOM child tag operator<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Element <span class="title">getDirectChild</span><span class="params">(Element parent, String name)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">for</span>(Node child = parent.getFirstChild(); child != <span class="keyword">null</span>; child = child.getNextSibling())</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span>(child <span class="keyword">instanceof</span> Element &amp;&amp; name.equals(child.getNodeName())) <span class="keyword">return</span> (Element) child;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></li>
+<li>DOM child tag operator<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Element <span class="title">getDirectChild</span><span class="params">(Element parent, String name)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">for</span>(Node child = parent.getFirstChild(); child != <span class="keyword">null</span>; child = child.getNextSibling())</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span>(child <span class="keyword">instanceof</span> Element &amp;&amp; name.equals(child.getNodeName())) <span class="keyword">return</span> (Element) child;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="nginx"><a href="#nginx" class="headerlink" title="nginx"></a>nginx</h2><ol>
+<li>一般缓存过段时间才过期，或者需要手动清除缓存，修改的文件才生效，但可以直接按照访问的路径请求，然后修改的文件生效了</li>
 </ol>
 ]]></content>
     
@@ -358,9 +362,48 @@ box-shadow: none;
     <updated>2017-02-07T04:48:50.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
-<li>201703月<ul>
-<li>第一周</li>
+<li><p>201703月</p>
+</li>
+<li><p><strong>第二周6-10（第二版）</strong></p>
+<ul>
+<li>1.<ul>
+<li>a.计划本周安排；注册域名；</li>
+<li>b.解决firefox和safari浏览器的不能提交书籍的问题；</li>
+<li>c.解决书名过长导致文字重叠的问题；</li>
 </ul>
+</li>
+<li><ol>
+<li>~尝试添加微博分享~（微博审核通过才行）；尝试用工具进行UI设计；</li>
+</ol>
+</li>
+<li><ol>
+<li>尝试添加豆瓣api（评分和人气、分类）；</li>
+</ol>
+</li>
+<li><ol>
+<li>用其他浏览器测试和bug总结；</li>
+</ol>
+</li>
+<li><ol>
+<li>写部署的半自动脚本和自动备份脚本；</li>
+</ol>
+</li>
+<li>周末<ul>
+<li>了解万圣书园的营业情况和老板对书店的看法，合适的话去现场了解；</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>目前不用</p>
+<ul>
+<li>1.显示点击数和排序；</li>
+<li>2.实现微博认证登录、点赞、点赞数显示和排序；</li>
+<li>3.查看某位推荐人推荐的所有书籍；</li>
+<li>4.查看某本书的所有推荐人；</li>
+<li>5.尝试将书籍推荐信息能自动跟新到微博上面</li>
+</ul>
+</li>
+<li><p><strong>第一周</strong></p>
 </li>
 <li><p>1.实现页面访问服务端获取书籍信息；（正常，到周二中午完成）</p>
 <ul>
@@ -514,6 +557,7 @@ box-shadow: none;
 <li>去掉搜索框</li>
 <li>增加微博选择数到10</li>
 <li>书名重叠</li>
+<li></li>
 </ul>
 </li>
 </ul>
@@ -523,15 +567,6 @@ box-shadow: none;
 <li><ol>
 <li>整理本周的产品开发情况（工作进度、任务完成情况、功能评价、产品使用感受、学到的知识和感受、下一版本产品需求讨论、时间安排确定和产品关键点，全部写入博客中，最后分享讨论。</li>
 </ol>
-</li>
-<li><p><strong>第二周（第二版）</strong></p>
-<ul>
-<li>1.显示点击数和排序；</li>
-<li>2.实现微博认证登录、点赞、点赞数显示和排序；</li>
-<li>3.查看某位推荐人推荐的所有书籍；</li>
-<li>4.查看某本书的所有推荐人；</li>
-<li>5.尝试将书籍推荐信息能自动跟新到微博上面</li>
-</ul>
 </li>
 </ul>
 <h2 id="微信开发"><a href="#微信开发" class="headerlink" title="微信开发"></a>微信开发</h2><p><a href="https://liuxd.github.io/posts/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97.html" target="_blank" rel="external">https://liuxd.github.io/posts/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97.html</a><br><a href="https://liuxd.github.io/posts/WeChatAPP.html" target="_blank" rel="external">https://liuxd.github.io/posts/WeChatAPP.html</a></p>
@@ -545,6 +580,32 @@ box-shadow: none;
 <li>4.能查看某人点赞或推荐的所有书籍；</li>
 <li>5.能查看一本书籍的所有点赞人和推荐人；</li>
 <li>6.能围绕一本书进行评论，甚至各个维度的评论，书中每句话都能进行评论，目的是彻底吸收许多人对这本书想法和角度，模仿金圣叹李渔李贽评论书籍的效果。</li>
+<li>7.个人页面显示自己添加的书籍，还显示个人的读后笔记或评语*；</li>
+<li><ol>
+<li>优惠返利；</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><strong>问题</strong>：<ul>
+<li><ol>
+<li>微博私下熟人少；</li>
+</ol>
+</li>
+<li><ol>
+<li>在你的页面为什么要分享书籍到微博，一定要有让用户愿意分享的东西，什么东西了，用户来产品页面一定是因为看到这本书有大牛推荐，<ul>
+<li>第一反应是，这位大牛是否我认同;</li>
+<li>第二反应是，看这位大牛对这本书的评语;</li>
+<li>第三反应是，是否其他大牛推荐过（访谈演讲书籍文章来源）;</li>
+<li>第四反应是，这本书的人气和评分怎样（借用豆瓣数据或引用链接）;</li>
+<li>第五反应是，看作者还有译者还有出版社是否牛逼（调用链接：百科或其他可靠的网站）；</li>
+<li>第六反应是，这本书在这个专业领域的经典度或影响力（多少牛逼的人提到过推荐过这本书）；</li>
+<li>第七反应是，想看这本书的评价文章（网页上或其他书籍对这本书的评语）；</li>
+<li>第八反应是，想马上浏览下这本书的内容（添加书籍内容链接，现在这样的书籍内容网站不少：收费的有豆瓣多看几个大公司，不过也含有免费或能浏览部分内容，免费的有不少但不全也盗版，但不影响我这边的网站）；</li>
+</ul>
+</li>
+</ol>
+</li>
 </ul>
 </li>
 </ul>
@@ -554,7 +615,7 @@ box-shadow: none;
 </li>
 <li><p><strong>个人场景模拟</strong></p>
 <ul>
-<li><p>我要看人物传记方面的书</p>
+<li><p>我要看人物传记方面</p>
 <ul>
 <li>进入网站中人物传记的类别（有最好的几个选项，比如某个类别最好的2本书，某个类别最好的5本书）</li>
 <li>按照时间顺序、地区、行业分类，每个子类别里面最有代表的人物；</li>
@@ -711,11 +772,9 @@ box-shadow: none;
     <summary type="html">
     
       &lt;h2 id=&quot;产品迭代&quot;&gt;&lt;a href=&quot;#产品迭代&quot; class=&quot;headerlink&quot; title=&quot;产品迭代&quot;&gt;&lt;/a&gt;产品迭代&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;201703月&lt;ul&gt;
-&lt;li&gt;第一周&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;201703月&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;1.实现页面访问服务端获
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;第二周6-10（第二版）&lt;/strong
     
     </summary>
     
@@ -1669,7 +1728,11 @@ box-shadow: none;
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="20170304-0：23"><a href="#20170304-0：23" class="headerlink" title="20170304 0：23"></a>20170304 0：23</h2><ul>
+    <content type="html"><![CDATA[<h2 id="20170306-11：55"><a href="#20170306-11：55" class="headerlink" title="20170306 11：55"></a>20170306 11：55</h2><ul>
+<li>楞严经，若于空出，有闻成性，即非虚空，又空自闻，何关汝入，是故当知，耳入虚妄，本非因缘，非自然性。塞耳后大脑里面有声音，不是从外面听到的，也不是从空来的，大脑的里面的声音是虚妄，不是因缘和合而生，也不是自为的本性。个人对这几句话不同意，大脑的里面的声音，是由于过去记忆而产生的，是因缘，有本性。</li>
+<li>创世纪  28 en，isaac老了，喜欢大儿子，但妻子喜欢小儿子，isaac要大儿子去打猎然后做美食给自己吃，结果妻子要小儿子装做大儿子，妻子做美食，然后给isaac吃，isaac的眼睛看不清所以结果把继承权给小儿子了，最后大儿子回来后，isaac才知道小儿子欺骗了他，但结局无法改变了。小儿子怕大儿子欺负他，结果跑到其他地方去了。</li>
+</ul>
+<h2 id="20170304-0：23"><a href="#20170304-0：23" class="headerlink" title="20170304 0：23"></a>20170304 0：23</h2><ul>
 <li>楞严经，第三卷第一段，当知是见，非明暗来，非于根出，不于空出。假设从明暗来，明暗就不会共存。假设从根出，就没有明暗。假设从空出，空就是空，跟明暗没有关系，空没有任何意义，因为这样也能通过眼睛就能看到明暗。观见什么也不是，没有源头，只是一种状态，没有因缘和自性。</li>
 <li>创世纪 25 en, Abraham到127岁死了，然后isaac继承了所有财产，当财产和子孙非常多时，遭到周围人的嫉妒，然后搬到其他地方，最后其他人知道上帝爱护isaac后，开始和isaac和好，建立协约。</li>
 </ul>
@@ -1775,8 +1838,8 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;h2 id=&quot;20170304-0：23&quot;&gt;&lt;a href=&quot;#20170304-0：23&quot; class=&quot;headerlink&quot; title=&quot;20170304 0：23&quot;&gt;&lt;/a&gt;20170304 0：23&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;楞严经，第三卷第一段，当知是见，非明暗来
+      &lt;h2 id=&quot;20170306-11：55&quot;&gt;&lt;a href=&quot;#20170306-11：55&quot; class=&quot;headerlink&quot; title=&quot;20170306 11：55&quot;&gt;&lt;/a&gt;20170306 11：55&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;楞严经，若于空出，有闻成性，即非
     
     </summary>
     
