@@ -84,6 +84,9 @@ git reset
 add file path in .gitignore
 git rm --cache 'file path'
 
+18. create new tag
+git tag v1.0
+git push origin v1.0
 
 ## gitlab
 

@@ -175,4 +175,6 @@ public static Element getDirectChild(Element parent, String name)
 
 
 ## nginx
-1. 一般缓存过段时间才过期，或者需要手动清除缓存，修改的文件才生效，但可以直接按照访问的路径请求，然后修改的文件生效了
+1. 禁用缓存方式
+	sendfile  off ；（/etc/nginx/nginx.conf)
+2. 
