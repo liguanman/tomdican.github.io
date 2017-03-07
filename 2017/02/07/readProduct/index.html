@@ -12,17 +12,13 @@
 第二周6-10（第二版）
 
 1.
-a.计划本周安排；注册域名；
-b.解决firefox和safari浏览器的不能提交书籍的问题；
-c.解决书名过长导致文字重叠的问题；
-
-
-
-~尝试添加微博分享~（微博审核通过才行）；尝试用工具进行UI设计；
-
-
-
-尝试添加豆瓣api（评分">
+[x] a.计划本周安排；
+[x] b.注册域名；
+[ ] b.解决firefox和safari浏览器的不能提交书籍的问题；
+[ ] c.解决书名过长导致文字重叠的问题；
+[ ] d.尝试微博分享
+[x] i.添加安全域名；
+[x] ii">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -128,9 +124,20 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
-<li>a.计划本周安排；注册域名；</li>
-<li>b.解决firefox和safari浏览器的不能提交书籍的问题；</li>
-<li>c.解决书名过长导致文字重叠的问题；</li>
+<li>[x] a.计划本周安排；</li>
+<li>[x] b.注册域名；</li>
+<li>[ ] b.解决firefox和safari浏览器的不能提交书籍的问题；</li>
+<li>[ ] c.解决书名过长导致文字重叠的问题；</li>
+<li>[ ] d.尝试微博分享<ul>
+<li>[x] i.添加安全域名；</li>
+<li>[x] ii.提交两次审核没通过，等待审核；</li>
+<li>[x] iii.修改网站图标；</li>
+<li>[x] iv.添加插件，晚上微博分享验证通过；</li>
+<li>[ ] v.实现微博分享</li>
+<li>[ ] vi.使用花生壳的域名绑定我的动态IP，<a href="https://yq.aliyun.com/articles/37951" target="_blank" rel="external">https://yq.aliyun.com/articles/37951</a></li>
+<li>[ ] </li>
+</ul>
+</li>
 </ul>
 </li>
 <li><ol>
@@ -142,11 +149,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ol>
 </li>
 <li><ol>
-<li>用其他浏览器测试和bug总结；</li>
+<li>用其他浏览器测试和bug总结（bug提交页）；</li>
 </ol>
 </li>
 <li><ol>
 <li>写部署的半自动脚本和自动备份脚本；</li>
+</ol>
+</li>
+<li><ol>
+<li>反馈系统统计系统；</li>
 </ol>
 </li>
 <li>周末<ul>
@@ -298,7 +309,27 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 <li><p>5.实现微博分享书籍；</p>
 <ul>
+<li><ol>
 <li>微博分享连接，<meta property="wb:webmaster" content="c5e337bc54783748"></li>
+</ol>
+</li>
+<li><ol>
+<li>有两种方式，wbml方式和js方式；</li>
+</ol>
+</li>
+<li><ol>
+<li>wbml方式在初始化时候运行显示按钮；到晚上11点多才搞明白有两种方式实现，花了将近4个小时才搞明白，昨天上午的思路方法白弄了，浪费将近4个小时，真耽误时间，总要交点学费，除非有经验的人指导你。</li>
+</ol>
+</li>
+<li><ol>
+<li>初始化之后，才添加按钮，无法显示微博按钮的问题；<ul>
+<li>调用微博js插件里面的方法initCuctomTag；</li>
+<li>为什么这样，wbml方式提供了好的按钮样式，jssdk方式没有提供微博的按钮样式，wbml的按钮又不能禁止促发事件，所以决定第二次再出发渲染微博按钮；到凌晨1点10分才二次初始化按钮成功。</li>
+<li></li>
+</ul>
+</li>
+</ol>
+</li>
 </ul>
 </li>
 <li><ol>
@@ -343,7 +374,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>6.能围绕一本书进行评论，甚至各个维度的评论，书中每句话都能进行评论，目的是彻底吸收许多人对这本书想法和角度，模仿金圣叹李渔李贽评论书籍的效果。</li>
 <li>7.个人页面显示自己添加的书籍，还显示个人的读后笔记或评语*；</li>
 <li><ol>
-<li>优惠返利；</li>
+<li>优惠返利；amazon，团购，活动，单行间</li>
 </ol>
 </li>
 </ul>
@@ -356,10 +387,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li><ol>
 <li>在你的页面为什么要分享书籍到微博，一定要有让用户愿意分享的东西，什么东西了，用户来产品页面一定是因为看到这本书有大牛推荐，<ul>
 <li>第一反应是，这位大牛是否我认同;</li>
-<li>第二反应是，看这位大牛对这本书的评语;</li>
+<li>第二反应是，看这位大牛对这本书的评语（社交场景，对自己标签的认同）;</li>
 <li>第三反应是，是否其他大牛推荐过（访谈演讲书籍文章来源）;</li>
 <li>第四反应是，这本书的人气和评分怎样（借用豆瓣数据或引用链接）;</li>
-<li>第五反应是，看作者还有译者还有出版社是否牛逼（调用链接：百科或其他可靠的网站）；</li>
+<li>第五反应是，看作者还有译者还有出版社是否牛逼（调用链接：百科或其他可靠的网站，社交链接）；</li>
 <li>第六反应是，这本书在这个专业领域的经典度或影响力（多少牛逼的人提到过推荐过这本书）；</li>
 <li>第七反应是，想看这本书的评价文章（网页上或其他书籍对这本书的评语）；</li>
 <li>第八反应是，想马上浏览下这本书的内容（添加书籍内容链接，现在这样的书籍内容网站不少：收费的有豆瓣多看几个大公司，不过也含有免费或能浏览部分内容，免费的有不少但不全也盗版，但不影响我这边的网站）；</li>
