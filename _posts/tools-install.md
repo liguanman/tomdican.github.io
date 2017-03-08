@@ -107,3 +107,8 @@ mvn -version
 ## nginx install
 - OS：centos6_x64
 - refrence:[https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/](https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/)
+
+## get dynamical ip
+1. login ssh server without permission
+2. get public ip ,  curl ipinfo.io
+3. write  scripts,github
