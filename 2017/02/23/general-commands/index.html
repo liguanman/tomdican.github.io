@@ -223,7 +223,8 @@ box-shadow: none;
 <li><p>jquery add event to new element</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
 </li>
-<li></li>
+<li><p>url编码，encodeURI(url)</p>
+</li>
 </ol>
 <h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
 <li>DOM child tag operator<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Element <span class="title">getDirectChild</span><span class="params">(Element parent, String name)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">for</span>(Node child = parent.getFirstChild(); child != <span class="keyword">null</span>; child = child.getNextSibling())</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span>(child <span class="keyword">instanceof</span> Element &amp;&amp; name.equals(child.getNodeName())) <span class="keyword">return</span> (Element) child;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
