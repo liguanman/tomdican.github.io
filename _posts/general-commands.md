@@ -158,7 +158,8 @@ $("#search-info").on("click","button",function () {
     var bookReferrerWeiboUrl = p.find("a").attr("href");
 });
 ```
-8. 
+8. url编码，encodeURI(url)
+
 
 ## java
 1. DOM child tag operator
