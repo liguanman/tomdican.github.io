@@ -99,7 +99,9 @@ noti echo 123
 	- alias subl="'/Applications/Sublime.app/Contents/SharedSupport/bin/subl'"
 	- alias p='ps -ef|grep'
 
-
+4. check port
+netstat -anp | grep 834
+lsof -i | grep 888
 
 
 
