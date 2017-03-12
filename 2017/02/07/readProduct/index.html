@@ -140,8 +140,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>[x] 由于微博需要域名认证，将本地的hosts文件添加域名用于开发（system32/drivers/etc/hosts),添加域名指向127.0.0.1；<a href="http://www.thewindowsclub.com/hosts-file-in-windows" target="_blank" rel="external">参考1</a>,<a href="http://blog.csdn.net/liwenzhu1989/article/details/28596223" target="_blank" rel="external">参考2</a></li>
 <li>[x] 查看微博登录认证机制 下午三个小时</li>
 <li>[x] 实现登录和退出 晚上1个半小时</li>
-<li>[ ] 登录后获取认证返回的uid和access_token</li>
+<li>[ ] 登录后获取认证返回的uid和access_token<br><a href="http://blog.unvs.cn/archives/oauth-qq2.0-developer.html" target="_blank" rel="external">http://blog.unvs.cn/archives/oauth-qq2.0-developer.html</a></li>
 <li>[ ] 登录后获取用户图像和名称</li>
+<li>[ ] 在通过jssdk实现微博授权登录时，提示，您的 appkey 需要先授权，才能调用 API 接口：/oauth2/authorize</li>
 </ul>
 </li>
 <li>[x] 9. 合并微博分享按钮代码到project分支；11</li>
@@ -149,15 +150,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 </ul>
 </li>
-<li><ol>
-<li>3.~尝试添加微博分享~（微博审核通过才行）；尝试用工具进行UI设计；</li>
-</ol>
-</li>
-<li><ol>
-<li>尝试添加豆瓣api（评分和人气、分类）；</li>
-</ol>
-</li>
-<li>[x] 4.  2.用其他浏览器测试和bug总结（bug提交页）；<ul>
+<li>2.~尝试添加微博分享~（微博审核通过才行）；<del>尝试用工具进行UI设计</del>；</li>
+<li>3.<del>尝试添加豆瓣api（评分和人气、分类）</del>；</li>
+<li>[x] 4.用其他浏览器测试和bug总结（bug提交页）；<ul>
 <li>1.下载safari浏览器测试，布局只显示一行；locvps</li>
 <li>2.使用IE测试，书名重叠，不能多行显示；</li>
 <li><ol>
@@ -179,14 +174,27 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>[ ] 7.在中国大陆部署服务器用于亚马逊api服务,可能需要虚拟机或沙箱机制，麻烦； </li>
 </ul>
 </li>
-<li><ol>
-<li>写部署的半自动脚本和自动备份脚本；</li>
-</ol>
+<li>5.写部署的半自动脚本和自动备份脚本；</li>
+<li>6.反馈系统统计系统；</li>
+<li>7.下一步需求细化<ul>
+<li>能够显示个人用户的分享的所有书籍、推荐的所有书籍、点赞的书籍；</li>
+<li>能够查看每本书籍的所有分享用户、推荐的用户、点赞的用户、分享数点赞数，点击量；</li>
+<li>能够进行分享数或点赞数进行用户或书籍排序；</li>
+<li>个人用户分享的或推荐的每本书籍有唯一的链接；</li>
+</ul>
 </li>
-<li><ol>
-<li>4.反馈系统统计系统；</li>
-</ol>
+<li>8.计划安排<ul>
+<li>1.实现个人用户微博帐号数据存入数据库；</li>
+<li>2.书籍的分享数、点赞数显示；</li>
+<li>3.实现分享数和点赞数的排序；</li>
+<li>4.显示分享数和点赞数详细的用户分布；</li>
+<li>5.显示个人用户分享的书籍和点赞的书籍，添加链接；</li>
+<li>6.显示个人用户分享和点赞相关的用户（可选）；</li>
+<li>7.单独页面显示个人用户某一本书；</li>
+<li>8.实现一个用户一本书籍的接口访问；</li>
+</ul>
 </li>
+<li></li>
 <li>周末<ul>
 <li>了解万圣书园的营业情况和老板对书店的看法，合适的话去现场了解；</li>
 </ul>
