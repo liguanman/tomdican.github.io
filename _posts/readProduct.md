@@ -12,6 +12,14 @@ toc: true
 
 - 201703月
 
+- **第三周13-17（第二版）**
+	- 1.
+	- [x] 实现微博认证后获取用户信息；
+	- [x] 实现退出操作；由于没把重载操作放在logout里面导致退出失效；
+	- [x] 由于ajax异步，需要将方法在ajax中执行，保证用户信息的获取；去掉微博的登录组件，使用自己的登录组件；
+	- [ ] chrome登录有点问题，不显示头像；
+
+
 -  **第二周6-10（第二版）**
 	
 	- 1.
@@ -36,6 +44,8 @@ toc: true
 				http://blog.unvs.cn/archives/oauth-qq2.0-developer.html
 				- [ ] 登录后获取用户图像和名称
 				- [ ] 在通过jssdk实现微博授权登录时，提示，您的 appkey 需要先授权，才能调用 API 接口：/oauth2/authorize
+				- [ ] tomcat添加https，http://www.cnblogs.com/sixiweb/p/3339698.html，http://jingyan.baidu.com/article/a948d6515d3e850a2dcd2ee6.html
+				- [ ] 例子，http://blog.unvs.cn/archives/oauth-qq2.0-developer.html
 			- [x] 9. 合并微博分享按钮代码到project分支；11
 	- 2.~尝试添加微博分享~（微博审核通过才行）；~~尝试用工具进行UI设计~~；
 	- 3.~~尝试添加豆瓣api（评分和人气、分类）~~；
