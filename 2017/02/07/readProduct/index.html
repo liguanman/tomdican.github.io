@@ -9,15 +9,13 @@
   <meta name="description" content="产品迭代
 201703月
 
-第二周6-10（第二版）
+第三周13-17（第二版）
 
 1.
-[x] a.计划本周安排；
-[x] b.注册域名；
-[ ] b.解决firefox和safari浏览器的不能提交书籍的问题；
-[x] c.解决书名过长导致文字重叠的问题,IE添加最大宽度230px；
-[ ] d.尝试微博分享
-[x] 1.">
+[x] 实现微博认证后获取用户信息；
+[x] 实现退出操作；由于没把重载操作放在logout里面导致退出失效；
+[x] 由于ajax异步，需要将方法在ajax中执行，保证用户信息的获取；去掉微博的登录组件，使用自己的登录组件；
+[ ] ">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -120,6 +118,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	  <h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
 <li><p>201703月</p>
 </li>
+<li><p><strong>第三周13-17（第二版）</strong></p>
+<ul>
+<li>1.</li>
+<li>[x] 实现微博认证后获取用户信息；</li>
+<li>[x] 实现退出操作；由于没把重载操作放在logout里面导致退出失效；</li>
+<li>[x] 由于ajax异步，需要将方法在ajax中执行，保证用户信息的获取；去掉微博的登录组件，使用自己的登录组件；</li>
+<li>[ ] chrome登录有点问题，不显示头像；</li>
+</ul>
+</li>
+</ul>
+<ul>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
@@ -143,6 +152,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>[ ] 登录后获取认证返回的uid和access_token<br><a href="http://blog.unvs.cn/archives/oauth-qq2.0-developer.html" target="_blank" rel="external">http://blog.unvs.cn/archives/oauth-qq2.0-developer.html</a></li>
 <li>[ ] 登录后获取用户图像和名称</li>
 <li>[ ] 在通过jssdk实现微博授权登录时，提示，您的 appkey 需要先授权，才能调用 API 接口：/oauth2/authorize</li>
+<li>[ ] tomcat添加https，<a href="http://www.cnblogs.com/sixiweb/p/3339698.html，http://jingyan.baidu.com/article/a948d6515d3e850a2dcd2ee6.html" target="_blank" rel="external">http://www.cnblogs.com/sixiweb/p/3339698.html，http://jingyan.baidu.com/article/a948d6515d3e850a2dcd2ee6.html</a></li>
+<li>[ ] 例子，<a href="http://blog.unvs.cn/archives/oauth-qq2.0-developer.html" target="_blank" rel="external">http://blog.unvs.cn/archives/oauth-qq2.0-developer.html</a></li>
 </ul>
 </li>
 <li>[x] 9. 合并微博分享按钮代码到project分支；11</li>
