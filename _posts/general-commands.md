@@ -176,6 +176,10 @@ public static Element getDirectChild(Element parent, String name)
 }
 ```
 
+2. class to string
+```java
+System.out.println(ToStringBuilder.reflectionToString(p));
+```
 
 ## nginx
 1. 禁用缓存方式
