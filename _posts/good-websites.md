@@ -10,3 +10,13 @@ toc: true
 - video
 	- 1.https://asciinema.org/browse/featured?order=popularity
 	- 2.
+
+
+- course&&book
+	- 1. https://leetcode.com
+
+
+- github or open source
+	- 1. https://github.com/liuxd/VimIDE.git
+	- 2. http://www.methods.co.nz/asciidoc/
+	- 
