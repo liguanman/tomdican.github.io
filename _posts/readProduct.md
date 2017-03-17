@@ -40,8 +40,16 @@ toc: true
 		- 上面两点，只要打通repository的self就解决了；
 		- 实现单独链接的判断然后在页面显示内容；
 		- 在单独链接判断的同时进行点击量的存取；
+		- 个人页面的单独链接点击量为本人一本书的，其他为一本书的所有点击量；
 		- **实现过程**
 		- 学习demo，https://spring.io/guides/gs/rest-hateoas/
+		- 搭建demo，https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java
+		- 实现self link，花了5个小时；
+		- 实现了一本书籍的链接；
+		- 实现了一本书的点击量计算
+		- 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&uid=5855779088；
+		- 在页面显示一本书的点击量和个人页面的点击量；
+		- 出现userinfo中没有保存bookrefererid的情况，待观察；
 		- 
 	
 -  **第二周6-10（第二版）**

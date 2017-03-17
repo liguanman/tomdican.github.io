@@ -161,6 +161,17 @@ $("#search-info").on("click","button",function () {
 });
 ```
 8. url编码，encodeURI(url)
+9. get parameter from url
+```javascript
+// get parameter from url address
+function GetQueryString(name) {
+	var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	var r = window.location.search.substr(1).match(reg);
+	if(r!=null)
+		return unescape(r[2]);
+	return null;
+}
+```
 
 
 ## java
