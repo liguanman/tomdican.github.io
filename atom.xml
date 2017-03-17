@@ -145,7 +145,8 @@
 </li>
 </ul>
 <ul>
-<li>github or open source<ul>
+<li><p>github or open source</p>
+<ul>
 <li><ol>
 <li><a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">https://github.com/liuxd/VimIDE.git</a></li>
 </ol>
@@ -155,6 +156,11 @@
 </ol>
 </li>
 <li></li>
+</ul>
+</li>
+<li><p>software</p>
+<ul>
+<li>1.<a href="https://www.fosshub.com/" target="_blank" rel="external">https://www.fosshub.com/</a></li>
 </ul>
 </li>
 </ul>
@@ -328,6 +334,8 @@ box-shadow: none;
 </li>
 <li><p>url编码，encodeURI(url)</p>
 </li>
+<li>get parameter from url<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// get parameter from url address</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetQueryString</span>(<span class="params">name</span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"(^|&amp;)"</span>+ name +<span class="string">"=([^&amp;]*)(&amp;|$)"</span>);</div><div class="line">	<span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);</div><div class="line">	<span class="keyword">if</span>(r!=<span class="literal">null</span>)</div><div class="line">		<span class="keyword">return</span> <span class="built_in">unescape</span>(r[<span class="number">2</span>]);</div><div class="line">	<span class="keyword">return</span> <span class="literal">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
 </ol>
 <h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
 <li><p>DOM child tag operator</p>
@@ -430,8 +438,16 @@ box-shadow: none;
 <li>上面两点，只要打通repository的self就解决了；</li>
 <li>实现单独链接的判断然后在页面显示内容；</li>
 <li>在单独链接判断的同时进行点击量的存取；</li>
+<li>个人页面的单独链接点击量为本人一本书的，其他为一本书的所有点击量；</li>
 <li><strong>实现过程</strong></li>
 <li>学习demo，<a href="https://spring.io/guides/gs/rest-hateoas/" target="_blank" rel="external">https://spring.io/guides/gs/rest-hateoas/</a></li>
+<li>搭建demo，<a href="https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java" target="_blank" rel="external">https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java</a></li>
+<li>实现self link，花了5个小时；</li>
+<li>实现了一本书籍的链接；</li>
+<li>实现了一本书的点击量计算</li>
+<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
+<li>在页面显示一本书的点击量和个人页面的点击量；</li>
+<li>出现userinfo中没有保存bookrefererid的情况，待观察；</li>
 <li></li>
 </ul>
 </li>

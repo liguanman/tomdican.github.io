@@ -228,6 +228,8 @@ box-shadow: none;
 </li>
 <li><p>url编码，encodeURI(url)</p>
 </li>
+<li>get parameter from url<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// get parameter from url address</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetQueryString</span>(<span class="params">name</span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"(^|&amp;)"</span>+ name +<span class="string">"=([^&amp;]*)(&amp;|$)"</span>);</div><div class="line">	<span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);</div><div class="line">	<span class="keyword">if</span>(r!=<span class="literal">null</span>)</div><div class="line">		<span class="keyword">return</span> <span class="built_in">unescape</span>(r[<span class="number">2</span>]);</div><div class="line">	<span class="keyword">return</span> <span class="literal">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
 </ol>
 <h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
 <li><p>DOM child tag operator</p>
