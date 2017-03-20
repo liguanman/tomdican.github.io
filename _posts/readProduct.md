@@ -45,12 +45,36 @@ toc: true
 		- 学习demo，https://spring.io/guides/gs/rest-hateoas/
 		- 搭建demo，https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java
 		- 实现self link，花了5个小时；
+		
+
+	- 5.
 		- 实现了一本书籍的链接；
 		- 实现了一本书的点击量计算
 		- 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&uid=5855779088；
 		- 在页面显示一本书的点击量和个人页面的点击量；
-		- 出现userinfo中没有保存bookrefererid的情况，待观察；
-		- 
+		- 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
+
+	- 6.
+		- **思路**
+		- 提供个人一本书的推广链接；
+		- 去掉页面的顶部导航条；
+		- 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
+		- 将书籍自动循环显示，手动循环；
+		- 在个人页面可以选择需要推广的书籍；
+		- 添加广告类型id；
+		- 通过uid获取相关书籍；
+		- 调试嵌入的窗口大小；
+		- 添加横向滚动的按钮；
+		- 在个人页面添加链接的复制；
+		-  添加可选择广告的按钮；
+		-  添加可组合的书单；
+		-  可以输入书单名字来广告；
+		- **实现**
+		- 查看和测试亚马逊的个人推广链接；2个小时
+		- 添加广告嵌入的标签iframe；
+		- 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
+		- 调试了窗口大小，显示三本书；1个小时
+		- 添加了左右滚动箭头样式；2个小时
 	
 -  **第二周6-10（第二版）**
 	
@@ -391,4 +415,5 @@ https://liuxd.github.io/posts/WeChatAPP.html
 
 
 ## 只存放个人数据
+
 - 录音或音乐、图片、笔记、电影。所有这些全是个人的空间，别人无法查看，需要打链接才能分享，只有网页版。
