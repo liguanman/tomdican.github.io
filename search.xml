@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title></title>
+      <url>http://www.tomdican.xyz/2017/03/18/baidu_verify_hDarFueSBy/</url>
+      <content type="html"><![CDATA[hDarFueSBy]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[tools-install]]></title>
       <url>http://www.tomdican.xyz/2017/03/04/tools-install/</url>
       <content type="html"><![CDATA[<h2 id="jdk8-install"><a href="#jdk8-install" class="headerlink" title="jdk8 install"></a>jdk8 install</h2><ul>
@@ -150,12 +156,6 @@
 </ul>
 <h2 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h2><h3 id="add-local-jar-to-project"><a href="#add-local-jar-to-project" class="headerlink" title="add local jar to project"></a>add local jar to project</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-install-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.5.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">executions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">execution</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">phase</span>&gt;</span>initialize<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">goals</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">goal</span>&gt;</span>install-file<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">file</span>&gt;</span>lib/commons-codec-1.3.jar<span class="tag">&lt;/<span class="name">file</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.commons.codec<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>commonsCodec<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div></pre></td></tr></table></figure>
 ]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>http://www.tomdican.xyz/2017/02/25/baidu_verify_hDarFueSBy/</url>
-      <content type="html"><![CDATA[hDarFueSBy]]></content>
     </entry>
     
     <entry>
@@ -347,16 +347,40 @@ box-shadow: none;
 <li>学习demo，<a href="https://spring.io/guides/gs/rest-hateoas/" target="_blank" rel="external">https://spring.io/guides/gs/rest-hateoas/</a></li>
 <li>搭建demo，<a href="https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java" target="_blank" rel="external">https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java</a></li>
 <li>实现self link，花了5个小时；</li>
-<li>实现了一本书籍的链接；</li>
-<li>实现了一本书的点击量计算</li>
-<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
-<li>在页面显示一本书的点击量和个人页面的点击量；</li>
-<li>出现userinfo中没有保存bookrefererid的情况，待观察；</li>
-<li></li>
 </ul>
 </li>
 </ul>
 </li>
+</ul>
+<pre><code>- 5.
+    - 实现了一本书籍的链接；
+    - 实现了一本书的点击量计算
+    - 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；
+    - 在页面显示一本书的点击量和个人页面的点击量；
+    - 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
+
+- 6.
+    - **思路**
+    - 提供个人一本书的推广链接；
+    - 去掉页面的顶部导航条；
+    - 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
+    - 将书籍自动循环显示，手动循环；
+    - 在个人页面可以选择需要推广的书籍；
+    - 添加广告类型id；
+    - 通过uid获取相关书籍；
+    - 调试嵌入的窗口大小；
+    - 添加横向滚动的按钮；
+    - 在个人页面添加链接的复制；
+    -  添加可选择广告的按钮；
+    -  添加可组合的书单；
+    -  可以输入书单名字来广告；
+    - **实现**
+    - 查看和测试亚马逊的个人推广链接；2个小时
+    - 添加广告嵌入的标签iframe；
+    - 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
+    - 调试了窗口大小，显示三本书；1个小时
+    - 添加了左右滚动箭头样式；2个小时
+</code></pre><ul>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
@@ -1644,11 +1668,7 @@ box-shadow: none;
     <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
-      <content type="html"><![CDATA[<h2 id="20170317-23-44"><a href="#20170317-23-44" class="headerlink" title="20170317 23:44"></a>20170317 23:44</h2><ul>
-<li>楞严经，第三卷，法则于心，俱无处所，则意与法，二俱虚妄。意识与心都无处安立，既不来自心中，不来自虚空中，不来自尘世间，意识与心是人的虚妄。从现有的科学尝试解释，意识只是大脑中电子能量在一定规则组合运动而成，人是无法意识到意识的，因为意识怎么可以看见自己了，电子怎么可能知道自己是电子了。回到内容中来，意识不来自心中，假设心是指大脑，意识不是来自大脑，从科学角度来看，确实是来自大脑，不过大脑中很多意识来自尘世间，很多意识是由于其他意识组合变化而来，意识不是全部完全来自大脑才是对的，不来自虚空中，在科学角度，虚空是指没有事物，这目前科学无法解释，意识假设来自虚空，则意识就是虚空，和尘世间不会有关系，所以不是完全来自虚空，不是全部来自尘世间，可以从大脑产生。佛经说了半天的结论就是意识不是确定的来源，佛经的这种思考方式非常好，时刻使用反证法，举例法来否定一个定义或想法。</li>
-<li>创世记，31 32 33 en，31，jacob准备离开服务的主人laban，总共服务了20年，受了不少主人的委屈，暗自决定有时机就离开去自己的家乡，主人追赶上jabob后通过交流建立了盟约；32，jacob准备去见自己的哥哥esau，怕哥哥杀他，所以在礼节上甘愿低哥哥一等，试探哥哥的内心想法。33，和哥哥见面后，尽量让哥哥放开戒心讨好他，然后各自回到自己的地方。这三章是jacob一生中化险为夷的阶段，擅长忍辱负重，不得罪人，侍机而动，把自己位子可以放到足够低，从长远考虑问题计划问题，目的非常明确。说话注重效果注重行动注重有利的事实，擅长打擦边球。40分钟写完。</li>
-</ul>
-<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
+      <content type="html"><![CDATA[<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
 <li>楞严经，第三卷，是故当知听与音声，俱无所处，二处虚妄。</li>
 <li>创世纪，30 en，jacob想要服务的主人同意他离开，因为服务期限达到了，然后jabob将羊进行管理为离开做准备，jacob有很多羊，佣人，孩子，非常强大。</li>
 </ul>

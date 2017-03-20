@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tomdican.xyz/"/>
-  <updated>2017-03-04T15:56:17.000Z</updated>
+  <updated>2017-03-18T06:47:20.450Z</updated>
   <id>http://www.tomdican.xyz/</id>
   
   <author>
@@ -14,6 +14,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://www.tomdican.xyz/2017/03/18/baidu_verify_hDarFueSBy/"/>
+    <id>http://www.tomdican.xyz/2017/03/18/baidu_verify_hDarFueSBy/</id>
+    <published>2017-03-18T06:47:20.449Z</published>
+    <updated>2017-03-18T06:47:20.450Z</updated>
+    
+    <content type="html"><![CDATA[hDarFueSBy]]></content>
+    
+    <summary type="html">
+    
+      hDarFueSBy
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>tools-install</title>
@@ -212,24 +230,6 @@
     
     
       <category term="spring,tech,refrence" scheme="http://www.tomdican.xyz/tags/spring-tech-refrence/"/>
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://www.tomdican.xyz/2017/02/25/baidu_verify_hDarFueSBy/"/>
-    <id>http://www.tomdican.xyz/2017/02/25/baidu_verify_hDarFueSBy/</id>
-    <published>2017-02-24T16:39:47.860Z</published>
-    <updated>2017-03-17T15:42:29.164Z</updated>
-    
-    <content type="html"><![CDATA[hDarFueSBy]]></content>
-    
-    <summary type="html">
-    
-      hDarFueSBy
-    
-    </summary>
-    
     
   </entry>
   
@@ -461,16 +461,40 @@ box-shadow: none;
 <li>学习demo，<a href="https://spring.io/guides/gs/rest-hateoas/" target="_blank" rel="external">https://spring.io/guides/gs/rest-hateoas/</a></li>
 <li>搭建demo，<a href="https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java" target="_blank" rel="external">https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java</a></li>
 <li>实现self link，花了5个小时；</li>
-<li>实现了一本书籍的链接；</li>
-<li>实现了一本书的点击量计算</li>
-<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
-<li>在页面显示一本书的点击量和个人页面的点击量；</li>
-<li>出现userinfo中没有保存bookrefererid的情况，待观察；</li>
-<li></li>
 </ul>
 </li>
 </ul>
 </li>
+</ul>
+<pre><code>- 5.
+    - 实现了一本书籍的链接；
+    - 实现了一本书的点击量计算
+    - 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；
+    - 在页面显示一本书的点击量和个人页面的点击量；
+    - 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
+
+- 6.
+    - **思路**
+    - 提供个人一本书的推广链接；
+    - 去掉页面的顶部导航条；
+    - 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
+    - 将书籍自动循环显示，手动循环；
+    - 在个人页面可以选择需要推广的书籍；
+    - 添加广告类型id；
+    - 通过uid获取相关书籍；
+    - 调试嵌入的窗口大小；
+    - 添加横向滚动的按钮；
+    - 在个人页面添加链接的复制；
+    -  添加可选择广告的按钮；
+    -  添加可组合的书单；
+    -  可以输入书单名字来广告；
+    - **实现**
+    - 查看和测试亚马逊的个人推广链接；2个小时
+    - 添加广告嵌入的标签iframe；
+    - 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
+    - 调试了窗口大小，显示三本书；1个小时
+    - 添加了左右滚动箭头样式；2个小时
+</code></pre><ul>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
@@ -1914,11 +1938,7 @@ box-shadow: none;
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-01-19T18:43:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="20170317-23-44"><a href="#20170317-23-44" class="headerlink" title="20170317 23:44"></a>20170317 23:44</h2><ul>
-<li>楞严经，第三卷，法则于心，俱无处所，则意与法，二俱虚妄。意识与心都无处安立，既不来自心中，不来自虚空中，不来自尘世间，意识与心是人的虚妄。从现有的科学尝试解释，意识只是大脑中电子能量在一定规则组合运动而成，人是无法意识到意识的，因为意识怎么可以看见自己了，电子怎么可能知道自己是电子了。回到内容中来，意识不来自心中，假设心是指大脑，意识不是来自大脑，从科学角度来看，确实是来自大脑，不过大脑中很多意识来自尘世间，很多意识是由于其他意识组合变化而来，意识不是全部完全来自大脑才是对的，不来自虚空中，在科学角度，虚空是指没有事物，这目前科学无法解释，意识假设来自虚空，则意识就是虚空，和尘世间不会有关系，所以不是完全来自虚空，不是全部来自尘世间，可以从大脑产生。佛经说了半天的结论就是意识不是确定的来源，佛经的这种思考方式非常好，时刻使用反证法，举例法来否定一个定义或想法。</li>
-<li>创世记，31 32 33 en，31，jacob准备离开服务的主人laban，总共服务了20年，受了不少主人的委屈，暗自决定有时机就离开去自己的家乡，主人追赶上jabob后通过交流建立了盟约；32，jacob准备去见自己的哥哥esau，怕哥哥杀他，所以在礼节上甘愿低哥哥一等，试探哥哥的内心想法。33，和哥哥见面后，尽量让哥哥放开戒心讨好他，然后各自回到自己的地方。这三章是jacob一生中化险为夷的阶段，擅长忍辱负重，不得罪人，侍机而动，把自己位子可以放到足够低，从长远考虑问题计划问题，目的非常明确。说话注重效果注重行动注重有利的事实，擅长打擦边球。40分钟写完。</li>
-</ul>
-<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
+    <content type="html"><![CDATA[<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
 <li>楞严经，第三卷，是故当知听与音声，俱无所处，二处虚妄。</li>
 <li>创世纪，30 en，jacob想要服务的主人同意他离开，因为服务期限达到了，然后jabob将羊进行管理为离开做准备，jacob有很多羊，佣人，孩子，非常强大。</li>
 </ul>
@@ -2040,8 +2060,8 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;h2 id=&quot;20170317-23-44&quot;&gt;&lt;a href=&quot;#20170317-23-44&quot; class=&quot;headerlink&quot; title=&quot;20170317 23:44&quot;&gt;&lt;/a&gt;20170317 23:44&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;楞严经，第三卷，法则于心，俱无处
+      &lt;h2 id=&quot;20170310-12-20&quot;&gt;&lt;a href=&quot;#20170310-12-20&quot; class=&quot;headerlink&quot; title=&quot;20170310 12:20&quot;&gt;&lt;/a&gt;20170310 12:20&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;楞严经，第三卷，是故当知听与音声
     
     </summary>
     
@@ -2333,7 +2353,7 @@ box-shadow: none;
     <link href="http://www.tomdican.xyz/2014/10/18/hello-world/"/>
     <id>http://www.tomdican.xyz/2014/10/18/hello-world/</id>
     <published>2014-10-18T15:38:19.000Z</published>
-    <updated>2017-03-17T15:42:29.164Z</updated>
+    <updated>2017-03-18T06:47:20.449Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -2362,7 +2382,7 @@ box-shadow: none;
     <link href="http://www.tomdican.xyz/2014/03/16/qna/"/>
     <id>http://www.tomdican.xyz/2014/03/16/qna/</id>
     <published>2014-03-16T10:17:16.000Z</published>
-    <updated>2017-03-17T15:42:29.164Z</updated>
+    <updated>2017-03-18T06:47:20.446Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> What does <code>Wixo</code> stands for?</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> means A <strong>wi</strong>ki theme for he<strong>xo</strong>.</p>
@@ -2391,7 +2411,7 @@ box-shadow: none;
     <link href="http://www.tomdican.xyz/2014/03/16/qna-cn/"/>
     <id>http://www.tomdican.xyz/2014/03/16/qna-cn/</id>
     <published>2014-03-16T10:10:16.000Z</published>
-    <updated>2017-03-17T15:42:29.164Z</updated>
+    <updated>2017-03-18T06:47:20.446Z</updated>
     
     <content type="html"><![CDATA[<p><span class="label label-danger">Q</span> <code>Wixo</code> 这名字有何含义？</p>
 <p><span class="label label-success">A</span> <code>Wixo</code> 意思是 A <strong>wi</strong>ki theme for he<strong>xo</strong> 。</p>
