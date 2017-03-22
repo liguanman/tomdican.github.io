@@ -23,3 +23,6 @@ toc: true
 
 - software
 	- 1.https://www.fosshub.com/
+
+- blog
+	- http://blog.csdn.net/jobchanceleo?viewmode=contents
