@@ -4,12 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <url>http://www.tomdican.xyz/2017/03/18/baidu_verify_hDarFueSBy/</url>
-      <content type="html"><![CDATA[hDarFueSBy]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[tools-install]]></title>
       <url>http://www.tomdican.xyz/2017/03/04/tools-install/</url>
       <content type="html"><![CDATA[<h2 id="jdk8-install"><a href="#jdk8-install" class="headerlink" title="jdk8 install"></a>jdk8 install</h2><ul>
@@ -136,11 +130,6 @@
 <li>1.<a href="https://www.fosshub.com/" target="_blank" rel="external">https://www.fosshub.com/</a></li>
 </ul>
 </li>
-<li><p>blog</p>
-<ul>
-<li><a href="http://blog.csdn.net/jobchanceleo?viewmode=contents" target="_blank" rel="external">http://blog.csdn.net/jobchanceleo?viewmode=contents</a></li>
-</ul>
-</li>
 </ul>
 ]]></content>
     </entry>
@@ -161,6 +150,12 @@
 </ul>
 <h2 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h2><h3 id="add-local-jar-to-project"><a href="#add-local-jar-to-project" class="headerlink" title="add local jar to project"></a>add local jar to project</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-install-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.5.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">executions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">execution</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">phase</span>&gt;</span>initialize<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">goals</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">goal</span>&gt;</span>install-file<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">file</span>&gt;</span>lib/commons-codec-1.3.jar<span class="tag">&lt;/<span class="name">file</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.commons.codec<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>commonsCodec<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div></pre></td></tr></table></figure>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <url>http://www.tomdican.xyz/2017/02/25/baidu_verify_hDarFueSBy/</url>
+      <content type="html"><![CDATA[hDarFueSBy]]></content>
     </entry>
     
     <entry>
@@ -318,82 +313,6 @@ box-shadow: none;
       <content type="html"><![CDATA[<h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
 <li><p>201703月</p>
 </li>
-<li><p><strong>第四周20-24（运营）</strong></p>
-<ul>
-<li>1.</li>
-<li>[x] 去万圣书园</li>
-<li>2.</li>
-<li><strong>思路</strong></li>
-<li>调通微博认证中页面不跳转问题；</li>
-<li>查找推荐人的创业相关的书单；</li>
-<li><strong>实现过程</strong></li>
-<li>微博认证不跳转是由于认证次数限制导致，将跳转放在ajax外面就行。</li>
-<li>查看liusuli的书单<ul>
-<li><a href="http://dushuren123.com/bookmov/liusuli/liveroom4.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">http://dushuren123.com/bookmov/liusuli/liveroom4.html?from=groupmessage&amp;isappinstalled=0</a></li>
-<li>添加了一些创始人推荐的书籍；</li>
-</ul>
-</li>
-<li>修改微博分享的内容，可以查看书籍详细和关联推荐人；</li>
-<li>书籍分页需要实现，当数据增多后；</li>
-<li>3.</li>
-<li><strong>为什么推荐书籍</strong></li>
-<li>推荐书籍是什么，就是通过名家或熟人推荐来吸引用户去指定的网上书店或实体书店购买书籍；<ul>
-<li>名家，在网站上添加很多名家后，能让用户认可的某些名家起到推荐作用，会让他想表达的欲望或者想和名家互动交流这本书，部分用户会直接购买，去指定书店购买的人少，除非有特殊价值，或者至少书籍实惠然后方便快递；特殊价值主要在和名家的某种关联，比如现场参加活动，签名本，优惠，指定的书店服务非常好；真正看书的人对名家不是太感冒，觉得利用名家来推荐书籍，比较浮躁商业化；</li>
-<li>熟人，看见微博熟人看过这本书，然后也想购买；或者是，熟人喜欢看我不喜欢看</li>
-<li>吸引用户，书籍确实好，人气也很好，参与讨论了这本书籍；很多书籍不够经典，比较商业化，不够吸引用户，无法马上判断这本书是否好；</li>
-<li>去指定书店购买，书店服务好，价格实惠，去指定书店买有特殊价值。不去指定书店购买，其他书店更方便优惠；</li>
-</ul>
-</li>
-<li>为什么推荐书籍，通过微博的粉丝来交流一本书籍，达到推荐书籍的效果；</li>
-<li><strong>可能功能设想，是否已经有类似产品</strong></li>
-<li>有没有可能通过一本书来认识朋友；<ul>
-<li>最好基于地理定位，实现附近看同一本书的人来见面交流；</li>
-<li>基于行业，通过一本书认识朋友交流；</li>
-<li>基于兴趣爱好话题，来认识朋友交流；</li>
-</ul>
-</li>
-<li>通过一本书来讨论书中疑问，有人提问有人回答，以及发散思维，提高一本的人气；</li>
-<li>通过用户喜欢的一本书，来添加世界对于这本书相关的链接添加，；<ul>
-<li>名家对这本书的评论；</li>
-<li>一本书发生的热门话题；</li>
-<li>一本书的畅销情况；</li>
-<li>关于这本书的活动；</li>
-</ul>
-</li>
-<li>通过一本书来实现线下活动；</li>
-<li>个人形成书单；</li>
-<li>普通用户社交；</li>
-<li>微信关联</li>
-<li>作为工具，一起秀；</li>
-<li>关注，领导和员工连接；</li>
-<li>线上和微博大v互动；</li>
-<li>标题党；</li>
-<li><strong>bug</strong></li>
-<li>添加首页分页，/?page=0; 1个小时<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// trigger pagination event when scrolling to bottom</span></div><div class="line">$(<span class="built_in">window</span>).scroll(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span>($(<span class="built_in">window</span>).scrollTop() + $(<span class="built_in">window</span>).height() == $(<span class="built_in">document</span>).height()) &#123;</div><div class="line">        showBooks();</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><ul>
-<li>新页的书籍无法分享微博；由于微博id没有加page标志重叠导致；1个小时</li>
-<li>[]计划在官方微博的uid中添加书籍组合标签id；</li>
-<li>修改书籍左边界手机中；</li>
-<li>调试滚动底部刷新数据的bug；</li>
-<li>4.</li>
-<li><strong>思路</strong></li>
-<li>需要实现从页面选择书籍组合为一个类别自带链接；</li>
-<li>首先需要实现选择书籍组合为一个书籍id的list；</li>
-<li>然后存储组合的名称和list；</li>
-<li>需要建立一个Collection，存放组合id，组合名称，书籍id的list；</li>
-<li>获取组合数据，首先得到组合中书籍id的list，然后依次获取书籍；</li>
-<li>实现页面上组合名称显示的样式，先不管，直接添加到页面上就行；</li>
-<li><strong>实现过程</strong></li>
-<li>查看bootstrap的checkbox；</li>
-<li>添加制作书单页面；</li>
-<li>获取checkbox的值；</li>
-<li>实现了书单名称输入的样式；</li>
-<li></li>
-</ul>
-</li>
 <li><p><strong>第三周13-17（第二版）</strong></p>
 <ul>
 <li>1.</li>
@@ -428,43 +347,16 @@ box-shadow: none;
 <li>学习demo，<a href="https://spring.io/guides/gs/rest-hateoas/" target="_blank" rel="external">https://spring.io/guides/gs/rest-hateoas/</a></li>
 <li>搭建demo，<a href="https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java" target="_blank" rel="external">https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java</a></li>
 <li>实现self link，花了5个小时；</li>
+<li>实现了一本书籍的链接；</li>
+<li>实现了一本书的点击量计算</li>
+<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
+<li>在页面显示一本书的点击量和个人页面的点击量；</li>
+<li>出现userinfo中没有保存bookrefererid的情况，待观察；</li>
+<li></li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
-<pre><code>- 5.
-    - 实现了一本书籍的链接；
-    - 实现了一本书的点击量计算
-    - 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；
-    - 在页面显示一本书的点击量和个人页面的点击量；
-    - 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
-
-- 6.
-    - **思路**
-    - 提供个人一本书的推广链接；
-    - 去掉页面的顶部导航条；
-    - 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
-    - 将书籍自动循环显示，手动循环；
-    - 在个人页面可以选择需要推广的书籍；
-    - 添加广告类型id；
-    - 通过uid获取相关书籍；
-    - 调试嵌入的窗口大小；
-    - 添加横向滚动的按钮；
-    - 在个人页面添加链接的复制；
-    -  添加可选择广告的按钮；
-    -  添加可组合的书单；
-    -  可以输入书单名字来广告；
-    - **实现**
-    - 查看和测试亚马逊的个人推广链接；2个小时
-    - 添加广告嵌入的标签iframe；
-    - 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
-    - 调试了窗口大小，显示三本书；1个小时
-    - 添加了左右滚动箭头样式；2个小时
-    - 添加按钮实现书籍滚动；
-    - 调试窗口大小；
-    - 显示个人推广链接；
-</code></pre><ul>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
@@ -1478,79 +1370,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
-<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
-<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
-</ul>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
-<li><p>ready to some tools </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
-</li>
-<li><p>download git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>install and compile git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
-</li>
-<li><p>check git  version</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
-</li>
-<li><p>git config </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>git account cache </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
-<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
-</ol>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hexo-install-config]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<ul>
@@ -1750,9 +1569,91 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
+<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
+<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
+</ul>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
+<li><p>ready to some tools </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
+</li>
+<li><p>download git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>install and compile git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
+</li>
+<li><p>check git  version</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
+</li>
+<li><p>git config </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>git account cache </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
+<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
-      <content type="html"><![CDATA[<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
+      <content type="html"><![CDATA[<h2 id="201703223-23-23"><a href="#201703223-23-23" class="headerlink" title="201703223 23:23"></a>201703223 23:23</h2><ul>
+<li>楞严经，第三卷，是故当知眼色为缘，生眼识界，三处都无，则眼与色，及色界三，本非因缘，非自然性。眼睛、识别、色尘，都是非因缘，非自然性，就是说，用来看实物的眼睛、看到东西的图像识别、实物，这些全部是虚妄，文中的证明逻辑是，使用的举例法来反证，眼识不是来自眼睛，也不是来自实物，也不是来自虚空，所以全是虚妄。眼识不是来自单方面这些，我同意，从科学角度看，眼识就是辨别到实物，实物通过光，然后又眼睛传入大脑指定的视觉区域，视觉区域的细胞感应到图像后，按照一定规则传入到大脑其他部位，包括记忆、对比和关联区域。全是虚妄如何解释，眼识只看到了实物一部分，眼睛只是媒介工具，来自虚空就不是眼识了，文中虚空的意思应该为偏见的意思，不能看到全部，不是一方面原因而是多方面原因，无法用文字表达清楚，认为的所有都是不对的，不是长久的，随时消灭的。</li>
+<li>创世记，34 35 36 en，34，jacob的女儿被其他家族玷污了，然后发生了争斗，其他家族要求娶jacob的女儿为老婆，但jacob家族欺骗他们，要他们先割除包皮后就同意你们，结果在割掉包皮很疼痛的时候，jacob的儿子趁机杀了其他家族，jacob对儿子的行为表示恐慌。35，jacob到其他地方去了，上帝答应保护他，让他的子孙遍及大地。36，说明了jacob后代情况。</li>
+<li>40分钟写完</li>
+</ul>
+<h2 id="20170317-23-44"><a href="#20170317-23-44" class="headerlink" title="20170317 23:44"></a>20170317 23:44</h2><ul>
+<li>楞严经，第三卷，法则于心，俱无处所，则意与法，二俱虚妄。意识与心都无处安立，既不来自心中，不来自虚空中，不来自尘世间，意识与心是人的虚妄。从现有的科学尝试解释，意识只是大脑中电子能量在一定规则组合运动而成，人是无法意识到意识的，因为意识怎么可以看见自己了，电子怎么可能知道自己是电子了。回到内容中来，意识不来自心中，假设心是指大脑，意识不是来自大脑，从科学角度来看，确实是来自大脑，不过大脑中很多意识来自尘世间，很多意识是由于其他意识组合变化而来，意识不是全部完全来自大脑才是对的，不来自虚空中，在科学角度，虚空是指没有事物，这目前科学无法解释，意识假设来自虚空，则意识就是虚空，和尘世间不会有关系，所以不是完全来自虚空，不是全部来自尘世间，可以从大脑产生。佛经说了半天的结论就是意识不是确定的来源，佛经的这种思考方式非常好，时刻使用反证法，举例法来否定一个定义或想法。</li>
+<li>创世记，31 32 33 en，31，jacob准备离开服务的主人laban，总共服务了20年，受了不少主人的委屈，暗自决定有时机就离开去自己的家乡，主人追赶上jabob后通过交流建立了盟约；32，jacob准备去见自己的哥哥esau，怕哥哥杀他，所以在礼节上甘愿低哥哥一等，试探哥哥的内心想法。33，和哥哥见面后，尽量让哥哥放开戒心讨好他，然后各自回到自己的地方。这三章是jacob一生中化险为夷的阶段，擅长忍辱负重，不得罪人，侍机而动，把自己位子可以放到足够低，从长远考虑问题计划问题，目的非常明确。说话注重效果注重行动注重有利的事实，擅长打擦边球。40分钟写完。</li>
+</ul>
+<h2 id="20170310-12-20"><a href="#20170310-12-20" class="headerlink" title="20170310 12:20"></a>20170310 12:20</h2><ul>
 <li>楞严经，第三卷，是故当知听与音声，俱无所处，二处虚妄。</li>
 <li>创世纪，30 en，jacob想要服务的主人同意他离开，因为服务期限达到了，然后jabob将羊进行管理为离开做准备，jacob有很多羊，佣人，孩子，非常强大。</li>
 </ul>
@@ -2277,16 +2178,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -2305,6 +2196,16 @@ box-shadow: none;
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     

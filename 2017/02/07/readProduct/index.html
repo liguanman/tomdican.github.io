@@ -9,18 +9,13 @@
   <meta name="description" content="产品迭代
 201703月
 
-第四周20-24（运营）
+第三周13-17（第二版）
 
 1.
-[x] 去万圣书园
-2.
-思路
-调通微博认证中页面不跳转问题；
-查找推荐人的创业相关的书单；
-实现过程
-微博认证不跳转是由于认证次数限制导致，将跳转放在ajax外面就行。
-查看liusuli的书单
-http://dushuren123.c">
+[x] 实现微博认证后获取用户信息；
+[x] 实现退出操作；由于没把重载操作放在logout里面导致退出失效；
+[x] 由于ajax异步，需要将方法在ajax中执行，保证用户信息的获取；去掉微博的登录组件，使用自己的登录组件；
+[ ] ">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -123,82 +118,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	  <h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><ul>
 <li><p>201703月</p>
 </li>
-<li><p><strong>第四周20-24（运营）</strong></p>
-<ul>
-<li>1.</li>
-<li>[x] 去万圣书园</li>
-<li>2.</li>
-<li><strong>思路</strong></li>
-<li>调通微博认证中页面不跳转问题；</li>
-<li>查找推荐人的创业相关的书单；</li>
-<li><strong>实现过程</strong></li>
-<li>微博认证不跳转是由于认证次数限制导致，将跳转放在ajax外面就行。</li>
-<li>查看liusuli的书单<ul>
-<li><a href="http://dushuren123.com/bookmov/liusuli/liveroom4.html?from=groupmessage&amp;isappinstalled=0" target="_blank" rel="external">http://dushuren123.com/bookmov/liusuli/liveroom4.html?from=groupmessage&amp;isappinstalled=0</a></li>
-<li>添加了一些创始人推荐的书籍；</li>
-</ul>
-</li>
-<li>修改微博分享的内容，可以查看书籍详细和关联推荐人；</li>
-<li>书籍分页需要实现，当数据增多后；</li>
-<li>3.</li>
-<li><strong>为什么推荐书籍</strong></li>
-<li>推荐书籍是什么，就是通过名家或熟人推荐来吸引用户去指定的网上书店或实体书店购买书籍；<ul>
-<li>名家，在网站上添加很多名家后，能让用户认可的某些名家起到推荐作用，会让他想表达的欲望或者想和名家互动交流这本书，部分用户会直接购买，去指定书店购买的人少，除非有特殊价值，或者至少书籍实惠然后方便快递；特殊价值主要在和名家的某种关联，比如现场参加活动，签名本，优惠，指定的书店服务非常好；真正看书的人对名家不是太感冒，觉得利用名家来推荐书籍，比较浮躁商业化；</li>
-<li>熟人，看见微博熟人看过这本书，然后也想购买；或者是，熟人喜欢看我不喜欢看</li>
-<li>吸引用户，书籍确实好，人气也很好，参与讨论了这本书籍；很多书籍不够经典，比较商业化，不够吸引用户，无法马上判断这本书是否好；</li>
-<li>去指定书店购买，书店服务好，价格实惠，去指定书店买有特殊价值。不去指定书店购买，其他书店更方便优惠；</li>
-</ul>
-</li>
-<li>为什么推荐书籍，通过微博的粉丝来交流一本书籍，达到推荐书籍的效果；</li>
-<li><strong>可能功能设想，是否已经有类似产品</strong></li>
-<li>有没有可能通过一本书来认识朋友；<ul>
-<li>最好基于地理定位，实现附近看同一本书的人来见面交流；</li>
-<li>基于行业，通过一本书认识朋友交流；</li>
-<li>基于兴趣爱好话题，来认识朋友交流；</li>
-</ul>
-</li>
-<li>通过一本书来讨论书中疑问，有人提问有人回答，以及发散思维，提高一本的人气；</li>
-<li>通过用户喜欢的一本书，来添加世界对于这本书相关的链接添加，；<ul>
-<li>名家对这本书的评论；</li>
-<li>一本书发生的热门话题；</li>
-<li>一本书的畅销情况；</li>
-<li>关于这本书的活动；</li>
-</ul>
-</li>
-<li>通过一本书来实现线下活动；</li>
-<li>个人形成书单；</li>
-<li>普通用户社交；</li>
-<li>微信关联</li>
-<li>作为工具，一起秀；</li>
-<li>关注，领导和员工连接；</li>
-<li>线上和微博大v互动；</li>
-<li>标题党；</li>
-<li><strong>bug</strong></li>
-<li>添加首页分页，/?page=0; 1个小时<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// trigger pagination event when scrolling to bottom</span></div><div class="line">$(<span class="built_in">window</span>).scroll(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span>($(<span class="built_in">window</span>).scrollTop() + $(<span class="built_in">window</span>).height() == $(<span class="built_in">document</span>).height()) &#123;</div><div class="line">        showBooks();</div><div class="line">    &#125;</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
-</li>
-</ul>
-</li>
-<li><ul>
-<li>新页的书籍无法分享微博；由于微博id没有加page标志重叠导致；1个小时</li>
-<li>[]计划在官方微博的uid中添加书籍组合标签id；</li>
-<li>修改书籍左边界手机中；</li>
-<li>调试滚动底部刷新数据的bug；</li>
-<li>4.</li>
-<li><strong>思路</strong></li>
-<li>需要实现从页面选择书籍组合为一个类别自带链接；</li>
-<li>首先需要实现选择书籍组合为一个书籍id的list；</li>
-<li>然后存储组合的名称和list；</li>
-<li>需要建立一个Collection，存放组合id，组合名称，书籍id的list；</li>
-<li>获取组合数据，首先得到组合中书籍id的list，然后依次获取书籍；</li>
-<li>实现页面上组合名称显示的样式，先不管，直接添加到页面上就行；</li>
-<li><strong>实现过程</strong></li>
-<li>查看bootstrap的checkbox；</li>
-<li>添加制作书单页面；</li>
-<li>获取checkbox的值；</li>
-<li>实现了书单名称输入的样式；</li>
-<li></li>
-</ul>
-</li>
 <li><p><strong>第三周13-17（第二版）</strong></p>
 <ul>
 <li>1.</li>
@@ -233,43 +152,16 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>学习demo，<a href="https://spring.io/guides/gs/rest-hateoas/" target="_blank" rel="external">https://spring.io/guides/gs/rest-hateoas/</a></li>
 <li>搭建demo，<a href="https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java" target="_blank" rel="external">https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java</a></li>
 <li>实现self link，花了5个小时；</li>
+<li>实现了一本书籍的链接；</li>
+<li>实现了一本书的点击量计算</li>
+<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
+<li>在页面显示一本书的点击量和个人页面的点击量；</li>
+<li>出现userinfo中没有保存bookrefererid的情况，待观察；</li>
+<li></li>
 </ul>
 </li>
 </ul>
 </li>
-</ul>
-<pre><code>- 5.
-    - 实现了一本书籍的链接；
-    - 实现了一本书的点击量计算
-    - 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；
-    - 在页面显示一本书的点击量和个人页面的点击量；
-    - 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
-
-- 6.
-    - **思路**
-    - 提供个人一本书的推广链接；
-    - 去掉页面的顶部导航条；
-    - 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
-    - 将书籍自动循环显示，手动循环；
-    - 在个人页面可以选择需要推广的书籍；
-    - 添加广告类型id；
-    - 通过uid获取相关书籍；
-    - 调试嵌入的窗口大小；
-    - 添加横向滚动的按钮；
-    - 在个人页面添加链接的复制；
-    -  添加可选择广告的按钮；
-    -  添加可组合的书单；
-    -  可以输入书单名字来广告；
-    - **实现**
-    - 查看和测试亚马逊的个人推广链接；2个小时
-    - 添加广告嵌入的标签iframe；
-    - 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
-    - 调试了窗口大小，显示三本书；1个小时
-    - 添加了左右滚动箭头样式；2个小时
-    - 添加按钮实现书籍滚动；
-    - 调试窗口大小；
-    - 显示个人推广链接；
-</code></pre><ul>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
