@@ -172,7 +172,8 @@ function GetQueryString(name) {
 	return null;
 }
 ```
-
+10.button  ouline  
+11.
 
 ## java
 1. DOM child tag operator
@@ -195,4 +196,5 @@ System.out.println(ToStringBuilder.reflectionToString(p));
 ## nginx
 1. 禁用缓存方式
 	sendfile  off ；（/etc/nginx/nginx.conf)
+
 2. 
