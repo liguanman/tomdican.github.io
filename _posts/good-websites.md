@@ -23,6 +23,8 @@ toc: true
 
 - software
 	- 1.https://www.fosshub.com/
+	- 2.https://www.startupdigest.com/
 
-- blog
+- blog&&community
 	- http://blog.csdn.net/jobchanceleo?viewmode=contents
+	- http://www.swarma.org
