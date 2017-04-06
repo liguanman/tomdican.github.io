@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.tomdican.xyz/2017/04/05/book-list/</loc>
+    
+    <lastmod>2017-04-05T08:15:45.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tomdican.xyz/README.html</loc>
     
     <lastmod>2017-03-24T11:14:14.191Z</lastmod>
@@ -184,6 +191,13 @@
   </url>
   
   <url>
+    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
+    
+    <lastmod>2017-01-19T18:26:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tomdican.xyz/2017/01/20/git-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
@@ -192,13 +206,6 @@
   
   <url>
     <loc>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</loc>
-    
-    <lastmod>2017-01-19T18:26:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</loc>
     
     <lastmod>2017-01-19T18:26:26.000Z</lastmod>
     
