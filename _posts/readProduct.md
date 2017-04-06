@@ -17,6 +17,8 @@ toc: true
 	- 明道创始人在湖畔大学关于自责和自信的感想http://www.jianshu.com/p/f99bfb00299b
 	- 非常经典的创业书籍；
 	- 最有影响力的商界人物相关书籍；
+	- 2
+	- http://xudanei.baijia.baidu.com/article/279319
 
 - 201703月
 
@@ -649,6 +651,8 @@ https://liuxd.github.io/posts/WeChatAPP.html
 
 ## 类似产品
 - http://www.tuijianshu.net
+- https://qdan.me/category/culture?from=header     
+- https://qdan.me/about 轻单疑问
 
 
 
