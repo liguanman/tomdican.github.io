@@ -13,6 +13,17 @@
 <li>要么来自名人推荐；</li>
 <li>要么作者非常优秀；</li>
 </ul>
+<h2 id="世界上伟大的企业家书单1"><a href="#世界上伟大的企业家书单1" class="headerlink" title="世界上伟大的企业家书单1"></a>世界上伟大的企业家书单1</h2><ul>
+<li>IBM前CEO小托马斯-沃森(Thomas Walson Jr.1914-1993)。上个世纪60年代，沃森将父亲创办的IBM公司的未来押在了办公电脑上。 　</li>
+<li>英国银行家梅耶-罗斯柴尔德(Meyer Amschel Rothschild 1744-1812)。通过引进多元化投资等理念，他推动了现代银行制度的建立。</li>
+<li>迪斯尼公司创始人沃特-迪斯尼(Walt Disney 1901-1966)。他创建了第一家现代媒体集团，以史无前例的姿态，充分开拓儿童市场。 </li>
+<li>麦当劳的创始人雷-克洛克(Ray Kroc 1912-1984)。他改变了世界的饮食习惯，把亨利-福特统一、廉价以及快速的成功秘诀带进了厨房。不过，他也得为1／4的美国人日益增长的腰围负部分责任</li>
+<li>阿尔弗雷德-诺贝尔(Alfred Nobel 1833-1896)除了发明炸药以外，诺贝尔最永久的遗产应该是以他的名义建立的每年一度的诺贝尔奖。</li>
+<li>通用汽车前总裁阿尔弗雷德-斯隆(Alfred Sloan)。他将汽车工业带入了现代体系。</li>
+<li>丰田汽车创始人丰田佐吉(Sakichi Toyada)。丰田的理念——减少浪费、改善与客户的关系、勇于暴露问题以及保护资源等，逐渐被所有的现代企业所接纳。</li>
+<li>联合利华的创始人英国的零售商威廉-利弗(William Lever)他奠定了现代市场营销中的品牌概念</li>
+<li>媒体巨头亨利-卢斯(Henry Luce)。他创办了《时代周刊》、《生活》、《财富》等多种杂志并为现代新闻业确立了基本报道模式</li>
+</ul>
 <h2 id="世界上最伟大的五位企业家书单"><a href="#世界上最伟大的五位企业家书单" class="headerlink" title="世界上最伟大的五位企业家书单"></a>世界上最伟大的五位企业家书单</h2><ul>
 <li><p>选择这五本书，因为这是五位企业家最权威的书，为什么这五位企业家是最伟大的企业家，因为他们是自己所处领域的创造者垄断者推动者，当时所处时代最有钱的人，时代的神话，无人能敌，改变和引领了那个时代，这五个行业是19世纪20世纪不同时期进步的标志。19世纪是钢铁的时代，制造的时代，而钢铁的垄断者就是钢铁大王，安德鲁卡内基；如果没有汽车这个世界会是什么样子，经过福特短短几十年的创造，从马车行列进入了现在的汽车行列，当时几乎控制着整个汽车行业；在今天，石油仍然是最重要的能源，离不开它，没有它，世界就会毁灭，洛克菲勒是当时石油行业的推动者垄断者，世界上第一大石油公司，当时最有钱的人，整个美国的GDP都贡献了一定的百分比；摩根是金融的缔造者垄断者，当时世界上几乎所有金子都被他控制着，世界的债主，美国的霸主地位，就得益于金融的发展；山姆沃尔顿是零售行业的垄断者，沃尔玛遍及世界各地，他的财富远远超过其他富豪。</p>
 </li>
@@ -563,13 +574,23 @@ box-shadow: none;
 </li>
 <li><p>4.</p>
 </li>
-<li>[ ] 修改微信公众号，添加书籍到socboo中<ul>
-<li>书单添加到socboo；</li>
-<li>添加书单链接到之前微信公众号文章中</li>
+<li>[x] 修改微信公众号，添加书籍到socboo中<ul>
+<li>书单添加到socboo；3个小时</li>
+<li>添加书单链接到之前微信公众号文章中；1个小时</li>
 </ul>
 </li>
-<li>[ ] 添加最伟大企业家书单到公众号，创建当今伟大企业家书单；</li>
-<li>[ ] 尝试分析书单的需求；</li>
+<li>[x] 添加最伟大企业家书单到公众号，创建伟大企业家书单1；2个小时</li>
+<li>[ ] 尝试分析书单的需求；20分钟<ul>
+<li>从现实角度出发，在制作书单方面</li>
+<li>1.对于制作书单来节约时间的需求有一点敏感，选择书籍和选择购买链接；</li>
+<li>2.能制作美好大方格式的书单（书籍图片，重点强调，友好的购买链接格式）；</li>
+<li>3.能辅助用户写书单的推荐语和介绍语（书籍版本、作者介绍、评分、评语、读后感、他人写的推荐语和简介）；</li>
+<li>4.最好能提供作者的归类排序、书籍的归类排序、书籍的条件查询（年代、领域、评分、热销度）</li>
+<li>从用户查看书单方面出发</li>
+<li>1.根据书单来对书籍的购买和阅读进行整体把握</li>
+<li>2.根据书单的排行来查看</li>
+</ul>
+</li>
 <li>[ ] 尝试修改微博认证bug；</li>
 <li>[ ] 联系博卷天下和中国作家出版社，去新华书店（团结湖分店）</li>
 </ul>
@@ -1933,6 +1954,136 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[Hexo-install-config]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
+      <content type="html"><![CDATA[<ul>
+<li>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</li>
+</ul>
+<h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
+<li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
+<li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
+<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
+</ul>
+<h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
+<h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
+<p>deploy.sh内容如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
+<p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
+<ul>
+<li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
+<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
+<p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
+<p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
+<p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
+<p>4) theme configuration<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">rss: atom.xml</div><div class="line">fancybox: true</div><div class="line">favicon: favicon.png</div><div class="line">inverse_sort: false</div><div class="line">fold: true</div><div class="line">google_analytics: true</div><div class="line">scratch_name: Others</div><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: all</div></pre></td></tr></table></figure></p>
+<p>5) add wixo theme to blog</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">vi _config.yml <span class="comment"># 修改主题后，双击大写Z保存退出</span></div></pre></td></tr></table></figure>
+<p>将theme: landscape这行改为theme: wixo,然后保存，修改主题成功</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="comment"># 清除缓存</span></div><div class="line">hexo s <span class="comment"># 开启服务，然后查看生效的主题</span></div></pre></td></tr></table></figure>
+<h3 id="2-4-Quick-Start"><a href="#2-4-Quick-Start" class="headerlink" title="2.4 Quick Start"></a>2.4 Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
+<p>也可以不用hexo new命令，直接在source/_posts目录中创建md文件，然后添加如下开头内容：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2017-01-18 18:19:46</div><div class="line">tags:</div><div class="line">categories: Docs</div><div class="line">toc: true</div><div class="line">---‘</div></pre></td></tr></table></figure></p>
+<p>其中：<br>title为博客中文章的标题；<br>tags为标签，我的博客没有使用标签；<br>categories为文章的类别，比如这篇文章在Docs类别里面，博客会自动识别然后将文章进行分类，这是关键的地方；<br>toc为文章中内容的目录结构；<br>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="3-Blog-Configuration（optional）"><a href="#3-Blog-Configuration（optional）" class="headerlink" title="3 Blog Configuration（optional）"></a>3 Blog Configuration（optional）</h2><p>不进行博客的配置，部署到网上也能使用，影响不大，根据自己需要进行配置。</p>
+<p>1) 修改博客标题和域名<br>打开hexo/blog/_config.yml文件，下面仅仅列出我修改的内容，没列出的内容保持默认就行<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: Hexo # 从title: Hexo改为title: 你的标题</div><div class="line">url: http://tomdican.github.io  # 更改为你的域名</div><div class="line"></div><div class="line">#search</div><div class="line">search:</div><div class="line"> path: search.xml</div><div class="line"> field: all</div></pre></td></tr></table></figure></p>
+<p>2) 添加网站统计</p>
+<p>google analytics用来收集访问用户的情况，不蒜子用来在页面显示用户访问量。</p>
+<ul>
+<li>google analytics</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> theme/wixo</div><div class="line">vi _config.yml <span class="comment"># 改为google_analytics: true,保存退出</span></div><div class="line">vi layout\_partial\post\google_analytics.ejs <span class="comment">#粘贴来自google analytics网站的脚本，获取脚本的步骤如下所示</span></div></pre></td></tr></table></figure>
+<p>首先登录到<a href="https//analytics.google.com">google统计网站</a>,添加个人的域名成功后，进入admin&gt;user management&gt;tracking info&gt;tracking code后，选择website tracking中的脚本内容复制，我脚本内容的如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">'GoogleAnalyticsObject'</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  (i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),</div><div class="line">  m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;m.parentNode.insertBefore(a,m)</div><div class="line">  &#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">'script'</span>,<span class="string">'https://www.google-analytics.com/analytics.js'</span>,<span class="string">'ga'</span>);</div><div class="line"></div><div class="line">  ga(<span class="string">'create'</span>, <span class="string">'xxxxxxxxxxxxxxx'</span>, <span class="string">'auto'</span>);</div><div class="line">  ga(<span class="string">'send'</span>, <span class="string">'pageview'</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure></p>
+<p>当把博客部署到网上后，就能看到google analytics的统计信息了。</p>
+<ul>
+<li>访客统计</li>
+</ul>
+<p>使用<a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子统计</a>，简单好用，我仅仅添加了本站访问总量，在wixo\layout_partial\gooter.ejs文件中修改为如下内容：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wix</div><div class="line">o<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>3) 添加站内搜索</p>
+<p>需要安装sitemap插件，引导搜索引擎爬取<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-sitemap --save</div><div class="line">npm install hexo-generator-baidu-sitemap --save  <span class="comment"># 百度不能抓取github</span></div><div class="line">vi  _config.yml <span class="comment"># 添加sitemap的配置，然后保存退出</span></div></pre></td></tr></table></figure></p>
+<p>在_config.yml中添加sitemap配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">- hexo-generator-sitemap</div><div class="line"></div><div class="line">#sitemap</div><div class="line">sitemap:</div><div class="line"> path: sitemap.xml</div><div class="line"># 百度无法抓取github</div><div class="line">baidusitemap:</div><div class="line"> path: baidusitemap.xml</div></pre></td></tr></table></figure></p>
+<p>重启hexo服务，输入<a href="http://localhost:4000/sitemap.xml" target="_blank" rel="external">http://localhost:4000/sitemap.xml</a> 检查是否生效，然后更新github博客的部署。还需要在<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>中进行站点添加，步骤如下：</p>
+<ul>
+<li>确保google analytics已经加入博客中;</li>
+<li>进入<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>；</li>
+<li>添加你的域名站点，比如我的，<a href="https://tomdican.github.io；" target="_blank" rel="external">https://tomdican.github.io；</a></li>
+<li>依次点击抓取&gt;站点地图，在页面右上角点击添加站点地图；</li>
+<li>在输入框中输入sitemap.xml即可，会显示网页数量。</li>
+</ul>
+<p>不能用于github。登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<a href="http://www.tomdican.xyz/baidusitemap.xml。">http://www.tomdican.xyz/baidusitemap.xml。</a></p>
+<p>第二天就能通过搜索引擎查看到你的网站。</p>
+<p>4) 添加rss</p>
+<ul>
+<li>首先安装rss插件</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-feed  --save</div><div class="line">vi _config.yml  <span class="comment"># 添加rss内容如下</span></div></pre></td></tr></table></figure>
+<p>在_config.yml添加如下内容</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">#Feed Atom</div><div class="line">feed:</div><div class="line"> type: atom</div><div class="line"> path: atom.xml</div><div class="line"> limit: 20</div></pre></td></tr></table></figure>
+<ul>
+<li>页面样式配置<br>我的博客有rss功能，也有github链接，但注释掉了，只需要添加wixo\layout_partial\footer.ejs文件的注释行就行，用于在页面显示，如下所示：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- &lt;a href="&lt;%= config.root %&gt;&lt;%= theme.rss %&gt;"&gt;rss&lt;/a&gt;</span></div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      &lt;a href="https://github.com/tomdican/tomdican.github.io"&gt;github&lt;/a&gt;</div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      --&gt;</div><div class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line">      Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wixo<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>5） 调整文章标题字体大小</p>
+<p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
+<ul>
+<li>download<ul>
+<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
+</li>
+<li>config<ul>
+<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;</li>
+<li>dropbox command</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
+<ul>
+<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+</ul>
+<h2 id="coding-net-optional"><a href="#coding-net-optional" class="headerlink" title="coding.net (optional)"></a>coding.net (optional)</h2><p>20170209 added</p>
+<ul>
+<li>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure>
+<pre><code>在cofig文件中，添加coding.net的git地址：
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[remote <span class="string">"origin"</span>]</div><div class="line">        url = https://github.com/tomdican/tomdican.github.io.git</div><div class="line">        url = https://git.coding.net/tomdican/tomdican.coding.me.git</div><div class="line">        fetch = +refs/heads/*:refs/remotes/origin/*</div></pre></td></tr></table></figure>
+<ul>
+<li>将coding中的pages服务选项，<ul>
+<li>选择master分支</li>
+<li>绑定域名，我的是tomdican.xyz</li>
+</ul>
+</li>
+<li>将域名解析进行设置<ul>
+<li>其中coding.me选择默认服务商，github选择海外服务商</li>
+</ul>
+</li>
+</ul>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
+<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
+<ul>
+<li>in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;</li>
+<li>commit to the hexo-blog branch of github;</li>
+<li>update blog;</li>
+</ul>
+</li>
+<li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
+</li>
+<li><p>bug3 toc structure too long without scroll </p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
@@ -2075,139 +2226,12 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[Hexo-install-config]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
-      <content type="html"><![CDATA[<ul>
-<li>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</li>
-</ul>
-<h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
-<li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
-<li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
-<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
-</ul>
-<h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
-<h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
-<p>deploy.sh内容如下：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo generate <span class="comment">#  生成结果到public中</span></div><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout master</div><div class="line">git pull</div><div class="line">cp -R ../../public/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"master update"</span></div><div class="line">git push -u origin master  <span class="comment"># 上传到github中</span></div><div class="line"></div><div class="line">git checkout <span class="built_in">source</span>   <span class="comment"># 提交源文件到github的source分支中</span></div><div class="line">cp -R ../../<span class="built_in">source</span>/* .</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"source update"</span></div><div class="line">git push -u origin <span class="built_in">source</span></div><div class="line">git checkout master</div></pre></td></tr></table></figure>
-<p>运行deploy.sh后，github博客中文章更新成功，然后检查是否生效。</p>
-<ul>
-<li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
-<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
-<p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
-<p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
-<p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
-<p>4) theme configuration<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">rss: atom.xml</div><div class="line">fancybox: true</div><div class="line">favicon: favicon.png</div><div class="line">inverse_sort: false</div><div class="line">fold: true</div><div class="line">google_analytics: true</div><div class="line">scratch_name: Others</div><div class="line">search:</div><div class="line">  path: search.xml</div><div class="line">  field: all</div></pre></td></tr></table></figure></p>
-<p>5) add wixo theme to blog</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">vi _config.yml <span class="comment"># 修改主题后，双击大写Z保存退出</span></div></pre></td></tr></table></figure>
-<p>将theme: landscape这行改为theme: wixo,然后保存，修改主题成功</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="comment"># 清除缓存</span></div><div class="line">hexo s <span class="comment"># 开启服务，然后查看生效的主题</span></div></pre></td></tr></table></figure>
-<h3 id="2-4-Quick-Start"><a href="#2-4-Quick-Start" class="headerlink" title="2.4 Quick Start"></a>2.4 Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
-<p>也可以不用hexo new命令，直接在source/_posts目录中创建md文件，然后添加如下开头内容：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2017-01-18 18:19:46</div><div class="line">tags:</div><div class="line">categories: Docs</div><div class="line">toc: true</div><div class="line">---‘</div></pre></td></tr></table></figure></p>
-<p>其中：<br>title为博客中文章的标题；<br>tags为标签，我的博客没有使用标签；<br>categories为文章的类别，比如这篇文章在Docs类别里面，博客会自动识别然后将文章进行分类，这是关键的地方；<br>toc为文章中内容的目录结构；<br>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h4 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h4 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<h2 id="3-Blog-Configuration（optional）"><a href="#3-Blog-Configuration（optional）" class="headerlink" title="3 Blog Configuration（optional）"></a>3 Blog Configuration（optional）</h2><p>不进行博客的配置，部署到网上也能使用，影响不大，根据自己需要进行配置。</p>
-<p>1) 修改博客标题和域名<br>打开hexo/blog/_config.yml文件，下面仅仅列出我修改的内容，没列出的内容保持默认就行<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"># Site</div><div class="line">title: Hexo # 从title: Hexo改为title: 你的标题</div><div class="line">url: http://tomdican.github.io  # 更改为你的域名</div><div class="line"></div><div class="line">#search</div><div class="line">search:</div><div class="line"> path: search.xml</div><div class="line"> field: all</div></pre></td></tr></table></figure></p>
-<p>2) 添加网站统计</p>
-<p>google analytics用来收集访问用户的情况，不蒜子用来在页面显示用户访问量。</p>
-<ul>
-<li>google analytics</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> theme/wixo</div><div class="line">vi _config.yml <span class="comment"># 改为google_analytics: true,保存退出</span></div><div class="line">vi layout\_partial\post\google_analytics.ejs <span class="comment">#粘贴来自google analytics网站的脚本，获取脚本的步骤如下所示</span></div></pre></td></tr></table></figure>
-<p>首先登录到<a href="https//analytics.google.com">google统计网站</a>,添加个人的域名成功后，进入admin&gt;user management&gt;tracking info&gt;tracking code后，选择website tracking中的脚本内容复制，我脚本内容的如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;script&gt;</div><div class="line">  (<span class="function"><span class="keyword">function</span>(<span class="params">i,s,o,g,r,a,m</span>)</span>&#123;i[<span class="string">'GoogleAnalyticsObject'</span>]=r;i[r]=i[r]||<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">  (i[r].q=i[r].q||[]).push(<span class="built_in">arguments</span>)&#125;,i[r].l=<span class="number">1</span>*<span class="keyword">new</span> <span class="built_in">Date</span>();a=s.createElement(o),</div><div class="line">  m=s.getElementsByTagName(o)[<span class="number">0</span>];a.async=<span class="number">1</span>;a.src=g;m.parentNode.insertBefore(a,m)</div><div class="line">  &#125;)(<span class="built_in">window</span>,<span class="built_in">document</span>,<span class="string">'script'</span>,<span class="string">'https://www.google-analytics.com/analytics.js'</span>,<span class="string">'ga'</span>);</div><div class="line"></div><div class="line">  ga(<span class="string">'create'</span>, <span class="string">'xxxxxxxxxxxxxxx'</span>, <span class="string">'auto'</span>);</div><div class="line">  ga(<span class="string">'send'</span>, <span class="string">'pageview'</span>);</div><div class="line"><span class="xml"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></div></pre></td></tr></table></figure></p>
-<p>当把博客部署到网上后，就能看到google analytics的统计信息了。</p>
-<ul>
-<li>访客统计</li>
-</ul>
-<p>使用<a href="http://busuanzi.ibruce.info/" target="_blank" rel="external">不蒜子统计</a>，简单好用，我仅仅添加了本站访问总量，在wixo\layout_partial\gooter.ejs文件中修改为如下内容：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>. Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wix</div><div class="line">o<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure></p>
-<p>3) 添加站内搜索</p>
-<p>需要安装sitemap插件，引导搜索引擎爬取<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-sitemap --save</div><div class="line">npm install hexo-generator-baidu-sitemap --save  <span class="comment"># 百度不能抓取github</span></div><div class="line">vi  _config.yml <span class="comment"># 添加sitemap的配置，然后保存退出</span></div></pre></td></tr></table></figure></p>
-<p>在_config.yml中添加sitemap配置<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">plugins:</div><div class="line">- hexo-generator-sitemap</div><div class="line"></div><div class="line">#sitemap</div><div class="line">sitemap:</div><div class="line"> path: sitemap.xml</div><div class="line"># 百度无法抓取github</div><div class="line">baidusitemap:</div><div class="line"> path: baidusitemap.xml</div></pre></td></tr></table></figure></p>
-<p>重启hexo服务，输入<a href="http://localhost:4000/sitemap.xml" target="_blank" rel="external">http://localhost:4000/sitemap.xml</a> 检查是否生效，然后更新github博客的部署。还需要在<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>中进行站点添加，步骤如下：</p>
-<ul>
-<li>确保google analytics已经加入博客中;</li>
-<li>进入<a href="https://www.google.com/webmasters/tools/home?hl=zh-CN&amp;authuser=0&amp;pli=1" target="_blank" rel="external">google search</a>；</li>
-<li>添加你的域名站点，比如我的，<a href="https://tomdican.github.io；" target="_blank" rel="external">https://tomdican.github.io；</a></li>
-<li>依次点击抓取&gt;站点地图，在页面右上角点击添加站点地图；</li>
-<li>在输入框中输入sitemap.xml即可，会显示网页数量。</li>
-</ul>
-<p>不能用于github。登陆到zz.baidu.com,然后进入链接提交页面，选择自动提交选项中的sitemap，添加<a href="http://www.tomdican.xyz/baidusitemap.xml。">http://www.tomdican.xyz/baidusitemap.xml。</a></p>
-<p>第二天就能通过搜索引擎查看到你的网站。</p>
-<p>4) 添加rss</p>
-<ul>
-<li>首先安装rss插件</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">npm install hexo-generator-feed  --save</div><div class="line">vi _config.yml  <span class="comment"># 添加rss内容如下</span></div></pre></td></tr></table></figure>
-<p>在_config.yml添加如下内容</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">#Feed Atom</div><div class="line">feed:</div><div class="line"> type: atom</div><div class="line"> path: atom.xml</div><div class="line"> limit: 20</div></pre></td></tr></table></figure>
-<ul>
-<li>页面样式配置<br>我的博客有rss功能，也有github链接，但注释掉了，只需要添加wixo\layout_partial\footer.ejs文件的注释行就行，用于在页面显示，如下所示：</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></div><div class="line">      <span class="comment">&lt;!-- &lt;a href="&lt;%= config.root %&gt;&lt;%= theme.rss %&gt;"&gt;rss&lt;/a&gt;</span></div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      &lt;a href="https://github.com/tomdican/tomdican.github.io"&gt;github&lt;/a&gt;</div><div class="line">      &lt;span class="split"&gt;&lt;/span&gt;</div><div class="line">      --&gt;</div><div class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">id</span>=<span class="string">"busuanzi_value_site_pv"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span> hits.</div><div class="line">      with help from <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://zespia.tw/hexo/"</span> <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;</span>Hexo<span class="tag">&lt;/<span class="name">a</span>&gt;</span> and <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://getbootstra</span></span></div><div class="line">p.com/" <span class="attr">target</span>=<span class="string">"_blank"</span>&gt;Twitter Bootstrap<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line">      Theme by <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"http://github.com/wzpan/hexo-theme-wixo/"</span>&gt;</span>Wixo<span class="tag">&lt;/<span class="name">a</span>&gt;</span>.</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">async</span> <span class="attr">src</span>=<span class="string">"//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>修改wixo\source\css\style.css中的内容，如下css代码所示：<br>添加如下css代码，修饰rss和github的分隔符<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">footer</span> <span class="selector-tag">span</span><span class="selector-class">.split</span>&#123;</div><div class="line">  <span class="attribute">margin-left</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">margin-right</span>: <span class="number">10px</span>;</div><div class="line">  <span class="attribute">border-right</span>: solid <span class="number">#bbb</span> <span class="number">2px</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>5） 调整文章标题字体大小</p>
-<p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
-<ul>
-<li>download<ul>
-<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
-</ul>
-</li>
-<li>config<ul>
-<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;</li>
-<li>dropbox command</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
-<ul>
-<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
-</ul>
-<h2 id="coding-net-optional"><a href="#coding-net-optional" class="headerlink" title="coding.net (optional)"></a>coding.net (optional)</h2><p>20170209 added</p>
-<ul>
-<li>将博客在部署到github的同时，部署到coding.net上面，方便中国使用。</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi .git/config</div></pre></td></tr></table></figure>
-<pre><code>在cofig文件中，添加coding.net的git地址：
-</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[remote <span class="string">"origin"</span>]</div><div class="line">        url = https://github.com/tomdican/tomdican.github.io.git</div><div class="line">        url = https://git.coding.net/tomdican/tomdican.coding.me.git</div><div class="line">        fetch = +refs/heads/*:refs/remotes/origin/*</div></pre></td></tr></table></figure>
-<ul>
-<li>将coding中的pages服务选项，<ul>
-<li>选择master分支</li>
-<li>绑定域名，我的是tomdican.xyz</li>
-</ul>
-</li>
-<li>将域名解析进行设置<ul>
-<li>其中coding.me选择默认服务商，github选择海外服务商</li>
-</ul>
-</li>
-</ul>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
-<h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
-<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
-<ul>
-<li>in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;</li>
-<li>commit to the hexo-blog branch of github;</li>
-<li>update blog;</li>
-</ul>
-</li>
-<li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
-</li>
-<li><p>bug3 toc structure too long without scroll </p>
-</li>
-</ul>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
-      <content type="html"><![CDATA[<h2 id="20170407-23：25"><a href="#20170407-23：25" class="headerlink" title="20170407 23：25"></a>20170407 23：25</h2><ul>
+      <content type="html"><![CDATA[<h2 id="20170408-23：50"><a href="#20170408-23：50" class="headerlink" title="20170408 23：50"></a>20170408 23：50</h2><ul>
+<li>楞严经，第三卷，后面几段分别了火水风空见几方面，意思一样。清净本然。周遍法界。随众生心。应所知量。循业发现。世间无知。惑为因缘。及自然性皆是识心。分别计度。但有言说。都无实义。这几句话是答案，世界本体是清净空的，遍及在世界的任何角落，世界上所有这些事物，都是因为人的心而显示出来的，人的心是有限度的，有欲望业障的，有分别心计度，所以人的心识别的事物都只是片面的，看不到本体清净空，看到的事物全是假像。就像扭曲的镜子看到的事物是变形的一个道理。那人的心到底是什么了，也只是事物的一部分而已，无法逃脱人的范畴。</li>
+<li>创世纪，39 en，Joseph被当作奴隶卖到埃及后，由于上帝的保护，逐渐成为了埃及王的大管家，王后却喜欢上了大管家，想和他发生关系，但他不同意，最后还是被王后陷害到监狱去了，但上帝一直保护着他。</li>
+<li>20分钟写完。<h2 id="20170407-23：25"><a href="#20170407-23：25" class="headerlink" title="20170407 23：25"></a>20170407 23：25</h2></li>
 <li>楞严经，第三卷，四大和合，发明世间种种变化，始终相成，生灭相续，至邻虚尘，更析邻虚，即实空性。性色真空，性空真色。所有万物是金木水火和合而成，相生相灭，其实不是，微尘含有更细的微尘，直到虚空。在如来藏中，一切色尘本是空性，一切空性之中可显出色尘，虚空是通过人心以色尘显示出来，一切不是因缘和合而生，都没有真实义。</li>
 <li>创世纪，38 en,judah的大儿子Er由于邪恶死的早，Judah要儿子Onan去和Er的妻子发生关系，Onan认为发生关系生的子孙不是自己的，所以将精子撒在地上，上帝就结束了Onan的生命，Judah决定要Er的妻子守寡直到小儿子Shelah长大。有一次，Judah出去，见到一个妇女喜欢上了，发生了关系，妇女怀孕了，Er的妻子肚子大起来后，才知道那个妇女就是Er的妻子，不然她早被杀死了，生出了一对双胞胎，先伸出手的结果慢出生。半个小时写完<h2 id="20170324-23：33"><a href="#20170324-23：33" class="headerlink" title="20170324 23：33"></a>20170324 23：33</h2></li>
 <li>楞严经， 第三卷，看了四段，耳、鼻、身触，意识都是虚妄。意法为缘，生意识界。意识不是来自意根，也不是来自法尘。</li>
@@ -2745,6 +2769,16 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -2763,16 +2797,6 @@ box-shadow: none;
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     
