@@ -300,3 +300,7 @@ toc: true
 - 17.浮士德博士 http://newseed.pedaily.cn/201604/201604221324439_all.shtml
 - 18.社科类书籍 http://www.book110.com/5501.html
 - 19.德鲁克https://www.huxiu.com/article/130958.html
+- 20 最经典的商业书籍http://wiki.mbalib.com/wiki/20%E4%B8%96%E7%BA%AA%E3%80%8A%E7%A6%8F%E5%B8%83%E6%96%AF%E3%80%8B%E4%BA%8C%E5%8D%81%E6%9C%AC%E6%9C%80%E5%85%B7%E5%BD%B1%E5%93%8D%E5%8A%9B%E7%9A%84%E5%95%86%E4%B8%9A%E4%B9%A6%E7%B1%8D
+- 商业史上优秀企业家http://finance.sina.com.cn/leadership/crz/20050908/16001952947.shtml 
+- http://wiki.mbalib.com/wiki/2007%E5%B9%B4%E3%80%8A%E5%95%86%E4%B8%9A%E5%91%A8%E5%88%8A%E3%80%8B%E5%8F%B2%E4%B8%8A%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%8430%E5%90%8D%E4%BC%81%E4%B8%9A%E5%AE%B6
+- 
