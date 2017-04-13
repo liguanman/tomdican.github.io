@@ -17,7 +17,72 @@ toc: true
 - 要么作者非常优秀；
 
 
--
+## 最经典的政治学书籍
+
+
+政治学，主要研究社会和国家层面的事情。为什么选择这五本书？君主论是现代政治学产生了重大影响，政治家的最高指南；利维坦这本书能帮助了解国家的本质，非常经典；变化社会中的政治秩序这本书对探索新型现代化道路的中国人有启发和借鉴作用；因为政治非常容易朝坏的方向发展，所以议论民主的经典书籍非常多，民主的发展历史不是很长，而民主新论这本书是民主方面的最新权威；了解大众对政治的看法，公民文化这本书是这方面的开山之作。
+
+- 君主论
+
+- （Il Principe）作者：尼科洛·迪贝尔纳多·代·马基雅弗利（Niccolò di Bernardo dei Machiavelli）
+
+- 这本书是西方政治zhengzhisicu学研究的转折点，政治学开始摆脱神学的束缚。曾被视为世界上最具影响力与畅销的十大名著之一。拿破仑对君主论百读不厌，希特勒放在床边经常阅读。
+
+- 来源https://zh.wikipedia.org/wiki/%E5%90%9B%E4%B8%BB%E8%AE%BA
+
+- 利维坦
+
+- （Leviathan or The Matter, Forme and Power of a Common Wealth Ecclesiastical and Civil）作者：托马斯·霍布斯（Thomas Hobbes）
+
+- 该书系统阐述了国家学说，探讨了社会的结构，其中的人性论、社会契约论、以及国家的本质和作用等思想在西方产生了深远影响，西方政治哲学发展奠定基础。
+
+- 来源https://book.douban.com/subject/1468426/
+
+- 变化社会中的政治秩序
+
+- （Political order in changing societies）作者：塞缪尔·菲利普斯·亨廷顿（Samuel P. Huntington）
+
+- 《变化社会中的政治秩序》一书审视了新兴国家可行的政治制度的发展，其中关于发展中国家的知识广度和分析洞见是惊人的，对现代政治分析作出了重大而持久的贡献。
+
+- 来源http://baike.baidu.com/item/%E5%8F%98%E5%8C%96%E7%A4%BE%E4%BC%9A%E4%B8%AD%E7%9A%84%E6%94%BF%E6%B2%BB%E7%A7%A9%E5%BA%8F#4
+
+- 民主新论
+
+- （The Theory of Democracy Revisited）作者：乔万尼·萨托利（Giovanni Sartori）
+
+- 该书是美国著名政治思想家萨托利耗费十年心血撰写而成的经典之作，一经问世便得到了广泛赞誉。学术界盛赞萨托利在民主学说上“堪称我们时代最为强大的头脑”，“他的论证没有真正的对手”。该书至今仍是民主理论研究的权威著作。
+
+- 来源http://baike.baidu.com/item/%E6%B0%91%E4%B8%BB%E6%96%B0%E8%AE%BA/4911888
+
+- 公民文化——五个国家的政治态度和民主制
+
+- （The Civic Culture: political attitudes and democracy in five nations）作者：加布里埃尔·阿尔蒙德（Gabriel A. Almond）
+
+- 这是一本西方比较政治文化研究方面划时代的巨著，而且，也是一本对该领域研究具有引导指向性的学术成果。可以说，这是一本西方比较政治文化研究方面划时代的巨著，而且，也是一本对该领域研究具有引导指向性的学术成果。结合重访公民文化一书来读。
+
+- 来源https://book.douban.com/subject/3006239/
+
+最经典的政治学书籍
+
+- 君主论
+
+- （Il Principe）作者：尼科洛·迪贝尔纳多·代·马基雅弗利（Niccolò di Bernardo dei Machiavelli）
+
+- 利维坦
+
+- （Leviathan or The Matter, Forme and Power of a Common Wealth Ecclesiastical and Civil）作者：托马斯·霍布斯（Thomas Hobbes）
+
+- 变化社会中的政治秩序
+
+- （Political order in changing societies）作者：塞缪尔·菲利普斯·亨廷顿（Samuel P. Huntington）
+
+- 民主新论
+
+- （The Theory of Democracy Revisited）作者：乔万尼·萨托利（Giovanni Sartori）
+
+- 公民文化——五个国家的政治态度和民主制
+
+- （The Civic Culture: political attitudes and democracy in five nations）作者：加布里埃尔·阿尔蒙德（Gabriel A. Almond）
 
 - 正义论
 - （A Theory of Justice）作者：约翰·罗尔斯（John Rawls）
