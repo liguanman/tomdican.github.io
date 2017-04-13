@@ -17,6 +17,23 @@ toc: true
 - 要么作者非常优秀；
 
 
+-
+
+- 正义论
+- （A Theory of Justice）作者：约翰·罗尔斯（John Rawls）
+- 正义论是一本具有里程碑意义的关于政治哲学与伦理学的著作，罗尔斯尝试用社会契约的衍生方式来解决分配公平的问题。这本书打破了西方政治哲学万马齐喑的冷清局面，重新拾起来自由平等。
+- 来源https://zh.wikipedia.org/wiki/%E6%AD%A3%E4%B9%89%E8%AE%BA
+
+- 政府论
+- （second treatise of civil government）作者：约翰.洛克（John Locke）
+- 洛克的思想对后代政治哲学的发展产生巨大影响，并且被广泛视为是启蒙时代最具影响力的思想家和自由主义者，他的著作也大为影响了伏尔泰和卢梭，以及许多苏格兰启蒙运动的思想家和美国开国元勋。他的理论被反映在美国的独立宣言上。政府论是洛克重要的一本著作。
+- 来源https://book.douban.com/subject/2308876/
+
+
+- 亨延顿：http://blog.sina.com.cn/s/blog_568d1b800100ct6n.html
+- 福山文章https://cn.nytstyle.com/culture/20150429/tc29fukuyama/
+
+
 ## 最经典的经济学书籍
 经济学是一门研究人类行为及如何将有限或者稀缺资源进行合理配置的社会科学，告诉你为什么物价上涨、为什么会有金融危机，也能告诉你现实生活中真实的人性。为什么选择这五本书？国富论是经济学界最经典的著作，探讨市场经济；经济危机随时可能发生，危害性极大，就业、利息和货币通论用于拯救经济危机；通往奴役之路揭露社会主义经济的弊端，为社会主义国家而写；完美的经济制度是自由的市场经济，资本主义与自由就是这样一本书；经济学这本书是经典的教科书，非常适合了解和学习经济学。
 
@@ -406,3 +423,4 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 商业史上优秀企业家http://finance.sina.com.cn/leadership/crz/20050908/16001952947.shtml 
 - http://wiki.mbalib.com/wiki/2007%E5%B9%B4%E3%80%8A%E5%95%86%E4%B8%9A%E5%91%A8%E5%88%8A%E3%80%8B%E5%8F%B2%E4%B8%8A%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%8430%E5%90%8D%E4%BC%81%E4%B8%9A%E5%AE%B6
 - 当代伟大企业家http://money.163.com/12/0326/14/7THGRPNK00253G87.html
+- 100本启发思想的书籍http://www.nbzq.com.cn/dispbbs.asp?boardid=24&id=505&page=3&move=pre
