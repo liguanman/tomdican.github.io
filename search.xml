@@ -2283,79 +2283,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
-<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
-<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
-</ul>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
-<li><p>ready to some tools </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
-</li>
-<li><p>download git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>install and compile git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
-</li>
-<li><p>check git  version</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
-</li>
-<li><p>git config </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>git account cache </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
-<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
-</ol>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Hexo-install-config]]></title>
       <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<ul>
@@ -2555,10 +2482,83 @@ box-shadow: none;
     </entry>
     
     <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
+<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
+<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
+</ul>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
+<li><p>ready to some tools </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
+</li>
+<li><p>download git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>install and compile git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
+</li>
+<li><p>check git  version</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
+</li>
+<li><p>git config </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>git account cache </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
+<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
+</ol>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[great-book-record]]></title>
       <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
       <content type="html"><![CDATA[<h2 id="20170413-23：30"><a href="#20170413-23：30" class="headerlink" title="20170413 23：30"></a>20170413 23：30</h2><ul>
-<li>楞严经，第四卷，</li>
+<li>楞严经，第四卷，性觉妙明，本觉明妙。性的觉悟是非常光明的，本来觉悟就是光明的。每个人都是很有觉悟的，只是大部分人没有悟明白而已。</li>
 <li>创世纪，46 en，Joseph见到了父亲，然后哭了起来，国王给了他一块土地，生了很多孩子子孙。</li>
 </ul>
 <h2 id="20170412-23-02"><a href="#20170412-23-02" class="headerlink" title="20170412 23:02"></a>20170412 23:02</h2><ul>
@@ -3109,16 +3109,6 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[Lorem Ipsum]]></title>
-      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
-      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
-<a id="more"></a>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Code Highlight]]></title>
       <url>http://www.tomdican.xyz/2014/03/15/code-highlight/</url>
       <content type="html"><![CDATA[<h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// C</span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="built_in">printf</span>(<span class="string">"Hello World\n"</span>);</div><div class="line">    <span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -3137,6 +3127,16 @@ box-shadow: none;
 <h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?</span>=<span class="string">"Hello world\n"</span> <span class="meta">?&gt;</span></div></pre></td></tr></table></figure>
 <h2 id="Pascal"><a href="#Pascal" class="headerlink" title="Pascal"></a>Pascal</h2><figure class="highlight pascal"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">Program</span> HelloWorld;</div><div class="line"></div><div class="line"><span class="keyword">Begin</span></div><div class="line">  Writeln (<span class="string">'Hello World!'</span>);</div><div class="line"><span class="keyword">End</span>.</div></pre></td></tr></table></figure>
 <h2 id="Delphi"><a href="#Delphi" class="headerlink" title="Delphi"></a>Delphi</h2><figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Delphi, thanks to C0derr</span></div><div class="line"><span class="keyword">program</span> Project1;</div><div class="line"><span class="keyword">uses</span></div><div class="line">  qdialogs;</div><div class="line"><span class="keyword">const</span></div><div class="line">  s=<span class="string">'Hello, World!'</span>;</div><div class="line"><span class="keyword">begin</span></div><div class="line">  showmessage(s);</div><div class="line"><span class="keyword">end</span>.</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lorem Ipsum]]></title>
+      <url>http://www.tomdican.xyz/2014/03/15/lorem-ipsum/</url>
+      <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><img src="/hexo-theme-wixo/images/lorem-ipsum/lorem-ipsum.jpg" alt="Lorem Ipsum"></p>
+<a id="more"></a>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 ]]></content>
     </entry>
     
