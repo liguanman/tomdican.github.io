@@ -52,7 +52,45 @@ toc: true
 			- 中年以上，某种类别主题的书籍喜欢，偏向文艺或研究的，懂书的人；
 			- 
 	- 添加最经典的政治学书籍 20点20
+
+- 5 
+- google analytics
+- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82278512-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+- 产品思路
+	- 用户亲眼体验了才会相信这个产品；
+	- 先用UI软件画出页面，看看效果怎样，
+		- 是否满足自己找书的需求；
+		- 添加书籍从亚马逊豆瓣，推荐人，推荐语、购买链接，参考页面链接；
+		- 组合成书单
+		- 单独的书单页面，书单归类，逐渐完善书籍每个学科，交叉学科放入两个学科里面，尽量细化到非常小的学科；
+		- 转向用户来完善每个学科的书籍，平台来进行审核；
+		- 自己制作个人的书单，放入自己的书单空间，辅助阅读安排；制作自己个性化的书单；
+
+- 讨论
+	- 电影用户画像；
+	- 除了书单，是否可以延伸到电影；
+	- 书单
+		- 这周就制作书单；
+		- 说明我后面产品功能，（添加书单，复制书单为文章的形式；通过书单页面或分类页面方便用户找到书）
+			- 从自己制作书单的体验来添加功能，推荐人可以不用微博链接、使用豆瓣api，
+			- 个人书单空间
+			- 书单页面
+		- UI使用；
+	- 国体，报社，张，万圣，导师；
 	- 
+- 启发产品http://www.newrank.cn/  分发
+- 小鹅通https://www.xiaoe-tech.com/，基于微信
+- 有赞
+
 - **第一周5-7**
 	- 1
 	- 注册各种文章帐号；
