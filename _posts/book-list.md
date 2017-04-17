@@ -689,3 +689,5 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 尼尔斯波尔介绍http://pec.jstu.edu.cn/physics/physicist/Bohr/Bohr.html
 - 认知神经教材 最经典的神经学教材当是Neuroscience: Exploring the Brain. https://www.zhihu.com/question/27325011
 - 神经科学领域号称圣经的《神经科学原理》
+- 罗杰斯的书籍 皇帝新脑和通往实在之路https://book.douban.com/subject/3144300/
+- 罗杰斯的采访http://blog.sciencenet.cn/blog-605880-624403.html
