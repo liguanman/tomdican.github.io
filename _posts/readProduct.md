@@ -17,7 +17,17 @@ toc: true
 	- 确定需求目标，让用户快速找到自己想要的某领域或专业的或某个话题的书籍；
 		- 添加某个领域或某个话题的书籍的工具
 		- 如何将书籍展示给用户，快速查找；
-	- 确定UI工具
+	- 去国体16点半
+	- 确定UI工具 19点半安装好
+		- https://www.zhihu.com/question/19592829
+		- http://tech2ipo.com/54655
+		- https://www.zhihu.com/question/19688700
+		- https://www.oschina.net/project/tag/291/ui-design
+		- 我现在对原型的流程是这样的：
+		- 用Axure绘制UE图，导出成手机尺寸图片
+		- 导入Briefs或者pop，加入交互，体验一下
+		-   把UI图转成黑白，在Axure里标注，写文档，生成html
+		-    UI定稿再导入briefs，高保真体验
 	- 熟悉它；
 	- 制作最经典的天文地理书籍
 	- 2
