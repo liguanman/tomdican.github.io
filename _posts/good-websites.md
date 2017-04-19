@@ -14,6 +14,7 @@ toc: true
 
 - course&&book
 	- 1. https://leetcode.com
+	- 2.http://booksc.org
 
 
 - github or open source
@@ -28,3 +29,5 @@ toc: true
 - blog&&community
 	- http://blog.csdn.net/jobchanceleo?viewmode=contents
 	- http://www.swarma.org
+	- freewechat.com
+	- 
