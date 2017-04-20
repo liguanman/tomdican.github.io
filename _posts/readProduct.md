@@ -32,7 +32,7 @@ toc: true
 	- 制作最经典的天文地理书籍
 	- 2
 	- http://www.qian10.net/‘
-	- 
+	- 类似产品http://user.yeeyan.org/u/306856
 - **第二周10-14**
 	- 1
 	- 讨论了三个小时，电影推荐
