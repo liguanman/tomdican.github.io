@@ -17,6 +17,8 @@ toc: true
 	- http://www.woshipm.com/it/168464.html
 	- 类似产品，全面，启发性强：https://www.producthunt.com
 	- axure 不同分辨率http://www.woshipm.com/rp/641628.html
+	- 3
+	- 微信公众号开发，http://www.vxzsk.com/2/cate.html
 - **第三周18-22**
 	- 1
 	- 类似产品：nextread.cn
