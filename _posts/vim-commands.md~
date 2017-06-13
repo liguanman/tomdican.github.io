@@ -71,7 +71,6 @@ toc: true
 #### reference
 - vim相关编码概念，http://edyfox.codecarver.org/html/vim_fileencodings_detection.html
 - 编码设置参考，http://www.jianshu.com/p/2d814a4dacdd
-
 #### prepare
 - fileencodings是指，vim在打开文本显示之前，从fileencodings的编码列表中依次检测该文本的编码，找到后就按照该编码格式显示
 - fileencoding是指，使用vim编辑文本后，在保存时，用fileencoding指定的编码格式保存文本，windows环境默认情况下，编码格式一般为ucs-bom
