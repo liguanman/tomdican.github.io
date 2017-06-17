@@ -86,7 +86,7 @@ git rm --cache 'file path'
 
 18. create new tag
 git tag v1.0
-git push origin v1.0
+git push origin v1.0   or  git push -u --tags origin master
 
 ## gitlab
 

@@ -7,6 +7,12 @@ categories: Docs
 toc: true
 ---
 
+## 去中心下载工具resilio
+该软件从官网免费下载，方便翻墙来下载资料。
+
+## 屏幕录制软件bandicam
+该软件非常好用，下载地址：链接：http://pan.baidu.com/s/1dEE4eTb 密码：6d3e
+解压打开软件后，然后关闭，打开注册机输入任意邮箱地址，软件已经注册成功。
 
 ## jdk8 install
 -  OS: _centos6_x64_

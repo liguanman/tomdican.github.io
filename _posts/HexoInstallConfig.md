@@ -121,7 +121,7 @@ vi _config.yml # 修改主题后，双击大写Z保存退出
 hexo clean # 清除缓存
 hexo s # 开启服务，然后查看生效的主题
 ```
-### 2.4 Quick Start
+### 2.4 usage 
 
 #### Create a new post ***
 
