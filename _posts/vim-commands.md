@@ -15,16 +15,18 @@ toc: true
 
 
 
-## gvim config
+## ~~gvim config~~
 
-1. set chinese encoding
-in _vimrc file,add below lines at top 
+~~set chinese encoding
+in _vimrc file,add below lines at top~~ 
 ``` xml
 set encoding=utf8
 ```
 	
 	
 ## vim installation and configuration
+
+vim的快捷键功能很强大，插件也非常多，安装vundle后，可以从[该网站](http://vimawesome.com)下载插件；
 
 ### vim plugin management: vundle 
 
@@ -92,7 +94,8 @@ source $VIMRUNTIME/menu.vim
 ```
 - 关闭vim后，重新打开带中文的文本，修改保存后的编码格式为utf-8,输入:set fileencoding可验证
 
-
+### markdown plugin
+添加此[插件](http://vimawesome.com/plugin/vim-markdown-enchanted)后，在vim中能实现markdown高亮
 
 
 

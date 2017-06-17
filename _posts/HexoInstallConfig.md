@@ -14,7 +14,7 @@ toc: true
 
 - 安装[node.js](http://www.runoob.com/nodejs/nodejs-install-setup.html)
 - 安装[git](http://git-scm.com/download/)
-- markdown客户端：[小书匠](http://soft.xiaoshujiang.com/download.html)
+- markdown客户端：~~[小书匠](http://soft.xiaoshujiang.com/download.html)~~*vim,[详细说明](http://tomdican.xyz/2017/02/10/vim-commands/#vim-installation-and-configuration)*
 
 ## 2 Install&Configuration
 
@@ -77,7 +77,8 @@ cd ../..
 
 ### 2.3 select theme
 
-我喜欢简洁的页面，所以选择的[wixo]( https://github.com/wzpan/hexo-theme-wixo.git)主题，下面以wixo主题为例。
+我喜欢简洁的页面，所以选择的[wixo]( https://github.com/wzpan/hexo-theme-wixo.git)主题作为参考，下面以wixo主题为例。
+*我个人进行了[wixo主题](https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo)的定制,对样式进行了略微调整<sup>[4]</sup>*。
 安装步骤：
 
 1) install theme
@@ -365,7 +366,7 @@ vi .git/config
 [1] https://github.com/wzpan/hexo-theme-wixo/tree/master
 [2] https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/
 [3] http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/
-
+[4] [wixo主题定制版](https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo)，修改样式和toc的bug，20170617
 
 ## bug retore
 
@@ -376,6 +377,6 @@ vi .git/config
 
 - bug2,title can not contain & and blank space sign,because baidusitemap can not deal it;
 
-- bug3 toc structure too long without scroll 
+- bug3 ~~toc structure too long without scroll~~
 
 
