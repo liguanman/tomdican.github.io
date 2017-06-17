@@ -132,7 +132,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> hexo/blog</div><div class="line">vi _config.yml <span class="comment"># 修改主题后，双击大写Z保存退出</span></div></pre></td></tr></table></figure>
 <p>将theme: landscape这行改为theme: wixo,然后保存，修改主题成功</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean <span class="comment"># 清除缓存</span></div><div class="line">hexo s <span class="comment"># 开启服务，然后查看生效的主题</span></div></pre></td></tr></table></figure>
-<h3 id="2-4-Quick-Start"><a href="#2-4-Quick-Start" class="headerlink" title="2.4 Quick Start"></a>2.4 Quick Start</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
+<h3 id="2-4-usage"><a href="#2-4-usage" class="headerlink" title="2.4 usage"></a>2.4 usage</h3><h4 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post *"></a>Create a new post <em>*</em></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span>  <span class="comment"># source/_posts目录中生成newPost.md文件</span></div></pre></td></tr></table></figure>
 <p>也可以不用hexo new命令，直接在source/_posts目录中创建md文件，然后添加如下开头内容：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello World</div><div class="line">date: 2017-01-18 18:19:46</div><div class="line">tags:</div><div class="line">categories: Docs</div><div class="line">toc: true</div><div class="line">---‘</div></pre></td></tr></table></figure></p>
 <p>其中：<br>title为博客中文章的标题；<br>tags为标签，我的博客没有使用标签；<br>categories为文章的类别，比如这篇文章在Docs类别里面，博客会自动识别然后将文章进行分类，这是关键的地方；<br>toc为文章中内容的目录结构；<br>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h4 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -331,13 +331,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 		
 	
+		
+			
+		
+	
 	
 	
 		<li class="prev"><a href="/2017/01/24/shadowsocks/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/01/20/git-guide/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+		<li class="next"><a href="/2017/01/20/Mongodb-guide/" class="alignright next">next<i class="fa fa-arrow-circle-o-right"></i></a></li>
 	
 </ul>
 </div>
@@ -359,8 +363,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
       <span class="split"></span>
       -->
       <span id="busuanzi_value_site_pv"></span> hits.
-      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
-      Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+<!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
+-->
+      Theme by <a style="color:#999" href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>

@@ -3,7 +3,7 @@
 /* highlight */
 
 pre, .highlight, .gist {  
-  background: #333 !important;
+  background: white !important;
   margin: 0.5em 0;
   padding: 1em 2%;
   overflow: auto;
@@ -32,6 +32,7 @@ code {
 }
 
 .highlight .gutter pre{
+  display: none;
   text-align: left;
   padding-right: 20px;
   width: 100%;
@@ -132,7 +133,7 @@ pre code {
 
 pre .comment,
 pre .title {
-  color: #999;
+  color: #ccc;
 }
 pre .variable,
 pre .attribute,
@@ -146,7 +147,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #f2777a;
+  color: #ccc;
 }
 pre .number,
 pre .preprocessor,
@@ -154,12 +155,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f99157;
+  color: #ccc;
 }
 pre .class,
 pre .ruby .class .title,
 pre .css .rules .attribute {
-  color: #9c9;
+  color: #ccc;
 }
 pre .string,
 pre .value,
@@ -167,10 +168,10 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #9c9;
+  color: #ccc;
 }
 pre .css .hexcolor {
-  color: #6cc;
+  color: #ccc;
 }
 pre .function,
 pre .python .decorator,
@@ -180,9 +181,9 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #69c;
+  color: #ccc;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #c9c;
+  color: #ccc;
 }

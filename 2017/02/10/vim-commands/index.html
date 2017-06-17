@@ -13,7 +13,7 @@ Recording keys for repeating jobs: q letter recording  q  @ letter
 
 
 gvim config
-set chinese encoding in _v">
+set chinese encodingin _vi">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -120,7 +120,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 </ol>
 <h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a>gvim config</h2><ol>
-<li>set chinese encoding<br> in _vimrc file,add below lines at top  <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure>
+<li>set chinese encoding<br>in _vimrc file,add below lines at top <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure>
 </li>
 </ol>
 <h2 id="vim-installation-and-configuration"><a href="#vim-installation-and-configuration" class="headerlink" title="vim installation and configuration"></a>vim installation and configuration</h2><h3 id="vim-plugin-management-vundle"><a href="#vim-plugin-management-vundle" class="headerlink" title="vim plugin management: vundle"></a>vim plugin management: vundle</h3><h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><ul>
@@ -151,19 +151,19 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <h4 id="reference-1"><a href="#reference-1" class="headerlink" title="reference"></a>reference</h4><ul>
 <li>vim相关编码概念，<a href="http://edyfox.codecarver.org/html/vim_fileencodings_detection.html" target="_blank" rel="external">http://edyfox.codecarver.org/html/vim_fileencodings_detection.html</a></li>
 <li>编码设置参考，<a href="http://www.jianshu.com/p/2d814a4dacdd" target="_blank" rel="external">http://www.jianshu.com/p/2d814a4dacdd</a></li>
+<li><em>最终解决方案，<a href="http://blog.csdn.net/david_xtd/article/details/7732650" target="_blank" rel="external">http://blog.csdn.net/david_xtd/article/details/7732650</a></em></li>
 </ul>
 <h4 id="prepare"><a href="#prepare" class="headerlink" title="prepare"></a>prepare</h4><ul>
 <li>fileencodings是指，vim在打开文本显示之前，从fileencodings的编码列表中依次检测该文本的编码，找到后就按照该编码格式显示</li>
-<li>fileencoding是指，使用vim编辑文本后，在保存时，用fileencoding指定的编码格式保存文本，windows环境默认情况下，编码格式一般为ucs-bom</li>
+<li>fileencoding是指，使用vim编辑文本后，在保存时，用fileencoding指定的编码格式保存文本，windows环境默认情况下，编码格式一般为<del>ucs-dom</del><em>cp936</em></li>
 <li>vim编码的详细介绍，可以查看参考链接    </li>
 </ul>
 <h4 id="install-1"><a href="#install-1" class="headerlink" title="install"></a>install</h4><ul>
 <li>首先，用vim打开一个带有中文的文本，默认显示正常</li>
 <li>输入:scriptnames，找到_vimrc的路径， 我的是D:program file\vim_vimrc</li>
 <li>输入:set fileencoding，查看保存文本后的编码，默认为空</li>
-<li>输入:set fileencoding=utf-8，然后输入:w，设置编码后，然后用其他工具打开这个文本，查看编码格式是否为utf-8，一般不用验证</li>
 <li><p>用vim打开_vimrc文本，然后在文本末尾添加两行命令，如下所示</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1</div><div class="line">set fileencoding=utf-8</div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">set encoding=utf-8</div><div class="line">set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1</div><div class="line">set fileencoding=utf-8</div><div class="line">source $VIMRUNTIME/delmenu.vim</div><div class="line">source $VIMRUNTIME/menu.vim</div></pre></td></tr></table></figure>
 </li>
 <li><p>关闭vim后，重新打开带中文的文本，修改保存后的编码格式为utf-8,输入:set fileencoding可验证</p>
 </li>
@@ -269,6 +269,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 		
 	
+		
+			
+		
+	
 	
 	
 		<li class="prev"><a href="/2017/02/23/general-commands/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
@@ -297,8 +301,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
       <span class="split"></span>
       -->
       <span id="busuanzi_value_site_pv"></span> hits.
-      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
-      Theme by <a href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+<!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
+-->
+      Theme by <a style="color:#999" href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
