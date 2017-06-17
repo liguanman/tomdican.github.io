@@ -1,11 +1,11 @@
 Hexo-Theme-Wixo
 ===
+个人定制版本：去掉标题代码块的颜色区分，去掉边框，修复toc过长的样式问题，当toc过长时显示滚动条,v1.0以上都为个人定制；
+wixo原版为[v0.0](https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/v0.0/themes/wixo)
 
 Turn your Hexo into a Wiki!
 
-* [Demo](http://wzpan.github.io/hexo-theme-wixo/)
-* [Q&A](http://wzpan.github.io/hexo-theme-wixo/Docs/qna/)
-* [Tag Plugins](http://wzpan.github.io/hexo-theme-wixo/Docs/tag-plugins/)
+* [Demo](http://tomdican.xyz)
 
 ## Requirements ##
 
