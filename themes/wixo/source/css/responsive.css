@@ -6,6 +6,7 @@
 @media (min-width: 1200px) {
   .sidenav {
     width: 258px;
+    margin-top: -35px;
   }
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
@@ -19,7 +20,7 @@
   .sidenav {
     top: 0;
     width: 218px;
-    margin-top: 30px;
+    margin-top: -35px;
     margin-bottom: 30px;
     margin-right: 0;
   }
@@ -37,7 +38,7 @@
   /* Adjust sidenav width */
   .sidenav {
     width: 166px;
-    margin-top: 20px;
+    margin-top: -35px;
   }
   
 }
