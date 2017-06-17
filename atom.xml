@@ -2339,11 +2339,9 @@ box-shadow: none;
 <li><p>Recording keys for repeating jobs: q letter recording  q  @ letter</p>
 </li>
 </ol>
-<h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a>gvim config</h2><ol>
-<li>set chinese encoding<br>in _vimrc file,add below lines at top <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="vim-installation-and-configuration"><a href="#vim-installation-and-configuration" class="headerlink" title="vim installation and configuration"></a>vim installation and configuration</h2><h3 id="vim-plugin-management-vundle"><a href="#vim-plugin-management-vundle" class="headerlink" title="vim plugin management: vundle"></a>vim plugin management: vundle</h3><h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><ul>
+<h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a><del>gvim config</del></h2><p><del>set chinese encoding<br>in _vimrc file,add below lines at top</del><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure></p>
+<h2 id="vim-installation-and-configuration"><a href="#vim-installation-and-configuration" class="headerlink" title="vim installation and configuration"></a>vim installation and configuration</h2><p>vim的快捷键功能很强大，插件也非常多，安装vundle后，可以从<a href="http://vimawesome.com" target="_blank" rel="external">该网站</a>下载插件；</p>
+<h3 id="vim-plugin-management-vundle"><a href="#vim-plugin-management-vundle" class="headerlink" title="vim plugin management: vundle"></a>vim plugin management: vundle</h3><h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><ul>
 <li>for windows path <a href="https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows" target="_blank" rel="external">https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows</a></li>
 <li>path bug <a href="https://github.com/VundleVim/Vundle.vim/issues/753" target="_blank" rel="external">https://github.com/VundleVim/Vundle.vim/issues/753</a></li>
 <li>vundle readme <a href="https://github.com/VundleVim/Vundle.vim" target="_blank" rel="external">https://github.com/VundleVim/Vundle.vim</a></li>
@@ -2388,6 +2386,7 @@ box-shadow: none;
 <li><p>关闭vim后，重新打开带中文的文本，修改保存后的编码格式为utf-8,输入:set fileencoding可验证</p>
 </li>
 </ul>
+<h3 id="markdown-plugin"><a href="#markdown-plugin" class="headerlink" title="markdown plugin"></a>markdown plugin</h3><p>添加此<a href="http://vimawesome.com/plugin/vim-markdown-enchanted" target="_blank" rel="external">插件</a>后，在vim中能实现markdown高亮</p>
 ]]></content>
     
     <summary type="html">
@@ -4079,6 +4078,96 @@ box-shadow: none;
   </entry>
   
   <entry>
+    <title>git-guide</title>
+    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u –tags origin master</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
+<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
+<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
+<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
+</ul>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
+<li><p>ready to some tools </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
+</li>
+<li><p>download git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
+</li>
+<li><p>install and compile git</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
+</li>
+<li><p>check git  version</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
+</li>
+<li><p>git config </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>git account cache </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
+<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;add or update file:&lt;b
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-install-config</title>
     <link href="http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/"/>
     <id>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</id>
@@ -4091,7 +4180,7 @@ box-shadow: none;
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
 <li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
 <li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
-<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
+<li>markdown客户端：<del><a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></del><em>vim,<a href="http://tomdican.xyz/2017/02/10/vim-commands/#vim-installation-and-configuration" target="_blank" rel="external">详细说明</a></em></li>
 </ul>
 <h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
 <h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
@@ -4102,7 +4191,7 @@ box-shadow: none;
 <li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
-<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
+<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题作为参考，下面以wixo主题为例。<br><em>我个人进行了<a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题</a>的定制,对样式进行了略微调整<sup>[4]</sup></em>。<br>安装步骤：</p>
 <p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
 <p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
 <p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
@@ -4195,7 +4284,7 @@ box-shadow: none;
 </ul>
 </li>
 </ul>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a><br>[4] <a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题定制版</a>，修改样式和toc的bug，20170617</p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
 <li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
 <ul>
@@ -4206,7 +4295,7 @@ box-shadow: none;
 </li>
 <li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
 </li>
-<li><p>bug3 toc structure too long without scroll </p>
+<li><p>bug3 <del>toc structure too long without scroll</del></p>
 </li>
 </ul>
 ]]></content>
@@ -4307,96 +4396,6 @@ box-shadow: none;
     
     
       <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin <a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a></p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit<br>git show –stat –oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621   </p>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add -A<br>git commit -am “init”<br>git push  -u origin master</p>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u –tags origin master</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup<br>git config –global user.name “Administrator”<br>git config –global user.email “register@xxxx.com”</p>
-<p>Create a new repository<br>git clone <a href="http://182.92.xx.xx:9090/software/pro.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/pro.git</a><br>cd professi<br>touch README.md<br>git add README.md<br>git commit -m “add README”<br>git push -u origin master  (first git pull origin master)<br>Existing folder or Git repository<br>cd existing_folder<br>git init<br>git remote add origin <a href="http://182.92.xx.xx:9090/software/profe.git" target="_blank" rel="external">http://182.92.xx.xx:9090/software/profe.git</a><br>git add .<br>git commit<br>git push -u origin master</p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><ul>
-<li><a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.</li>
-<li>my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</li>
-</ul>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><ul>
-<li><p>ready to some tools </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure>
-</li>
-<li><p>download git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>install and compile git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure>
-</li>
-<li><p>check git  version</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure>
-</li>
-<li><p>git config </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure>
-</li>
-<li><p>git account cache </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><ol>
-<li>git clone <a href="https://github.com/lity/re.git" target="_blank" rel="external">https://github.com/lity/re.git</a><br>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;add or update file:&lt;b
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   

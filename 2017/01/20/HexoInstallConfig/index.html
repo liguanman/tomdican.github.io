@@ -112,7 +112,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
 <li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
 <li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
-<li>markdown客户端：<a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></li>
+<li>markdown客户端：<del><a href="http://soft.xiaoshujiang.com/download.html" target="_blank" rel="external">小书匠</a></del><em>vim,<a href="http://tomdican.xyz/2017/02/10/vim-commands/#vim-installation-and-configuration" target="_blank" rel="external">详细说明</a></em></li>
 </ul>
 <h2 id="2-Install-amp-Configuration"><a href="#2-Install-amp-Configuration" class="headerlink" title="2 Install&amp;Configuration"></a>2 Install&amp;Configuration</h2><h3 id="2-1-start-hexo-server"><a href="#2-1-start-hexo-server" class="headerlink" title="2.1 start hexo server"></a>2.1 start hexo server</h3><figure class="highlight plain"><figcaption><span>d:/hexo   # 新建hexo目录</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g # 安装hexo</div><div class="line">$ hexo init blog # 初始化hexo的根目录</div><div class="line">$ cd blog</div><div class="line">$ npm install # 安装hexo的插件包</div><div class="line">$ ls</div><div class="line">$ hexo g # 将source目录中MD文件，转化到public目录中HTML文件</div><div class="line">$ hexo s # 然后使用浏览器输入http://localhost:4000/ 查看</div></pre></td></tr></table></figure>
 <h3 id="2-2-deploy-into-github"><a href="#2-2-deploy-into-github" class="headerlink" title="2.2 deploy into github"></a>2.2 deploy into github</h3><p>1) 新建github工程，工程名称为 xxx.github.io,我的为 tomdican.github.io;<br>2) 点击右上角的setting按钮，查看blog在哪个分支生效，我的在master分支有效；<br>3) 浏览器输入地址 <a href="http://xxx.github.io" target="_blank" rel="external">http://xxx.github.io</a> 是否生效。<br>4) 克隆容器和更新文章，如下所示：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/tomdican/tomdican.github.io.git  .deploy/tomdican.github.io</div><div class="line">$ vi deploy.sh  <span class="comment"># 添加如下脚本，然后保存退出</span></div><div class="line">$ sh deploy.sh <span class="comment">#运行脚本，更新github中文章内容</span></div></pre></td></tr></table></figure></p>
@@ -123,7 +123,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
-<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题，下面以wixo主题为例。<br>安装步骤：</p>
+<h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题作为参考，下面以wixo主题为例。<br><em>我个人进行了<a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题</a>的定制,对样式进行了略微调整<sup>[4]</sup></em>。<br>安装步骤：</p>
 <p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
 <p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
 <p>3) install hexo-tag-bootstrap<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-tag-bootstrap --save</div></pre></td></tr></table></figure></p>
@@ -216,7 +216,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ul>
 </li>
 </ul>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a></p>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a><br>[4] <a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题定制版</a>，修改样式和toc的bug，20170617</p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
 <li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
 <ul>
@@ -227,7 +227,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 <li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
 </li>
-<li><p>bug3 toc structure too long without scroll </p>
+<li><p>bug3 <del>toc structure too long without scroll</del></p>
 </li>
 </ul>
 	  
@@ -280,6 +280,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 			
+		
+	
+		
+			
 			
 		
 	
@@ -288,19 +292,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 			
 		
-			
-		
 	
-		
-	
-		
-	
-		
-			
-		
-	
-		
-			
 		
 	
 		
@@ -335,9 +327,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 		
 	
+		
+			
+		
+	
+		
+			
+		
 	
 	
-		<li class="prev"><a href="/2017/01/24/shadowsocks/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
+	
+		<li class="prev"><a href="/2017/01/20/git-guide/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
 	
 	<li><a href="/"><i class="fa fa-archive"></i>Home</a></li>
 	
@@ -365,7 +365,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
       <span id="busuanzi_value_site_pv"></span> hits.
 <!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
 -->
-      Theme by <a style="color:#999" href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+      Theme by <a style="color:#999" href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo">Wixo</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
