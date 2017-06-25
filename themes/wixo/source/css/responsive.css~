@@ -5,7 +5,7 @@
 ------------------------- */
 @media (min-width: 1200px) {
   .sidenav {
-    width: 228px;
+    width: 258px;
   }
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
