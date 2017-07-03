@@ -4,9 +4,11 @@
 /* Desktop large
 ------------------------- */
 @media (min-width: 1200px) {
-  .sidenav {
-    width: 258px;
-    margin-top: -35px;
+  .note {
+    width: 100%;
+  }
+  .container {
+    width: 570px;
   }
   .sidenav > li > a {
     width: 230px \9; /* Override the previous IE8-9 hack */
@@ -16,31 +18,44 @@
 /* Desktop
 ------------------------- */
 @media (min-width: 991px) and (max-width: 1199px)  {
-  /* When affixed, space properly */
-  .sidenav {
-    top: 0;
-    width: 218px;
-    margin-top: -35px;
-    margin-bottom: 30px;
-    margin-right: 0;
+  .note {
+    width: 100%;
   }
+
+  .container {
+    width: 470px;
+  }
+  /* When affixed, space properly */
 
 }
 
 /* Tablet to desktop
 ------------------------- */
 @media (min-width: 768px) and (max-width: 990px) {
+  .note {
+    width: 100%;
+  }
+
+  .container {
+    width: 410px;
+  }
   /* Remove any padding from the body */
   body {
     padding-top: 0;
   }
 
-  /* Adjust sidenav width */
-  .sidenav {
-    width: 166px;
-    margin-top: -35px;
-  }
   
+}
+
+@media (max-width: 900px) {
+  /* Sidenav */
+  .sidebar .sidenav {
+    left: 30px;
+    background: #f5f5f5;
+  }
+  .sidebar li a {
+    text-align: center;
+  }
 }
 
 /* Tablet
@@ -51,14 +66,9 @@
     padding-top: 0;
   }
 
-  /* Sidenav */
-  .sidenav {
-    margin-bottom: 20px;
-    position: static;
-    width: auto;
-    top: 0;
+  .container {
+    width: 400px;
   }
-
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0;
   }
@@ -84,11 +94,6 @@
     word-break: break-all;
   }
 
-  .sidenav{
-    position: static;
-    width: auto;
-    top: 0;
-  }
 
   .page-header h1 span.date{
 	display:block; overflow: hidden; width: 0; height: 0; 

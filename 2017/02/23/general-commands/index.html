@@ -6,17 +6,13 @@
   <title>general-tech-tricks | 多是少</title>
   <meta name="author" content="John Doe">
   
-  <meta name="description" content="shell
-go to the specified dir
-1. ./cd.sh
+  <meta name="description" content="centos1.Diagnosing Network
 
-refrence
-
-
-
-watch 监控命令输出内容。eg: watch ‘ps -ef|grep php’
-wc 计算输出的行数或字符数等。eg: cat test.txt|wc -l
-curl 发http请求。e">
+test the network speed
+12yum install epel-releaseyum install python2-speedtest-cli
+or
+1pip install speedtest
+show download">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -92,36 +88,44 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
-	<div class="content">
+      <div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">general-tech-tricks</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-02-23</span></h1>
+  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">general-tech-tricks</span></h1>
 </div>		
 
-<div class="row page">
-  <!-- cols -->	
+
   
-  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
-	<!-- toc -->
+
+
+<div class="row page">
+
+  <!-- cols -->      <div class="col-xs-12 col-sm-3 col-md-3 toc">         <!-- toc -->
 <script type="text/javascript">
 		jQuery(document).ready(function() {
  		   generateWikiTOC('.note', '.toc',  2 , 2 );
 		});
-</script>
-  </div><!-- col-md-3 -->
-  
-  
+</script>   </div>   
 
   
   <div class="col-xs-12 col-sm-9 col-md-9 note">
 	
 
 	  <!-- content -->
-	  <h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><ol>
-<li><p>go to the specified dir</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure>
+	  <h2 id="centos"><a href="#centos" class="headerlink" title="centos"></a>centos</h2><p>1.Diagnosing Network</p>
+<ul>
+<li><p>test the network speed</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum install epel-release</div><div class="line">yum install python2-speedtest-cli</div></pre></td></tr></table></figure>
+<p>or</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install speedtest</div></pre></td></tr></table></figure>
+<p>show download and upload speed,run <code>speedtest-cli</code></p>
 </li>
-<li><p><a href="https://liuxd.github.io/posts/Command.html" target="_blank" rel="external">refrence</a></p>
+<li><p><code>mtr</code> represents an evolution of the <code>traceroute</code> command by providing a greater data sample</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum install mtr</div><div class="line">mtr -rw youku.com</div></pre></td></tr></table></figure>
 </li>
+</ul>
+<h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><p>1.go to the specified dir<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure></p>
+<ol>
+<li><a href="https://liuxd.github.io/posts/Command.html" target="_blank" rel="external">refrence</a></li>
 </ol>
 <ul>
 <li>watch 监控命令输出内容。<br>eg: watch ‘ps -ef|grep php’</li>
@@ -171,15 +175,10 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ul>
 </li>
 </ul>
-<ol>
-<li>check port<br>netstat -anp | grep 834<br>lsof -i | grep 888</li>
-</ol>
-<h2 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h2><ul>
-<li><p>1.Search in a folder</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure>
-</li>
-<li><ol>
-<li><p>Delete the lines</p>
+<p>4.check port<br>netstat -anp | grep 834<br>lsof -i | grep 888</p>
+<p>5.recall the last argument of the pre command,<code>Alt+.</code> or <code>!$</code></p>
+<h2 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h2><p>1.Search in a folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure></p>
+<p>2.Delete the lines</p>
 <ul>
 <li><p>delete the matched</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:g/pattern/d</div></pre></td></tr></table></figure>
@@ -188,13 +187,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:v/pattern/d</div></pre></td></tr></table></figure>
 </li>
 </ul>
-</li>
-</ol>
-</li>
-</ul>
-<ol>
-<li><a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">ide install</a></li>
-</ol>
+<p>3.<a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">ide install</a><br>4.insert the current time with ‘F5’,detail config of <a href="http://vim.wikia.com/wiki/Insert_current_date_or_time" target="_blank" rel="external">vimrc file</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&quot; &lt;F5&gt; to produce date in normal mode</div><div class="line">:nnoremap &lt;F5&gt; &quot;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;P</div><div class="line">&quot; in insert mode</div><div class="line">:inoremap &lt;F5&gt; &lt;C-R&gt;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;</div></pre></td></tr></table></figure></p>
 <h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><p><a href="https://liuxd.github.io/posts/Docker.html" target="_blank" rel="external">refrence:</a></p>
 <h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
 <li><p>different from val(),text(),html();</p>
@@ -314,42 +307,6 @@ box-shadow: none;
 			
 		
 	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
 	
 	
 		<li class="prev"><a href="/2017/02/26/about-spring/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
@@ -368,7 +325,7 @@ box-shadow: none;
 	
   </div><!-- row -->
 
-	</div>
+      </div>
   </div>
   <div class="container-narrow">
 	<footer> <p>
@@ -380,7 +337,7 @@ box-shadow: none;
       <span id="busuanzi_value_site_pv"></span> hits.
 <!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
 -->
-      Theme by <a style="color:#999" href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo">Wixo</a>.    
+      Theme by <a style="color:#999" href="https://github.com/tomdican/hexo-theme-less">less</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -390,6 +347,13 @@ box-shadow: none;
 <a id="gotop" href="#">   
   <span>▲</span> 
 </a>
+<div id="sidebar-toggle" class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle" style="opacity: 1; width: 100%; left: 0px; top: 0px; transform: rotateZ(0deg);"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+    </div>
+  </div>
 
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>

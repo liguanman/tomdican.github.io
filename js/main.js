@@ -9,8 +9,32 @@ function setTitleDate()
 	$("#title-date").css("right", container_right);
 }
 
+function ifTocExist()
+{
+	if(!$("#mytoc li").length) {
+		$("#sidebar-toggle").hide()
+	}
+}
+
+function toggleToc() 
+{
+	$("#sidebar-toggle").click(function(){
+		if($("#mytoc").css('display') == 'block'){
+		   $("#mytoc").hide();	
+		} else {
+		   $("#mytoc").show();
+		}
+	})
+	$("#mytoc li").click(function(){
+		if($("#mytoc").css('display') == 'block'){
+		   $("#mytoc").hide();	
+		}
+        })	
+}
+
 $(document).ready(function() {
-	
+	ifTocExist();
+	toggleToc();	
 	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
         var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
         if( scrollt >200 ){  //判断滚动后高度超过200px,就显示

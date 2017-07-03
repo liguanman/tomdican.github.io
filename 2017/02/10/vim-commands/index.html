@@ -6,13 +6,8 @@
   <title>vim-commands | 多是少</title>
   <meta name="author" content="John Doe">
   
-  <meta name="description" content="vim commands
-indent 7 lines:  7 &amp;gt; &amp;gt;
-
-Recording keys for repeating jobs: q letter recording  q  @ letter
-
-
-gvim configset chinese encodingin _vim">
+  <meta name="description" content="vim commands1.indent 7 lines:  7 &amp;gt; &amp;gt;2.Recording keys for repeating jobs: q letter recording  q  @ letter
+gvim configset chinese encodingin _vimr">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -88,36 +83,30 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
-	<div class="content">
+      <div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">vim-commands</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-02-10</span></h1>
+  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">vim-commands</span></h1>
 </div>		
 
-<div class="row page">
-  <!-- cols -->	
+
   
-  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
-	<!-- toc -->
+
+
+<div class="row page">
+
+  <!-- cols -->      <div class="col-xs-12 col-sm-3 col-md-3 toc">         <!-- toc -->
 <script type="text/javascript">
 		jQuery(document).ready(function() {
  		   generateWikiTOC('.note', '.toc',  2 , 2 );
 		});
-</script>
-  </div><!-- col-md-3 -->
-  
-  
+</script>   </div>   
 
   
   <div class="col-xs-12 col-sm-9 col-md-9 note">
 	
 
 	  <!-- content -->
-	  <h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><ol>
-<li><p>indent 7 lines:  7 &gt; &gt;</p>
-</li>
-<li><p>Recording keys for repeating jobs: q letter recording  q  @ letter</p>
-</li>
-</ol>
+	  <h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><p>1.indent 7 lines:  7 &gt; &gt;<br>2.Recording keys for repeating jobs: q letter recording  q  @ letter</p>
 <h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a><del>gvim config</del></h2><p><del>set chinese encoding<br>in _vimrc file,add below lines at top</del><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure></p>
 <h2 id="vim-installation-and-configuration"><a href="#vim-installation-and-configuration" class="headerlink" title="vim installation and configuration"></a>vim installation and configuration</h2><p>vim的快捷键功能很强大，插件也非常多，安装vundle后，可以从<a href="http://vimawesome.com" target="_blank" rel="external">该网站</a>下载插件；</p>
 <h3 id="vim-plugin-management-vundle"><a href="#vim-plugin-management-vundle" class="headerlink" title="vim plugin management: vundle"></a>vim plugin management: vundle</h3><h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><ul>
@@ -166,6 +155,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 </ul>
 <h3 id="markdown-plugin"><a href="#markdown-plugin" class="headerlink" title="markdown plugin"></a>markdown plugin</h3><p>添加此<a href="http://vimawesome.com/plugin/vim-markdown-enchanted" target="_blank" rel="external">插件</a>后，在vim中能实现markdown高亮</p>
+<h3 id="vim的分屏神器conemu"><a href="#vim的分屏神器conemu" class="headerlink" title="vim的分屏神器conemu"></a>vim的分屏神器conemu</h3><p>20170618早上7点<br><a href="https://conemu.github.io" target="_blank" rel="external">官网</a>,<a href="https://conemu.github.io/en/KeyboardShortcuts.html" target="_blank" rel="external">快捷键</a>功能也非常强大，通过多任务功能启动windows的应用，比如浏览器、vim、cmd、shell等等，通过快捷键Win+Alt+t添加任务。<br>部分快捷键如下：</p>
+<ul>
+<li>Alt+Win+k, show all shortcuts</li>
+<li>Win+Alt+P，Displays ConEmu Settings dialog</li>
+<li>Ctrl+Win+Enter，Maximize ConEmu window and hide window caption (FullScreen mode).</li>
+<li>Win+Q, Win+Shift+Q，Activate next/previous console tab. Q is default</li>
+<li>Win+Del，Terminate current console. This hotkey is disabled by default! You may enable it in the ConEmu Setting</li>
+<li>Ctrl+Shift+e or o,垂直分屏或水平分屏</li>
+</ul>
+<h3 id="git-bash环境的vim配置"><a href="#git-bash环境的vim配置" class="headerlink" title="git-bash环境的vim配置"></a>git-bash环境的vim配置</h3><p>20170618中午<br>在windows环境下使用shell的最好方式是git-bash，比较轻量，内置有vim工具，由于在windows环境下已经有配置好的vim工具，可以通过修改vim的路径来达到目的。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span></div><div class="line">vim /etc/profile.d/aliases.sh  //在脚本中添加一行命令</div><div class="line">:wq</div><div class="line"><span class="built_in">source</span> !$</div><div class="line">vim</div><div class="line">:scriptnames  //查看vim的路径修改成功</div></pre></td></tr></table></figure></p>
+<p>以上需要添加的一行命令为alias vim=’/d/Program\ Files\ \(x86\)/Vim/vim80/vim.exe’；</p>
 	  
 
 	  <div>
@@ -235,42 +235,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 			
 		
 	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
-		
-			
-		
-	
 	
 	
 		<li class="prev"><a href="/2017/02/23/general-commands/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
@@ -289,7 +253,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
   </div><!-- row -->
 
-	</div>
+      </div>
   </div>
   <div class="container-narrow">
 	<footer> <p>
@@ -301,7 +265,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
       <span id="busuanzi_value_site_pv"></span> hits.
 <!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
 -->
-      Theme by <a style="color:#999" href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo">Wixo</a>.    
+      Theme by <a style="color:#999" href="https://github.com/tomdican/hexo-theme-less">less</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -311,6 +275,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <a id="gotop" href="#">   
   <span>▲</span> 
 </a>
+<div id="sidebar-toggle" class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle" style="opacity: 1; width: 100%; left: 0px; top: 0px; transform: rotateZ(0deg);"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+    </div>
+  </div>
 
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>

@@ -88,24 +88,23 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
-	<div class="content">
+      <div class="content">
 	  <div class="page-header">		
-  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">read-product</span><span class="date" id="title-date"><i class="fa fa-clock-o"></i> 2017-02-07</span></h1>
+  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">read-product</span></h1>
 </div>		
 
-<div class="row page">
-  <!-- cols -->	
+
   
-  <div class="col-xs-12 col-sm-3 col-md-3 toc"> 
-	<!-- toc -->
+
+
+<div class="row page">
+
+  <!-- cols -->      <div class="col-xs-12 col-sm-3 col-md-3 toc">         <!-- toc -->
 <script type="text/javascript">
 		jQuery(document).ready(function() {
  		   generateWikiTOC('.note', '.toc',  2 , 2 );
 		});
-</script>
-  </div><!-- col-md-3 -->
-  
-  
+</script>   </div>   
 
   
   <div class="col-xs-12 col-sm-9 col-md-9 note">
@@ -528,7 +527,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </li>
 </ul>
 <ul>
-<li><strong>第三周13-17（第二版）</strong><ul>
+<li><p><strong>第三周13-17（第二版）</strong></p>
+<ul>
 <li>1.</li>
 <li>[x] 实现微博认证后获取用户信息；</li>
 <li>[x] 实现退出操作；由于没把重载操作放在logout里面导致退出失效；</li>
@@ -563,41 +563,44 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li>实现self link，花了5个小时；</li>
 </ul>
 </li>
+<li><p>5.</p>
+<ul>
+<li>实现了一本书籍的链接；</li>
+<li>实现了一本书的点击量计算</li>
+<li>实现了个人的一本书点击量计算，<a href="http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；" target="_blank" rel="external">http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；</a></li>
+<li>在页面显示一本书的点击量和个人页面的点击量；</li>
+<li>出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时</li>
+</ul>
+</li>
+<li><p>6.</p>
+<ul>
+<li><strong>思路</strong></li>
+<li>提供个人一本书的推广链接；</li>
+<li>去掉页面的顶部导航条；</li>
+<li>将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；</li>
+<li>将书籍自动循环显示，手动循环；</li>
+<li>在个人页面可以选择需要推广的书籍；</li>
+<li>添加广告类型id；</li>
+<li>通过uid获取相关书籍；</li>
+<li>调试嵌入的窗口大小；</li>
+<li>添加横向滚动的按钮；</li>
+<li>在个人页面添加链接的复制；</li>
+<li>添加可选择广告的按钮；</li>
+<li>添加可组合的书单；</li>
+<li>可以输入书单名字来广告；</li>
+<li><strong>实现</strong></li>
+<li>查看和测试亚马逊的个人推广链接；2个小时</li>
+<li>添加广告嵌入的标签iframe；</li>
+<li>调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；</li>
+<li>调试了窗口大小，显示三本书；1个小时</li>
+<li>添加了左右滚动箭头样式；2个小时</li>
+<li>添加按钮实现书籍滚动；</li>
+<li>调试窗口大小；</li>
+<li>显示个人推广链接；</li>
 </ul>
 </li>
 </ul>
-<pre><code>- 5.
-    - 实现了一本书籍的链接；
-    - 实现了一本书的点击量计算
-    - 实现了个人的一本书点击量计算，http://socboo.com/?book=58b8f11afe45be64b8566ba2&amp;uid=5855779088；
-    - 在页面显示一本书的点击量和个人页面的点击量；
-    - 出现userinfo中没有保存bookrefererid的情况，待观察；花了6个小时
-
-- 6.
-    - **思路**
-    - 提供个人一本书的推广链接；
-    - 去掉页面的顶部导航条；
-    - 将书籍显示面积调整到适合广告窗口，可以设置窗口大小的等级；
-    - 将书籍自动循环显示，手动循环；
-    - 在个人页面可以选择需要推广的书籍；
-    - 添加广告类型id；
-    - 通过uid获取相关书籍；
-    - 调试嵌入的窗口大小；
-    - 添加横向滚动的按钮；
-    - 在个人页面添加链接的复制；
-    -  添加可选择广告的按钮；
-    -  添加可组合的书单；
-    -  可以输入书单名字来广告；
-    - **实现**
-    - 查看和测试亚马逊的个人推广链接；2个小时
-    - 添加广告嵌入的标签iframe；
-    - 调试广告不显示的问题，由于浏览器禁用广告的插件；3个小时；
-    - 调试了窗口大小，显示三本书；1个小时
-    - 添加了左右滚动箭头样式；2个小时
-    - 添加按钮实现书籍滚动；
-    - 调试窗口大小；
-    - 显示个人推广链接；
-</code></pre><ul>
+</li>
 <li><p><strong>第二周6-10（第二版）</strong></p>
 <ul>
 <li>1.<ul>
@@ -1210,24 +1213,6 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 		
 	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
-		
-	
 	
 	
 		<li class="prev"><a href="/2017/04/05/book-list/" class="alignleft prev"><i class="fa fa-arrow-circle-o-left"></i>prev</a></li>
@@ -1246,7 +1231,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
   </div><!-- row -->
 
-	</div>
+      </div>
   </div>
   <div class="container-narrow">
 	<footer> <p>
@@ -1258,7 +1243,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
       <span id="busuanzi_value_site_pv"></span> hits.
 <!--      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>.
 -->
-      Theme by <a style="color:#999" href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo">Wixo</a>.    
+      Theme by <a style="color:#999" href="https://github.com/tomdican/hexo-theme-less">less</a>.    
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
@@ -1268,6 +1253,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <a id="gotop" href="#">   
   <span>▲</span> 
 </a>
+<div id="sidebar-toggle" class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle" style="opacity: 1; width: 100%; left: 0px; top: 0px; transform: rotateZ(0deg);"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+    </div>
+  </div>
 
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>

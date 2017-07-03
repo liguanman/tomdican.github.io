@@ -16,13 +16,28 @@
   text-shadow: 0 1px 0 #fff;
   background-color: white;
   border-radius: 5px;
+  display: none;
 }
 
 /* All levels of nav */
+
+  .sidebar .sidenav {
+    bottom: 76px;
+    position: fixed;
+    right: 30px;
+    overflow-y: auto;
+    z-index: 1050;
+    max-height: 70%; 
+    }
+
+  .sidebar .nav > .active > ul {
+    display: block;
+  }
 .sidebar .nav > li > a {
   display: block;
   color: #716b7a;
   padding: 5px 0px;
+  margin-left: 5px;
 }
 .sidebar .nav > li > a:hover,
 .sidebar .nav > li > a:focus {
@@ -51,37 +66,13 @@
 
 
 /* Show and affix the side nav when space allows it */
-@media screen and (min-width: 768px) {
-  .sidebar .affix {
-    top: 0;
-    bottom: 0;
-    position: fixed;
-    overflow-y: auto;
-    margin-bottom: 5px;
-    margin-top: 5px !important;
-  }
-
-  .page .toc {
-    left: -30px !important;
-  }
+@media screen and (max-width: 991px) {
 }
 
-@media screen and (min-width: 992px) {
-  .sidebar .nav > .active > ul {
-    display: block;
-  }
-  .page .toc {
-     left: -25px !important;
-  }
+@media screen and (min-width: 991px) {
+
 
 }
 @media screen and (min-width: 1200px) {
   /* Widen the fixed sidebar again */
-  .sidebar.affix-bottom,
-  .sidebar.affix {
-    width: 263px;
-  }
-  .page .toc {
-     left: 15px !important;
-  }
 }
