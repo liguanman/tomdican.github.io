@@ -9,9 +9,9 @@ toc: true
 
 ## vim commands 
 
-1. indent 7 lines:  7 > >
+1.indent 7 lines:  7 > >
+2.Recording keys for repeating jobs: q letter recording  q  @ letter
 
-2. Recording keys for repeating jobs: q letter recording  q  @ letter
 
 
 
@@ -97,5 +97,28 @@ source $VIMRUNTIME/menu.vim
 ### markdown plugin
 添加此[插件](http://vimawesome.com/plugin/vim-markdown-enchanted)后，在vim中能实现markdown高亮
 
+### vim的分屏神器conemu
+20170618早上7点
+[官网](https://conemu.github.io),[快捷键](https://conemu.github.io/en/KeyboardShortcuts.html)功能也非常强大，通过多任务功能启动windows的应用，比如浏览器、vim、cmd、shell等等，通过快捷键Win+Alt+t添加任务。
+部分快捷键如下：
+- Alt+Win+k, show all shortcuts
+- Win+Alt+P，Displays ConEmu Settings dialog
+- Ctrl+Win+Enter，Maximize ConEmu window and hide window caption (FullScreen mode).
+- Win+Q, Win+Shift+Q，Activate next/previous console tab. Q is default
+- Win+Del，Terminate current console. This hotkey is disabled by default! You may enable it in the ConEmu Setting
+- Ctrl+Shift+e or o,垂直分屏或水平分屏
+
+### git-bash环境的vim配置
+20170618中午
+在windows环境下使用shell的最好方式是git-bash，比较轻量，内置有vim工具，由于在windows环境下已经有配置好的vim工具，可以通过修改vim的路径来达到目的。
+``` bash
+cd
+vim /etc/profile.d/aliases.sh  //在脚本中添加一行命令
+:wq
+source !$
+vim
+:scriptnames  //查看vim的路径修改成功
+```
+以上需要添加的一行命令为alias vim='/d/Program\ Files\ \\(x86\\)/Vim/vim80/vim.exe'；
 
 

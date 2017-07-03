@@ -1,15 +1,36 @@
 ---
 title: general-tech-tricks
 date: 2017-2-23  13:51:25
-updated: 2017-2-23 13:51:25
+updated: 2017-07-04 01:43:08
 tags: guide,command
 categories: Docs
 toc: true
 ---
 
+
+## centos
+
+1.Diagnosing Network
+- test the network speed
+``` bash
+yum install epel-release
+yum install python2-speedtest-cli
+```
+  or
+``` bash
+pip install speedtest
+```
+  show download and upload speed,run `speedtest-cli`
+
+- `mtr` represents an evolution of the `traceroute` command by providing a greater data sample
+``` bash
+yum install mtr
+mtr -rw youku.com
+```
+
 ## shell
 
-1. go to the specified dir
+1.go to the specified dir
 ```bash
 . ./cd.sh
 ```
@@ -99,31 +120,39 @@ noti echo 123
 	- alias subl="'/Applications/Sublime.app/Contents/SharedSupport/bin/subl'"
 	- alias p='ps -ef|grep'
 
-4. check port
+4.check port
 netstat -anp | grep 834
 lsof -i | grep 888
 
+5.recall the last argument of the pre command,`Alt+.` or `!$`
 
 
 
 ## vim
-- 1.Search in a folder
+1.Search in a folder
 ```bash
 :cd /path/to/your/folder/
 :vim "searchme" **/*.php
 ```
 
-- 2. Delete the lines
+2.Delete the lines
 
-    - delete the matched
+- delete the matched
 ```bash
 :g/pattern/d
 ```
-   -  delete the not matched
+- delete the not matched
 ```bash
 :v/pattern/d
 ```
-3. [ide install]( https://github.com/liuxd/VimIDE.git)
+3.[ide install]( https://github.com/liuxd/VimIDE.git)
+4.insert the current time with 'F5',detail config of [vimrc file](http://vim.wikia.com/wiki/Insert_current_date_or_time)
+```vim(http://vim.wikia.com/wiki/Insert_current_date_or_time)
+" <F5> to produce date in normal mode
+:nnoremap <F5> "=strftime("%Y-%m-%d %H:%M:%S")<CR>P
+" in insert mode
+:inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+```
 
 ## docker
 [refrence:](https://liuxd.github.io/posts/Docker.html)

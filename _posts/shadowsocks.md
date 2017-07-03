@@ -9,9 +9,13 @@ toc: true
 
 ## shadowsocks使用比较方便：
 ### 1) 服务端安装：
+
+in centos 6
+
 yum update 
- in centos 6
-yum install python34-setuptools && easy_install pip ， pip install shadowsocks
+yum install python34-setuptools  or  yum install python-setuptools
+easy_install pip
+pip install shadowsocks
 - 配置：
 1. vi /etc/shadowsocks.json
 {
@@ -21,7 +25,8 @@ yum install python34-setuptools && easy_install pip ， pip install shadowsocks
 "local_port":1080,
 "password":"xxxx",
 "timeout":600,
-"method":"rc4-md5"
+"method":"rc4-md5",
+"workers":2
 }
 
 2. vi .bashrc

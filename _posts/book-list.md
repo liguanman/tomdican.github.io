@@ -1,8 +1,11 @@
 ---
 title: book-list
 date: 2017-4-5  16:15:45
-updated: 2017-4-5 16:15:45
-tags: book,list,recommend
+updated: 2017-07-04 01:08:02
+tags: 
+- book
+- list
+- recommend
 categories: 0读书
 toc: true
 ---
@@ -84,7 +87,7 @@ http://chuansong.me/n/1487577646431
 http://www.laimaishu.com/shu70024087.html  脑科学
 https://www.zhihu.com/question/27325011  认知神经
 http://idea.cas.cn/viewdoc.action?docid=52630  计算机与人脑相关的
-http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549 脑科学百科
+[脑科学百科](http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549)
 
 
 ## 最经典的精神分析学书籍
@@ -118,7 +121,7 @@ http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549 脑科学百科
 ##　神经科学圣经
 神经科学原理
 
-## 最伟大：认知神经科学之父
+## 最伟大的认知神经科学之父
 
 ### 人物
 - Michael Gazzaniga迈克尔·加扎尼加（葛詹尼加）Gazzaniga教授是认知神经科学的重要创始人之一，著名的脑科学家。他通过对裂脑人进行的大量研究，促进了我们对人类大脑功能偏侧性以及大脑半球之间关系的认识。近年来，他还就大脑发展与人类伦理形成的关系进行了开创性的探索。最有名的就是他所做的揭示大脑分裂个性及左右脑半球分工的一系列研究。第二有名的，则是他爱讲故事的个性：他喜欢讲自己失败的实验，提出的愚蠢问题等等，这些他——这个业界翘楚——在近半个世纪的时间里犯下的各种错误。
@@ -166,7 +169,7 @@ http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549 脑科学百科
 - Hypnotherapy  
 - 作者：大卫.艾尔曼(Dave elman)
 - 催眠治疗的经典之作。他发现催眠的程序可以是在很快、很短暂的时间内就可以让个案进入催眠状态，他对于催眠状态的经典诠释就是“催眠状态是一整意识状态，它跳过了批判机制，并嵌入了一项选择性的思维念头”。
-- 来源https://www.goodreads.com/book/show/685926.Hypnotherapy
+- [来源](https://www.goodreads.com/book/show/685926.Hypnotherapy)
 
 ## 最经典的催眠学书籍
 - 艾瑞克森催眠教学实录
@@ -198,9 +201,8 @@ http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549 脑科学百科
 - 前世今生
 - 作者：布莱恩·魏斯
 - 这是一本神奇的书，描写的是发生在20世纪80年代的真实事件：一位普通病人凯瑟琳因焦躁来到魏斯医生处治疗，却在被催眠后惊现86次生命轮回！这一事实不仅改变了病人，也让心理催眠师的生活发生了天翻地覆的变化。此后，信奉科学的医生甘冒职业风险，记录此书，透露生命的不朽与真义。奇迹仍在上演，上万读者参悟生命真谛，改变命运的连锁反应仍在传递中……
-- 来源https://book.douban.com/subject/6946710/
-- 
-- http://baike.baidu.com/item/%E5%B8%83%E8%8E%B1%E6%81%A9%C2%B7%E9%AD%8F%E6%96%AF
+- [来源](https://book.douban.com/subject/6946710/)
+- [来源](http://baike.baidu.com/item/%E5%B8%83%E8%8E%B1%E6%81%A9%C2%B7%E9%AD%8F%E6%96%AF)
 
 
 最伟大：快速催眠之父
@@ -211,10 +213,10 @@ http://baike.baidu.com/item/%E8%84%91%E7%A7%91%E5%AD%A6/7652549 脑科学百科
 - Hypnotherapy  
 - 作者：大卫.艾尔曼(Dave elman)
 - 催眠治疗的经典之作。他发现催眠的程序可以是在很快、很短暂的时间内就可以让个案进入催眠状态，他对于催眠状态的经典诠释就是“催眠状态是一整意识状态，它跳过了批判机制，并嵌入了一项选择性的思维念头”。
-- 来源https://www.goodreads.com/book/show/685926.Hypnotherapy
+- [来源](https://www.goodreads.com/book/show/685926.Hypnotherapy)
 
 著作　Hypnotherapy
-https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A1%9B%C2%B7%E8%89%BE%E7%88%BE%E6%9B%BC
+[1](https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A1%9B%C2%B7%E8%89%BE%E7%88%BE%E6%9B%BC)
 http://blog.sina.com.cn/s/blog_48de191b0101pxv5.html
 http://www.psy525.cn/special/14494-65552.html
 http://blog.sina.com.cn/s/blog_492564890100br8u.html
@@ -241,16 +243,15 @@ https://book.douban.com/subject/5259409/
 
 -
 
-斯蒂芬·吉利根，《爱的勇气》《挑战挫败：成功的领导者如何从挫败中反弹》、《不同的声音:心理学理论与妇女发展》、《艾瑞克森催眠治疗理论》、《英雄之旅：自我发现的旅程》
-http://baike.baidu.com/item/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%90%89%E5%88%A9%E6%A0%B9
+斯蒂芬·吉利根，《爱的勇气》《挑战挫败：成功的领导者如何从挫败中反弹》、《不同的声音:心理学理论与妇女发展》、《艾瑞克森催眠治疗理论》、[《英雄之旅：自我发现的旅程》](http://baike.baidu.com/item/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%90%89%E5%88%A9%E6%A0%B9)
 杰弗瑞·萨德，《跟大师学催眠--米尔顿·艾瑞克森治疗实录》和[《艾瑞克森：天生的催眠大师》](http://baike.baidu.com/link?url=mfEmRzoe6lMVDAHmfp5Wrm27Vm2WjT5K3oElI0fE-lm3Jbs0Z5CAEo9J82zF9ulTmiBhIEN2HKqjpOjL5WtmBdxMYscFmnPAdjP8IssZl1pguI4T4nxmbdom5jqgdc9KJnqgpdyBNmFSrH6vLktvPa#2)
 
 －　精神分析和催眠区别　
 根据从精神分析中所获得知识，我们可以将催眠的暗示和精神分析的暗示之间的区别描述如下：催眠治疗寻求掩盖和粉饰心理生活中的东西；分析治疗寻求揭露并去除这些东西。前者像是在化妆，而后者像是在手术。前者使用暗示来阻止症状，它只增强压抑量并不改变导致症状形成的过程；分析治疗在引发症状的冲突中，寻找病源之所在，并通过暗示来改变这些冲突的结果。催眠治疗使患者处于不活动且无改变的状态，正是由于这个原因，在遇到致病的新的诱因时，他就难以抵抗了。分析治疗则要求医生和患者共同努力，以消除其内心的抵抗。这种抵抗的克服，使患者的心理生活有了持久的改变，有了更为高级的发展，并且具有了防止旧病复发的能力。
    
-模式疗法http://www.bdstar.org/Article/Class31/Class33/Index.html
+[模式疗法](http://www.bdstar.org/Article/Class31/Class33/Index.html)
 
-催眠相关书籍http://www.psychspace.com/space/?action-tag-tagid-15
+[催眠相关书籍](http://www.psychspace.com/space/?action-tag-tagid-15)
 
 最伟大：神经语言程式学（NLP）创始人
 
@@ -281,7 +282,7 @@ NLP（中文名是“神经语言学程序”）
 http://blog.sina.com.cn/nlpdaibing
 约翰·葛瑞德,理查·班德勒是NLP（神经语言程序学）的创始人之一，世界NLP领域的最高权威，也是著名的催眠大师。
 研究了以下三位能够持续创造人类行为杰出改变的顶尖大师所用的方法：密尔顿·艾瑞克森（Dr. Milton H. Erickson）博士，有史以来最伟大的催眠治疗师；维琴尼亚·萨提
-亚（Virginia Satir），杰出的家族治疗师，她解决人际关系问题的能力，似乎是无人能及的；格利葛利·拜特森（Gregory Bateson），英国的人类学家，他除了本身就是成就的楷模外，还对葛林德和班德勒这两位NLP创造者的早期作品有极大的影响。来源http://baike.baidu.com/link?url=5On5VazmUsHFgXLmPcwjKJZbLHZYviaEIGHHFgdq9FjY7_SJjR4JgbcemBtbvWBdO3QmAKE-4CYUoDhAlD_vhD7aLAR9fpCrorE5wdFUQn-vCuEF-xOeSTygBIlpRMen4ewqp4s2eENynnIz13U_Oq
+亚（Virginia Satir），杰出的家族治疗师，她解决人际关系问题的能力，似乎是无人能及的；格利葛利·拜特森（Gregory Bateson），英国的人类学家，他除了本身就是成就的楷模外，还对葛林德和班德勒这两位NLP创造者的早期作品有极大的影响。[来源](http://baike.baidu.com/link?url=5On5VazmUsHFgXLmPcwjKJZbLHZYviaEIGHHFgdq9FjY7_SJjR4JgbcemBtbvWBdO3QmAKE-4CYUoDhAlD_vhD7aLAR9fpCrorE5wdFUQn-vCuEF-xOeSTygBIlpRMen4ewqp4s2eENynnIz13U_Oq)
 格雷戈里·贝特森  
 
 
@@ -521,11 +522,8 @@ http://blog.sina.com.cn/nlpdaibing
 - 德国大学与大学学习
 - 作者：包尔生（Friedrich Paulsen ）
 - 作者在书中总结了德国大学发展的成功经验，深刻揭示了德国大学在国家及社会发展中的地位与作用，探讨了大学教师与教学、大学生与学习之间的相互关系。德国高等教育为世界教育的发展作出了巨大贡献，其经验对包括我国在内的世界各国高等教育的发展至今仍具有特别重要的现实意义。 
-- 来源https://book.douban.com/subject/3768590/
-
-
-
-- 参考http://wap.kaoder.com/?m=thread&a=view&fid=758&tid=140796
+- [来源](https://book.douban.com/subject/3768590/)
+- [参考](http://wap.kaoder.com/?m=thread&a=view&fid=758&tid=140796)
 
 ## 最经典的医学书籍
 - 医学是通过科学或技术的手段处理人体的各种疾病或病变的学科。为什么选择这五本书？西方医学的发展来自希波克拉底文集这本书；东方医学发展来自黄帝内经，四大中医名著之一；人体解剖图彩色版比较权威的书为奈特人体解剖彩色图谱；内外科的经典著作分别为西氏内科学和克氏外科学；疾病规律研究的经典著作为罗宾斯基础病理学。
@@ -553,7 +551,7 @@ http://blog.sina.com.cn/nlpdaibing
 - 克氏外科学
 - （Sabiston Textbook of Surgery）作者：科特尼
 - 科特尼编著的这本《克氏外科学(第19版)(精)》涵盖了影响你治疗计划的最新科学原理和数据，可帮助你做出最为明智的选择，从而使每一位患者尽可能获得最好的疗效。本书紧跟学科最新进展，如腹壁重建、肿瘤免疫学和免疫治疗学、外周血管疾病、再生医学、肝移植、肾和胰腺移植、小肠移植、应用范围日益扩大的微创外科和机器人外科，以及其他迅速进展的领域。通过概览有关疗效的最新数据及参阅最新文献，有助于权衡你的选择。
-- 来源http://baike.baidu.com/item/%E5%85%8B%E6%B0%8F%E5%A4%96%E7%A7%91%E5%AD%A6
+- [来源](http://baike.baidu.com/item/%E5%85%8B%E6%B0%8F%E5%A4%96%E7%A7%91%E5%AD%A6)
 
 - 罗宾斯基础病理学
 - （Robbins and Cotran Pathologic Basic of Disease）作者：维奈·库玛 (Vinay Kumar) /阿布尔·阿巴斯（Abul K.Abbas） /乔恩·埃斯特（Jon C.Aster）
@@ -1019,7 +1017,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 阿基米德全集
 - 作者：阿基米德（Archimedes）
 - 该书收集了已发现的阿基米德著作，它对于了解古希腊数学，研究古希腊数学思想以及整个科技史都是十分宝贵的。阿基米德是古希腊著名的数学家和物理学家。后人对他给予极高的评价，常把他和牛顿、高斯并列为有史以来三个贡献最伟大的数学家。阿基米德在继承前人数学成就的基础上，作了进一步完善和发展，他给出了“阿基米德公理”，使与极限关命题证明的“穷竭法”更加严密，并且运用自如，最后完成了圆面积，球表面积以及球体积的证明。阿基米德在对古希腊三个著名的问题的深入探索中引出了诸多的发现，并且在数学的各个方面作出了开创性的工作。他研究了与螺线、热物线和圆锥曲线旋转体有关的命题，同时在三次方程和算术方面都有贡献。阿基米德的著作是数学阐述的典范，写得完整，简练，显示出巨大的创造性，计算技能和证明的严谨性。他的每一篇论文都为教学知识宝库做出了崭新的贡献。
-- 来源https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00BA7Y792/ref=sr_1_1?ie=UTF8&qid=1492526323&sr=8-1&keywords=%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7
+- [来源](https://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/B00BA7Y792/ref=sr_1_1?ie=UTF8&qid=1492526323&sr=8-1&keywords=%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7)
 
 - 黎曼全集（第一卷）
 - 作者：黎曼（Bernhard Riemann ）
@@ -1178,7 +1176,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 徐霞客游记
 - 作者：徐霞客
 - 《徐霞客游记》是一则以日记体为主的地理著作，明末地理学家徐霞客经过34年旅行，写有天台山、雁荡山、黄山、庐山等名山游记17篇和《浙游日记》、《江右游日记》、《楚游日记》、《粤西游日记》、《黔游日记》、《滇游日记》等著作，除佚散者外，遗有60余万字游记资料，死后由他人整理成《徐霞客游记》。世传本有10卷、12卷、20卷等数种，主要按日记述作者1613～1639年间旅行观察所得，对地理、水文、地质、植物等现象，均作了详细记录，在地理学和文学上做出卓有价值的贡献。
-- 来源http://baike.baidu.com/item/%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%B8%B8%E8%AE%B0#6
+- [来源](http://baike.baidu.com/item/%E5%BE%90%E9%9C%9E%E5%AE%A2%E6%B8%B8%E8%AE%B0#6)
 
 最经典的天文学和地理科学书籍
 - 天体运行论
@@ -1213,7 +1211,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 地质学原理
 - （Principles of Geology）作者：查理斯.莱尔（Charles Lyell）
 - 莱伊尔提出地球的变化是古今一致的，地质作用的过程是缓慢的、渐进的。地球的过去，只能通过现今的地质作用来认识。现在是了解过去的钥匙。他的这种观点被称为“均变论”。《地质学原理》对当时和以后的地质科学发展都有很大的影响。
-- [来源](http://baike.baidu.com/item/%E5%9C%B0%E8%B4%A8%E5%AD%A6%E5%8E%9F%E7%90%86
+- [来源](http://baike.baidu.com/item/%E5%9C%B0%E8%B4%A8%E5%AD%A6%E5%8E%9F%E7%90%86)
 
 - 海陆的起源
 - 《海陆的起源》是德国A.L.魏格纳关于大陆漂移假说的著作，1915年出版。魏格纳在这本书里系统地阐述、论证了他在1912年提出的大陆漂移说。
@@ -1312,7 +1310,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 物种起源
 - （The Origin of Species）作者：达尔文（Charles Robert Darwin）
 - 影响世界历史进程的经典著作， 震撼世界的10本书之一，人类思想发展史上一座最伟大的划时代的里程碑[3]  。《物种起源》有两个重要特点：为进化论提供了证据；对进化论发生过程作了详细解释。这便是任何科学解释都必须涉及的“什么”和“为什么”这两个问题，后代很多生物学家都受这本书的影响。
-- http://baike.baidu.com/item/%E7%89%A9%E7%A7%8D%E8%B5%B7%E6%BA%90/819555#4
+- [来源](http://baike.baidu.com/item/%E7%89%A9%E7%A7%8D%E8%B5%B7%E6%BA%90/819555#4)
 
 - 遗传学经典文选
 - 作者：格里哥·孟德尔 （Johann Gregor Mendel）
@@ -1411,7 +1409,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 
 - 这本书是西方政治zhengzhisicu学研究的转折点，政治学开始摆脱神学的束缚。曾被视为世界上最具影响力与畅销的十大名著之一。拿破仑对君主论百读不厌，希特勒放在床边经常阅读。
 
-- 来源https://zh.wikipedia.org/wiki/%E5%90%9B%E4%B8%BB%E8%AE%BA
+- [来源](https://zh.wikipedia.org/wiki/%E5%90%9B%E4%B8%BB%E8%AE%BA)
 
 - 利维坦
 
@@ -1435,7 +1433,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 
 - 该书是美国著名政治思想家萨托利耗费十年心血撰写而成的经典之作，一经问世便得到了广泛赞誉。学术界盛赞萨托利在民主学说上“堪称我们时代最为强大的头脑”，“他的论证没有真正的对手”。该书至今仍是民主理论研究的权威著作。
 
-- 来源http://baike.baidu.com/item/%E6%B0%91%E4%B8%BB%E6%96%B0%E8%AE%BA/4911888
+- [来源](http://baike.baidu.com/item/%E6%B0%91%E4%B8%BB%E6%96%B0%E8%AE%BA/4911888)
 
 - 公民文化——五个国家的政治态度和民主制
 
@@ -1470,7 +1468,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 正义论
 - （A Theory of Justice）作者：约翰·罗尔斯（John Rawls）
 - 正义论是一本具有里程碑意义的关于政治哲学与伦理学的著作，罗尔斯尝试用社会契约的衍生方式来解决分配公平的问题。这本书打破了西方政治哲学万马齐喑的冷清局面，重新拾起来自由平等。
-- 来源https://zh.wikipedia.org/wiki/%E6%AD%A3%E4%B9%89%E8%AE%BA
+- [来源](https://zh.wikipedia.org/wiki/%E6%AD%A3%E4%B9%89%E8%AE%BA)
 
 - 政府论
 - （second treatise of civil government）作者：约翰.洛克（John Locke）
@@ -1478,8 +1476,8 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 来源https://book.douban.com/subject/2308876/
 
 
-- 亨延顿：http://blog.sina.com.cn/s/blog_568d1b800100ct6n.html
-- 福山文章https://cn.nytstyle.com/culture/20150429/tc29fukuyama/
+- [亨延顿](http://blog.sina.com.cn/s/blog_568d1b800100ct6n.html)
+- [福山文章](https://cn.nytstyle.com/culture/20150429/tc29fukuyama/)
 
 
 ## 最经典的经济学书籍
@@ -1489,7 +1487,7 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 国富论
 - （The Wealth of Nations）作者：亚当·斯密（Adam Smith）
 - 这本书是经济学中最经典的一本书，开创了现代经济学科，后来的经济学家基本是沿着他的方法分析经济发展规律的，经济学界的“圣经”。
-- 来源https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%BD%93%C2%B7%E6%96%AF%E5%AF%86
+- [来源](https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%BD%93%C2%B7%E6%96%AF%E5%AF%86)
 
 - 就业、利息和货币通论
 - （The General Theory of Employment, Interest and Money）作者：约翰·梅纳德·凯恩斯（John Maynard Keynes）
@@ -1557,7 +1555,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 作者：孙武
 - 这本书是中国同时也是世界现存最古老的一部兵书，一直为历代政治家、军事家、商人、学者奉为至宝。
 - 日本许多大公司把《孙子兵法》作为高级管理人员必读书。麦肯锡公司董事长大前研一曾表示：“没有哪本书像《孙子兵法》一样，为我们提供如此丰富的管理思想”。前东洋精密工业公司董事长大桥武夫，在企业濒临倒闭之际，发现《孙子兵法》有助于经营，很快使企业起死回生，为此他写了一本专著《用兵法指导经营》，成为畅销书。 美国著名高等学府如哈佛大学商学院，也把《孙子兵法》融入了MBA的战略课程中。
-- 来源http://www.chsi.com.cn/jyzd/zcht/200712/20071225/3449787.html
+- [来源](http://www.chsi.com.cn/jyzd/zcht/200712/20071225/3449787.html)
 
 最经典的管理学书籍
 - 旁观者
@@ -1581,7 +1579,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - （Re-imagine!）作者：汤姆·彼得斯（Tom Peters）
 - 汤姆·彼得斯在管理学界的地位无人能及。《经济学人》杂志称他为管理大师中的大师，《商业周刊》因他打破了传统的管理理念而称其为“商务的最佳伙伴和最恐怖的梦魇”，《洛杉矶时报》称“彼得斯是后现代企业之父”，《财富》杂志则干脆声称“我们生活在一个汤姆·彼得斯时代”。
 
-- 张瑞敏和左哈http://www.pintu360.com/article/5594b31842a729966e21d67c.html
+- [张瑞敏和左哈](http://www.pintu360.com/article/5594b31842a729966e21d67c.html)
 - 管理学经典书籍 http://www.book110.com/1418.html
 - [世界上十大管理大师](http://wiki.mbalib.com/wiki/%E4%B8%96%E7%95%8C%E6%9C%80%E5%85%B7%E5%BD%B1%E5%93%8D%E5%8A%9B%E7%9A%84%E5%8D%81%E5%A4%A7%E7%AE%A1%E7%90%86%E5%A4%A7%E5%B8%88)
 
@@ -1693,7 +1691,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - （My Forty Years with Ford）作者：Charles E Sorensen
 - 可以说福特是汽车的代名词，他是美国汽车工程师与企业家，福特汽车公司的建立者。他也是世界上第一位使用流水线大批量生产汽车的人。他的生产方式使汽车成为一种大众产品，它不但革命了工业生产方式，而且对现代社会和文化起了巨大的影响。美国学者麦克·哈特所著的《影响人类历史进程的100名人排行榜》一书中，亨利·福特是唯一上榜的企业家。被福布斯杂志评为史上最有影响力20位企业家第一位。
 - 作者在1905年加入福特公司，1944年离开福特公司，1947年亨利福特去世，作者说我是熟悉亨利福利的权威，旁观者清，这本书从整体角度最公正地看清楚亨利福特的一生，许多企业家推荐过这本书，当然可以结合亨利福特的自传来读。
-- 来源：http://baike.baidu.com/item/%E4%BA%A8%E5%88%A9%C2%B7%E7%A6%8F%E7%89%B9
+- [来源](http://baike.baidu.com/item/%E4%BA%A8%E5%88%A9%C2%B7%E7%A6%8F%E7%89%B9)
 
 - 摩根财团
 - （The House of Morgan）作者：罗恩·彻诺 (Chernow R.)
@@ -1760,7 +1758,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 我和福特的四十年
 - （My Forty Years with Ford）作者：Charles E Sorensen
 - 亨利·福特，美国汽车工程师与企业家，福特汽车公司的建立者。他也是世界上第一位使用流水线大批量生产汽车的人。他的生产方式使汽车成为一种大众产品，它不但革命了工业生产方式，而且对现代社会和文化起了巨大的影响。美国学者麦克·哈特所著的《影响人类历史进程的100名人排行榜》一书中，亨利·福特是唯一上榜的企业家。被福布斯杂志评为史上最有影响力20位企业家第一位。
-- 来源：http://baike.baidu.com/item/%E4%BA%A8%E5%88%A9%C2%B7%E7%A6%8F%E7%89%B9
+- [来源](http://baike.baidu.com/item/%E4%BA%A8%E5%88%A9%C2%B7%E7%A6%8F%E7%89%B9)
 - 摩根财团
 - （The House of Morgan）作者：罗恩·彻诺 (Chernow R.)
 - 罗恩·彻诺的《摩根财团》，应该说无论是关于JP Morgan 还是Morgan Stanley 都是最权威的一本书，是迄今为止有关美国金融王朝的第一部鸿篇巨著，一卷充满洞见的金融历史全景图：以摩根财团的视角，看整个华尔街、现代金融业兴衰更替。在一个半世纪里，摩根家族的四代人，在华尔街和伦敦金融城里缔造了神秘的金融帝国。这个金融帝国凭借不计其数的投资，在经济、社会、政治和外交等领域织成了无比繁复的人际关系网络。本书中如实记载了摩根财团斡旋于伍德罗•威尔逊、赫伯特•胡佛、富兰克林•罗斯福、温斯顿•邱吉尔、安德鲁•卡内基、亨利•福特等要政要、巨贾间一些尘封的史料，在二战中摩根财团与墨索里尼、日本军国主义者、墨西哥独裁者和纳粹财政部长的秘密关系。
@@ -1826,7 +1824,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 1.基业长青
 - 如果说《追求卓越》是开启商业管理书籍的第一次革命，那么《基业长青》则使这次革命达到一个高潮，为所有经理人和创业者带来灵感。科林斯和波拉斯在斯坦福大学为期6年的研究项目中，选取了18个卓越非凡、长盛不衰的，研究了这18个基业常青公司的成功经验，主要讲述了一群真正杰出、历经岁月考验的百年企业从创业之初发展至今的情况，并将这些公司直接与它们的一个突出竞争对手对照，审视了这些公司由最初创建发展到今天的历史——创业→中等公司→大型公司。阅读此书，有助于后来者研究这些企业真正区别于其他公司的特质，可以深入了解与比对这些企业在世界发生急剧变化中是如何应对的。同时该书还阐述了对这些企业从认知上应破除的十二个迷思，帮助读者寻找出成为一流企业的成功要素与根本动能。[来源](http://wiki.mbalib.com/wiki/%E3%80%8A%E5%9F%BA%E4%B8%9A%E9%95%BF%E9%9D%92%E3%80%8B)
 - 2.黑客与画家
-- 《黑客与画家：硅谷创业之父paul graham文集》是硅谷创业之父paul graham 的文集，主要介绍黑客即优秀程序员的爱好和动机，讨论黑客成长、黑客对世界的贡献以及编程语言和黑客工作方法等所有对计算机时代感兴趣的人的一些话题。书中的内容不但有助于了解计算机编程的本质、互联网行业的规则，还会帮助读者了解我们这个时代，迫使读者独立思考。这是一本帮助你理解这个时代的书。作者想教给你的其实是新思想。读完以后，你看待世界的眼光很可能会完全不同了。如果你想在21世纪立足，理解这一次新的技术革命，做一个掌握自己命运的成功者，我建议你读这本书。来源http://baike.baidu.com/item/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6
+- 《黑客与画家：硅谷创业之父paul graham文集》是硅谷创业之父paul graham 的文集，主要介绍黑客即优秀程序员的爱好和动机，讨论黑客成长、黑客对世界的贡献以及编程语言和黑客工作方法等所有对计算机时代感兴趣的人的一些话题。书中的内容不但有助于了解计算机编程的本质、互联网行业的规则，还会帮助读者了解我们这个时代，迫使读者独立思考。这是一本帮助你理解这个时代的书。作者想教给你的其实是新思想。读完以后，你看待世界的眼光很可能会完全不同了。如果你想在21世纪立足，理解这一次新的技术革命，做一个掌握自己命运的成功者，我建议你读这本书。[来源](http://baike.baidu.com/item/%E9%BB%91%E5%AE%A2%E4%B8%8E%E7%94%BB%E5%AE%B6)
 - 3.创新者的窘境   创新者的解答
 - 20世纪最有影响的20本商业书籍之一，创新者的窘境:大公司面对突破性技术时引发的失败,本书分析了计算机、汽车、钢铁等行业的创新模式，一针见血地指出，良好的管理是导致这些企业衰败的原因，通过一些具有行业领导地位的公司的成败的经验教训，书中提出了抓住破坏性创新现象的一些原则。旨在帮助管理者看到正在经历的或将会经历的变化，指导大家积极面对并取得成功。创新者的解答可以结合这本书来读。[来源](http://baike.baidu.com/item/%E5%88%9B%E6%96%B0%E8%80%85%E7%9A%84%E7%AA%98%E5%A2%83)
 - 4.启示录
@@ -1842,7 +1840,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 7.重来
 - Jason Fried，37signals的合伙创立人，倡导软件极简主义，相信简约之美，尊重简单和坦诚做事，并把这些思想运用到创业过程和产品开发之中，拥有一大批IT粉丝。用直截了当的语言和崇尚简约的方式，《重来》是每一个梦想着拥有自己的事业的人的完美指南。不管是作为中坚力量的企业家、小企业主，还是深陷令人不快的工作中的职场中人、被炒鱿鱼的受害者，抑或是想要“脱贫”的艺术家，都能在这一页页中找到弥足珍贵的指引。https://book.douban.com/subject/5320866/
 - 8.四步创业法
-- 四步创业法是精益创业理论的奠基之作。作者Steven Gary Blank博士是硅谷资深企业家，他一共创办了八家企业，并担任多家硅谷公司的董事和创业顾问。多年的创业经历让他深深体会到传统创业方法的不足。本书总结作者25年创业经验，提出全新的客户发展方法以弥补现有产品开发方法的缺陷，掀起了硅谷近年来精益创业的浪潮。来源http://baike.baidu.com/item/%E5%9B%9B%E6%AD%A5%E5%88%9B%E4%B8%9A%E6%B3%95
+- 四步创业法是精益创业理论的奠基之作。作者Steven Gary Blank博士是硅谷资深企业家，他一共创办了八家企业，并担任多家硅谷公司的董事和创业顾问。多年的创业经历让他深深体会到传统创业方法的不足。本书总结作者25年创业经验，提出全新的客户发展方法以弥补现有产品开发方法的缺陷，掀起了硅谷近年来精益创业的浪潮。[来源](http://baike.baidu.com/item/%E5%9B%9B%E6%AD%A5%E5%88%9B%E4%B8%9A%E6%B3%95)
 - 9.精益创业
 - 精益创业是硅谷流行的一种创业方法论，它的核心思想是，先在市场中投入一个极简的原型产品，然后通过不断的学习和有价值的用户反馈，对产品进行快速迭代优化，以期适应市场。 如果要想创业，不能不了解硅谷的这种流行创业方法论，强烈推荐阅读这本书。来源https://book.douban.com/subject/10945606/
 - 10.
@@ -1862,16 +1860,16 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 12.疯传（Contagious）
 - 13.权力的48条法则（The 48 laws of power）
 - 14.格鲁夫给经理人的第一课
-- 15.创业战略类型  https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/
+- 15.[创业战略类型](https://www.joelonsoftware.com/2000/05/12/strategy-letter-i-ben-and-jerrys-vs-amazon/)
 - 16.如果亚里士多德来管理通用汽车
-- 17.浮士德博士 http://newseed.pedaily.cn/201604/201604221324439_all.shtml
+- 17.[浮士德博士 ](http://newseed.pedaily.cn/201604/201604221324439_all.shtml)
 - 18.社科类书籍 http://www.book110.com/5501.html
 - 19.德鲁克https://www.huxiu.com/article/130958.html
 - 20 [最经典的商业书籍](http://wiki.mbalib.com/wiki/20%E4%B8%96%E7%BA%AA%E3%80%8A%E7%A6%8F%E5%B8%83%E6%96%AF%E3%80%8B%E4%BA%8C%E5%8D%81%E6%9C%AC%E6%9C%80%E5%85%B7%E5%BD%B1%E5%93%8D%E5%8A%9B%E7%9A%84%E5%95%86%E4%B8%9A%E4%B9%A6%E7%B1%8D)
-- 商业史上优秀企业家http://finance.sina.com.cn/leadership/crz/20050908/16001952947.shtml 
+- [商业史上优秀企业家](http://finance.sina.com.cn/leadership/crz/20050908/16001952947.shtml) 
 - [2](http://wiki.mbalib.com/wiki/2007%E5%B9%B4%E3%80%8A%E5%95%86%E4%B8%9A%E5%91%A8%E5%88%8A%E3%80%8B%E5%8F%B2%E4%B8%8A%E6%9C%80%E4%BC%9F%E5%A4%A7%E7%9A%8430%E5%90%8D%E4%BC%81%E4%B8%9A%E5%AE%B6)
-- 当代伟大企业家http://money.163.com/12/0326/14/7THGRPNK00253G87.html
-- 100本启发思想的书籍http://www.nbzq.com.cn/dispbbs.asp?boardid=24&id=505&page=3&move=pre
+- [当代伟大企业家](http://money.163.com/12/0326/14/7THGRPNK00253G87.html)
+- [100本启发思想的书籍](http://www.nbzq.com.cn/dispbbs.asp?boardid=24&id=505&page=3&move=pre)
 
 - [人际关系学说企业方面](http://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E5%9F%83%E5%B0%94%E9%A1%BF%C2%B7%E6%A2%85%E5%A5%A5#2)
 - 心理学书籍http://www.psychspace.com/space/category-5
@@ -1882,12 +1880,12 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 实验医学研究导论　　好书
 - 经典的书籍http://www.sohu.com/a/134119519_228930
 - 克里克，意识相关https://book.douban.com/subject/6861475/
-- 人体结构http://www.360doc.com/content/12/0515/20/934327_211265333.shtml
+- [人体结构](http://www.360doc.com/content/12/0515/20/934327_211265333.shtml)
 - 好书生物学人物传记https://book.douban.com/review/4544387/
 - 动物行为学书籍  所罗门王的指环
 - 意识的探秘 好书 https://book.douban.com/subject/6861475/
-- 非常有影响力的哲学家http://baike.baidu.com/item/%E8%92%AF%E5%9B%A0/3535835
-- 爱因斯坦最爱的五本书http://language.chinadaily.com.cn/2015-08/14/content_21603889.htm
+- [非常有影响力的哲学家](http://baike.baidu.com/item/%E8%92%AF%E5%9B%A0/3535835)
+- [爱因斯坦最爱的五本书](http://language.chinadaily.com.cn/2015-08/14/content_21603889.htm
 - 加来道雄https://book.douban.com/subject/3117464/
 - 量子力学 最经典的书 https://book.douban.com/subject/3148301/
 - 数学物理方法 https://book.douban.com/subject/6722607/
@@ -1896,8 +1894,8 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - [数学之王](http://baike.baidu.com/item/%E6%88%B4%E7%BB%B4%C2%B7%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9?fromtitle=%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9&fromid=172452&type=search&sefr=enterbtn)
 - 物理学书籍推荐 知乎 https://www.zhihu.com/question/21451715
 - 科普经典读物https://book.douban.com/subject/1102715/
-- 尼尔斯波尔介绍http://pec.jstu.edu.cn/physics/physicist/Bohr/Bohr.html
-- 认知神经教材 最经典的神经学教材当是Neuroscience: Exploring the Brain. https://www.zhihu.com/question/27325011
+- [尼尔斯波尔介绍](http://pec.jstu.edu.cn/physics/physicist/Bohr/Bohr.html)
+- [认知神经教材 最经典的神经学教材当是Neuroscience: Exploring the Brain. ](https://www.zhihu.com/question/27325011)
 - 神经科学领域号称圣经的《神经科学原理》
 - 罗杰斯的书籍 皇帝新脑和通往实在之路https://book.douban.com/subject/3144300/
 - 罗杰斯的采访http://blog.sciencenet.cn/blog-605880-624403.html

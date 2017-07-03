@@ -408,8 +408,6 @@ $(window).scroll(function() {
 		- 学习demo，https://spring.io/guides/gs/rest-hateoas/
 		- 搭建demo，https://stackoverflow.com/questions/36839976/spring-boot-data-rest-hateoas-not-working-with-a-custom-controller，https://github.com/spring-guides/gs-rest-hateoas/blob/master/complete/src/main/java/hello/GreetingController.java
 		- 实现self link，花了5个小时；
-		
-
 	- 5.
 		- 实现了一本书籍的链接；
 		- 实现了一本书的点击量计算
