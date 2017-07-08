@@ -58,7 +58,7 @@ body {
 }
 
 .page{
-  margin: 0em 0em;
+  margin: 5px 0 5px 0;
   padding-top: 0px;
   line-height: 1.5em;
   font-family: 'Open Sans',"Helvetica Neue", "Helvetica","Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
@@ -68,12 +68,17 @@ body {
   margin: 1.0em 0em;
 }
 
+#notebook {
+  margin-top: 20px;
+}
+
 .page .panel {
   -webkit-box-shadow: none;
   box-shadow: none; 
 }
 .page .panel-default {
   border: none;
+  margin-left: 10%;
 }
 
 .page .panel-default a {
