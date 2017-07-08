@@ -83,15 +83,24 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <body id="body" data-spy="scroll" data-target=".toc">
   <div class="container" id="container">
       <div class="content">
-	  <div class="page-header">		
-  <h1><a class="brand" href="/">多是少</a><span class="split"></span><span class="title">Hexo-install-config</span></h1>
+	  
+<div class="page-header">		
+  <h1>
+	<a class="brand" href="/">多是少</a>
+	<span class="split"></span>
+	<span class="title">
+		Hexo-install-config
+        </span>
+  </h1>
 </div>		
 
-
-  
-
-
 <div class="row page">
+		<span class="update" id="update"> 
+			2017-01-20&nbsp; updated 
+			<a href="https://github.com/tomdican/tomdican.github.io/commits/source/_posts/HexoInstallConfig.md" target="_blank">
+				<i class="fa fa-history"> </i>
+			</a>
+		</span>
 
   <!-- cols -->      <div class="col-xs-12 col-sm-3 col-md-3 toc">         <!-- toc -->
 <script type="text/javascript">
@@ -183,19 +192,15 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <p>将如下css中的2.6em修改为1.6em，用于调整标题字体太大的问题<br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">  <span class="attribute">font-size</span>:<span class="number">1.6em</span>;</div><div class="line">  <span class="attribute">line-height</span>:<span class="number">1.2em</span>;</div><div class="line">  <span class="attribute">margin-bottom</span>:<span class="number">0.6667em</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h2 id="dropbox-sync-optional"><a href="#dropbox-sync-optional" class="headerlink" title="dropbox sync(optional)"></a>dropbox sync(optional)</h2><p>20170208 added</p>
 <ul>
-<li>download<ul>
-<li>git clone <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
-</ul>
+<li><p>download</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/andreafabrizi/Dropbox-Uploader</div></pre></td></tr></table></figure>
 </li>
-<li>config<ul>
-<li>in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;</li>
-<li>dropbox command</li>
-</ul>
+<li><p>config<br>-in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;<br>-dropbox command</p>
 </li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">## dropbox upload</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/</div><div class="line"></div><div class="line"><span class="comment">## dropbox download</span></div><div class="line">~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh download /blog/ban-blog/ ../notes/blog-ban/sources/</div></pre></td></tr></table></figure>
 <ul>
-<li>detail infomation from <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">https://github.com/andreafabrizi/Dropbox-Uploader</a></li>
+<li>detail <a href="https://github.com/andreafabrizi/Dropbox-Uploader" target="_blank" rel="external">infomation</a></li>
 </ul>
 <h2 id="coding-net-optional"><a href="#coding-net-optional" class="headerlink" title="coding.net (optional)"></a>coding.net (optional)</h2><p>20170209 added</p>
 <ul>
@@ -215,14 +220,9 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ul>
 </li>
 </ul>
-<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">https://github.com/wzpan/hexo-theme-wixo/tree/master</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/</a><br>[4] <a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题定制版</a>，修改样式和toc的bug，20170617</p>
+<h2 id="refrence"><a href="#refrence" class="headerlink" title="refrence"></a>refrence</h2><p>[1] <a href="https://github.com/wzpan/hexo-theme-wixo/tree/master" target="_blank" rel="external">theme-wixo</a><br>[2] <a href="https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">pages-blog</a><br>[3] <a href="http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/" target="_blank" rel="external">搜索</a><br>[4] <a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题定制版</a>,修改样式和toc的bug，20170617</p>
 <h2 id="bug-retore"><a href="#bug-retore" class="headerlink" title="bug retore"></a>bug retore</h2><ul>
-<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong></p>
-<ul>
-<li>in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;</li>
-<li>commit to the hexo-blog branch of github;</li>
-<li>update blog;</li>
-</ul>
+<li><p>bug1,search result can not redirect to url.<strong>20170205 22:09</strong><br>-in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;<br>-commit to the hexo-blog branch of github;<br>-update blog;</p>
 </li>
 <li><p>bug2,title can not contain &amp; and blank space sign,because baidusitemap can not deal it;</p>
 </li>
@@ -232,6 +232,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	  
 
 	  <div>
+
   		<center>
 		  <div class="pagination">
 <ul class="pagination">
@@ -315,6 +316,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	</div> <!-- col-md-9/col-md-12 -->
 	
   </div><!-- row -->
+
 
       </div>
   </div>
