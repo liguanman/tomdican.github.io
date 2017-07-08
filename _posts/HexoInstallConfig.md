@@ -322,10 +322,12 @@ h1{
 ## dropbox sync(optional)
 20170208 added
 - download
-	- git clone https://github.com/andreafabrizi/Dropbox-Uploader
+```bash
+ git clone https://github.com/andreafabrizi/Dropbox-Uploader
+```
 - config
-	- in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;
-	- dropbox command
+ -in dropbox dir,run ./dropbox_uploader.sh,it will guide you for configuration to store access token;
+ -dropbox command
 	
 ```bash
 ## dropbox upload
@@ -336,7 +338,7 @@ h1{
 
 ```
 
-- detail infomation from https://github.com/andreafabrizi/Dropbox-Uploader
+- detail [infomation](https://github.com/andreafabrizi/Dropbox-Uploader)
 
 ## coding.net (optional)
 20170209 added
@@ -363,17 +365,17 @@ vi .git/config
 
 ## refrence
 
-[1] https://github.com/wzpan/hexo-theme-wixo/tree/master
-[2] https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/
-[3] http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/
-[4] [wixo主题定制版](https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo)，修改样式和toc的bug，20170617
+[1] [theme-wixo](https://github.com/wzpan/hexo-theme-wixo/tree/master)
+[2] [pages-blog](https://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/)
+[3] [搜索](http://devlu.me/2016/01/16/Hexo博客优化配置之-为自己博客添加搜索引擎网页收录/)
+[4] [wixo主题定制版](https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo),修改样式和toc的bug，20170617
 
 ## bug retore
 
 - bug1,search result can not redirect to url.**20170205 22:09**
-	- in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;
-	- commit to the hexo-blog branch of github;
-	- update blog;
+-in config.yml,modify to your domain,from tomdican.github.io to tomdican.xyz;
+-commit to the hexo-blog branch of github;
+-update blog;
 
 - bug2,title can not contain & and blank space sign,because baidusitemap can not deal it;
 

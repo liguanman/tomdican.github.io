@@ -31,15 +31,16 @@ vim的快捷键功能很强大，插件也非常多，安装vundle后，可以�
 ### vim plugin management: vundle 
 
 #### reference
-- for windows path https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows
-- path bug https://github.com/VundleVim/Vundle.vim/issues/753
-- vundle readme https://github.com/VundleVim/Vundle.vim
+- for windows [path](https://github.com/VundleVim/Vundle.vim/wiki/Vundle-for-Windows)
+- path [bug](https://github.com/VundleVim/Vundle.vim/issues/753)
+- vundle [readme](https://github.com/VundleVim/Vundle.vim)
 
 #### install
 - env:win 7,vim 8.0
 - open vim
 - input':version',show all path of vim
-- input':scriptnames',show the vim installation path, D:program file\vim\_vimrc
+- input':scriptnames',show the vim installation path
+ D:program file\vim\_vimrc
 - vim _vimrc
 - add  source $VIMRUNTIME/bundle.vim   at first line
 - vim bundle.vim   in dir vim\vim80
@@ -71,9 +72,9 @@ filetype plugin indent on
 - 在windows系统中，vim保存文本的格式为cp936，不是utf-8，导致其他程序打开文本时乱码，半年前设置没成功，使用其他md客户端不好用，还是喜欢使用vim，这次决心解决这个问题，保存后文本格式的问题。
 
 #### reference
-- vim相关编码概念，http://edyfox.codecarver.org/html/vim_fileencodings_detection.html
-- 编码设置参考，http://www.jianshu.com/p/2d814a4dacdd
-- *最终解决方案，http://blog.csdn.net/david_xtd/article/details/7732650*
+- vim相关编码[概念](http://edyfox.codecarver.org/html/vim_fileencodings_detection.html)
+- 编码设置[参考](http://www.jianshu.com/p/2d814a4dacdd)
+- *最终解决[方案](http://blog.csdn.net/david_xtd/article/details/7732650)*
 
 #### prepare
 - fileencodings是指，vim在打开文本显示之前，从fileencodings的编码列表中依次检测该文本的编码，找到后就按照该编码格式显示

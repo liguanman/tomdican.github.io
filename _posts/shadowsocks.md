@@ -41,8 +41,8 @@ ssserver -c /etc/shadowsocks.json -d start
 
 
 ### 2)  客户端
-- 安卓  https://github.com/shadowsocks/shadowsocks-android/releases    （通过PC下载）
--  各种环境客户端都有 https://shadowsocks.org/en/download/clients.html
+- [安卓](https://github.com/shadowsocks/shadowsocks-android/releases)（通过PC下载）
+-  各种环境[客户端都有](https://shadowsocks.org/en/download/clients.html)
 注意：在手机端需要将应用的所有权限打开，不能连接时，清空缓存，多试几次。
 
 

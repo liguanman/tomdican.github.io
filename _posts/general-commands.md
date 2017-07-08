@@ -115,10 +115,12 @@ sshpass -p 123456 ssh root@192.168.11.20
 noti echo 123
 
 - 别名
-	- alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed'
-	- alias ds='find . -name ".DS_Store" -print0 |xargs -0 rm'
-	- alias subl="'/Applications/Sublime.app/Contents/SharedSupport/bin/subl'"
-	- alias p='ps -ef|grep'
+```
+ alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed'
+ alias ds='find . -name ".DS_Store" -print0 |xargs -0 rm'
+ alias subl="'/Applications/Sublime.app/Contents/SharedSupport/bin/subl'"
+ alias p='ps -ef|grep'
+```
 
 4.check port
 netstat -anp | grep 834

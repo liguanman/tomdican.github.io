@@ -854,7 +854,7 @@ http://blog.sina.com.cn/nlpdaibing
 人类学老师的博客http://www.jianshu.com/u/04e5d7564f76
 人类学社区http://www.face21cn.cn
 金翼 人类学侧重社会学小说https://book.douban.com/subject/2988944/
-参考http://blog.renren.com/share/335872781/14668704547
+[参考](http://blog.renren.com/share/335872781/14668704547)
 
 ## 最经典的社会学书籍
 社会学是研究社会的学科。社会学能告诉为什么会有社会组织活动。为什么选择这五本书？从孔德创建社会学后，19世纪社会学得到了蓬勃发展，形成了涂尔干的实证主义社会学、韦伯和西美尔的反实证主义社会学、马克思的马克思主义社会学、斯宾塞的达尔文主义社会学，这五位大师级人物的思想形成了20世纪社会学发展的基础，他们的著作每本都很经典，尽量选择他们在社会学方面具有代表性的著作，包括经济与社会、1844年哲学和经济学手稿、社会学研究方法论、社会学、社会学研究。
@@ -933,8 +933,8 @@ http://blog.sina.com.cn/nlpdaibing
  葛兰西 侧重马克思主义 狱中札记  现代君主论
 参考http://article.yeeyan.org/view/306856/294807
 http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
- 社会学整体浏览，http://3y.uu456.com/bp_2qxie8zakq7tdil036d1_1.html
- 摩尔根，[社会进化理论，](https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E6%96%AF%C2%B7%E4%BA%A8%E5%88%A9%C2%B7%E6%91%A9%E5%B0%94%E6%A0%B9#.E6.B0.91.E6.97.8F.E5.AD.B8.E8.91.97.E4.BD.9C)
+[社会学整体浏览](http://3y.uu456.com/bp_2qxie8zakq7tdil036d1_1.html)
+摩尔根，[社会进化理论，](https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E6%96%AF%C2%B7%E4%BA%A8%E5%88%A9%C2%B7%E6%91%A9%E5%B0%94%E6%A0%B9#.E6.B0.91.E6.97.8F.E5.AD.B8.E8.91.97.E4.BD.9C)
 
 社会学书单：https://book.douban.com/review/6249018/
 
@@ -1142,9 +1142,9 @@ http://3y.uu456.com/bp-acs3esb64afe04a1b071de7c-1.html
 - 流动的固体
 - 作者：中川鹤太郎
 - 这本书讲述了介绍了生活和生产中非牛顿流体的各种奇妙的现象，同时也插入了很多作者在读研时期进行相关研究的经历。从书的深度来讲，只能算是科普。但是字里行间很强烈地显示出作者本人有多热爱自己的研究方向。并不是那些奇怪的现象本身让你觉得多么有趣——它们很多都是日常生活中司空见惯的——而是作者讲述他们的时候那种兴致勃勃而又一本认真的语气，感染了你。你还看到，当时的导师是如何指导研究生，当时的研究是又是如何完成研究任务的。尤其是在战后的日本，国家特别困难，物资缺乏的条件下，作者想方设法解决问题。如今我们的实验室钱和仪器都不缺，人反而懒得思考了。摘录一段如下：爱好实验的我总是喜欢用手做点什么或测量点什么。我决定制作一个能测量拔丝性质的实验装置。当时是处于战争刚刚结束的时候，吃的东西很缺乏，当然也买不到实验用的电动机之类的东西。即使能弄到手，怎奈研究室内几乎每天停电。因此，最可靠的办法是利用地球引力来作实验装置的动力。于是我作了这样一个实验装置
-- 来源https://book.douban.com/subject/3674758/
-- http://www.andrewsun.net/panta_rhei/archives/158
-- http://www.andrewsun.net/panta_rhei/archives/4653
+- [来源1](https://book.douban.com/subject/3674758/)
+- [2](http://www.andrewsun.net/panta_rhei/archives/158)
+- [3](http://www.andrewsun.net/panta_rhei/archives/4653)
 
 
 ## 最经典的天文和地理书籍
@@ -1534,7 +1534,7 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 杜拉克之所以成为杜拉克，之所以被称作“大师中的大师”，现代管理学之父，之所以能够一手创立了整个现代管理学，不是因为他有多少实际管理的经验，更不是因为他年纪轻轻就赚进了第一桶金，而是因为他一生都在学习，从不同的人身上学到了不同的智慧。在这一个世纪之中，那些教导过他的人的名单开列出来，可真是群星闪耀，从社会经济史大师卡尔·博兰尼（KarlPolanyi）到《时代杂志》的创办人卢斯（HenryLuce），再到传奇性的企业皇帝史隆（AlfredSloan），莫不是各个领域里面的顶尖豪杰。光看杜拉克忆述他们，就是一部动人的二十世纪群英谱。——梁文道
 - 英特尔创始人安迪格鲁夫、微软创始人比尔盖茨和前通用电气ceo杰克韦尔奇都对他的管理思想非常推崇。
 - 为什么选择旁观者这本书？杜拉克的著作非常多，每本书都很经典，比如企业的概念、管理实践和卓有成效的管理者，了解作者的管理思想最好的方式是了解他本人，旁观者这本书介绍了作者本人的一生。
-- 来源http://blog.sina.com.cn/s/blog_470130f3010002ds.html
+- [来源](http://blog.sina.com.cn/s/blog_470130f3010002ds.html)
 
 - 马奇论管理
 - （March on Management）作者：詹姆斯·马奇James G.March
@@ -1842,15 +1842,15 @@ http://blog.creaders.net/u/3843/201111/96097.html
 - 8.四步创业法
 - 四步创业法是精益创业理论的奠基之作。作者Steven Gary Blank博士是硅谷资深企业家，他一共创办了八家企业，并担任多家硅谷公司的董事和创业顾问。多年的创业经历让他深深体会到传统创业方法的不足。本书总结作者25年创业经验，提出全新的客户发展方法以弥补现有产品开发方法的缺陷，掀起了硅谷近年来精益创业的浪潮。[来源](http://baike.baidu.com/item/%E5%9B%9B%E6%AD%A5%E5%88%9B%E4%B8%9A%E6%B3%95)
 - 9.精益创业
-- 精益创业是硅谷流行的一种创业方法论，它的核心思想是，先在市场中投入一个极简的原型产品，然后通过不断的学习和有价值的用户反馈，对产品进行快速迭代优化，以期适应市场。 如果要想创业，不能不了解硅谷的这种流行创业方法论，强烈推荐阅读这本书。来源https://book.douban.com/subject/10945606/
+- 精益创业是硅谷流行的一种创业方法论，它的核心思想是，先在市场中投入一个极简的原型产品，然后通过不断的学习和有价值的用户反馈，对产品进行快速迭代优化，以期适应市场。 如果要想创业，不能不了解硅谷的这种流行创业方法论，强烈推荐阅读这本书。[来源](https://book.douban.com/subject/10945606/)
 - 10.
 
 ##待用
 - 1.一个广告人的自白
-- 2.文章，http://blog.sina.com.cn/s/blog_72f6b0870101vxom.html
+- 2.[文章](http://blog.sina.com.cn/s/blog_72f6b0870101vxom.html)
 - 3.有限与无限的游戏
 - 4.信息简史 https://book.douban.com/subject/25752043/
-- 5.技术的本质   时间中的政治  https://book.douban.com/subject/25846075/
+- 5.技术的本质   [时间中的政治](https://book.douban.com/subject/25846075/)
 - 6.神话的力量  https://book.douban.com/subject/6851587/
 - 7.学习之道 https://book.douban.com/subject/2345548/
 - 8.科技想要什么 
@@ -1873,8 +1873,8 @@ http://blog.creaders.net/u/3843/201111/96097.html
 
 - [人际关系学说企业方面](http://baike.baidu.com/item/%E4%B9%94%E6%B2%BB%C2%B7%E5%9F%83%E5%B0%94%E9%A1%BF%C2%B7%E6%A2%85%E5%A5%A5#2)
 - 心理学书籍http://www.psychspace.com/space/category-5
-- 斯金纳简介文章http://mt.sohu.com/20150708/n416402177.shtml
-- 艺术历史方面的好书，https://book.douban.com/subject/3162991/
+- [斯金纳简介文章](http://mt.sohu.com/20150708/n416402177.shtml)
+- [艺术历史方面的好书](https://book.douban.com/subject/3162991/)
 - .《美国宪政历程——影响美国的25个司法大案》
 - 为什么读书好荐书堂的，http://www.book110.com/1586.html
 - 实验医学研究导论　　好书
