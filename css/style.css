@@ -72,6 +72,15 @@ body {
   margin-top: 20px;
 }
 
+.page h1,.page h2,.page h3 {
+  border: none;
+  padding-top: 15px;
+}
+
+.page h3 {
+  font-size: 13px;
+}
+
 .page .panel {
   -webkit-box-shadow: none;
   box-shadow: none; 
@@ -103,6 +112,10 @@ body {
 .note {
   position: relative;
   margin-top: 5px;
+}
+
+.note a {
+  word-wrap: break-word; 
 }
 
 /* =============================================================================
