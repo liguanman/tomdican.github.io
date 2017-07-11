@@ -96,8 +96,8 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <div class="row page">
 		<span class="update" id="update"> 
-			2017-01-20&nbsp; updated 
-			<a href="https://github.com/tomdican/tomdican.github.io/commits/source/_posts/HexoInstallConfig.md" target="_blank">
+			2017.07.09 21&nbsp; updated 
+			<a href="https://coding.net/u/tomdican/p/blog/git/blame/source/_posts/HexoInstallConfig.md" target="_blank">
 				<i class="fa fa-history"> </i>
 			</a>
 		</span>
@@ -131,6 +131,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <li><strong>notice: update from github to local before writing blog or opening markdown tool,to avoid remove remote changes.</strong> 20170203 addition<br>  beforeWrite.sh source code beblow:</li>
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> .deploy/tomdican.github.io</div><div class="line">git checkout <span class="built_in">source</span></div><div class="line">git pull</div><div class="line">cp ./* ../../<span class="built_in">source</span>/ -R</div><div class="line">git checkout master</div><div class="line"><span class="built_in">cd</span> ../..</div></pre></td></tr></table></figure>
+<p>为了避免重复输入密码，可以<a href="https://coding.net/help/doc/git/ssh-key.html#section" target="_blank" rel="external">部署ssh公钥</a>，github和coding.net使用步骤完全一样，windows环境最好在git bash下使用。</p>
 <h3 id="2-3-select-theme"><a href="#2-3-select-theme" class="headerlink" title="2.3 select theme"></a>2.3 select theme</h3><p>我喜欢简洁的页面，所以选择的<a href="https://github.com/wzpan/hexo-theme-wixo.git" target="_blank" rel="external">wixo</a>主题作为参考，下面以wixo主题为例。<br><em>我个人进行了<a href="https://coding.net/u/tomdican/p/tomdican.coding.me/git/tree/hexo-blog/themes/wixo" target="_blank" rel="external">wixo主题</a>的定制,对样式进行了略微调整<sup>[4]</sup></em>。<br>安装步骤：</p>
 <p>1) install theme<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/wzpan/hexo-theme-wixo.git themes/wixo</div></pre></td></tr></table></figure></p>
 <p>2) install hexo-generator-search<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-generator-search --save</div></pre></td></tr></table></figure></p>
