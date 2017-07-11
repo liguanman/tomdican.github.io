@@ -1,7 +1,7 @@
 ---
 title: Hexo-install-config
 date: 2017-01-20 2:12:11
-updated: 2017-01-20 2:26:26
+updated: 2017-07-09 21:17:16
 tags: hexo,tech,install,guide
 categories: Docs
 toc: true
@@ -74,7 +74,7 @@ cp ./* ../../source/ -R
 git checkout master
 cd ../..
 ```
-
+为了避免重复输入密码，可以[部署ssh公钥](https://coding.net/help/doc/git/ssh-key.html#section)，github和coding.net使用步骤完全一样，windows环境最好在git bash下使用。
 ### 2.3 select theme
 
 我喜欢简洁的页面，所以选择的[wixo]( https://github.com/wzpan/hexo-theme-wixo.git)主题作为参考，下面以wixo主题为例。
