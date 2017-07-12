@@ -37,31 +37,6 @@ yum updateyum install python34-setuptools  or  yum install python-setuptoolseasy
 
   <script src="/js/jquery-2.0.3.min.js"></script>
 
-  <!-- analytics -->
-  
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'true']);
-_gaq.push(['_trackPageview']);
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-
-ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-90489929-1', 'auto');
-	    ga('send', 'pageview');
-</script>
-
-
-
   <!-- baiduSpider -->
   <script>
   (function(){
@@ -99,7 +74,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 		<span class="update" id="update"> 
 			2017.01.24 03&nbsp; updated 
 			<a href="https://coding.net/u/tomdican/p/blog/git/blame/source/_posts/shadowsocks.md" target="_blank">
-				<i class="fa fa-history"> </i>
+				<i class="fa fa-history" title="history"> </i>
 			</a>
 		</span>
 
@@ -145,8 +120,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </ol>
 </li>
 </ul>
-<p>本人windows环境配置文件，后缀名为ppx。shadowsocks客户端的远程端口为443。仅作为参考，建议自己配置。</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">ProxifierProfile</span> <span class="attr">version</span>=<span class="string">"101"</span> <span class="attr">platform</span>=<span class="string">"Windows"</span> <span class="attr">product_id</span>=<span class="string">"0"</span> <span class="attr">product_minver</span>=<span class="string">"310"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">Options</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Resolve</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">AutoModeDetection</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">ViaProxy</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">TryLocalDnsFirst</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">ViaProxy</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">ExclusionList</span>&gt;</span>%ComputerName%; localhost; *.local<span class="tag">&lt;/<span class="name">ExclusionList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Resolve</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Encryption</span> <span class="attr">mode</span>=<span class="string">"disabled"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">HttpProxiesSupport</span> <span class="attr">enabled</span>=<span class="string">"true"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">HandleDirectConnections</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ConnectionLoopDetection</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ProcessServices</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ProcessOtherUsers</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">Options</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">ProxyList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Proxy</span> <span class="attr">id</span>=<span class="string">"102"</span> <span class="attr">type</span>=<span class="string">"SOCKS5"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Address</span>&gt;</span>127.0.0.1<span class="tag">&lt;/<span class="name">Address</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Port</span>&gt;</span>1080<span class="tag">&lt;/<span class="name">Port</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Options</span>&gt;</span>48<span class="tag">&lt;/<span class="name">Options</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Proxy</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">ProxyList</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">ChainList</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">RuleList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>118ss<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>shadowsocks.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Ports</span>&gt;</span>443<span class="tag">&lt;/<span class="name">Ports</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>127.0.0.1<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Ports</span>&gt;</span>27017<span class="tag">&lt;/<span class="name">Ports</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>url<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>yeah.net;163.com;baidu.com;youku.com;qq.com;tencent.com;taobao.com;jd.com<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>firefox.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>192.168.*;::1;127.0.0.1<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>idea64.exe; idea.exe; cloudmusic.exe; java.exe; java.exe; baiduyunguanjia.exe; yodaodict.exe; robomongo.exe; sqlyogent.exe;officeclicktorun.exe; integratedoffice.exe; ospprearm.exe; ; yundetectservice.exe; baidunetdisk.exe;VirtualBox.exe;nw.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>chrome.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>qq.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>Default<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Proxy"</span>&gt;</span>102<span class="tag">&lt;/<span class="name">Action</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">RuleList</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ProxifierProfile</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>本人windows环境配置文件，后缀名为ppx。shadowsocks客户端的远程端口为443。仅作为参考，建议自己配置。<br>我的配置<a href="https://github.com/tomdican/config/blob/master/proxifier" target="_blank" rel="external">文件</a></p>
 	  
 
 	  <div>
@@ -159,6 +133,12 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 	
 	
+	
+		
+	
+		
+			
+		
 	
 		
 	
@@ -223,7 +203,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 	
 	<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
 	
-		<li class="next"><a href="/2017/01/20/Mongodb-guide/" class="alignright next">Next<i class="fa fa-angle-right"></i></a></li>
+		<li class="next"><a href="/2017/01/20/git-guide/" class="alignright next">Next<i class="fa fa-angle-right"></i></a></li>
 	
 </ul>
 </div>
@@ -252,6 +232,31 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 </p>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <!-- analytics -->
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'true']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97368934-1', 'auto');
+	    ga('send', 'pageview');
+</script>
+
+
  </footer>
   </div> <!-- container-narrow -->
   

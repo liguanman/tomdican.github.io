@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.tomdican.xyz/2017/01/22/about-life/</loc>
+    
+    <lastmod>2017-07-12T09:08:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.tomdican.xyz/2017/07/12/short-read-plan/</loc>
+    
+    <lastmod>2017-07-12T07:01:50.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.tomdican.xyz/2017/07/12/linux-command/</loc>
+    
+    <lastmod>2017-07-12T04:07:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</loc>
     
     <lastmod>2017-07-09T13:17:16.000Z</lastmod>
@@ -117,13 +138,6 @@
     <loc>http://www.tomdican.xyz/2017/01/23/notes-sex/</loc>
     
     <lastmod>2017-01-22T18:16:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.tomdican.xyz/2017/01/22/about-life/</loc>
-    
-    <lastmod>2017-01-21T17:27:48.000Z</lastmod>
     
   </url>
   

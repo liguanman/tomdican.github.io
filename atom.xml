@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tomdican.xyz/"/>
-  <updated>2017-07-03T17:08:02.000Z</updated>
+  <updated>2017-07-12T07:01:50.000Z</updated>
   <id>http://www.tomdican.xyz/</id>
   
   <author>
@@ -14,6 +14,131 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>short-read-plan</title>
+    <link href="http://www.tomdican.xyz/2017/07/12/short-read-plan/"/>
+    <id>http://www.tomdican.xyz/2017/07/12/short-read-plan/</id>
+    <published>2017-07-12T07:01:50.000Z</published>
+    <updated>2017-07-12T07:01:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="短期读书计划"><a href="#短期读书计划" class="headerlink" title="短期读书计划"></a>短期读书计划</h2><p>以历史为主线，传记、哲学和经典为副线</p>
+<ul>
+<li>第一个月<ul>
+<li>第一周，伯罗奔尼撒战争史（775页），凯撒的2本（高卢战记225页，内战记334页），尼克松的2本，规训与惩罚337页</li>
+<li>第二周，罗马帝国衰亡史（2265页），塔西佗2本（编年史665页，历史378页），约翰逊传554页，词与物556页</li>
+<li>第三周，西欧中世纪史756页，欧洲中世纪史556页，古希腊罗马名人传（1995页），15至18世纪的物质文明、经济和资本主义（全三卷）884页，爱默生日记精华234页</li>
+<li>第四周  历史研究（缩略本）443页，光荣与梦想997页，现代世界史1028页，战后欧洲史887页，责任的重负232页， 匹克威克外传995页</li>
+</ul>
+</li>
+<li>第二个月<ul>
+<li>第一周，年代四部曲1600页，艾瑞克·霍布斯鲍姆（如何改变世界448页，断裂的年代304，工业与帝国514页，民族与民族主义196页，原始的叛乱290页，</li>
+<li>第二周，美国人三部曲和人类文明史三部曲，</li>
+<li>第三周，日本开国五十年史1365页，日本的起起落落456页，菊与刀184页，坂本太郎 的日本史443页，剑桥日本史761页，</li>
+<li>第四周，开始读哲学</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;短期读书计划&quot;&gt;&lt;a href=&quot;#短期读书计划&quot; class=&quot;headerlink&quot; title=&quot;短期读书计划&quot;&gt;&lt;/a&gt;短期读书计划&lt;/h2&gt;&lt;p&gt;以历史为主线，传记、哲学和经典为副线&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第一个月&lt;ul&gt;
+&lt;li&gt;第一周，伯罗奔尼撒
+    
+    </summary>
+    
+      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+      <category term="读书" scheme="http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+      <category term="计划" scheme="http://www.tomdican.xyz/tags/%E8%AE%A1%E5%88%92/"/>
+    
+      <category term="短期" scheme="http://www.tomdican.xyz/tags/%E7%9F%AD%E6%9C%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux-command</title>
+    <link href="http://www.tomdican.xyz/2017/07/12/linux-command/"/>
+    <id>http://www.tomdican.xyz/2017/07/12/linux-command/</id>
+    <published>2017-07-12T04:07:44.000Z</published>
+    <updated>2017-07-12T04:07:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>go to the specified dir<br>eg: . ./cd.sh</li>
+</ul>
+<p><a href="https://liuxd.github.io/posts/Command.html" target="_blank" rel="external">refrence</a></p>
+<ul>
+<li>watch 监控命令输出内容。<br>eg: watch ‘ps -ef|grep php’</li>
+<li>wc 计算输出的行数或字符数等。<br>eg: cat test.txt|wc -l</li>
+<li>curl 发http请求。<br>eg: curl “<a href="http://baidu.com" target="_blank" rel="external">http://baidu.com</a>“ -H “Host: baidu.com”<br>eg: curl -I <a href="http://google.com" target="_blank" rel="external">http://google.com</a> 只获得头信息。<br>eg: curl “<a href="http://google.com" target="_blank" rel="external">http://google.com</a>“ -x 10.10.100.12 指定IP<br>eg: curl ipinfo.io 获得公网出口IP。</li>
+<li>rsync 文件同步。<br>eg: rsync -av –delete-before /home/www/release/ -e ssh evans@app10-099:/home/www/release/<br>eg: rsync -av –delete-before foler1/ folder2/ #注意：后面的斜杠很重要，如果没有则在folder2中建立folder1文件夹。</li>
+<li>dd 转换并复制文件。</li>
+<li>script 记录终端会话的内容。</li>
+<li>tee 从标准输出读取并写入到文件内。</li>
+<li>w 显示当前登录用户的行为。</li>
+<li>zcat 可以察看gz压缩文件的内容。<br>eg: zcat test.gz</li>
+<li>seq 获得等差数列。<br>eg: seq 2 20</li>
+<li>renice 修改进程优先级。<br>eg: renice -n 2 -p 3432。-n，后面是优先级的值；-p，是进程号。</li>
+<li>tree 现实目录结构。<br>eg: tree -N $path 正确显示中文。</li>
+<li>httpd -S 察看apache使用的配置文件路径</li>
+<li>bc 计算器。</li>
+<li>du 计算每个文件的磁盘用量，目录则取总量。<br>eg: du -sh ＊ 获得目录下所有文件／文件夹的容量。</li>
+<li>df 显示文件系统的信息。<br>eg: df -h</li>
+<li>find 文件搜索。<br>eg: find ./mexec/ -name “<em>.php” |xargs cat|grep -v ^$|wc -l 统计php文件的代码行数，不包括空行。<br>eg: find . -type d -name “.svn”|xargs rm -rf 删除”.svn”文件夹。<br>eg: find . -maxdepth 1 -name ‘error.log</em>‘ -print0|xargs -0 sudo rm 批量删除当前目录的文件。<br>eg: find /home -size +2000k 找出/home文件夹下大于200M的文件。<br>eg: find . -newer filename 表示比 filename 要新的文件。</li>
+<li>realpath 获得文件的完整路径。<br>eg: realpath test.php</li>
+<li>sed 文本替换<br>eg: sed -e ‘s/foo/bar/‘ myfile.txt 将myfile.txt中的foo都改成bar。</li>
+<li>wget 下载<br>eg: wget -U “Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB5)“ -r -p -k -nc -o down.log <a href="http://www.nintendo.co.jp/fe/fe_museum/" target="_blank" rel="external">http://www.nintendo.co.jp/fe/fe_museum/</a> 整站下载<br>eg: wget <a href="http://members.3322.org/dyndns/getip" target="_blank" rel="external">http://members.3322.org/dyndns/getip</a> 获得本地的外网IP。</li>
+<li>nl 带行号的cat<br>eg: nl -b a text.txt 带行号的显示文件内容。</li>
+<li>last 显示用户登录历史</li>
+<li>whoami 显示当前用户。</li>
+<li>chsh 修改默认shell。<br>eg: chsh -s /bin/zsh</li>
+<li>grep 正则匹配。<br>eg: grep -v “ignore” 不包含某个字符串。</li>
+<li>select-editor 修改crontab的文本编辑器</li>
+<li>ntpdate 校正时间。<br>sudo ntpdate -u time.apple.com 校正苹果电脑的时间。</li>
+<li>scutil 管理Mac系统的配置参数<br>sudo scutil –set HostName yourname</li>
+<li>iconv 编码转换。<br>iconv -f GB18030 -t UTF-8 old.txt &gt; new.txt</li>
+<li>netstat 显示网络状态。<br>netstat -nltp 查看所有占用的端口号。</li>
+<li>awk 字符串处理。<br>cat test.txt|awk ‘{print $1”,”$2}’ 打印test.txt的第一列和第二列，用逗号隔开。<br>awk ‘{sum += $1};END {print sum}’ sum.txt 按列求和。</li>
+<li>cut 文件截取。<br>echo “liuxd”|cut -c1-3 截取字符串。</li>
+<li>md5 &amp; md5sum 计算文件的md5值。md5 - MacOS，md5sum - Linux<br>md5 test.txt</li>
+<li>split 切割文件。<br>split -l 500000 url.csv sp<em> 切割url.csv文件，每个文件500000行。前缀是“sp</em>”</li>
+<li>file 识别文件类型和编码。<br>file -i test.txt 检查test.txt的编码。</li>
+<li>sshpass 带密码的ssh登录<br>sshpass -p 123456 ssh root@192.168.11.20</li>
+<li><p>noti 终端命令提醒器<br>noti echo 123</p>
+</li>
+<li><p>别名<br>eg: alias ds=’find . -name “.DS_Store” -print0 |xargs -0 rm’<br>eg: alias pgrep=’ps -ef|grep’</p>
+</li>
+<li><p>check port<br>eg: netstat -anp | grep 834<br>eg: lsof -i | grep 888</p>
+</li>
+<li><p>recall the last argument of the pre command,<code>Alt+.</code> or <code>!$</code></p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;go to the specified dir&lt;br&gt;eg: . ./cd.sh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://liuxd.github.io/posts/Command.html&quot; target=&quot;_blank&quot; rel=&quot;ex
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="shell" scheme="http://www.tomdican.xyz/tags/shell/"/>
+    
+      <category term="linux" scheme="http://www.tomdican.xyz/tags/linux/"/>
+    
+      <category term="command" scheme="http://www.tomdican.xyz/tags/command/"/>
+    
+  </entry>
   
   <entry>
     <title>book-list</title>
@@ -2185,17 +2310,6 @@
 </ul>
 <p>4.check port<br>netstat -anp | grep 834<br>lsof -i | grep 888</p>
 <p>5.recall the last argument of the pre command,<code>Alt+.</code> or <code>!$</code></p>
-<h2 id="vim"><a href="#vim" class="headerlink" title="vim"></a>vim</h2><p>1.Search in a folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure></p>
-<p>2.Delete the lines</p>
-<ul>
-<li><p>delete the matched</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:g/pattern/d</div></pre></td></tr></table></figure>
-</li>
-<li><p>delete the not matched</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:v/pattern/d</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>3.<a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">ide install</a><br>4.insert the current time with ‘F5’,detail config of <a href="http://vim.wikia.com/wiki/Insert_current_date_or_time" target="_blank" rel="external">vimrc file</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&quot; &lt;F5&gt; to produce date in normal mode</div><div class="line">:nnoremap &lt;F5&gt; &quot;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;P</div><div class="line">&quot; in insert mode</div><div class="line">:inoremap &lt;F5&gt; &lt;C-R&gt;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;</div></pre></td></tr></table></figure></p>
 <h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><p><a href="https://liuxd.github.io/posts/Docker.html" target="_blank" rel="external">refrence:</a></p>
 <h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
 <li><p>different from val(),text(),html();</p>
@@ -2270,7 +2384,18 @@ box-shadow: none;
     <published>2017-02-10T05:38:51.000Z</published>
     <updated>2017-02-10T05:38:51.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><p>1.indent 7 lines:  7 &gt; &gt;<br>2.Recording keys for repeating jobs: q letter recording  q  @ letter</p>
+    <content type="html"><![CDATA[<h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><p>1.Search in a folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure></p>
+<p>2.Delete the lines</p>
+<ul>
+<li><p>delete the matched</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:g/pattern/d</div></pre></td></tr></table></figure>
+</li>
+<li><p>delete the not matched</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">:v/pattern/d</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>3.<a href="https://github.com/liuxd/VimIDE.git" target="_blank" rel="external">ide install</a><br>4.insert the current time with ‘F5’,detail config of <a href="http://vim.wikia.com/wiki/Insert_current_date_or_time" target="_blank" rel="external">vimrc file</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&quot; &lt;F5&gt; to produce date in normal mode</div><div class="line">:nnoremap &lt;F5&gt; &quot;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;P</div><div class="line">&quot; in insert mode</div><div class="line">:inoremap &lt;F5&gt; &lt;C-R&gt;=strftime(&quot;%Y-%m-%d %H:%M:%S&quot;)&lt;CR&gt;</div></pre></td></tr></table></figure></p>
+<p>5.indent 7 lines:  7 &gt; &gt;<br>6.Recording keys for repeating jobs: q letter recording  q  @ letter</p>
 <h2 id="gvim-config"><a href="#gvim-config" class="headerlink" title="gvim config"></a><del>gvim config</del></h2><p><del>set chinese encoding<br>in _vimrc file,add below lines at top</del><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">set encoding=utf8</div></pre></td></tr></table></figure></p>
 <h2 id="vim-installation-and-configuration"><a href="#vim-installation-and-configuration" class="headerlink" title="vim installation and configuration"></a>vim installation and configuration</h2><p>vim的快捷键功能很强大，插件也非常多，安装vundle后，可以从<a href="http://vimawesome.com" target="_blank" rel="external">该网站</a>下载插件；</p>
 <h3 id="vim-plugin-management-vundle"><a href="#vim-plugin-management-vundle" class="headerlink" title="vim plugin management: vundle"></a>vim plugin management: vundle</h3><h4 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h4><ul>
@@ -2334,7 +2459,7 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;h2 id=&quot;vim-commands&quot;&gt;&lt;a href=&quot;#vim-commands&quot; class=&quot;headerlink&quot; title=&quot;vim commands&quot;&gt;&lt;/a&gt;vim commands&lt;/h2&gt;&lt;p&gt;1.indent 7 lines:  7 &amp;gt; &amp;gt;
+      &lt;h2 id=&quot;vim-commands&quot;&gt;&lt;a href=&quot;#vim-commands&quot; class=&quot;headerlink&quot; title=&quot;vim commands&quot;&gt;&lt;/a&gt;vim commands&lt;/h2&gt;&lt;p&gt;1.Search in a folder&lt;br&gt;&lt;figur
     
     </summary>
     
@@ -2542,8 +2667,7 @@ box-shadow: none;
 </ol>
 </li>
 </ul>
-<p>本人windows环境配置文件，后缀名为ppx。shadowsocks客户端的远程端口为443。仅作为参考，建议自己配置。</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">ProxifierProfile</span> <span class="attr">version</span>=<span class="string">"101"</span> <span class="attr">platform</span>=<span class="string">"Windows"</span> <span class="attr">product_id</span>=<span class="string">"0"</span> <span class="attr">product_minver</span>=<span class="string">"310"</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">Options</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Resolve</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">AutoModeDetection</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">ViaProxy</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">TryLocalDnsFirst</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">      <span class="tag">&lt;/<span class="name">ViaProxy</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">ExclusionList</span>&gt;</span>%ComputerName%; localhost; *.local<span class="tag">&lt;/<span class="name">ExclusionList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Resolve</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Encryption</span> <span class="attr">mode</span>=<span class="string">"disabled"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">HttpProxiesSupport</span> <span class="attr">enabled</span>=<span class="string">"true"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">HandleDirectConnections</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ConnectionLoopDetection</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ProcessServices</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">ProcessOtherUsers</span> <span class="attr">enabled</span>=<span class="string">"false"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">Options</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">ProxyList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Proxy</span> <span class="attr">id</span>=<span class="string">"102"</span> <span class="attr">type</span>=<span class="string">"SOCKS5"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Address</span>&gt;</span>127.0.0.1<span class="tag">&lt;/<span class="name">Address</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Port</span>&gt;</span>1080<span class="tag">&lt;/<span class="name">Port</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Options</span>&gt;</span>48<span class="tag">&lt;/<span class="name">Options</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Proxy</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">ProxyList</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">ChainList</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">RuleList</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>118ss<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>shadowsocks.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Ports</span>&gt;</span>443<span class="tag">&lt;/<span class="name">Ports</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>127.0.0.1<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Ports</span>&gt;</span>27017<span class="tag">&lt;/<span class="name">Ports</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>url<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>yeah.net;163.com;baidu.com;youku.com;qq.com;tencent.com;taobao.com;jd.com<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>firefox.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Targets</span>&gt;</span>192.168.*;::1;127.0.0.1<span class="tag">&lt;/<span class="name">Targets</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>idea64.exe; idea.exe; cloudmusic.exe; java.exe; java.exe; baiduyunguanjia.exe; yodaodict.exe; robomongo.exe; sqlyogent.exe;officeclicktorun.exe; integratedoffice.exe; ospprearm.exe; ; yundetectservice.exe; baidunetdisk.exe;VirtualBox.exe;nw.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>chrome.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>New<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Applications</span>&gt;</span>qq.exe<span class="tag">&lt;/<span class="name">Applications</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Direct"</span> /&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">Rule</span> <span class="attr">enabled</span>=<span class="string">"true"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Name</span>&gt;</span>Default<span class="tag">&lt;/<span class="name">Name</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">Action</span> <span class="attr">type</span>=<span class="string">"Proxy"</span>&gt;</span>102<span class="tag">&lt;/<span class="name">Action</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">Rule</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">RuleList</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ProxifierProfile</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>本人windows环境配置文件，后缀名为ppx。shadowsocks客户端的远程端口为443。仅作为参考，建议自己配置。<br>我的配置<a href="https://github.com/tomdican/config/blob/master/proxifier" target="_blank" rel="external">文件</a></p>
 ]]></content>
     
     <summary type="html">
@@ -2948,7 +3072,7 @@ box-shadow: none;
     <link href="http://www.tomdican.xyz/2017/01/22/about-life/"/>
     <id>http://www.tomdican.xyz/2017/01/22/about-life/</id>
     <published>2017-01-21T17:27:48.000Z</published>
-    <updated>2017-01-21T17:27:48.000Z</updated>
+    <updated>2017-07-12T09:08:38.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="无法离开生活"><a href="#无法离开生活" class="headerlink" title="无法离开生活"></a>无法离开生活</h2><ul>
 <li>世界上所有一切事物都无法离开生活，个人的工作是为了生活的保障，个人工作实现的产品是为了解决生活中的问题或更加方便生活认识生活，建筑是为了让人避开天气的恶劣环境，音乐是为了给生活带来心灵的慰藉和快乐，太多太多而无法全部列举。</li>
@@ -2957,7 +3081,7 @@ box-shadow: none;
 <li>周围人到底想要什么样的产品，无法回答清楚，但可以知道，人类需要生活，需要快乐，需要自我的存在，需要自我的满足，需要解决自己内心的疑惑。总的来说，就是想通过办法来实现自己想要的事物或思考自己与宇宙所产生的联系，所有这些都离不开人的意识、语言或视觉，即信息。</li>
 <li>信息对于个人来说，一定无法完全获取到，总是存在偏差，导致对事物的看法总是存在错误的认识或认识不足，这样的话，想要实现一件事情，就需要不断地实现一步然后思考然后再实现下一步，不能一步登天，想再多也是多余的。20170227 10：50，半个小时写完，以后待续。</li>
 </ul>
-<h2 id="工作场所的分析"><a href="#工作场所的分析" class="headerlink" title="工作场所的分析"></a>工作场所的分析</h2><h2 id="个人缺点分析"><a href="#个人缺点分析" class="headerlink" title="个人缺点分析"></a>个人缺点分析</h2><ul>
+<h2 id="个人缺点分析"><a href="#个人缺点分析" class="headerlink" title="个人缺点分析"></a>个人缺点分析</h2><ul>
 <li>对所有事情太追求完美。原因为，小时候经历的事情比较少，有很浓的理想主义色彩，长大后，对周围的事情总是想完美，这就导致在小事情上面有强迫症，浪费大量精力。在重要的事情上面计划的很完美，浪费大量时间，而且行动时发现与现实不太吻合，导致执行能力很差。解决办法为，小不忍乱大谋，不重要的事情能避开就避开，重要的事情学会大概的计划，留有变动的余地，采用迭代的方式推进，说白了，首先不要把事情做的很完美，先做好基础部分就可以了。</li>
 <li>做事情需要持之以恒，一点点来完成，切记心血来潮。学会放弃周围的干扰信号，尤其一些小的不重要的事情。</li>
 </ul>
@@ -3022,21 +3146,9 @@ box-shadow: none;
 </li>
 </ul>
 <h2 id="思考人的本质-20170123"><a href="#思考人的本质-20170123" class="headerlink" title="思考人的本质 20170123"></a>思考人的本质 20170123</h2><ul>
-<li>人的基础是动物本能，即生存本能，主要包括安全感、食欲、领地欲和生殖欲。这些欲望在潜意识里面，所有欲望都通过安全感来决策，安全感来自记忆，但眼睛看见一个事物，触发了记忆中存储的危险信号，就会马上做出决策应对可能的危险。当饥饿时会触发警告信号，需要寻找食物，不然会死亡，不惜一切手段目的，甚至杀死同胞。当侵犯领地或领地内同胞不认同时，会采取竞争的手段，消灭危险的可能。生殖欲也一样，最大化延续后代。当所有欲望满足的情况下，就比较安静和进行休息。植物、动物和人都是由分子电子能量组合而成，能够进行新陈代谢，有生命周期和限制。动物和人最大的区别是，人能够充分发挥意识记忆的作用。就是说人能够通过语言更高效的分享和延续经验。比如，食欲的保证，人会发明各种食物的吃法，从植物到动物，在食物的存储上的技术，这些都是通过一代代人的实践总结，排除坏的，留下好的，然后通过语言传播给下一代人，包括说话和文字，就是结晶把。其他欲望也都类似，所有欲望的目的只有一个，为生存下去提供保障。<ul>
-<li>人类文明也有几千年了，人是如何发挥意识来提高生存能力？<ul>
-<li>保证记忆的延续，通过说话传播给更多的人，通过语言符号以类似书本的形式流传下来；</li>
-<li>资源有限和分布不均，通过群体的协作和工具的使用来提高资源数量和减少资源分布不均；<ul>
-<li>群体的协作，主要团结力量来获取资源，提供获取资源的安全保障，比如政府和公司；</li>
-<li>工具的发明，从体力逐渐释放到脑力逐渐释放，体力释放包括石器、木器、铁器铜器、能源使用，基本实现了体力的解放；脑力释放包括沟通实现思路对比和完善、书本的文字流传实现思路在时间上更进一步的完善和协助大脑抽象思维和想象力的发挥、计算机和互联网的信息传播实现思路在群体广泛性更一步的完善和减少部分脑力活动；</li>
-</ul>
-</li>
-<li>应对自然，建造房子来应对天气，能源使用来减少对自然的依赖，生物化学来应对人和自然的周期性和衰老；</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>总结：对于个人来说，一直有欲望的需求，不能保证，需要竞争，所以也一直没安全感，只是获取资源和欲望的手段更加高明了，成本更加低了。提供获取资源的能力，最有效的途径来自有效经验的积累，具体方法包括人的沟通、从书中与历史人物沟通和通过互联网与世界所有人的沟通。与历史人物沟通一般是获取较大的宏观的经验，与世界所有人沟通主要获取目前世界的经验。</li>
-<li>计算机和互联网，实现世界所有人的参与来完善思路，保证获取自己需要的经验的高效性，能减少人的计算脑力、重复性的脑力、比较信息好坏的脑力、推演的脑力。没解决的问题是，还没彻底释放脑力，有效信息的获取因不同人而差异很大，不能应对个人的特殊性。</li>
+<li>人的基础是动物本能，即生存本能，主要包括安全感、食欲、领地欲和生殖欲。这些欲望在潜意识里面，所有欲望都通过安全感来决策，安全感来自记忆，但眼睛看见一个事物，触发了记忆中存储的危险信号，就会马上做出决策应对可能的危险。当饥饿时会触发警告信号，需要寻找食物，不然会死亡，不惜一切手段目的，甚至杀死同胞。当侵犯领地或领地内同胞不认同时，会采取竞争的手段，消灭危险的可能。生殖欲也一样，最大化延续后代。当所有欲望满足的情况下，就比较安静和进行休息。植物、动物和人都是由分子电子能量组合而成，能够进行新陈代谢，有生命周期和限制。动物和人最大的区别是，人能够充分发挥意识记忆的作用。就是说人能够通过语言更高效的分享和延续经验。比如，食欲的保证，人会发明各种食物的吃法，从植物到动物，在食物的存储上的技术，这些都是通过一代代人的实践总结，排除坏的，留下好的，然后通过语言传播给下一代人，包括说话和文字，就是结晶把。其他欲望也都类似，所有欲望的目的只有一个，为生存下去提供保障。</li>
+<li>人类文明也有几千年了，人是如何发挥意识来提高生存能力？保证记忆的延续，通过说话传播给更多的人，通过语言符号以类似书本的形式流传下来；资源有限和分布不均，通过群体的协作和工具的使用来提高资源数量和减少资源分布不均；群体的协作，主要团结力量来获取资源，提供获取资源的安全保障，比如政府和公司；工具的发明，从体力逐渐释放到脑力逐渐释放，体力释放包括石器、木器、铁器铜器、能源使用，基本实现了体力的解放；脑力释放包括沟通实现思路对比和完善、书本的文字流传实现思路在时间上更进一步的完善和协助大脑抽象思维和想象力的发挥、计算机和互联网的信息传播实现思路在群体广泛性更一步的完善和减少部分脑力活动；应对自然，建造房子来应对天气，能源使用来减少对自然的依赖，生物化学来应对人和自然的周期性和衰老；</li>
+<li>总结：对于个人来说，一直有欲望的需求，不能保证，需要竞争，所以也一直没安全感，只是获取资源和欲望的手段更加高明了，成本更加低了。提供获取资源的能力，最有效的途径来自有效经验的积累，具体方法包括人的沟通、从书中与历史人物沟通和通过互联网与世界所有人的沟通。与历史人物沟通一般是获取较大的宏观的经验，与世界所有人沟通主要获取目前世界的经验。计算机和互联网，实现世界所有人的参与来完善思路，保证获取自己需要的经验的高效性，能减少人的计算脑力、重复性的脑力、比较信息好坏的脑力、推演的脑力。没解决的问题是，还没彻底释放脑力，有效信息的获取因不同人而差异很大，不能应对个人的特殊性。</li>
 <li>人的基础为动物本能，没有动物本能，人类就无法生存，人类就不会有文明，比如没有性欲就会影响人的繁殖，没有自私和物质欲望，就不会有思想结晶，不会有科技发展，不会有制度发展，人的虚伪能提高人与人的沟通有效性，提高人的团结能力，没有虚伪的话，人的凝聚力和沟通会无法进行。20170126 21：26添加</li>
 </ul>
 ]]></content>
@@ -3117,6 +3229,82 @@ box-shadow: none;
     
     
       <category term="时间,思考" scheme="http://www.tomdican.xyz/tags/%E6%97%B6%E9%97%B4-%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git-guide</title>
+    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
+    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin ‘<a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a>‘</p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit    </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
+<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
+<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
+<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
+<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
+<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
+<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
+<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
+<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;add or update file:&lt;b
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   
@@ -3202,86 +3390,6 @@ box-shadow: none;
     
     
       <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git remote <span class="built_in">set</span>-url origin https://user@github.com/user/scripts.git</div></pre></td></tr></table></figure>
-</li>
-<li><p>clone remote git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/great/scripts.git</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<ol>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit    </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
-<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
-<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
-<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
-<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
-<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
-<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
-<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
-<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;add or update file:&lt;b
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
     
   </entry>
   
@@ -3632,23 +3740,6 @@ box-shadow: none;
 </ul>
 </li>
 <li>个人已经读过的书籍尽量不纳入，以后有机会加进来；</li>
-</ul>
-<h2 id="短期读书计划"><a href="#短期读书计划" class="headerlink" title="短期读书计划"></a>短期读书计划</h2><p>以历史为主线，传记、哲学和经典为副线</p>
-<ul>
-<li>第一个月<ul>
-<li>第一周，伯罗奔尼撒战争史（775页），凯撒的2本（高卢战记225页，内战记334页），尼克松的2本，规训与惩罚337页</li>
-<li>第二周，罗马帝国衰亡史（2265页），塔西佗2本（编年史665页，历史378页），约翰逊传554页，词与物556页</li>
-<li>第三周，西欧中世纪史756页，欧洲中世纪史556页，古希腊罗马名人传（1995页），15至18世纪的物质文明、经济和资本主义（全三卷）884页，爱默生日记精华234页</li>
-<li>第四周  历史研究（缩略本）443页，光荣与梦想997页，现代世界史1028页，战后欧洲史887页，责任的重负232页， 匹克威克外传995页</li>
-</ul>
-</li>
-<li>第二个月<ul>
-<li>第一周，年代四部曲1600页，艾瑞克·霍布斯鲍姆（如何改变世界448页，断裂的年代304，工业与帝国514页，民族与民族主义196页，原始的叛乱290页，</li>
-<li>第二周，美国人三部曲和人类文明史三部曲，</li>
-<li>第三周，日本开国五十年史1365页，日本的起起落落456页，菊与刀184页，坂本太郎 的日本史443页，剑桥日本史761页，</li>
-<li>第四周，开始读哲学</li>
-</ul>
-</li>
 </ul>
 <h2 id="中期读书计划"><a href="#中期读书计划" class="headerlink" title="中期读书计划"></a>中期读书计划</h2><ul>
 <li><p>经典</p>
