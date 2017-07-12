@@ -37,11 +37,11 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+## highlight:
+#  enable: true
+#  line_number: true
+#  auto_detect: false
+#  tab_replace:
 
 # Category & Tag
 default_category: uncategorized
@@ -87,9 +87,9 @@ feed:
 #baiduSpider
 #baidu_url_submit
 baidu_url_submit:
- count: 1 ## submit new url
+ count: 2 ## submit new url
  host: www.tomdican.xyz
- token: G8zqCU9R6RgbR8JU
+ token: QqnKWhdWXIY0jG3M 
  path: baidu_urls.txt
 
 #sitemap
@@ -98,11 +98,13 @@ sitemap:
 
 ## Themes: https://hexo.io/themes/
 ##theme: raytaylorism
-theme: wixo
+##theme: next 
+##theme: wixo
+theme: less 
 ##theme: yinwang 
 ##theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: baidu_url_submiiter
+  type: baidu_url_submitter

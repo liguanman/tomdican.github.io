@@ -1,5 +1,9 @@
 hexo clean
 hexo generate
+
+## submit to zhanzhang.baidu.com
+hexo deploy
+
 cd .deploy/tomdican.github.io
 git checkout master
 git pull
@@ -17,4 +21,4 @@ git checkout master
 cd ../..
 
 ## dropbox upload 
-~/Documents/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../notes/blog-ban/sources/* /blog/ban-blog/
+/e/github-pages/hexo/blog/Dropbox-Uploader/dropbox_uploader.sh upload ../ban-blog/* /blog/ban-blog/
