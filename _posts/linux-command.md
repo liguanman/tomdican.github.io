@@ -1,41 +1,18 @@
 ---
-title: general-tech-tricks
-date: 2017-2-23  13:51:25
-updated: 2017-07-04 01:43:08
-tags: guide,command
+title: linux-command
 categories: Docs
 toc: true
+date: 2017-07-12 12:07:44
+updated: 2017-07-12 12:07:44
+tags:
+- shell
+- linux
+- command
 ---
 
+- go to the specified dir
+eg: . ./cd.sh
 
-## centos
-
-1.Diagnosing Network
-- test the network speed
-``` bash
-yum install epel-release
-yum install python2-speedtest-cli
-```
-  or
-``` bash
-pip install speedtest
-```
-  show download and upload speed,run `speedtest-cli`
-
-- `mtr` represents an evolution of the `traceroute` command by providing a greater data sample
-``` bash
-yum install mtr
-mtr -rw youku.com
-```
-
-## shell
-
-1.go to the specified dir
-```bash
-. ./cd.sh
-```
-
-2. 
 [refrence](https://liuxd.github.io/posts/Command.html)
 
 - watch 监控命令输出内容。
@@ -115,90 +92,12 @@ sshpass -p 123456 ssh root@192.168.11.20
 noti echo 123
 
 - 别名
-```
- alias dns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed'
- alias ds='find . -name ".DS_Store" -print0 |xargs -0 rm'
- alias subl="'/Applications/Sublime.app/Contents/SharedSupport/bin/subl'"
- alias p='ps -ef|grep'
-```
+eg: alias ds='find . -name ".DS_Store" -print0 |xargs -0 rm'
+eg: alias pgrep='ps -ef|grep'
 
-4.check port
-netstat -anp | grep 834
-lsof -i | grep 888
+- check port
+eg: netstat -anp | grep 834
+eg: lsof -i | grep 888
 
-5.recall the last argument of the pre command,`Alt+.` or `!$`
+- recall the last argument of the pre command,`Alt+.` or `!$`
 
-
-## docker
-[refrence:](https://liuxd.github.io/posts/Docker.html)
-
-
-## jquery-css
-
-1. different from val(),text(),html();
-
-2. selector
-	- first-child()
-	- eq(),gt(),lt()
-
-3. button press style（bootstrap）
-	- .btn-default:hover,.btn-default:active,.btn-default:focus {
-		  background-color: gray;
-		  box-shadow: none;
-  }
-
-4. input validation（bootstrap）
-	- [refrence](https://stackoverflow.com/questions/32933165/validate-input-fields-on-bootstrap-modal-window-button-clicks-using-angular)
-	- disable input validation , remove control-lable class
-	
-5. stack order of the element
-		z-index: 1;z-index:-1
-		
-6. jquery change  css value，$( this ).css( "width", "+=200" )
-
-7. jquery add event to new element
-```html
-$("#search-info").on("click","button",function () {
-    console.log("1");
-	var p = $(this).parent();
-    var bookReferrerWeiboUrl = p.find("a").attr("href");
-});
-```
-8. url编码，encodeURI(url)
-9. get parameter from url
-```javascript
-// get parameter from url address
-function GetQueryString(name) {
-	var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-	var r = window.location.search.substr(1).match(reg);
-	if(r!=null)
-		return unescape(r[2]);
-	return null;
-}
-```
-10.button  ouline  
-11.
-
-## java
-1. DOM child tag operator
-```java
-public static Element getDirectChild(Element parent, String name)
-{
-    for(Node child = parent.getFirstChild(); child != null; child = child.getNextSibling())
-    {
-        if(child instanceof Element && name.equals(child.getNodeName())) return (Element) child;
-    }
-    return null;
-}
-```
-
-2. class to string
-```java
-System.out.println(ToStringBuilder.reflectionToString(p));
-```
-
-## nginx
-1. 禁用缓存方式
-	sendfile  off ；（/etc/nginx/nginx.conf)
-
-2. 

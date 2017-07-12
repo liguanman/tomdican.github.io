@@ -8,6 +8,7 @@ toc: true
 ---
 
 ## git commands
+
 1. add or update file:
   git add *
   git status
@@ -15,14 +16,10 @@ toc: true
   git push -u origin master(contain git pull)
 
 2. modify remote url:(old version git)
-```bash
-git remote set-url origin https://user@github.com/user/scripts.git
-```
+  git remote set-url origin 'https://user@github.com/user/scripts.git'
 
 3. clone remote git
-```bash
-git clone https://github.com/great/scripts.git
-```
+  git clone https://github.com/great/scripts.git
      
 4. create branch ,merge branch,delete local or remote branch:
   git checkout -b master

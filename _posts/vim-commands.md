@@ -9,9 +9,32 @@ toc: true
 
 ## vim commands 
 
-1.indent 7 lines:  7 > >
-2.Recording keys for repeating jobs: q letter recording  q  @ letter
+1.Search in a folder
+```bash
+:cd /path/to/your/folder/
+:vim "searchme" **/*.php
+```
 
+2.Delete the lines
+
+- delete the matched
+```bash
+:g/pattern/d
+```
+- delete the not matched
+```bash
+:v/pattern/d
+```
+3.[ide install]( https://github.com/liuxd/VimIDE.git)
+4.insert the current time with 'F5',detail config of [vimrc file](http://vim.wikia.com/wiki/Insert_current_date_or_time)
+```vim(http://vim.wikia.com/wiki/Insert_current_date_or_time)
+" <F5> to produce date in normal mode
+:nnoremap <F5> "=strftime("%Y-%m-%d %H:%M:%S")<CR>P
+" in insert mode
+:inoremap <F5> <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+```
+5.indent 7 lines:  7 > >
+6.Recording keys for repeating jobs: q letter recording  q  @ letter
 
 
 
