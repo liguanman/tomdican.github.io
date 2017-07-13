@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[short-read-plan]]></title>
-      <url>http://www.tomdican.xyz/2017/07/12/short-read-plan/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/short-read-plan/</url>
       <content type="html"><![CDATA[<h2 id="短期读书计划"><a href="#短期读书计划" class="headerlink" title="短期读书计划"></a>短期读书计划</h2><p>以历史为主线，传记、哲学和经典为副线</p>
 <ul>
 <li>第一个月<ul>
@@ -28,7 +28,7 @@
     
     <entry>
       <title><![CDATA[linux-command]]></title>
-      <url>http://www.tomdican.xyz/2017/07/12/linux-command/</url>
+      <url>http://www.tomdican.xyz/Docs/linux-command/</url>
       <content type="html"><![CDATA[<ul>
 <li>go to the specified dir<br>eg: . ./cd.sh</li>
 </ul>
@@ -84,7 +84,7 @@
     
     <entry>
       <title><![CDATA[book-list]]></title>
-      <url>http://www.tomdican.xyz/2017/04/05/book-list/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/book-list/</url>
       <content type="html"><![CDATA[<p>我读世界，世界读我！<br>向一流人学习，最有效的方式是读书！<br>无所不读，无奇不读！<br>好读书，读好书，读书好！</p>
 <ul>
 <li>原则：</li>
@@ -2007,7 +2007,7 @@
     
     <entry>
       <title><![CDATA[tools-install]]></title>
-      <url>http://www.tomdican.xyz/2017/03/04/tools-install/</url>
+      <url>http://www.tomdican.xyz/Docs/tools-install/</url>
       <content type="html"><![CDATA[<h2 id="去中心下载工具resilio"><a href="#去中心下载工具resilio" class="headerlink" title="去中心下载工具resilio"></a>去中心下载工具resilio</h2><p>该软件从官网免费下载，方便翻墙来下载资料。</p>
 <h2 id="屏幕录制软件bandicam"><a href="#屏幕录制软件bandicam" class="headerlink" title="屏幕录制软件bandicam"></a>屏幕录制软件bandicam</h2><p>该软件非常好用，下载地址：链接：<a href="http://pan.baidu.com/s/1dEE4eTb" target="_blank" rel="external">http://pan.baidu.com/s/1dEE4eTb</a> 密码：6d3e<br>解压打开软件后，然后关闭，打开注册机输入任意邮箱地址，软件已经注册成功。</p>
 <h2 id="jdk8-install"><a href="#jdk8-install" class="headerlink" title="jdk8 install"></a>jdk8 install</h2><ul>
@@ -2069,7 +2069,7 @@
     
     <entry>
       <title><![CDATA[good-websites]]></title>
-      <url>http://www.tomdican.xyz/2017/03/04/good-websites/</url>
+      <url>http://www.tomdican.xyz/Docs/good-websites/</url>
       <content type="html"><![CDATA[<ul>
 <li><p>video<br>1 asciinema <a href="https://asciinema.org/browse/featured?order=popularity" target="_blank" rel="external">https://asciinema.org/browse/featured?order=popularity</a></p>
 </li>
@@ -2094,7 +2094,7 @@
     
     <entry>
       <title><![CDATA[about-spring]]></title>
-      <url>http://www.tomdican.xyz/2017/02/26/about-spring/</url>
+      <url>http://www.tomdican.xyz/Docs/about-spring/</url>
       <content type="html"><![CDATA[<h2 id="spring-HATEOAS"><a href="#spring-HATEOAS" class="headerlink" title="spring  HATEOAS"></a>spring  HATEOAS</h2><p>ref link: <a href="https://spring.io/understanding/HATEOAS" target="_blank" rel="external">https://spring.io/understanding/HATEOAS</a></p>
 <h3 id="what-is-HATEOAS"><a href="#what-is-HATEOAS" class="headerlink" title="what is HATEOAS"></a>what is HATEOAS</h3><p>HATEOAS (Hypermedia as the Engine of Application State) is a constraint of the REST application architecture.<br>A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses. This capability differs from that of SOA-based systems and WSDL-driven interfaces. With SOA, servers and clients usually must access a fixed specification that might be staged somewhere else on the website, on another website, or perhaps distributed by email.</p>
 <h3 id="example"><a href="#example" class="headerlink" title="example"></a>example</h3><p>The following code represents a Customer object.<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">Customer</span> </span>&#123;</div><div class="line">    String name;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
@@ -2112,7 +2112,7 @@
     
     <entry>
       <title><![CDATA[general-tech-tricks]]></title>
-      <url>http://www.tomdican.xyz/2017/02/23/general-commands/</url>
+      <url>http://www.tomdican.xyz/Docs/general-commands/</url>
       <content type="html"><![CDATA[<h2 id="centos"><a href="#centos" class="headerlink" title="centos"></a>centos</h2><p>1.Diagnosing Network</p>
 <ul>
 <li><p>test the network speed</p>
@@ -2229,7 +2229,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[vim-commands]]></title>
-      <url>http://www.tomdican.xyz/2017/02/10/vim-commands/</url>
+      <url>http://www.tomdican.xyz/Docs/vim-commands/</url>
       <content type="html"><![CDATA[<h2 id="vim-commands"><a href="#vim-commands" class="headerlink" title="vim commands"></a>vim commands</h2><p>1.Search in a folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">:<span class="built_in">cd</span> /path/to/your/folder/</div><div class="line">:vim <span class="string">"searchme"</span> **/*.php</div></pre></td></tr></table></figure></p>
 <p>2.Delete the lines</p>
 <ul>
@@ -2306,7 +2306,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[read-product]]></title>
-      <url>http://www.tomdican.xyz/2017/02/07/readProduct/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/readProduct/</url>
       <content type="html"><![CDATA[<h2 id="产品迭代"><a href="#产品迭代" class="headerlink" title="产品迭代"></a>产品迭代</h2><p>-201704月<br>-<strong>第四周</strong><br>1.类似产品需求<a href="https://www.zhihu.com/question/27430882" target="_blank" rel="external">分析</a><br>  <a href="http://www.woshipm.com/it/168464.html" target="_blank" rel="external">分析2</a><br>  类似产品，全面，<a href="https://www.producthunt.com" target="_blank" rel="external">启发性强</a><br>  axure 不同<a href="http://www.woshipm.com/rp/641628.html" target="_blank" rel="external">分辨率</a><br>3.微信公众号<a href="http://www.vxzsk.com/2/cate.html" target="_blank" rel="external">开发</a></p>
 <p>-<strong>第三周18-22</strong><br>  -1.类似产品：nextread.cn<br>  确定需求目标，让用户快速找到自己想要的某领域或专业的或某个话题的书籍；<br>  添加某个领域或某个话题的书籍的工具<br>  如何将书籍展示给用户，快速查找；<br>  去国体16点半<br>  确定UI工具 19点半安装好<br>  <a href="https://www.zhihu.com/question/19592829" target="_blank" rel="external">link1</a><br>  <a href="http://tech2ipo.com/54655" target="_blank" rel="external">link2</a><br>  <a href="https://www.zhihu.com/question/19688700" target="_blank" rel="external">link3</a><br>  <a href="https://www.oschina.net/project/tag/291/ui-design" target="_blank" rel="external">link4</a><br>  我现在对原型的流程是这样的：<br>  用Axure绘制UE图，导出成手机尺寸图片<br>  导入Briefs或者pop，加入交互，体验一下<br>  把UI图转成黑白，在Axure里标注，写文档，生成html<br>  UI定稿再导入briefs，高保真体验<br>  熟悉它；<br>  制作最经典的天文地理书籍<br>  -2.<a href="http://www.qian10.net/" target="_blank" rel="external">link1</a><br>  <a href="类似产品http://user.yeeyan.org/u/306856">link2</a></p>
 <p>-<strong>第二周10-14</strong><br>  -1.讨论了三个小时，电影推荐<br>  书单文章写完，3个小时<br>  -2.写最经典的管理学书单5个小时<br>  -3.写最经典的经济学书单<br>  去国体；<br>  打电话博卷天下，客户说没必要用这些，有自己的团队每天在写书单，不需要工具。完全不相信，摆在他面前才会相信。<br>  -4.找客户太被动，需要把产品摆在他面前看到实际的好处才愿意用，因为人的惯性思维在作怪<br>  引导用户，调教用户习惯；<br>  分析目前用户对于书单和找书阅读的思维习惯；<br>  现有的用户不愿意看一本本厚的书籍，都习惯碎片化阅读、娱乐化阅读、轻松的阅读；<br>  平常工作已经很累；<br>    阅读的东西太多，已经疲劳；<br>    内容都差不多，已经麻木；<br>    都没有很长的时间来阅读，只有一些零碎时间；<br>    大部分人需要实际的效果，可书籍无法带来实际的效果；<br>    相信表面上权威的可信的神秘的书籍作者或机构；<br>    找书一般习惯旧的思维去找书；<br>    自己去喜欢的书店购买喜欢的书籍（惯性思维）；<br>    自己寻找的书籍，看到一篇文章或一个想法，自己在网上找的书籍（相信自己的眼光）；<br>    不喜欢别人刻意推荐的书籍，有目的性的推荐（在商业性浮躁的社会，觉得别人都是假的，有目的）<br>    然后根据现有用户的阅读思维习惯来缓慢的无声的调教用户的找书思维习惯；<br>  现有的阅读书籍产品和找书产品<br>    非商业性的网站，小而专，甚至有点粗糙；百度一下有不少这样的网站（爱读书的，不随波逐流的，年轻人喜欢上网的）；<br>    网络小说网站（玄幻、言情、动漫）（轻松娱乐而读书，年轻人）<br>    豆瓣阅读、多看阅读，书籍全面，大多还是现在社会口味的书籍，尤其生活方面的，生活类成功类（想读书，也读一些，实用的，但没有自己的主见，白领以上，年轻人都有）<br>    阅读器，大的电子书商城推荐的书籍，排行榜之类，诱惑性强（喜欢读书的，比较便宜，年轻人，经常读书）；<br>    自己下载电子书籍，想要免费的，在手机或阅读器上看（想免费，年轻人）；<br>    大型的书籍网站购买纸质版，亚马逊当当淘宝京东豆瓣，排行榜推荐（注重实用，觉得读书有用，白领以上）；<br>    去旧书网站购买便宜的或经典的书籍（孔夫子旧书，淘宝，价格敏感、常买书，非常爱读书）<br>    总结，年轻人在网上看电子版或网页版，娱乐化或实用的，中年的电子版和纸质版，中年以上纸质版；<br>    年轻人没有太多主见，喜欢流行的娱乐的，科技类的，不喜欢文艺的，藐视权威经典；<br>    中年人有主见，注重实用，跟自己事业相关，或纯粹爱好读书提高思想；<br>    中年以上，某种类别主题的书籍喜欢，偏向文艺或研究的，懂书的人；<br>  添加最经典的政治学书籍 20点20</p>
@@ -2450,7 +2450,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[shadowsocks-install]]></title>
-      <url>http://www.tomdican.xyz/2017/01/24/shadowsocks/</url>
+      <url>http://www.tomdican.xyz/Docs/shadowsocks/</url>
       <content type="html"><![CDATA[<h2 id="shadowsocks使用比较方便："><a href="#shadowsocks使用比较方便：" class="headerlink" title="shadowsocks使用比较方便："></a>shadowsocks使用比较方便：</h2><h3 id="1-服务端安装："><a href="#1-服务端安装：" class="headerlink" title="1) 服务端安装："></a>1) 服务端安装：</h3><p>in centos 6</p>
 <p>yum update<br>yum install python34-setuptools  or  yum install python-setuptools<br>easy_install pip<br>pip install shadowsocks</p>
 <ul>
@@ -2487,7 +2487,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[notes-memoirs]]></title>
-      <url>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-memoirs/</url>
       <content type="html"><![CDATA[<h2 id="内战记-凯撒著-20170227-23：21"><a href="#内战记-凯撒著-20170227-23：21" class="headerlink" title="内战记 凯撒著 20170227 23：21"></a>内战记 凯撒著 20170227 23：21</h2><ul>
 <li>主要讲凯撒在掌握军队的情况下，与掌握政府的庞培进行战争。通过几场关键性的战役看出，凯撒能够时刻保持自己不犯大错误，有小错误或处于劣势地位时，能够在困境中充分利用自己的优势，克服自己的不足之处，一步步战胜对方，全部以实际情况为标准，不存在内心大的波动起伏。总的原则是，不进行大的行动改变，一点点来蚕食对方，不是一下子来消灭对方，哪怕自己非常有优势。</li>
 <li>大的胜利，需要大的苦难，非一般人能忍受的苦难，当时和庞培最后决斗的几场战争时，没食物，只能啃树皮，环境非常恶劣，自己的军队数量也远远少于对手。</li>
@@ -2750,7 +2750,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[notes-sex]]></title>
-      <url>http://www.tomdican.xyz/2017/01/23/notes-sex/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-sex/</url>
       <content type="html"><![CDATA[<ul>
 <li>有不少经典书籍的笔记，也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。</li>
 </ul>
@@ -2836,7 +2836,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[about-life]]></title>
-      <url>http://www.tomdican.xyz/2017/01/22/about-life/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/about-life/</url>
       <content type="html"><![CDATA[<h2 id="无法离开生活"><a href="#无法离开生活" class="headerlink" title="无法离开生活"></a>无法离开生活</h2><ul>
 <li>世界上所有一切事物都无法离开生活，个人的工作是为了生活的保障，个人工作实现的产品是为了解决生活中的问题或更加方便生活认识生活，建筑是为了让人避开天气的恶劣环境，音乐是为了给生活带来心灵的慰藉和快乐，太多太多而无法全部列举。</li>
 <li>可是，什么是生活，世界万物到底是什么，怎么才能够实现自己想要的事物，怎么才能够和周围事物协调好。这些问题没有确定的答案，每个人的回答都完全不一样，但有一点是确定的，人类的发展过程就是不断地尝试去解决这些问题，使结果更加接近自己想要的状态。</li>
@@ -2919,7 +2919,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[how-manage-time]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/how-manage-time/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/how-manage-time/</url>
       <content type="html"><![CDATA[<h2 id="1-问题"><a href="#1-问题" class="headerlink" title="1 问题"></a>1 问题</h2><ul>
 <li>不知道自己的时间去哪儿了；</li>
 <li>不知道时间是否充分利用；</li>
@@ -2964,67 +2964,8 @@ box-shadow: none;
     </entry>
     
     <entry>
-      <title><![CDATA[git-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/git-guide/</url>
-      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin ‘<a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a>‘</p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit    </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
-<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
-<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
-<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
-<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
-<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
-<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
-<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
-<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[Mongodb-guide]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</url>
+      <url>http://www.tomdican.xyz/Docs/Mongodb-guide/</url>
       <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
 <pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
 </code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
@@ -3088,12 +3029,72 @@ box-shadow: none;
 <p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
 <p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
-<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>]]></content>
+<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[git-guide]]></title>
+      <url>http://www.tomdican.xyz/Docs/git-guide/</url>
+      <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin ‘<a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a>‘</p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit    </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
+<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
+<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
+<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
+<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
+<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
+<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
+<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
+<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
+]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[Hexo-install-config]]></title>
-      <url>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</url>
+      <url>http://www.tomdican.xyz/Docs/HexoInstallConfig/</url>
       <content type="html"><![CDATA[<ul>
 <li>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</li>
 </ul>
@@ -3215,7 +3216,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[great-book-record]]></title>
-      <url>http://www.tomdican.xyz/2017/01/19/read-record/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/read-record/</url>
       <content type="html"><![CDATA[<h2 id="20170413-23-30"><a href="#20170413-23-30" class="headerlink" title="20170413 23:30"></a>20170413 23:30</h2><ul>
 <li>楞严经，第四卷，性觉妙明，本觉明妙。性的觉悟是非常光明的，本来觉悟就是光明的。每个人都是很有觉悟的，只是大部分人没有悟明白而已。</li>
 <li>创世纪，46 en，Joseph见到了父亲，然后哭了起来，国王给了他一块土地，生了很多孩子子孙。</li>
@@ -3376,7 +3377,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[reading-plan-of-life]]></title>
-      <url>http://www.tomdican.xyz/2017/01/19/life-read-plan/</url>
+      <url>http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/life-read-plan/</url>
       <content type="html"><![CDATA[<p>更新日志：</p>
 <ul>
 <li>更新了短期目标和中期目标，花了将近4个小时，0170220晚</li>
@@ -3685,7 +3686,7 @@ box-shadow: none;
     
     <entry>
       <title><![CDATA[markdown-syntax]]></title>
-      <url>http://www.tomdican.xyz/2014/03/10/Markdown-Cheatsheet/</url>
+      <url>http://www.tomdican.xyz/Docs/Markdown-Cheatsheet/</url>
       <content type="html"><![CDATA[<h2 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"># H1</div><div class="line">## H2</div><div class="line">### H3</div><div class="line">#### H4</div><div class="line">##### H5</div><div class="line">###### H6</div><div class="line"></div><div class="line">Alternatively, for H1 and H2, an underline-ish style:</div><div class="line"></div><div class="line">Alt-H1</div><div class="line">======</div><div class="line"></div><div class="line">Alt-H2</div><div class="line">------</div></pre></td></tr></table></figure>
 <h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h4 id="H4"><a href="#H4" class="headerlink" title="H4"></a>H4</h4><h5 id="H5"><a href="#H5" class="headerlink" title="H5"></a>H5</h5><h6 id="H6"><a href="#H6" class="headerlink" title="H6"></a>H6</h6><p>Alternatively, for H1 and H2, an underline-ish style:</p>
 <h1 id="Alt-H1"><a href="#Alt-H1" class="headerlink" title="Alt-H1"></a>Alt-H1</h1><h2 id="Alt-H2"><a href="#Alt-H2" class="headerlink" title="Alt-H2"></a>Alt-H2</h2><p><a name="emphasis"></a></p>

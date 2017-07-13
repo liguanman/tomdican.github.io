@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>多是少</title>
-  
+  <title>less is more</title>
+  <subtitle>tomdican&#39;s blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tomdican.xyz/"/>
@@ -9,7 +9,7 @@
   <id>http://www.tomdican.xyz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>tomdican</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>short-read-plan</title>
-    <link href="http://www.tomdican.xyz/2017/07/12/short-read-plan/"/>
-    <id>http://www.tomdican.xyz/2017/07/12/short-read-plan/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/short-read-plan/"/>
+    <id>http://www.tomdican.xyz/0读书/short-read-plan/</id>
     <published>2017-07-12T07:01:50.000Z</published>
     <updated>2017-07-12T07:01:50.000Z</updated>
     
@@ -53,9 +53,9 @@
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="读书" scheme="http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
-    
       <category term="计划" scheme="http://www.tomdican.xyz/tags/%E8%AE%A1%E5%88%92/"/>
+    
+      <category term="读书" scheme="http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6/"/>
     
       <category term="短期" scheme="http://www.tomdican.xyz/tags/%E7%9F%AD%E6%9C%9F/"/>
     
@@ -63,8 +63,8 @@
   
   <entry>
     <title>linux-command</title>
-    <link href="http://www.tomdican.xyz/2017/07/12/linux-command/"/>
-    <id>http://www.tomdican.xyz/2017/07/12/linux-command/</id>
+    <link href="http://www.tomdican.xyz/Docs/linux-command/"/>
+    <id>http://www.tomdican.xyz/Docs/linux-command/</id>
     <published>2017-07-12T04:07:44.000Z</published>
     <updated>2017-07-12T04:07:44.000Z</updated>
     
@@ -132,18 +132,18 @@
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
+      <category term="command" scheme="http://www.tomdican.xyz/tags/command/"/>
+    
       <category term="shell" scheme="http://www.tomdican.xyz/tags/shell/"/>
     
       <category term="linux" scheme="http://www.tomdican.xyz/tags/linux/"/>
-    
-      <category term="command" scheme="http://www.tomdican.xyz/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>book-list</title>
-    <link href="http://www.tomdican.xyz/2017/04/05/book-list/"/>
-    <id>http://www.tomdican.xyz/2017/04/05/book-list/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/book-list/"/>
+    <id>http://www.tomdican.xyz/0读书/book-list/</id>
     <published>2017-04-05T08:15:45.000Z</published>
     <updated>2017-07-03T17:08:02.000Z</updated>
     
@@ -2090,8 +2090,8 @@
   
   <entry>
     <title>tools-install</title>
-    <link href="http://www.tomdican.xyz/2017/03/04/tools-install/"/>
-    <id>http://www.tomdican.xyz/2017/03/04/tools-install/</id>
+    <link href="http://www.tomdican.xyz/Docs/tools-install/"/>
+    <id>http://www.tomdican.xyz/Docs/tools-install/</id>
     <published>2017-03-04T15:56:17.000Z</published>
     <updated>2017-03-04T15:56:17.000Z</updated>
     
@@ -2162,14 +2162,20 @@
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="tool,install" scheme="http://www.tomdican.xyz/tags/tool-install/"/>
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="install" scheme="http://www.tomdican.xyz/tags/install/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="tool" scheme="http://www.tomdican.xyz/tags/tool/"/>
     
   </entry>
   
   <entry>
     <title>good-websites</title>
-    <link href="http://www.tomdican.xyz/2017/03/04/good-websites/"/>
-    <id>http://www.tomdican.xyz/2017/03/04/good-websites/</id>
+    <link href="http://www.tomdican.xyz/Docs/good-websites/"/>
+    <id>http://www.tomdican.xyz/Docs/good-websites/</id>
     <published>2017-03-04T15:24:32.000Z</published>
     <updated>2017-03-04T15:24:32.000Z</updated>
     
@@ -2204,14 +2210,18 @@
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="site,page,collect" scheme="http://www.tomdican.xyz/tags/site-page-collect/"/>
+      <category term="site" scheme="http://www.tomdican.xyz/tags/site/"/>
+    
+      <category term="page" scheme="http://www.tomdican.xyz/tags/page/"/>
+    
+      <category term="collect" scheme="http://www.tomdican.xyz/tags/collect/"/>
     
   </entry>
   
   <entry>
     <title>about-spring</title>
-    <link href="http://www.tomdican.xyz/2017/02/26/about-spring/"/>
-    <id>http://www.tomdican.xyz/2017/02/26/about-spring/</id>
+    <link href="http://www.tomdican.xyz/Docs/about-spring/"/>
+    <id>http://www.tomdican.xyz/Docs/about-spring/</id>
     <published>2017-02-26T08:21:37.000Z</published>
     <updated>2017-07-03T17:04:13.000Z</updated>
     
@@ -2238,14 +2248,18 @@
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="spring,tech,refrence" scheme="http://www.tomdican.xyz/tags/spring-tech-refrence/"/>
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="spring" scheme="http://www.tomdican.xyz/tags/spring/"/>
+    
+      <category term="refrence" scheme="http://www.tomdican.xyz/tags/refrence/"/>
     
   </entry>
   
   <entry>
     <title>general-tech-tricks</title>
-    <link href="http://www.tomdican.xyz/2017/02/23/general-commands/"/>
-    <id>http://www.tomdican.xyz/2017/02/23/general-commands/</id>
+    <link href="http://www.tomdican.xyz/Docs/general-commands/"/>
+    <id>http://www.tomdican.xyz/Docs/general-commands/</id>
     <published>2017-02-23T05:51:25.000Z</published>
     <updated>2017-07-03T17:43:08.000Z</updated>
     
@@ -2373,14 +2387,18 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="guide,command" scheme="http://www.tomdican.xyz/tags/guide-command/"/>
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="command" scheme="http://www.tomdican.xyz/tags/command/"/>
     
   </entry>
   
   <entry>
     <title>vim-commands</title>
-    <link href="http://www.tomdican.xyz/2017/02/10/vim-commands/"/>
-    <id>http://www.tomdican.xyz/2017/02/10/vim-commands/</id>
+    <link href="http://www.tomdican.xyz/Docs/vim-commands/"/>
+    <id>http://www.tomdican.xyz/Docs/vim-commands/</id>
     <published>2017-02-10T05:38:51.000Z</published>
     <updated>2017-02-10T05:38:51.000Z</updated>
     
@@ -2466,14 +2484,18 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="vim,tech,guide" scheme="http://www.tomdican.xyz/tags/vim-tech-guide/"/>
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="vim" scheme="http://www.tomdican.xyz/tags/vim/"/>
     
   </entry>
   
   <entry>
     <title>read-product</title>
-    <link href="http://www.tomdican.xyz/2017/02/07/readProduct/"/>
-    <id>http://www.tomdican.xyz/2017/02/07/readProduct/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/readProduct/"/>
+    <id>http://www.tomdican.xyz/0读书/readProduct/</id>
     <published>2017-02-07T04:48:50.000Z</published>
     <updated>2017-02-07T04:48:50.000Z</updated>
     
@@ -2626,14 +2648,18 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="阅读,需求,分析" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB-%E9%9C%80%E6%B1%82-%E5%88%86%E6%9E%90/"/>
+      <category term="阅读" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB/"/>
+    
+      <category term="需求" scheme="http://www.tomdican.xyz/tags/%E9%9C%80%E6%B1%82/"/>
+    
+      <category term="分析" scheme="http://www.tomdican.xyz/tags/%E5%88%86%E6%9E%90/"/>
     
   </entry>
   
   <entry>
     <title>shadowsocks-install</title>
-    <link href="http://www.tomdican.xyz/2017/01/24/shadowsocks/"/>
-    <id>http://www.tomdican.xyz/2017/01/24/shadowsocks/</id>
+    <link href="http://www.tomdican.xyz/Docs/shadowsocks/"/>
+    <id>http://www.tomdican.xyz/Docs/shadowsocks/</id>
     <published>2017-01-23T19:48:47.000Z</published>
     <updated>2017-01-23T19:48:47.000Z</updated>
     
@@ -2679,14 +2705,18 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="翻墙,socks,代理" scheme="http://www.tomdican.xyz/tags/%E7%BF%BB%E5%A2%99-socks-%E4%BB%A3%E7%90%86/"/>
+      <category term="翻墙" scheme="http://www.tomdican.xyz/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+      <category term="socks" scheme="http://www.tomdican.xyz/tags/socks/"/>
+    
+      <category term="代理" scheme="http://www.tomdican.xyz/tags/%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>notes-memoirs</title>
-    <link href="http://www.tomdican.xyz/2017/01/23/notes-memoirs/"/>
-    <id>http://www.tomdican.xyz/2017/01/23/notes-memoirs/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-memoirs/"/>
+    <id>http://www.tomdican.xyz/0读书/notes-memoirs/</id>
     <published>2017-01-22T18:21:34.000Z</published>
     <updated>2017-01-22T18:21:34.000Z</updated>
     
@@ -2958,14 +2988,22 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="notes,memoirs,book,biography,回忆录" scheme="http://www.tomdican.xyz/tags/notes-memoirs-book-biography-%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+      <category term="notes" scheme="http://www.tomdican.xyz/tags/notes/"/>
+    
+      <category term="memoirs" scheme="http://www.tomdican.xyz/tags/memoirs/"/>
+    
+      <category term="book" scheme="http://www.tomdican.xyz/tags/book/"/>
+    
+      <category term="biography" scheme="http://www.tomdican.xyz/tags/biography/"/>
+    
+      <category term="回忆录" scheme="http://www.tomdican.xyz/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>notes-sex</title>
-    <link href="http://www.tomdican.xyz/2017/01/23/notes-sex/"/>
-    <id>http://www.tomdican.xyz/2017/01/23/notes-sex/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-sex/"/>
+    <id>http://www.tomdican.xyz/0读书/notes-sex/</id>
     <published>2017-01-22T18:16:56.000Z</published>
     <updated>2017-01-22T18:16:56.000Z</updated>
     
@@ -3063,14 +3101,20 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="sex,book,note,读书笔记" scheme="http://www.tomdican.xyz/tags/sex-book-note-%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="book" scheme="http://www.tomdican.xyz/tags/book/"/>
+    
+      <category term="sex" scheme="http://www.tomdican.xyz/tags/sex/"/>
+    
+      <category term="note" scheme="http://www.tomdican.xyz/tags/note/"/>
+    
+      <category term="读书笔记" scheme="http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>about-life</title>
-    <link href="http://www.tomdican.xyz/2017/01/22/about-life/"/>
-    <id>http://www.tomdican.xyz/2017/01/22/about-life/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/about-life/"/>
+    <id>http://www.tomdican.xyz/0读书/about-life/</id>
     <published>2017-01-21T17:27:48.000Z</published>
     <updated>2017-07-12T09:08:38.000Z</updated>
     
@@ -3163,14 +3207,20 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="life,思考,体会,笔记" scheme="http://www.tomdican.xyz/tags/life-%E6%80%9D%E8%80%83-%E4%BD%93%E4%BC%9A-%E7%AC%94%E8%AE%B0/"/>
+      <category term="life" scheme="http://www.tomdican.xyz/tags/life/"/>
+    
+      <category term="思考" scheme="http://www.tomdican.xyz/tags/%E6%80%9D%E8%80%83/"/>
+    
+      <category term="体会" scheme="http://www.tomdican.xyz/tags/%E4%BD%93%E4%BC%9A/"/>
+    
+      <category term="笔记" scheme="http://www.tomdican.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>how-manage-time</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/how-manage-time/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/how-manage-time/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/how-manage-time/"/>
+    <id>http://www.tomdican.xyz/0读书/how-manage-time/</id>
     <published>2017-01-20T09:58:09.000Z</published>
     <updated>2017-01-20T09:58:09.000Z</updated>
     
@@ -3228,14 +3278,108 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="时间,思考" scheme="http://www.tomdican.xyz/tags/%E6%97%B6%E9%97%B4-%E6%80%9D%E8%80%83/"/>
+      <category term="思考" scheme="http://www.tomdican.xyz/tags/%E6%80%9D%E8%80%83/"/>
+    
+      <category term="时间" scheme="http://www.tomdican.xyz/tags/%E6%97%B6%E9%97%B4/"/>
+    
+      <category term="管理" scheme="http://www.tomdican.xyz/tags/%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mongodb-guide</title>
+    <link href="http://www.tomdican.xyz/Docs/Mongodb-guide/"/>
+    <id>http://www.tomdican.xyz/Docs/Mongodb-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
+<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
+</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
+<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
+<pre><code>* yum repolist
+</code></pre><p>Output</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
+<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
+<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
+<pre><code>* sudo yum install mongodb-org
+</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
+<p>Next, start the MongoDB service<br>service mongod start </p>
+<p>configuration </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
+<p>add below:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
+<p> create and login admin database<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"admin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure></p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u admin -p secret -authenticationDatabase admin</div></pre></td></tr></table></figure>
+<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
+<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>Now try to connect with above credentials through command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mongo -u myadmin -p  --authenticationDatabase admin</div></pre></td></tr></table></figure></p>
+<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
+<p>To list all users for a database, use following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
+<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
+<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
+<ul>
+<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
+<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
+<p>use DATABASE_NAME</p>
+<ul>
+<li>新建数据库使用use命令新建数据库：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
+<ul>
+<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<p>4) 查询数据</p>
+<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">// 显示</div><div class="line"><span class="keyword">show</span> collections</div><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div><div class="line">//重命名</div><div class="line">db.rrecord.renameCollection(<span class="string">"record"</span>)</div></pre></td></tr></table></figure>
+<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
+<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="mongo" scheme="http://www.tomdican.xyz/tags/mongo/"/>
+    
+      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
     
   </entry>
   
   <entry>
     <title>git-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/git-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/git-guide/</id>
+    <link href="http://www.tomdican.xyz/Docs/git-guide/"/>
+    <id>http://www.tomdican.xyz/Docs/git-guide/</id>
     <published>2017-01-19T18:12:11.000Z</published>
     <updated>2017-01-19T18:26:26.000Z</updated>
     
@@ -3304,99 +3448,20 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="技术,git,指南,guide" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-git-%E6%8C%87%E5%8D%97-guide/"/>
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Mongodb-guide</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/Mongodb-guide/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/Mongodb-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
+      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
     
-    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
-<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
-</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
-<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
-<pre><code>* yum repolist
-</code></pre><p>Output</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
-<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
-<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
-<pre><code>* sudo yum install mongodb-org
-</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
-<p>Next, start the MongoDB service<br>service mongod start </p>
-<p>configuration </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
-<p>add below:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
-<p> create and login admin database<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"admin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure></p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u admin -p secret -authenticationDatabase admin</div></pre></td></tr></table></figure>
-<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
-<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>Now try to connect with above credentials through command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mongo -u myadmin -p  --authenticationDatabase admin</div></pre></td></tr></table></figure></p>
-<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
-<p>To list all users for a database, use following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
-<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
-<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
-<ul>
-<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
-<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
-<p>use DATABASE_NAME</p>
-<ul>
-<li>新建数据库使用use命令新建数据库：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
-<ul>
-<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<p>4) 查询数据</p>
-<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">// 显示</div><div class="line"><span class="keyword">show</span> collections</div><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div><div class="line">//重命名</div><div class="line">db.rrecord.renameCollection(<span class="string">"record"</span>)</div></pre></td></tr></table></figure>
-<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
-<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
-<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>]]></content>
+      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
     
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术,mongo,指南" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF-mongo-%E6%8C%87%E5%8D%97/"/>
+      <category term="git" scheme="http://www.tomdican.xyz/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>Hexo-install-config</title>
-    <link href="http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/"/>
-    <id>http://www.tomdican.xyz/2017/01/20/HexoInstallConfig/</id>
+    <link href="http://www.tomdican.xyz/Docs/HexoInstallConfig/"/>
+    <id>http://www.tomdican.xyz/Docs/HexoInstallConfig/</id>
     <published>2017-01-19T18:12:11.000Z</published>
     <updated>2017-07-09T13:17:16.000Z</updated>
     
@@ -3528,14 +3593,20 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="hexo,tech,install,guide" scheme="http://www.tomdican.xyz/tags/hexo-tech-install-guide/"/>
+      <category term="hexo" scheme="http://www.tomdican.xyz/tags/hexo/"/>
+    
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="install" scheme="http://www.tomdican.xyz/tags/install/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
     
   </entry>
   
   <entry>
     <title>great-book-record</title>
-    <link href="http://www.tomdican.xyz/2017/01/19/read-record/"/>
-    <id>http://www.tomdican.xyz/2017/01/19/read-record/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/read-record/"/>
+    <id>http://www.tomdican.xyz/0读书/read-record/</id>
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-07-03T17:07:33.000Z</updated>
     
@@ -3706,14 +3777,18 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="书籍,经典,日记" scheme="http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D-%E7%BB%8F%E5%85%B8-%E6%97%A5%E8%AE%B0/"/>
+      <category term="书籍" scheme="http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+      <category term="经典" scheme="http://www.tomdican.xyz/tags/%E7%BB%8F%E5%85%B8/"/>
+    
+      <category term="日记" scheme="http://www.tomdican.xyz/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>reading-plan-of-life</title>
-    <link href="http://www.tomdican.xyz/2017/01/19/life-read-plan/"/>
-    <id>http://www.tomdican.xyz/2017/01/19/life-read-plan/</id>
+    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/life-read-plan/"/>
+    <id>http://www.tomdican.xyz/0读书/life-read-plan/</id>
     <published>2017-01-18T20:12:11.000Z</published>
     <updated>2017-01-19T07:26:26.000Z</updated>
     
@@ -4036,14 +4111,20 @@ box-shadow: none;
       <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
     
     
-      <category term="阅读，计划，清单，书籍" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB%EF%BC%8C%E8%AE%A1%E5%88%92%EF%BC%8C%E6%B8%85%E5%8D%95%EF%BC%8C%E4%B9%A6%E7%B1%8D/"/>
+      <category term="阅读" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB/"/>
+    
+      <category term="计划" scheme="http://www.tomdican.xyz/tags/%E8%AE%A1%E5%88%92/"/>
+    
+      <category term="清单" scheme="http://www.tomdican.xyz/tags/%E6%B8%85%E5%8D%95/"/>
+    
+      <category term="书籍" scheme="http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D/"/>
     
   </entry>
   
   <entry>
     <title>markdown-syntax</title>
-    <link href="http://www.tomdican.xyz/2014/03/10/Markdown-Cheatsheet/"/>
-    <id>http://www.tomdican.xyz/2014/03/10/Markdown-Cheatsheet/</id>
+    <link href="http://www.tomdican.xyz/Docs/Markdown-Cheatsheet/"/>
+    <id>http://www.tomdican.xyz/Docs/Markdown-Cheatsheet/</id>
     <published>2014-03-10T05:38:51.000Z</published>
     <updated>2014-04-10T05:38:51.000Z</updated>
     
@@ -4211,7 +4292,13 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="markdown,syntax,tech,guide" scheme="http://www.tomdican.xyz/tags/markdown-syntax-tech-guide/"/>
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="markdown" scheme="http://www.tomdican.xyz/tags/markdown/"/>
+    
+      <category term="syntax" scheme="http://www.tomdican.xyz/tags/syntax/"/>
     
   </entry>
   

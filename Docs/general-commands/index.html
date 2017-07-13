@@ -1,0 +1,404 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>general-tech-tricks | less is more</title>
+  <meta name="author" content="tomdican">
+  
+  <meta name="description" content="centos1.Diagnosing Network
+
+test the network speed
+12yum install epel-releaseyum install python2-speedtest-cli
+or
+1pip install speedtest
+show download">
+  
+  <meta name="keywords" content="guide,command,tech">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="general-tech-tricks"/>
+  <meta property="og:site_name" content="less is more,done what you want everyday"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+
+  
+    <link rel="alternative" href="/atom.xml" title="less is more" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- baiduSpider -->
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+	      if (curProtocol === 'https') {
+	              bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+		          }
+			      else {
+			              bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+				          }
+					      var s = document.getElementsByTagName("script")[0];
+					          s.parentNode.insertBefore(bp, s);
+						  })();
+						  </script>
+
+
+  <script type="application/ld+json">
+  {
+    "@context" : "http://schema.org",
+    "@type" : "WebSite",
+    "name" : "less is more",
+    "url" : "http://www.tomdican.xyz"
+  }
+</script>
+
+<script type="application/ld+json">
+  { "@context" : "http://schema.org",
+    "@type" : "Organization",
+    "name" : "tomdican blog",
+    "url" : "http://www.tomdican.xyz",
+    "logo": "http://www.tomdican.xyz/logo.png",
+    "sameAs" : [ "" ]
+  }
+</script>
+
+</head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+      <div class="content">
+	  
+<div class="page-header">		
+  <h1>
+	<a class="brand" href="/">less is more</a>
+	<span class="split"></span>
+	<span class="title">
+		general-tech-tricks
+        </span>
+  </h1>
+</div>		
+
+<div class="row page">
+		<span class="update" id="update"> 
+			2017.07.04 01&nbsp; updated 
+			<a  rel="external nofollow" href="https://coding.net/u/tomdican/p/blog/git/blame/source/_posts/general-commands.md" target="_blank">
+				<i class="fa fa-history" title="history"> </i>
+			</a>
+		</span>
+
+  <!-- cols -->      <div class="col-xs-12 col-sm-3 col-md-3 toc">         <!-- toc -->
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+ 		   generateWikiTOC('.note', '.toc',  2 , 2 );
+		});
+</script>   </div>   
+
+  
+  <div class="col-xs-12 col-sm-9 col-md-9 note">
+	
+
+	  <!-- content -->
+	  <h2 id="centos"><a href="#centos" class="headerlink" title="centos"></a>centos</h2><p>1.Diagnosing Network</p>
+<ul>
+<li><p>test the network speed</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum install epel-release</div><div class="line">yum install python2-speedtest-cli</div></pre></td></tr></table></figure>
+<p>or</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">pip install speedtest</div></pre></td></tr></table></figure>
+<p>show download and upload speed,run <code>speedtest-cli</code></p>
+</li>
+<li><p><code>mtr</code> represents an evolution of the <code>traceroute</code> command by providing a greater data sample</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum install mtr</div><div class="line">mtr -rw youku.com</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><p>1.go to the specified dir<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">. ./cd.sh</div></pre></td></tr></table></figure></p>
+<ol>
+<li><a href="https://liuxd.github.io/posts/Command.html" target="_blank" rel="external">refrence</a></li>
+</ol>
+<ul>
+<li>watch 监控命令输出内容。<br>eg: watch ‘ps -ef|grep php’</li>
+<li>wc 计算输出的行数或字符数等。<br>eg: cat test.txt|wc -l</li>
+<li>curl 发http请求。<br>eg: curl “<a href="http://baidu.com" target="_blank" rel="external">http://baidu.com</a>“ -H “Host: baidu.com”<br>eg: curl -I <a href="http://google.com" target="_blank" rel="external">http://google.com</a> 只获得头信息。<br>eg: curl “<a href="http://google.com" target="_blank" rel="external">http://google.com</a>“ -x 10.10.100.12 指定IP<br>eg: curl ipinfo.io 获得公网出口IP。</li>
+<li>rsync 文件同步。<br>eg: rsync -av –delete-before /home/www/release/ -e ssh evans@app10-099:/home/www/release/<br>eg: rsync -av –delete-before foler1/ folder2/ #注意：后面的斜杠很重要，如果没有则在folder2中建立folder1文件夹。</li>
+<li>dd 转换并复制文件。</li>
+<li>script 记录终端会话的内容。</li>
+<li>tee 从标准输出读取并写入到文件内。</li>
+<li>w 显示当前登录用户的行为。</li>
+<li>zcat 可以察看gz压缩文件的内容。<br>eg: zcat test.gz</li>
+<li>seq 获得等差数列。<br>eg: seq 2 20</li>
+<li>renice 修改进程优先级。<br>eg: renice -n 2 -p 3432。-n，后面是优先级的值；-p，是进程号。</li>
+<li>tree 现实目录结构。<br>eg: tree -N $path 正确显示中文。</li>
+<li>httpd -S 察看apache使用的配置文件路径</li>
+<li>bc 计算器。</li>
+<li>du 计算每个文件的磁盘用量，目录则取总量。<br>eg: du -sh ＊ 获得目录下所有文件／文件夹的容量。</li>
+<li>df 显示文件系统的信息。<br>eg: df -h</li>
+<li>find 文件搜索。<br>eg: find ./mexec/ -name “<em>.php” |xargs cat|grep -v ^$|wc -l 统计php文件的代码行数，不包括空行。<br>eg: find . -type d -name “.svn”|xargs rm -rf 删除”.svn”文件夹。<br>eg: find . -maxdepth 1 -name ‘error.log</em>‘ -print0|xargs -0 sudo rm 批量删除当前目录的文件。<br>eg: find /home -size +2000k 找出/home文件夹下大于200M的文件。<br>eg: find . -newer filename 表示比 filename 要新的文件。</li>
+<li>realpath 获得文件的完整路径。<br>eg: realpath test.php</li>
+<li>sed 文本替换<br>eg: sed -e ‘s/foo/bar/‘ myfile.txt 将myfile.txt中的foo都改成bar。</li>
+<li>wget 下载<br>eg: wget -U “Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; GTB5)“ -r -p -k -nc -o down.log <a href="http://www.nintendo.co.jp/fe/fe_museum/" target="_blank" rel="external">http://www.nintendo.co.jp/fe/fe_museum/</a> 整站下载<br>eg: wget <a href="http://members.3322.org/dyndns/getip" target="_blank" rel="external">http://members.3322.org/dyndns/getip</a> 获得本地的外网IP。</li>
+<li>nl 带行号的cat<br>eg: nl -b a text.txt 带行号的显示文件内容。</li>
+<li>last 显示用户登录历史</li>
+<li>whoami 显示当前用户。</li>
+<li>chsh 修改默认shell。<br>eg: chsh -s /bin/zsh</li>
+<li>grep 正则匹配。<br>eg: grep -v “ignore” 不包含某个字符串。</li>
+<li>select-editor 修改crontab的文本编辑器</li>
+<li>ntpdate 校正时间。<br>sudo ntpdate -u time.apple.com 校正苹果电脑的时间。</li>
+<li>scutil 管理Mac系统的配置参数<br>sudo scutil –set HostName yourname</li>
+<li>iconv 编码转换。<br>iconv -f GB18030 -t UTF-8 old.txt &gt; new.txt</li>
+<li>netstat 显示网络状态。<br>netstat -nltp 查看所有占用的端口号。</li>
+<li>awk 字符串处理。<br>cat test.txt|awk ‘{print $1”,”$2}’ 打印test.txt的第一列和第二列，用逗号隔开。<br>awk ‘{sum += $1};END {print sum}’ sum.txt 按列求和。</li>
+<li>cut 文件截取。<br>echo “liuxd”|cut -c1-3 截取字符串。</li>
+<li>md5 &amp; md5sum 计算文件的md5值。md5 - MacOS，md5sum - Linux<br>md5 test.txt</li>
+<li>split 切割文件。<br>split -l 500000 url.csv sp<em> 切割url.csv文件，每个文件500000行。前缀是“sp</em>”</li>
+<li>file 识别文件类型和编码。<br>file -i test.txt 检查test.txt的编码。</li>
+<li>sshpass 带密码的ssh登录<br>sshpass -p 123456 ssh root@192.168.11.20</li>
+<li><p>noti 终端命令提醒器<br>noti echo 123</p>
+</li>
+<li><p>别名</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">alias dns=&apos;sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed&apos;</div><div class="line">alias ds=&apos;find . -name &quot;.DS_Store&quot; -print0 |xargs -0 rm&apos;</div><div class="line">alias subl=&quot;&apos;/Applications/Sublime.app/Contents/SharedSupport/bin/subl&apos;&quot;</div><div class="line">alias p=&apos;ps -ef|grep&apos;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>4.check port<br>netstat -anp | grep 834<br>lsof -i | grep 888</p>
+<p>5.recall the last argument of the pre command,<code>Alt+.</code> or <code>!$</code></p>
+<h2 id="docker"><a href="#docker" class="headerlink" title="docker"></a>docker</h2><p><a href="https://liuxd.github.io/posts/Docker.html" target="_blank" rel="external">refrence:</a></p>
+<h2 id="jquery-css"><a href="#jquery-css" class="headerlink" title="jquery-css"></a>jquery-css</h2><ol>
+<li><p>different from val(),text(),html();</p>
+</li>
+<li><p>selector</p>
+<ul>
+<li>first-child()</li>
+<li>eq(),gt(),lt()</li>
+</ul>
+</li>
+<li><p>button press style（bootstrap）</p>
+<ul>
+<li>.btn-default:hover,.btn-default:active,.btn-default:focus {<pre><code>background-color: gray;
+box-shadow: none;
+</code></pre>}</li>
+</ul>
+</li>
+<li><p>input validation（bootstrap）</p>
+<ul>
+<li><a href="https://stackoverflow.com/questions/32933165/validate-input-fields-on-bootstrap-modal-window-button-clicks-using-angular" target="_blank" rel="external">refrence</a></li>
+<li>disable input validation , remove control-lable class</li>
+</ul>
+</li>
+<li><p>stack order of the element</p>
+<pre><code>z-index: 1;z-index:-1
+</code></pre></li>
+<li><p>jquery change  css value，$( this ).css( “width”, “+=200” )</p>
+</li>
+<li><p>jquery add event to new element</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$("#search-info").on("click","button",function () &#123;</div><div class="line">    console.log("1");</div><div class="line">	var p = $(this).parent();</div><div class="line">    var bookReferrerWeiboUrl = p.find("a").attr("href");</div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+</li>
+<li><p>url编码，encodeURI(url)</p>
+</li>
+<li>get parameter from url<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// get parameter from url address</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetQueryString</span>(<span class="params">name</span>) </span>&#123;</div><div class="line">	<span class="keyword">var</span> reg = <span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"(^|&amp;)"</span>+ name +<span class="string">"=([^&amp;]*)(&amp;|$)"</span>);</div><div class="line">	<span class="keyword">var</span> r = <span class="built_in">window</span>.location.search.substr(<span class="number">1</span>).match(reg);</div><div class="line">	<span class="keyword">if</span>(r!=<span class="literal">null</span>)</div><div class="line">		<span class="keyword">return</span> <span class="built_in">unescape</span>(r[<span class="number">2</span>]);</div><div class="line">	<span class="keyword">return</span> <span class="literal">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>10.button  ouline<br>11.</p>
+<h2 id="java"><a href="#java" class="headerlink" title="java"></a>java</h2><ol>
+<li><p>DOM child tag operator</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Element <span class="title">getDirectChild</span><span class="params">(Element parent, String name)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">for</span>(Node child = parent.getFirstChild(); child != <span class="keyword">null</span>; child = child.getNextSibling())</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span>(child <span class="keyword">instanceof</span> Element &amp;&amp; name.equals(child.getNodeName())) <span class="keyword">return</span> (Element) child;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>class to string</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">System.out.println(ToStringBuilder.reflectionToString(p));</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="nginx"><a href="#nginx" class="headerlink" title="nginx"></a>nginx</h2><ol>
+<li><p>禁用缓存方式<br> sendfile  off ；（/etc/nginx/nginx.conf)</p>
+</li>
+<li></li>
+</ol>
+	  
+
+	  <div>
+
+  		<center>
+		  <div class="pagination">
+<ul class="pagination">
+	
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+			
+		
+	
+		
+	
+		
+	
+		
+			
+			
+			
+		
+			
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+		
+	
+		
+	
+		
+	
+		
+			
+		
+	
+		
+			
+		
+	
+		
+	
+		
+			
+		
+	
+	
+	
+		<li class="prev"><a href="/Docs/HexoInstallConfig/" class="alignleft prev"><i class="fa fa-angle-left"></i>Prev</a></li>
+	
+	<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+	
+		<li class="next"><a href="/Docs/about-spring/" class="alignright next">Next<i class="fa fa-angle-right"></i></a></li>
+	
+</ul>
+</div>
+
+		</center>
+	  </div>
+	  
+	</div> <!-- col-md-9/col-md-12 -->
+	
+  </div><!-- row -->
+
+
+      </div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+      <span id="busuanzi_value_site_pv"></span> hits.
+      <a style="color:#999" rel="external nofollow" href="https://github.com/tomdican/hexo-theme-less">Less</a> theme.    
+
+</p>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <!-- analytics -->
+  
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'true']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97368934-1', 'auto');
+	    ga('send', 'pageview');
+</script>
+
+
+ </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+<div id="sidebar-toggle" class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle" style="opacity: 1; width: 100%; left: 0px; top: 0px; transform: rotateZ(0deg);"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last" style="width: 100%; top: 0px; transform: rotateZ(0deg); opacity: 1; left: 0px;"></span>
+    </div>
+  </div>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+
+</body>
+</html>
