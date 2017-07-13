@@ -2,7 +2,8 @@
 title: Mongodb-guide
 date: 2017-01-20 02:12:11
 updated: 2017-01-20 02:26:26
-tags: 技术,mongo,指南
+tags: [技术,mongo,指南]
+keywords: 技术,mongo,指南
 categories: Docs
 toc: true
 ---

@@ -2,7 +2,8 @@
 title: about-life
 date: 2017-1-22  1:27:48
 updated: 2017-07-12 17:08:38
-tags: life,思考,体会,笔记
+tags: [life,思考,体会,笔记]
+keywords: life,思考,体会,笔记
 categories: 0读书
 toc: true
 ---

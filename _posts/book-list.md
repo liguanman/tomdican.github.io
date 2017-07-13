@@ -2,10 +2,8 @@
 title: book-list
 date: 2017-4-5  16:15:45
 updated: 2017-07-04 01:08:02
-tags: 
-- book
-- list
-- recommend
+tags: [book,list,recommend]
+keywords: book,list,recommend
 categories: 0读书
 toc: true
 ---

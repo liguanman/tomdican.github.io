@@ -2,7 +2,8 @@
 title: notes-sex
 date: 2017-1-23  2:16:56
 updated: 2017-1-23 2:16:56
-tags: sex,book,note,读书笔记
+tags: [sex,book,note,读书笔记]
+keywords: sex,book,note,读书笔记
 categories: 0读书
 toc: true
 ---

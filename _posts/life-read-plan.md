@@ -2,7 +2,8 @@
 title: reading-plan-of-life
 date: 2017-01-19 04:12:11
 updated: 2017-01-19 15:26:26
-tags: 阅读，计划，清单，书籍
+tags: [阅读,计划,清单,书籍]
+keywords: 阅读,计划,清单,书籍
 categories: 0读书
 grammar_cjkRuby: true
 grammer_table: true

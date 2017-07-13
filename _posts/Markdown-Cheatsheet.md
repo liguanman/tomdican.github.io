@@ -2,7 +2,8 @@
 title: markdown-syntax
 date: 2014-3-10  13:38:51
 updated: 2014-4-10 13:38:51
-tags: markdown,syntax,tech,guide
+tags: [markdown,syntax,tech,guide]
+keywords: markdown,syntax,tech,guide
 categories: Docs
 toc: true
 ---

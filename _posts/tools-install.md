@@ -2,7 +2,8 @@
 title: tools-install
 date: 2017-3-4  23:56:17
 updated: 2017-3-4 23:56:17
-tags: tool,install
+tags: [tool,install,tech,guide]
+keywords: tool,install,tech,guide
 categories: Docs
 toc: true
 ---

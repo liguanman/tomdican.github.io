@@ -4,10 +4,8 @@ categories: Docs
 toc: true
 date: 2017-07-12 12:07:44
 updated: 2017-07-12 12:07:44
-tags:
-- shell
-- linux
-- command
+tags: [shell,linux,command]
+keywords: shell,linux,command
 ---
 
 - go to the specified dir

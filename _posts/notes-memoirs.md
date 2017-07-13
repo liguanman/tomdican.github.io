@@ -2,7 +2,8 @@
 title: notes-memoirs
 date: 2017-1-23  2:21:34
 updated: 2017-1-23 2:21:34
-tags: notes,memoirs,book,biography,回忆录
+tags: [notes,memoirs,book,biography,回忆录]
+keywords: notes,memoirs,book,biography,回忆录
 categories: 0读书
 toc: true
 
