@@ -76,23 +76,23 @@ Enter to keep the current selection[+], or type selection number:
 
 ## install maven
 
-- OS:centos6_x64
-- require:jdk8
-- [refrence](https://tecadmin.net/install-apache-maven-on-centos/)
+OS:centos6_x64
+require:jdk8
+[refrence](https://tecadmin.net/install-apache-maven-on-centos/)
 
-- install steps
-- 1.download
+install steps
+1.download
 ```bash
 cd /opt
 wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
 tar xzf apache-maven-3.3.9-bin.tar.gz
 ```
 
-- 2.config
+2.config
 ```bash
 $ vi /etc/profile.d/maven.sh
 ```
--add content below to maven.sh file
+add content below to maven.sh file
 
 ```bash
 export M2_HOME=/opt/ apache-maven-3.3.9
@@ -103,7 +103,7 @@ export PATH=${M2_HOME}/bin:${PATH}
 $ source /etc/profiel.d/maven.sh
 ```
 
-- 3. test maven
+3.test maven
 ```bash
 mvn -version
 ```

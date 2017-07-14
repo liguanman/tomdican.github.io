@@ -4,7 +4,7 @@ date: 2017-01-19 14:42:41
 updated: 2017-07-04 01:07:33
 tags: [书籍,经典,日记]
 keywords: 书籍,经典,日记
-categories: 0读书
+categories: note
 grammar_cjkRuby: true
 toc: true
 ---
