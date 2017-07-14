@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.tomdican.xyz/"/>
-  <updated>2017-07-12T07:01:50.000Z</updated>
+  <updated>2017-07-14T06:15:03.000Z</updated>
   <id>http://www.tomdican.xyz/</id>
   
   <author>
@@ -17,40 +17,36 @@
   
   <entry>
     <title>short-read-plan</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/short-read-plan/"/>
-    <id>http://www.tomdican.xyz/0读书/short-read-plan/</id>
+    <link href="http://www.tomdican.xyz/note/short-read-plan/"/>
+    <id>http://www.tomdican.xyz/note/short-read-plan/</id>
     <published>2017-07-12T07:01:50.000Z</published>
-    <updated>2017-07-12T07:01:50.000Z</updated>
+    <updated>2017-07-14T06:15:03.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="短期读书计划"><a href="#短期读书计划" class="headerlink" title="短期读书计划"></a>短期读书计划</h2><p>以历史为主线，传记、哲学和经典为副线</p>
+    <content type="html"><![CDATA[<h2 id="短期读书计划"><a href="#短期读书计划" class="headerlink" title="短期读书计划"></a>短期读书计划</h2><p>以历史为主线，传记、哲学和经典为副线<br>第一个月</p>
 <ul>
-<li>第一个月<ul>
 <li>第一周，伯罗奔尼撒战争史（775页），凯撒的2本（高卢战记225页，内战记334页），尼克松的2本，规训与惩罚337页</li>
 <li>第二周，罗马帝国衰亡史（2265页），塔西佗2本（编年史665页，历史378页），约翰逊传554页，词与物556页</li>
 <li>第三周，西欧中世纪史756页，欧洲中世纪史556页，古希腊罗马名人传（1995页），15至18世纪的物质文明、经济和资本主义（全三卷）884页，爱默生日记精华234页</li>
 <li>第四周  历史研究（缩略本）443页，光荣与梦想997页，现代世界史1028页，战后欧洲史887页，责任的重负232页， 匹克威克外传995页</li>
 </ul>
-</li>
-<li>第二个月<ul>
+<p>第二个月</p>
+<ul>
 <li>第一周，年代四部曲1600页，艾瑞克·霍布斯鲍姆（如何改变世界448页，断裂的年代304，工业与帝国514页，民族与民族主义196页，原始的叛乱290页，</li>
 <li>第二周，美国人三部曲和人类文明史三部曲，</li>
 <li>第三周，日本开国五十年史1365页，日本的起起落落456页，菊与刀184页，坂本太郎 的日本史443页，剑桥日本史761页，</li>
 <li>第四周，开始读哲学</li>
 </ul>
-</li>
-</ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;短期读书计划&quot;&gt;&lt;a href=&quot;#短期读书计划&quot; class=&quot;headerlink&quot; title=&quot;短期读书计划&quot;&gt;&lt;/a&gt;短期读书计划&lt;/h2&gt;&lt;p&gt;以历史为主线，传记、哲学和经典为副线&lt;/p&gt;
+      &lt;h2 id=&quot;短期读书计划&quot;&gt;&lt;a href=&quot;#短期读书计划&quot; class=&quot;headerlink&quot; title=&quot;短期读书计划&quot;&gt;&lt;/a&gt;短期读书计划&lt;/h2&gt;&lt;p&gt;以历史为主线，传记、哲学和经典为副线&lt;br&gt;第一个月&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;第一个月&lt;ul&gt;
-&lt;li&gt;第一周，伯罗奔尼撒
+&lt;li&gt;第一周，伯罗奔尼撒战争史（7
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="计划" scheme="http://www.tomdican.xyz/tags/%E8%AE%A1%E5%88%92/"/>
@@ -142,8 +138,8 @@
   
   <entry>
     <title>book-list</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/book-list/"/>
-    <id>http://www.tomdican.xyz/0读书/book-list/</id>
+    <link href="http://www.tomdican.xyz/note/book-list/"/>
+    <id>http://www.tomdican.xyz/note/book-list/</id>
     <published>2017-04-05T08:15:45.000Z</published>
     <updated>2017-07-03T17:08:02.000Z</updated>
     
@@ -2077,7 +2073,7 @@
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="book" scheme="http://www.tomdican.xyz/tags/book/"/>
@@ -2118,30 +2114,13 @@
 </ul>
 <p>If the CentOS has multiple JDK installed, you can use the alternatives command to set the default java</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ sudo alternatives --config java</div><div class="line">There are 2 programs <span class="built_in">which</span> provide <span class="string">'java'</span>.</div><div class="line">  Selection    Command</div><div class="line">-----------------------------------------------</div><div class="line">   1           /usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin/java</div><div class="line">*+ 2           /opt/jdk1.8.0_121/jre/bin/java</div><div class="line">Enter to keep the current selection[+], or <span class="built_in">type</span> selection number:</div></pre></td></tr></table></figure>
-<h2 id="install-maven"><a href="#install-maven" class="headerlink" title="install maven"></a>install maven</h2><ul>
-<li>OS:centos6_x64</li>
-<li>require:jdk8</li>
-<li><p><a href="https://tecadmin.net/install-apache-maven-on-centos/" target="_blank" rel="external">refrence</a></p>
-</li>
-<li><p>install steps</p>
-</li>
-<li><p>1.download</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /opt</div><div class="line">wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz</div><div class="line">tar xzf apache-maven-3.3.9-bin.tar.gz</div></pre></td></tr></table></figure>
-</li>
-<li><p>2.config</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi /etc/profile.d/maven.sh</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>-add content below to maven.sh file</p>
+<h2 id="install-maven"><a href="#install-maven" class="headerlink" title="install maven"></a>install maven</h2><p>OS:centos6_x64<br>require:jdk8<br><a href="https://tecadmin.net/install-apache-maven-on-centos/" target="_blank" rel="external">refrence</a></p>
+<p>install steps<br>1.download<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> /opt</div><div class="line">wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz</div><div class="line">tar xzf apache-maven-3.3.9-bin.tar.gz</div></pre></td></tr></table></figure></p>
+<p>2.config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi /etc/profile.d/maven.sh</div></pre></td></tr></table></figure></p>
+<p>add content below to maven.sh file</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">export</span> M2_HOME=/opt/ apache-maven-3.3.9</div><div class="line"><span class="built_in">export</span> PATH=<span class="variable">$&#123;M2_HOME&#125;</span>/bin:<span class="variable">$&#123;PATH&#125;</span></div></pre></td></tr></table></figure>
 <p>-take effect<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">source</span> /etc/profiel.d/maven.sh</div></pre></td></tr></table></figure></p>
-<ul>
-<li><ol>
-<li>test maven<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -version</div></pre></td></tr></table></figure>
-</li>
-</ol>
-</li>
-</ul>
+<p>3.test maven<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -version</div></pre></td></tr></table></figure></p>
 <h2 id="nginx-install"><a href="#nginx-install" class="headerlink" title="nginx install"></a>nginx install</h2><ul>
 <li>OS：centos6_x64</li>
 <li><a href="https://www.godaddy.com/garage/tech/config/how-to-install-and-configure-nginx-on-centos-7/" target="_blank" rel="external">refrence</a></li>
@@ -2164,9 +2143,9 @@
     
       <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
     
-      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
-    
       <category term="install" scheme="http://www.tomdican.xyz/tags/install/"/>
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
     
       <category term="tool" scheme="http://www.tomdican.xyz/tags/tool/"/>
     
@@ -2223,7 +2202,7 @@
     <link href="http://www.tomdican.xyz/Docs/about-spring/"/>
     <id>http://www.tomdican.xyz/Docs/about-spring/</id>
     <published>2017-02-26T08:21:37.000Z</published>
-    <updated>2017-07-03T17:04:13.000Z</updated>
+    <updated>2017-07-13T12:51:59.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="spring-HATEOAS"><a href="#spring-HATEOAS" class="headerlink" title="spring  HATEOAS"></a>spring  HATEOAS</h2><p>ref link: <a href="https://spring.io/understanding/HATEOAS" target="_blank" rel="external">https://spring.io/understanding/HATEOAS</a></p>
 <h3 id="what-is-HATEOAS"><a href="#what-is-HATEOAS" class="headerlink" title="what is HATEOAS"></a>what is HATEOAS</h3><p>HATEOAS (Hypermedia as the Engine of Application State) is a constraint of the REST application architecture.<br>A hypermedia-driven site provides information to navigate the site’s REST interfaces dynamically by including hypermedia links with the responses. This capability differs from that of SOA-based systems and WSDL-driven interfaces. With SOA, servers and clients usually must access a fixed specification that might be staged somewhere else on the website, on another website, or perhaps distributed by email.</p>
@@ -2236,7 +2215,6 @@
 <li>rel means relationship. In this case, it’s a self-referencing hyperlink. More complex systems might include other relationships. For example, an order might have a “rel”:”customer” relationship, linking the order to its customer.</li>
 <li>href is a complete URL that uniquely defines the resource.</li>
 </ul>
-<h2 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h2><h3 id="add-local-jar-to-project"><a href="#add-local-jar-to-project" class="headerlink" title="add local jar to project"></a>add local jar to project</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">plugin</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.apache.maven.plugins<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>maven-install-plugin<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>2.5.2<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">executions</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">execution</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">phase</span>&gt;</span>initialize<span class="tag">&lt;/<span class="name">phase</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">goals</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">goal</span>&gt;</span>install-file<span class="tag">&lt;/<span class="name">goal</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">goals</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">configuration</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">file</span>&gt;</span>lib/commons-codec-1.3.jar<span class="tag">&lt;/<span class="name">file</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.commons.codec<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>commonsCodec<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">version</span>&gt;</span>1.0.0<span class="tag">&lt;/<span class="name">version</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">packaging</span>&gt;</span>jar<span class="tag">&lt;/<span class="name">packaging</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">configuration</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">execution</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">executions</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">plugin</span>&gt;</span></div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -2494,8 +2472,8 @@ box-shadow: none;
   
   <entry>
     <title>read-product</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/readProduct/"/>
-    <id>http://www.tomdican.xyz/0读书/readProduct/</id>
+    <link href="http://www.tomdican.xyz/note/readProduct/"/>
+    <id>http://www.tomdican.xyz/note/readProduct/</id>
     <published>2017-02-07T04:48:50.000Z</published>
     <updated>2017-02-07T04:48:50.000Z</updated>
     
@@ -2645,7 +2623,7 @@ box-shadow: none;
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="阅读" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB/"/>
@@ -2715,8 +2693,8 @@ box-shadow: none;
   
   <entry>
     <title>notes-memoirs</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-memoirs/"/>
-    <id>http://www.tomdican.xyz/0读书/notes-memoirs/</id>
+    <link href="http://www.tomdican.xyz/note/notes-memoirs/"/>
+    <id>http://www.tomdican.xyz/note/notes-memoirs/</id>
     <published>2017-01-22T18:21:34.000Z</published>
     <updated>2017-01-22T18:21:34.000Z</updated>
     
@@ -2731,24 +2709,12 @@ box-shadow: none;
 </ul>
 <h2 id="领袖们-尼克松著-20170226-20：58"><a href="#领袖们-尼克松著-20170226-20：58" class="headerlink" title="领袖们  尼克松著 20170226 20：58"></a>领袖们  尼克松著 20170226 20：58</h2><ul>
 <li>尼克松（1913-1994），1969-1974年美国总统，出生于贫穷家庭，1934年就读杜克大学法学院，1937年毕业后在惠提尔的律师所工作，1940年结婚，1942年加入海军，1946年以少校的身份辞职。1945年开始从政，1948年从事间谍活动，1950年竞选联邦参议员成功，1953年到1961年为美国副总统，1960年竞选总统失败，1961年出版了六次危机这本书。1969总统选举成功，1974年因为水门世界而辞职。晚年写了不少书籍，也有疾病在身，1994年去世。</li>
-<li>这本书主要描述了作者所认识的国家领袖，包括丘吉尔、戴高乐、周恩来等等。<ul>
-<li>丘吉尔，喜欢抽烟喝酒，不怕失败，能坚持不懈，说话幽默有水平，睡觉非常晚，习惯性中午小睡，精力非常旺盛，喜欢读书，自己写有回忆录；</li>
-<li>戴高乐，喜欢孤独生活，个人写了自传，演讲的口才很好，喜欢保持个人的神秘感。</li>
-<li>周恩来，善于外交，注重细节的事情，非常机警小心，他说，没有经历过逆境的人不会有出息。<br>过了好几天才写笔记，忘的差不多了，半个小时写完。</li>
-</ul>
-</li>
+<li>这本书主要描述了作者所认识的国家领袖，包括丘吉尔、戴高乐、周恩来等等。<br>丘吉尔，喜欢抽烟喝酒，不怕失败，能坚持不懈，说话幽默有水平，睡觉非常晚，习惯性中午小睡，精力非常旺盛，喜欢读书，自己写有回忆录；<br>戴高乐，喜欢孤独生活，个人写了自传，演讲的口才很好，喜欢保持个人的神秘感。<br>周恩来，善于外交，注重细节的事情，非常机警小心，他说，没有经历过逆境的人不会有出息。<br>过了好几天才写笔记，忘的差不多了，半个小时写完。</li>
 </ul>
 <h2 id="宋史演义-蔡东藩著-20170222-8-51"><a href="#宋史演义-蔡东藩著-20170222-8-51" class="headerlink" title="宋史演义 蔡东藩著 20170222 8:51"></a>宋史演义 蔡东藩著 20170222 8:51</h2><ul>
 <li>宋朝前一百七十年的疆土包括整个中原的长江黄河流域，后一百五十年的疆土中原由于被金国掠夺而只剩下一部分了。</li>
-<li>北宋时期出现了很多大家，比如司马光、王安石、二程、苏轼、范仲淹等等；南宋时期出现的大家少，比如朱熹，将军比较多、比如岳飞、张浚等，由于皇帝昏庸而长期被周边国家侵略，导致国内动乱，也助长了奸臣当道而使国家民不聊生；<ul>
-<li>为什么会出现这样的局面，<ul>
-<li>因为皇帝一代不如一代，传位没传好，英雄惜英雄，但人才的选择和现实环境所束缚无法保证继承的延续性；加上皇帝大多沉迷于酒色寿命比较短；</li>
-<li>经过战争和动乱的洗礼后，国民才会珍惜自己所处的环境，一旦处于安逸的环境太久，人就开始软弱，一代不如一代，思维逐渐僵化，人越来越没耐心，阅历也越来越少，关键是只有非常厉害的皇帝不会轻信小人和辨识出忠臣和奸臣，大奸当道就会像细菌繁殖一样出现无法收拾的局面，让整个机构腐烂，还能快速的进化；</li>
-<li>皇帝只有让国家的动乱和稳定保持在一个平衡点上才会让国家不出现被国外欺压，让国民不太安逸和不太动乱；</li>
-</ul>
-</li>
-</ul>
-</li>
+<li>北宋时期出现了很多大家，比如司马光、王安石、二程、苏轼、范仲淹等等；南宋时期出现的大家少，比如朱熹，将军比较多、比如岳飞、张浚等，由于皇帝昏庸而长期被周边国家侵略，导致国内动乱，也助长了奸臣当道而使国家民不聊生；</li>
+<li>为什么会出现这样的局面，<br>因为皇帝一代不如一代，传位没传好，英雄惜英雄，但人才的选择和现实环境所束缚无法保证继承的延续性；加上皇帝大多沉迷于酒色寿命比较短；<br>经过战争和动乱的洗礼后，国民才会珍惜自己所处的环境，一旦处于安逸的环境太久，人就开始软弱，一代不如一代，思维逐渐僵化，人越来越没耐心，阅历也越来越少，关键是只有非常厉害的皇帝不会轻信小人和辨识出忠臣和奸臣，大奸当道就会像细菌繁殖一样出现无法收拾的局面，让整个机构腐烂，还能快速的进化；<br>皇帝只有让国家的动乱和稳定保持在一个平衡点上才会让国家不出现被国外欺压，让国民不太安逸和不太动乱；</li>
 <li>宋朝开国时期，留下的都是大忠臣，很少有奸臣，就算有奸臣也奸的少。忠奸臣时刻存在，关键要有公正的主子；</li>
 <li>宋朝当兵的少，从文的多，整个国家制度相对比较开明，尤其在文化上面，所以出现了很多大家，在皇帝不公正的情况下，大臣主动辞职多次是常有的事情；</li>
 <li>不管是忠臣还是奸臣，都在为自己的目的而壮大实力，有一定偏见，主要为激进和保守两派，争来争去，只留下悲剧和空虚，周围的人不会因为个人的意志而转移的；</li>
@@ -2762,126 +2728,45 @@ box-shadow: none;
 <h2 id="拿破仑传-路德维希著-陈瑶译-20170216-15-36"><a href="#拿破仑传-路德维希著-陈瑶译-20170216-15-36" class="headerlink" title="拿破仑传 路德维希著 陈瑶译 20170216 15:36"></a>拿破仑传 路德维希著 陈瑶译 20170216 15:36</h2><ul>
 <li><p>埃米尔.路德希尔（1881-1948），德国著名的传记作家，传记作品包括歌德传、拿破仑传、俾斯麦传、人之子、林肯、罗斯福、三幅画像：希特勒、墨索里尼、斯大林、贝多芬等等。</p>
 </li>
-<li><p>拿破仑的传记有很多版本，</p>
-<ul>
-<li>路德维希的版本文学性比较高，边城出版的</li>
-<li>艾伦肖姆的版本侧重于纪实性，</li>
-<li>作为军事统帅的拿破仑这本书主要侧重军事方面；</li>
-<li>拿破仑日记，里面有一些心得体会但非常片段，个人比较喜欢</li>
-</ul>
+<li><p>拿破仑的传记有很多版本，<br>路德维希的版本文学性比较高，边城出版的<br>艾伦肖姆的版本侧重于纪实性，<br>作为军事统帅的拿破仑这本书主要侧重军事方面；<br>拿破仑日记，里面有一些心得体会但非常片段，个人比较喜欢</p>
 </li>
 <li><p>拿破仑（1769-1821），法国伟大的军事家和政治家，法兰西第一帝国的缔造者，拿破仑法典完善了世界法律体系。出生于科西嘉岛，1778年进入法国军校学习，1784年毕业后进入炮兵当少尉，成谜于书籍之中，卢梭的思想对他的影响很大；1793年组成第一次反法同盟，然后获得土伦战役的胜利，1794年罢免了军衔，1795年获得了司令的头衔。进行了长达二十年的政治和战争。1813年被打败而囚禁，1815年卷土重来，没多长时间就失败流放到圣赫勒拿岛，1821年去世。</p>
 </li>
-<li><p>这本书主要看了前面两章小岛和溪流，最后一章岩岛。</p>
-<ul>
-<li>小岛，主要讲了拿破仑的出生，10岁到法国军校学习，由于矮小又是外国人，常被歧视，一直独来独往，喜欢读书，毕业后当少尉，任然独来独往，读大量书籍，善于思考，尝试在科西嘉岛进行战争，最后失败，然后在法国当上了将军，没多久被诬入狱，沉默了很久，然后利用提出了攻击意大利的计划，被领导任用为参事，然后和一位有两个孩子的母亲约瑟芳结婚；</li>
-<li>溪流，抓住指挥意大利的机会，最后赢得了胜利，但自己的妻子在巴黎偷情，再次攻占埃及，和英国发生了海战，然后偷偷会巴黎，谋划夺权成功。</li>
-<li><p>岩岛，主要进行交谈、看书和回忆，由于年轻时比较孤独，培养了一生独立思考的能力，从而自信是建立在认识自己的基础上，也说自己是自己的最大敌人，因为自负而不能忍受忍别人的屈辱。随着年龄的增大，年轻时还不够绝情不够铁石心肠，缺点为太过于自负而没有培养优秀的人才来协助，放权太少，一个人的精力太有限了，优点为</p>
-<ul>
-<li>专注，所有的精力集中在重要的事情上面，甚至不吃不睡觉，中断后也强制性回到重要事情上面来；</li>
-<li>精力旺盛，几乎不睡觉吃得少，他说吃多了容易得病，年轻的时候还被感情所干扰，但后来越来越专注，绝情；</li>
-<li>善于思考，有时间就思考，因为习惯了孤独，也非常会思考，当然建立在学习的基础上，一生坚持读书，打仗都建立了随军图书馆，喜欢和有名的思想家交流；读书非常快，基本上一个小时一本书；</li>
-</ul>
+<li><p>这本书主要看了前面两章小岛和溪流，最后一章岩岛。<br>小岛，主要讲了拿破仑的出生，10岁到法国军校学习，由于矮小又是外国人，常被歧视，一直独来独往，喜欢读书，毕业后当少尉，任然独来独往，读大量书籍，善于思考，尝试在科西嘉岛进行战争，最后失败，然后在法国当上了将军，没多久被诬入狱，沉默了很久，然后利用提出了攻击意大利的计划，被领导任用为参事，然后和一位有两个孩子的母亲约瑟芳结婚；<br>溪流，抓住指挥意大利的机会，最后赢得了胜利，但自己的妻子在巴黎偷情，再次攻占埃及，和英国发生了海战，然后偷偷会巴黎，谋划夺权成功。<br>岩岛，主要进行交谈、看书和回忆，由于年轻时比较孤独，培养了一生独立思考的能力，从而自信是建立在认识自己的基础上，也说自己是自己的最大敌人，因为自负而不能忍受忍别人的屈辱。随着年龄的增大，年轻时还不够绝情不够铁石心肠，缺点为太过于自负而没有培养优秀的人才来协助，放权太少，一个人的精力太有限了，优点为<br>专注，所有的精力集中在重要的事情上面，甚至不吃不睡觉，中断后也强制性回到重要事情上面来；<br>精力旺盛，几乎不睡觉吃得少，他说吃多了容易得病，年轻的时候还被感情所干扰，但后来越来越专注，绝情；<br>善于思考，有时间就思考，因为习惯了孤独，也非常会思考，当然建立在学习的基础上，一生坚持读书，打仗都建立了随军图书馆，喜欢和有名的思想家交流；读书非常快，基本上一个小时一本书；</p>
 </li>
-<li><p>总结，由于小时候被人歧视，形成了善于孤独思考学习自信的能力，逐渐也练就了冷酷无情，思考的比较周全，把最坏的情况想好来行动。由于自负而培养的人才太少放权太少。<br>一个小时写完</p>
-</li>
-</ul>
+<li><p>总结，由于小时候被人歧视，形成了善于孤独思考学习自信的能力，逐渐也练就了冷酷无情，思考的比较周全，把最坏的情况想好来行动。由于自负而培养的人才太少放权太少。一个小时写完</p>
 </li>
 </ul>
 <h2 id="巨人传-拉伯雷著-20170215-15-33"><a href="#巨人传-拉伯雷著-20170215-15-33" class="headerlink" title="巨人传 拉伯雷著  20170215 15:33"></a>巨人传 拉伯雷著  20170215 15:33</h2><p>拉伯雷（1495-1553），文艺复兴时期伟大的作家，出生于法兰西，年轻时进行僧侣学习，从事宗教相关工作，然后多次去过文艺复兴时期的意大利，后来从事学医。巨人传多年完成的，有点像西游记。</p>
 <ul>
-<li><p>事情经过</p>
-<ul>
-<li>高康达在第一位师傅的教育下，变成了一个书呆子，见到陌生人就害怕，毫无实际经验。在第二位师傅的教育下，学会了喝酒，能带来快乐和放松，再对症下药，纠正之前错误学习思维，还让高康达吐出了之前的所有的知识，学习的事物能用于实际生活中；</li>
-<li>大野王由于小人的诬告发动战争攻击邻国，在对方处处让步的情况下还是不领情，通过武力战胜了大野王，抵抗大野王的攻击出现了约翰，非常勇敢；</li>
-<li>高康达结婚后生下了庞大古埃，力大无比，是一个巨人，长大后认识了巴奴日，是一位善于偷、胆小的人；</li>
-<li>很长时间之后，巴奴日想结婚，各种预测婚姻是否吉利还是不能让庞大古埃和巴奴日满意，然后选择去寻找神瓶来预测，但路程很远有许多危险；</li>
-<li>在航行中，大战香肠人，钟鸣岛，虚伪国，灯笼国等等，最后达到了神瓶的地方，有很多非常神奇的泉水还能喝，留下了神谕。</li>
-<li>经历了多重困难的过程，就是一道神谕，只有人团结起来才能克服困难，带来快乐。</li>
-</ul>
+<li><p>事情经过<br>高康达在第一位师傅的教育下，变成了一个书呆子，见到陌生人就害怕，毫无实际经验。在第二位师傅的教育下，学会了喝酒，能带来快乐和放松，再对症下药，纠正之前错误学习思维，还让高康达吐出了之前的所有的知识，学习的事物能用于实际生活中；<br>大野王由于小人的诬告发动战争攻击邻国，在对方处处让步的情况下还是不领情，通过武力战胜了大野王，抵抗大野王的攻击出现了约翰，非常勇敢；<br>高康达结婚后生下了庞大古埃，力大无比，是一个巨人，长大后认识了巴奴日，是一位善于偷、胆小的人；<br>很长时间之后，巴奴日想结婚，各种预测婚姻是否吉利还是不能让庞大古埃和巴奴日满意，然后选择去寻找神瓶来预测，但路程很远有许多危险；<br>在航行中，大战香肠人，钟鸣岛，虚伪国，灯笼国等等，最后达到了神瓶的地方，有很多非常神奇的泉水还能喝，留下了神谕。<br>经历了多重困难的过程，就是一道神谕，只有人团结起来才能克服困难，带来快乐。</p>
 </li>
 <li><p>这本书的写作思维比较独特，有各种稀奇古怪的事情和人物，让人有点搞笑。通过这些稀奇古怪的事情来突出社会和人的真实情况，在搞笑之余，文字中也夹带了一些智慧忠告。</p>
 </li>
-<li><p>人或社会的真实情况</p>
-<ul>
-<li>人的误解以及容易轻信熟人的话语；</li>
-<li>人不喜欢安静，总希望兴奋的生活；</li>
-<li>人不太容易重视别人的好意，甚至当做恶意，在好的状态不懂得珍惜，还要折腾点事情出来。</li>
-<li>人只有在亲眼看见危险到来才相信自己的错误或不足，甚至才会屈服；</li>
-<li>人的虚伪伪善，尤其在社会中到处所见，成为掌握资源的人的工具；</li>
-<li>人都是肤浅的，通过表面的现象看事情，来支撑自己的信心，导致人的狂妄自大；</li>
-</ul>
+<li><p>人或社会的真实情况<br>人的误解以及容易轻信熟人的话语；<br>人不喜欢安静，总希望兴奋的生活；<br>人不太容易重视别人的好意，甚至当做恶意，在好的状态不懂得珍惜，还要折腾点事情出来。<br>人只有在亲眼看见危险到来才相信自己的错误或不足，甚至才会屈服；<br>人的虚伪伪善，尤其在社会中到处所见，成为掌握资源的人的工具；<br>人都是肤浅的，通过表面的现象看事情，来支撑自己的信心，导致人的狂妄自大；</p>
 </li>
-<li>智慧忠告<ul>
-<li>教育能够塑造或改变一个人，需要对症下药，学以致用；</li>
-<li>万物归宗；</li>
-<li>顺从命运，命运带给你，违背命运，命运成全你；</li>
-<li>喝是人类必须的，因为能带来快乐，忘记烦恼，快乐能让人联合起来协调起来；</li>
-<li>人是生来受罪的，没有哪一个人可以离开他人生活；</li>
-<li>人是不能单独的，单独是弱小的，只有联合起来，才能强大；</li>
-<li>人需要结婚，只有结婚才会知道结婚的快乐，才不会孤独；</li>
-<li>未来的事情无法预料，走一步才能看清下一步的事情；<br>大约一个小时写完</li>
-</ul>
-</li>
+<li>智慧忠告<br>教育能够塑造或改变一个人，需要对症下药，学以致用；<br>万物归宗；<br>顺从命运，命运带给你，违背命运，命运成全你；<br>喝是人类必须的，因为能带来快乐，忘记烦恼，快乐能让人联合起来协调起来；<br>人是生来受罪的，没有哪一个人可以离开他人生活；<br>人是不能单独的，单独是弱小的，只有联合起来，才能强大；<br>人需要结婚，只有结婚才会知道结婚的快乐，才不会孤独；<br>未来的事情无法预料，走一步才能看清下一步的事情；<br>大约一个小时写完</li>
 </ul>
 <h2 id="人类群星闪耀时-茨威格-20170214-2-07"><a href="#人类群星闪耀时-茨威格-20170214-2-07" class="headerlink" title="人类群星闪耀时 茨威格 20170214 2:07"></a>人类群星闪耀时 茨威格 20170214 2:07</h2><p>茨威格（1881-1942），小说家，传记家，出身于奥地利的富人家庭，1904博士毕业，在第一次世界大战当兵之前，去过印度美国，在当兵时，从事新闻编辑，1919年结婚，在第二次世界大战之前，去过许多多家，偏重于人物心理的描写，1942年由于对世界大战的失望在巴西和第二任妻子一起自杀。留下了大量作品。<br>这本书主要写了一些名人最闪烁的时刻。在闪耀的时刻之前是非常艰辛和孤独的，大部分名人为艺术工作者。在名人的内心挣扎过程描写的非常好，很多名人的价值观都表现出来了，比如音乐家为了创造一个作品而不惜身体，甚至债务重重，钱都做慈善。菲德尔，在完成世界上跨洋的电缆铺设时经历了非常多的内心煎熬和黑暗的时光，受到别人的冷嘲，还要不断的坚持重复试验，最后成功了。斯科特挑战南极由于食物短缺而死亡。托尔斯泰，想逃避家庭的束缚，承认自己是软弱犹豫不决的恶人，死在火车上，还原了一个普通人的形象。托耶夫多夫斯基在枪决的最后一秒而得到改判的机会，描写了那一刻的内心感受，非常的麻木黑暗，发现世界多么美好，人都是为了生存的动物。歌德为了追求一位女人，而被抛弃的内心感受，最后选择完成浮士德。拿破仑在滑铁卢战役中，由于选择了一位平庸的人做重要的任务，导致失败，成功与失败就因为一个小小的疏忽，优秀的人才太重要了，宁缺也不要将重要人物给不优秀的人。二十分钟写完。</p>
 <h2 id="元史演义-20170214-1-36"><a href="#元史演义-20170214-1-36" class="headerlink" title="元史演义 20170214 1:36"></a>元史演义 20170214 1:36</h2><p>元朝是蒙古族创立的。以战争为绝技，但文化不强，有史以来领土最多的朝代，侵略到欧洲，整个亚洲几乎都是元朝的。</p>
 <ul>
 <li>从成吉思汗开始奠定基础。</li>
-<li><p>成吉思汗</p>
-<ul>
-<li>年轻的时候，很早父亲就被敌人毒死了，然后很多同族的人反叛了，还被同族的人欺负，差点被杀死了，然后在躲避敌人追杀的情况下，不断的寻找同伙；</li>
-<li>可能由于不是很擅长武力，但非常有胸怀，重视义气，这样不断地壮大了自己的队伍，拉自己的朋友入伙，只要不是以后的敌人，就拉入伙，很会培养未来的力量。比如收养很多敌人的孤儿。召集敌人的妻妾。</li>
-<li>非常会而且非常注重军事力量；</li>
-<li>会利用信用这块招牌，只抓重要的事情，小事情得过且过。</li>
-<li>会平衡利益奖罚分明，公正，不会无意得罪人。</li>
-<li>会知人善任，善于听取意见。</li>
-<li>太喜欢战争，现实世界的事物，相对比较短视，缺乏文的东西；</li>
-</ul>
+<li><p>成吉思汗<br>年轻的时候，很早父亲就被敌人毒死了，然后很多同族的人反叛了，还被同族的人欺负，差点被杀死了，然后在躲避敌人追杀的情况下，不断的寻找同伙；<br>可能由于不是很擅长武力，但非常有胸怀，重视义气，这样不断地壮大了自己的队伍，拉自己的朋友入伙，只要不是以后的敌人，就拉入伙，很会培养未来的力量。比如收养很多敌人的孤儿。召集敌人的妻妾。<br>非常会而且非常注重军事力量；<br>会利用信用这块招牌，只抓重要的事情，小事情得过且过。<br>会平衡利益奖罚分明，公正，不会无意得罪人。<br>会知人善任，善于听取意见。<br>太喜欢战争，现实世界的事物，相对比较短视，缺乏文的东西；</p>
 </li>
-<li><p>忽必烈</p>
-<ul>
-<li>统一了中原和亚洲大部分，但没有统一日本；</li>
-<li>在战争上面没有成吉思汗厉害，大概输在知人善任上面，以及培养未来力量上面；</li>
-<li>比成吉思汗更沉迷于女色，没有成吉思汗那么喜欢亲力亲为，手下的战将也略逊一筹；</li>
-<li>寿命长，没成吉思汗那么奔波吧。</li>
-</ul>
+<li><p>忽必烈<br>统一了中原和亚洲大部分，但没有统一日本；<br>在战争上面没有成吉思汗厉害，大概输在知人善任上面，以及培养未来力量上面；<br>比成吉思汗更沉迷于女色，没有成吉思汗那么喜欢亲力亲为，手下的战将也略逊一筹；<br>寿命长，没成吉思汗那么奔波吧。</p>
 </li>
-<li><p>后面几位皇帝</p>
-<ul>
-<li>太沉迷于女色，寿命太短，无法正常让接班人继位；</li>
-<li>从而亲戚掌权，进行内斗，无法无天，民不聊生。</li>
-</ul>
+<li><p>后面几位皇帝<br>太沉迷于女色，寿命太短，无法正常让接班人继位；<br>从而亲戚掌权，进行内斗，无法无天，民不聊生。</p>
 </li>
 </ul>
 <p>元朝的时间不到一百年，时间是最短的，但领土是最大的，武强文弱的缘故吧。所以建立王朝靠武，维持王朝靠文，武是用来消灭异己，但无法消灭自己，文无法消灭对手，但可以消灭自己的弱点，维持自己的健康成长。说白了，文就是让事物协调起来。半个小时写完</p>
 <h2 id="清史演义-20170214-1-01"><a href="#清史演义-20170214-1-01" class="headerlink" title="清史演义 20170214 1:01"></a>清史演义 20170214 1:01</h2><p>之前的笔记写到了雍正皇帝，没写完。</p>
 <ul>
-<li><p>雍正</p>
-<ul>
-<li>在自己的皇位稳固后，开始想方设法消除自己的同谋，手段极其绝情。</li>
-<li>同谋消除后，没多久就暴病而死了，当了十几年的皇帝；</li>
-<li>手段极多，非常现实的一个人，现实把握机会的能力非常之强，主要能不断的和周围保持信息畅通，有想法和决策。比如将太子的名单放在正大光明的牌子上面，很有创新；</li>
-<li>非常现实的人，也就伪装的非常完美，从而比较在乎自己缺点的暴露，为了完美的伪装，怕同谋泄露自己的缺点，这也是雍正的缺点，看不开的原因，杀了自己的同谋后，自己的暴病而死就可能是报应。</li>
-</ul>
+<li><p>雍正<br>在自己的皇位稳固后，开始想方设法消除自己的同谋，手段极其绝情。<br>同谋消除后，没多久就暴病而死了，当了十几年的皇帝；<br>手段极多，非常现实的一个人，现实把握机会的能力非常之强，主要能不断的和周围保持信息畅通，有想法和决策。比如将太子的名单放在正大光明的牌子上面，很有创新；<br>非常现实的人，也就伪装的非常完美，从而比较在乎自己缺点的暴露，为了完美的伪装，怕同谋泄露自己的缺点，这也是雍正的缺点，看不开的原因，杀了自己的同谋后，自己的暴病而死就可能是报应。</p>
 </li>
-<li><p>乾隆</p>
-<ul>
-<li>比较看得开，可能吸收了父亲的教训，清则无鱼可能是乾隆一生的座右铭；</li>
-<li>比较喜欢女人，说明根本的事情还是看不明白，比如很多事情犹豫不决，时刻请教和珅，在好和坏之间不会平衡；</li>
-<li>比较会放权，但不在事情上面精益求精，而是时刻做一个世俗人，不善于学习。</li>
-<li>不给自己太多压力，也比较长寿。</li>
-</ul>
+<li><p>乾隆<br>比较看得开，可能吸收了父亲的教训，清则无鱼可能是乾隆一生的座右铭；<br>比较喜欢女人，说明根本的事情还是看不明白，比如很多事情犹豫不决，时刻请教和珅，在好和坏之间不会平衡；<br>比较会放权，但不在事情上面精益求精，而是时刻做一个世俗人，不善于学习。<br>不给自己太多压力，也比较长寿。</p>
 </li>
-<li>嘉庆，咸丰等<ul>
-<li>比较好色，沉迷于女色，寿命比较短，从而在接班人上就太年幼了；</li>
-<li>外国侵略中国，加上慈溪太后掌权，国家逐渐下滑。</li>
-</ul>
-</li>
-<li><p>慈禧太后</p>
-<ul>
-<li>善于权谋，容易轻信周围小人，会用人，比较奢华。比较谨慎，报复心强。</li>
-</ul>
+<li>嘉庆，咸丰等<br>比较好色，沉迷于女色，寿命比较短，从而在接班人上就太年幼了；<br>外国侵略中国，加上慈溪太后掌权，国家逐渐下滑。</li>
+<li><p>慈禧太后<br>善于权谋，容易轻信周围小人，会用人，比较奢华。比较谨慎，报复心强。</p>
 </li>
 <li><p>在慈溪太后死后，又没有很有能力的皇帝，加上很多年的国外侵略和内乱，无法跟上世界的生产力和生产制度，导致清朝灭亡。</p>
 </li>
@@ -2895,17 +2780,15 @@ box-shadow: none;
 <li>在宗教的看法上，老年对基督教不太相信了，很是怀疑，相信自然选择，也表达了对现有很多体系表示怀疑态度，也一直抱着这样的态度来从事科学研究。</li>
 <li>总结，从上面可以看出，作者喜欢思考和对未知的东西感兴趣，抱有强烈的好奇心，喜欢问为什么。十分钟写完。</li>
 </ul>
-<h2 id="约翰-克里斯多夫-罗曼罗兰-20170203-22-18"><a href="#约翰-克里斯多夫-罗曼罗兰-20170203-22-18" class="headerlink" title="约翰.克里斯多夫 罗曼罗兰 20170203 22:18"></a>约翰.克里斯多夫 罗曼罗兰 20170203 22:18</h2><ul>
-<li>节场章节，主要内容为一对亲姐弟的求生磨难经历。<ul>
+<h2 id="约翰-克里斯多夫-罗曼罗兰-20170203-22-18"><a href="#约翰-克里斯多夫-罗曼罗兰-20170203-22-18" class="headerlink" title="约翰.克里斯多夫 罗曼罗兰 20170203 22:18"></a>约翰.克里斯多夫 罗曼罗兰 20170203 22:18</h2><p>节场章节，主要内容为一对亲姐弟的求生磨难经历。</p>
+<ul>
 <li>出生在资本主义家庭，父亲经营一个爷爷留下来的银行，最后由于经营不善而破产，逃避现实而自杀了，在母亲的决定下搬到巴黎重新开始生活，由于缺乏钱，目前拼命的挣钱来养活女儿和儿子的读书生活，母亲劳累过度死亡只留下了无依无靠的姐姐和弟弟，还欠亲戚两百法郎；</li>
 <li>姐姐决定寻找教师的职业来养活弟弟读书生活，非常的省吃俭用，几乎所有时间在姐姐工作和弟弟认真读书，姐姐攒钱为弟弟租了一架钢琴，六年后，弟弟没考上高教，最后决定弟弟再考一次，由于需要钱，姐姐不得不离开弟弟去德国工作来拿一个高些的薪水，姐弟每天通信，非常单调的生活，姐姐完全没有自己的时间，完全牺牲自己来帮助弟弟读书，最后弟弟以过线的成绩录取了，姐姐不用为弟弟的读书费用苦恼了；</li>
 <li>但弟弟上高教后，每周末回家，姐姐由于突然一下放松而感觉没有目标了，不知道做什么，也病过几回，每天单调的生活工作，最后病倒了而去世了，弟弟也非常伤心，内心多少有点希望以后不辜负姐姐的牺牲，虽然之前弟弟多次让姐姐失望过，无法体会到姐姐的内心世界，姐姐还是依然照顾弟弟。</li>
-</ul>
-</li>
 <li>阶段总结，生活是充满挫折和苦难的，磨练着每个人，甚至让人窒息，每个人的内心世界不一样也无法体会到他人的内心世界最深处，所以人与人之间充满着矛盾和悲剧，带来苦难。但能够忍耐生活的平凡、枯燥和内心的躁动，冷静的面对周围的一切，长期的坚持下去，付出很多自己的青春和年华之后，只留下枯燥，这样才能克服困难和走向更高的台阶。绝大多数人进入了欲望腐败及时行乐肤浅的漩涡，留下碎片的肤浅的空虚的一生。只有苦难让人冷静下来慢下来，只有哀者才能学会正确面对苦难和克服困难，从生活中成长。</li>
 </ul>
-<h2 id="清朝演义-蔡东藩-20170203-21-24"><a href="#清朝演义-蔡东藩-20170203-21-24" class="headerlink" title="清朝演义 蔡东藩 20170203 21:24"></a>清朝演义 蔡东藩 20170203 21:24</h2><ul>
-<li>从无到大清入住北京，经历了三代人的努力，大概40年时间。<ul>
+<h2 id="清朝演义-蔡东藩-20170203-21-24"><a href="#清朝演义-蔡东藩-20170203-21-24" class="headerlink" title="清朝演义 蔡东藩 20170203 21:24"></a>清朝演义 蔡东藩 20170203 21:24</h2><p>从无到大清入住北京，经历了三代人的努力，大概40年时间。</p>
+<ul>
 <li>努尔哈赤为父亲报仇，带领村庄的人去杀仇人，然后占领了地盘；</li>
 <li>在攻打周边领土的时候，与明朝产生了矛盾，训练一年后进行战争，打败了明朝；</li>
 <li>消灭了在东北除明朝外的敌人，使用虚实的战略，打败了明朝，在沈阳定都建立大清；</li>
@@ -2913,25 +2796,16 @@ box-shadow: none;
 <li>皇太极继位10年后死掉了，福临继位，多尔衮和其他皇叔辅导皇帝，权利被多尔衮控制；</li>
 <li>明朝民不聊生非常动乱的情况下，土匪李闯拿下了北京，但由于太暴虐和骄傲，被大清占领了北京；李闯失去了机会后来被老百姓杀死了，多尔衮在控制大清的王朝，逐渐消灭东南的反派的实力；</li>
 <li>多尔衮太沉迷于女色，不到四十就死了，没多久，福临去当和尚去了，康熙继位，后来灭掉吴三桂的反叛后，大清才逐渐稳定下来；</li>
-</ul>
-</li>
-<li>阶段总结：1.大清继位创始人寿命都不长，战争比较辛苦，沉迷于女色，如果寿命能活到七十岁的话，努尔哈赤都有可能看到大清入住北京，多尔衮如果活到七十岁，恐怕大清历史会改写，至少控制权利30年；2.当最高领袖昏庸时，就是不能辨别好坏时，手下再厉害，也于事无补，手下就应该果断退出或休息，不要有任何侥幸，否则会惹来灾难；3.一个组织或朝代的消亡，都是自己把自己打垮的，当时明朝如果没有民不聊生的话，让李闯拿下北京的话，大清没有多少办法；4.要想消灭对手，需要根据否到泰来的规律，让组织或朝代彻底混乱后，才有机会消灭它；</li>
-<li>康熙<ul>
+<li>阶段总结：1.大清继位创始人寿命都不长，战争比较辛苦，沉迷于女色，如果寿命能活到七十岁的话，努尔哈赤都有可能看到大清入住北京，多尔衮如果活到七十岁，恐怕大清历史会改写，至少控制权利30年；2.当最高领袖昏庸时，就是不能辨别好坏时，手下再厉害，也于事无补，手下就应该果断退出或休息，不要有任何侥幸，否则会惹来灾难；3.一个组织或朝代的消亡，都是自己把自己打垮的，当时明朝如果没有民不聊生的话，让李闯拿下北京的话，大清没有多少办法；4.要想消灭对手，需要根据否到泰来的规律，让组织或朝代彻底混乱后，才有机会消灭它；<br>康熙</li>
 <li>在很小就继位了，利用童子军把奸臣鳌拜打败了，关键是能识别忠奸臣，就看清了大臣的底细，很恨他们；</li>
 <li>能利用群臣，来打败吴三桂，占领台湾，长大后，多次亲征打败蒙古；</li>
 <li>从小到大几乎在宫里长大，外面的事情见得少，小时候就知道善恶了，尤其是虚伪的辨认，能根据实际情况来判断事情好坏，但有点犹豫的性格，导致对坏的导火线没及时采取措施，选太子的事情就因为这个原因，被虚伪的雍正夺取了皇位。</li>
 <li>善恶区分的太明显，比较敏感和生气，这也可能是影响康熙身体的原因；</li>
-<li>手段太少，需要坏的手段，可能是去宫外太少了；</li>
-</ul>
-</li>
-<li>雍正<ul>
+<li>手段太少，需要坏的手段，可能是去宫外太少了；<br>雍正</li>
 <li>到处交计朋友，知道人心之险恶，也很阴险，使用坏的手段；</li>
 <li>不是根据贤才的标准来选拔人才，而是根据是否靠谱，自己熟悉的朋友；</li>
 <li>善于交际，所以好话说尽，坏事背后做，很虚伪；</li>
-<li>有手段，执行力很强，非常善于结合现实，选太子的事情就是，自己夺取皇位的时候，时刻和康熙和康熙非常信任的大臣保持沟通，时刻盯住机会；</li>
-<li>22:25写完</li>
-</ul>
-</li>
+<li>有手段，执行力很强，非常善于结合现实，选太子的事情就是，自己夺取皇位的时候，时刻和康熙和康熙非常信任的大臣保持沟通，时刻盯住机会；<br>22:25写完</li>
 </ul>
 <h2 id="张学良口述回忆录-唐德刚-20170202-1：14"><a href="#张学良口述回忆录-唐德刚-20170202-1：14" class="headerlink" title="张学良口述回忆录 唐德刚  20170202 1：14"></a>张学良口述回忆录 唐德刚  20170202 1：14</h2><p>从唐德刚的序言中，发现一件很小的事情如果要做的完美的话，没有想象中的那么简单，需要非常强的专业性和旺盛的精力，还要团队和很好的规划。<br>这本书主要关于90岁的张学良回忆的生平事迹，出生于军阀家庭，父亲为民国的张作霖，年轻时读书当兵，在父亲的指导下，跟当时国内的军阀战斗，1928年父亲被日本人炸死了，1936年发动西安事变，后来一直被蒋介石幽禁，在90岁才被放出来，101岁在夏威夷逝世。<br>张学良从小家庭比较富裕，在父亲的照顾下长大，没有经历过太多苦难，性格比较开放，但不理解人性，容易冲动，被道德观念束缚着，喜欢女人。<br>从回忆录可以看出，在有地位的情况下，别人才会跟你来往，哪怕你有点笨；人没有经历过非常大的苦难无法长大，不然比较轻浮；女人看世界或男人只有地位和沟通能力，不是看你思想境界多高和品德多好，也不通人性；在张学良的口述中，发现都是普通人而已，都在寻找自己想要的东西，大部分人寻找眼前的事物，少部分人追求理想，比如汪精卫、孙中山、蒋介石等等，极少的人有比较大的理想、实践能力和竞争的能力，几乎只有几人能够突破任何束缚，一切为我所用，还能够很好的和现实结合起来。<br>总结：在战场上，知己知彼要时刻运用，在竞争过程中时刻找到对方的致命弱点，然后猛击一下对方崩溃了，同时时刻拉拢人心和联盟暂时的盟友，在执行前要计划好下一步行动。</p>
 <h2 id="从晚清到民国-唐德刚-20170131-23：22"><a href="#从晚清到民国-唐德刚-20170131-23：22" class="headerlink" title="从晚清到民国 唐德刚  20170131 23：22"></a>从晚清到民国 唐德刚  20170131 23：22</h2><p>这本书主要内容包括太平天国、义和团运动、辛亥革命，分析了每个事件的关键人物、所处国内政治经济环境以及国外政治经济环境、事件的详细过程，对事件中成功和失败给予点评。这本书的整体路线以时间和政治改革为主线，政治改革过程包括，太平天国的基督制度完全脱离实际；戊戌变法采用资产阶级改良由于民主当时不适合中国，也没有兵权，很多官僚也反对，从而失败；洋务运动和义和团运动，通过自身进行改良，学习西方的技术，但慈禧太后比较昏庸，被一群小人围着，导致列强侵略中国；辛亥革命，尝试过英美的君主立宪制度、民主运动、联俄革命，转变为独裁、抓军权和筹集资金，在成立高知的会馆和边筹集资金中，在武昌张之洞的军队中抓到军权，然后使武昌独立，其他身份也相继独立，推翻了清朝，最后孙中山出任大总统，然后被有兵权的袁世凯夺取；进入国内内战统一时期；解放后，社会主义实验失败，带有资本主义色彩的社会主义尝试成功。<br>在这本书中，几个关键性的人物点评不错，政治制度解释也很清晰。</p>
@@ -2985,7 +2859,7 @@ box-shadow: none;
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="notes" scheme="http://www.tomdican.xyz/tags/notes/"/>
@@ -3002,14 +2876,12 @@ box-shadow: none;
   
   <entry>
     <title>notes-sex</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/notes-sex/"/>
-    <id>http://www.tomdican.xyz/0读书/notes-sex/</id>
+    <link href="http://www.tomdican.xyz/note/notes-sex/"/>
+    <id>http://www.tomdican.xyz/note/notes-sex/</id>
     <published>2017-01-22T18:16:56.000Z</published>
-    <updated>2017-01-22T18:16:56.000Z</updated>
+    <updated>2017-07-14T06:33:09.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li>有不少经典书籍的笔记，也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。</li>
-</ul>
+    <content type="html"><![CDATA[<p>有不少经典书籍的笔记,也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。</p>
 <p>天生尤物 阿忒纳乌斯 20170108<br>主要是作者写的一本著作中，第八章的内容为这本书的全部。作者和他的朋友聊了许多主题，包括婚姻、女人、职业妓女、名妓等等。<br>书中除了图片有点文艺，没干货。<br>女人就是天生尤物，这个标题总结十分到位，所有男人都在她的石榴裙下，因为女人天生消极被动的性欲和缓慢的快感。</p>
 <h2 id="爱经-印度-20170108"><a href="#爱经-印度-20170108" class="headerlink" title="爱经 印度  20170108"></a>爱经 印度  20170108</h2><p>人生需要获取财富、欢乐和道德。获取财富需要寻求富豪或高人。欢乐来自爱，爱包括习惯的爱、信任的爱、敬佩的爱？、外表的爱。<br>这本书主要为男人而写，传授如何与女人做爱的事情。<br>性欲：主要分析男人女人的性欲和快感，男人射精时为高潮，女人不知道什么时候有高潮，而且比较缓慢，交欢时越久越好。有弱交强交最强交，在强交时快感最好，其他较差。对于娇嫩羞涩的女人，需要委婉温柔点，慢慢来交合。对于成熟的女人，可以单刀直入。要时时刻刻讨好她，取得她的信任，在她流露爱意时，马上及时交合。<br>他人之妻：需要首先取得联系和见面，逐渐得到信任，见机下手。当男人是贵族时，可以利用权力来进行性交。当是普通人时，需要表现自己的爱慕之情，时刻关心她。<br>媒人：在无法见到自己喜欢的女人时，可以通过媒人的信任来逐渐建立信任。<br>妓女：主要为了获取金钱，或者获取爱情的同时获取爱情。妓女不会把感情当真或专一的，但总会表现的很有爱慕之情。<br>总结：不要被性欲奴役了，需要学会好好利用自己爱情。针对不同情况不同类型的女人都有建设性意见。</p>
 <h2 id="索多玛的120天-德-萨德-20170108"><a href="#索多玛的120天-德-萨德-20170108" class="headerlink" title="索多玛的120天 德.萨德 20170108"></a>索多玛的120天 德.萨德 20170108</h2><p>作者本人在38岁之后几乎在监狱里面，中间只有十年没在监狱。这本书就是在监狱里面完成的，写完这本书之后，这本书就丢失了，一直在一个半世纪后才公布于众，作者本人到死也不知道这本书没丢失，作者本人花心血最多的一本书把，总共有四部分，由于时间和在监狱各种原因，没有及时完成后面三部分，只写了一个大概的草稿，但也不少，第一部分全部写完了。其中还有大量作品被他的妻子给毁掉了，很可惜。<br>这本书从两个方面进行叛逆。第一方面，通过贵族人物的描写，批判上流社会的腐败和残暴，外表是人面，却没有人性，彻底的兽心，杀人、抢劫、奸淫、欺骗无恶不作。另一方面，通过彻底的、有计划的、奢侈的、最大规模的欺骗劫人奸淫。在一个无法逃跑的地方，四周没有路，四个贵族、四个老鸦、八对童男女，妓女等等其他人，每天讲五个奸淫计划，全部执行。内容包括各种奸淫、只有你想不到、还有食粪、各种手段杀人，让你生不如死。这一方面主要发泄作者在监狱的恨和欲望，表达作者的服从大自然的价值观，批判宗教的价值观。<br>从作者的内心看，其实人类是大自然的，也是需要融入到大自然中，大自然中，杀人，性交，食粪不是很常见吗，所以说，主要是人太把人当回事了，有了建筑之后，脱离了大自然，逐渐对大自然很多事物产生了偏见和排斥，再加上文明的出现，人的内心逐渐被驯化为只希望看好的一面，比如美食与排泄、香气与臭气、洁净与肮脏，其实这些在本质上都是一个东西，稍微在形式上改变了一些而已，只能说明人太肤浅了，通过各种感觉和事物表面来判断一个事物的好坏。<br>所以说，作者看破了人世间的一切，所有一切没有什么不同，本质上都是一样的，只是形式上不同而已。为什么作者能看破这一切了，因为作者后半辈子在监狱里面、上半辈子又经历了人生的几乎所有事情，有大量单独思考的时间，再加上作者看穿了宗教的内幕，又会善于思考和写文章，当过兵、也奸淫过、几乎坏事干尽。<br>总结：社会的文明是一种偏见和手段，人的思维几乎全是对人性的压制，也是对社会世界的偏见和表面看法。<br>学以致用：一切全是肤浅的有欺骗的，尤其是表面很美好的事物。内心不要在乎一切，从大自然的角度和出发点看问题，节省自身能量和时间，这两个是大自然最宝贵的，从各种器官和思维开始节约。</p>
@@ -3091,14 +2963,12 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;有不少经典书籍的笔记，也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;天生尤物 阿忒纳乌斯 20170108&lt;br&gt;主要是作者写的一本著作中，第八章的内容为这本书的全部。作者和他的朋友聊了许多主题，包括婚姻、女人、职业妓女
+      &lt;p&gt;有不少经典书籍的笔记,也还有非常经典的书籍没收录进来。也有一些跟性没关系的笔记。&lt;/p&gt;
+&lt;p&gt;天生尤物 阿忒纳乌斯 20170108&lt;br&gt;主要是作者写的一本著作中，第八章的内容为这本书的全部。作者和他的朋友聊了许多主题，包括婚姻、女人、职业妓女、名妓等等。&lt;br&gt;书中除
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="book" scheme="http://www.tomdican.xyz/tags/book/"/>
@@ -3113,10 +2983,10 @@ box-shadow: none;
   
   <entry>
     <title>about-life</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/about-life/"/>
-    <id>http://www.tomdican.xyz/0读书/about-life/</id>
+    <link href="http://www.tomdican.xyz/note/about-life/"/>
+    <id>http://www.tomdican.xyz/note/about-life/</id>
     <published>2017-01-21T17:27:48.000Z</published>
-    <updated>2017-07-12T09:08:38.000Z</updated>
+    <updated>2017-07-14T06:14:31.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="无法离开生活"><a href="#无法离开生活" class="headerlink" title="无法离开生活"></a>无法离开生活</h2><ul>
 <li>世界上所有一切事物都无法离开生活，个人的工作是为了生活的保障，个人工作实现的产品是为了解决生活中的问题或更加方便生活认识生活，建筑是为了让人避开天气的恶劣环境，音乐是为了给生活带来心灵的慰藉和快乐，太多太多而无法全部列举。</li>
@@ -3134,61 +3004,45 @@ box-shadow: none;
 <li>先需要尝试确定无限、微观和宏观的范畴和定义。这几个概念都是在现有时空来确定的，比如无限，是指在有空间大小和光的情况下确定的。假设还有光不起作用的情况下了，比如某种物质能吸收光或能让光穿透，透明到无法发现，这就和磁场有点类似了。可能存在这样的情况，目前所谓的无限，只是光和空间下的显现的物质的无限性，也可能非常的小的颗粒而带有非常大的不在光和空间下能显示的物质，可能无限小的颗粒而带有无限大的无法显示的物质，就可以无限小到一定程度过度到空间和光照无法显示的物质。无限大的情况了，需要解决空间的问题，空间在没有光的情况下，空间不受影响，但是更广义的空间了，这个广义的空间里面包含了光无法显示的物质。在没有空间的情况下无法思考了。20170214 0:44写，待续</li>
 </ul>
 <h2 id="女人的定义"><a href="#女人的定义" class="headerlink" title="女人的定义"></a>女人的定义</h2><p>男人女人是什么，是双方相互影响的产物。首先从男人的角度看女人，然后从这个角度的反作用方面，站在女人的位置的分析女人的潜意识和显意识状态。潜意识来自遗传和小时候教养。显意识来自社会的作用和自己的分析。在男人的角度，女人需要美丽、忠诚、温顺、细心。从这个角度的反面分析，女人会肤浅、短视、软弱和神经质。美丽会伴随肤浅，忠诚会伴随短视即满足于现有的物质和状态，温顺会伴随软弱，细心会伴随纠结于细节即神经质，总结来说，女人会把满足感转移到男人不关注的地方，即物质上面。男人会把满足感放在征服事物上面。20170213 23点写完</p>
-<h2 id="睡觉及起床"><a href="#睡觉及起床" class="headerlink" title="睡觉及起床"></a>睡觉及起床</h2><ul>
-<li><p>问题</p>
+<h2 id="睡觉及起床"><a href="#睡觉及起床" class="headerlink" title="睡觉及起床"></a>睡觉及起床</h2><p>问题</p>
 <ul>
 <li>不能按时睡觉起床</li>
 <li>假设是常态，应该怎样保证固定的睡觉时间</li>
 </ul>
-</li>
-<li><p>目标</p>
+<p>目标</p>
 <ul>
 <li>保证合理的睡觉时间，不长不短。</li>
 </ul>
-</li>
-<li><p>思路</p>
+<p>思路</p>
 <ul>
 <li>睡前事情没做完，起床前大脑没清醒。</li>
 </ul>
-</li>
-</ul>
-<h2 id="读书时间安排的尝试-20170206-12-38"><a href="#读书时间安排的尝试-20170206-12-38" class="headerlink" title="读书时间安排的尝试 20170206 12:38"></a>读书时间安排的尝试 20170206 12:38</h2><ul>
-<li><p>问题</p>
+<h2 id="读书时间安排的尝试-20170206-12-38"><a href="#读书时间安排的尝试-20170206-12-38" class="headerlink" title="读书时间安排的尝试 20170206 12:38"></a>读书时间安排的尝试 20170206 12:38</h2><p>问题</p>
 <ul>
 <li>读书时间经常泛滥</li>
 <li>读书后经常让工作无法专注</li>
 </ul>
-</li>
-<li><p>目标</p>
+<p>目标</p>
 <ul>
 <li>可持续地坚持读书</li>
 <li>学会读书后抛开留下的记忆</li>
 </ul>
-</li>
-<li><p>关键点</p>
+<p>关键点</p>
 <ul>
 <li>可持续地坚持读书中，关键点是在长期和短期读书计划要确定，尤其短期计划需要详细到每天花多长时间读书，如果有变故，需要有后备方案和补正措施；</li>
 <li>学会读书后抛开留下的记忆，主要在内心上面下手，尝试寻找不能抛开读书后留下记忆的根本原因；</li>
 </ul>
-</li>
-<li><p>解决方案</p>
+<p>解决方案</p>
 <ul>
-<li>可持续性坚持读书<ul>
+<li>可持续性坚持读书</li>
 <li>长期读书计划已经有了，虽然需要完善，但不影响目前解决这个问题；</li>
 <li>之前的问题，可能就由于短期没有很好读书计划，所以后面有空闲时间就着手实现短期的读书计划；</li>
-</ul>
-</li>
-<li>抛弃读书后留下的记忆，那就需要水藤摸瓜的方式来找到内心的症结，然后对症下药<ul>
+<li>抛弃读书后留下的记忆，那就需要水藤摸瓜的方式来找到内心的症结，然后对症下药</li>
 <li>想一下子读完某本书，这是无法抛开记忆的原因之一；方案是，需要短期的读书详细计划，做到心中有底，有备案计划，这样就不会担心什么了，也不会心血来潮的读书了</li>
 <li>读书后，带来了新的有意思的问题，导致无法抛开记忆；方案是，读书后，记录读书的内容，尤其是留下的问题，让后面有空闲时间后来集中解决，通过写博客的思考方式解决，切忌凭空思考。这样就让泛滥的想法压缩到某个周期中的一个片段时间上，比如某周六的早上；</li>
 <li>读书后，大脑有点疲倦，切换到工作上面，导致无法及时抛开记忆；方案是，需要合理安排每天的读书时间，选择每天的时间点。问题是读书后疲倦，疲倦是由于读书太久，读书后没有先解决疲倦。每天总共24小时，加上身体状态不是很好，需要留给自己休息的时间为7个半小时，三餐饭需要2个小时，每天生活事情需要1个小时，只有13个小时左右能合理利用，在没有变故的情况下。计划学习读经典书籍和笔记1个小时，先尝试读其他书籍1个小时，10分钟笔记时间。</li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p>总结，事物是时刻在变动的，应对的思路为，1.要有每天备用计划应对变故；2.时刻修改读书计划和每天时间安排；3.修改目前读书时间的思路；</p>
-</li>
-</ul>
+<p>总结，事物是时刻在变动的，应对的思路为，1.要有每天备用计划应对变故；2.时刻修改读书计划和每天时间安排；3.修改目前读书时间的思路；</p>
 <h2 id="思考人的本质-20170123"><a href="#思考人的本质-20170123" class="headerlink" title="思考人的本质 20170123"></a>思考人的本质 20170123</h2><ul>
 <li>人的基础是动物本能，即生存本能，主要包括安全感、食欲、领地欲和生殖欲。这些欲望在潜意识里面，所有欲望都通过安全感来决策，安全感来自记忆，但眼睛看见一个事物，触发了记忆中存储的危险信号，就会马上做出决策应对可能的危险。当饥饿时会触发警告信号，需要寻找食物，不然会死亡，不惜一切手段目的，甚至杀死同胞。当侵犯领地或领地内同胞不认同时，会采取竞争的手段，消灭危险的可能。生殖欲也一样，最大化延续后代。当所有欲望满足的情况下，就比较安静和进行休息。植物、动物和人都是由分子电子能量组合而成，能够进行新陈代谢，有生命周期和限制。动物和人最大的区别是，人能够充分发挥意识记忆的作用。就是说人能够通过语言更高效的分享和延续经验。比如，食欲的保证，人会发明各种食物的吃法，从植物到动物，在食物的存储上的技术，这些都是通过一代代人的实践总结，排除坏的，留下好的，然后通过语言传播给下一代人，包括说话和文字，就是结晶把。其他欲望也都类似，所有欲望的目的只有一个，为生存下去提供保障。</li>
 <li>人类文明也有几千年了，人是如何发挥意识来提高生存能力？保证记忆的延续，通过说话传播给更多的人，通过语言符号以类似书本的形式流传下来；资源有限和分布不均，通过群体的协作和工具的使用来提高资源数量和减少资源分布不均；群体的协作，主要团结力量来获取资源，提供获取资源的安全保障，比如政府和公司；工具的发明，从体力逐渐释放到脑力逐渐释放，体力释放包括石器、木器、铁器铜器、能源使用，基本实现了体力的解放；脑力释放包括沟通实现思路对比和完善、书本的文字流传实现思路在时间上更进一步的完善和协助大脑抽象思维和想象力的发挥、计算机和互联网的信息传播实现思路在群体广泛性更一步的完善和减少部分脑力活动；应对自然，建造房子来应对天气，能源使用来减少对自然的依赖，生物化学来应对人和自然的周期性和衰老；</li>
@@ -3204,7 +3058,7 @@ box-shadow: none;
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="life" scheme="http://www.tomdican.xyz/tags/life/"/>
@@ -3219,8 +3073,8 @@ box-shadow: none;
   
   <entry>
     <title>how-manage-time</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/how-manage-time/"/>
-    <id>http://www.tomdican.xyz/0读书/how-manage-time/</id>
+    <link href="http://www.tomdican.xyz/note/how-manage-time/"/>
+    <id>http://www.tomdican.xyz/note/how-manage-time/</id>
     <published>2017-01-20T09:58:09.000Z</published>
     <updated>2017-01-20T09:58:09.000Z</updated>
     
@@ -3244,20 +3098,16 @@ box-shadow: none;
 <li><p>日记：写博客，markdown，文档，描述每天做了哪些事情，大概花了多少时间，对所做的事情进行反思和总结；<br>优点为，从宏观的角度，不同阶段的目标为出发点，也侧重于事情上，比较方便记录和省力，时刻保持对目标的紧张状态；<br>缺点为，不方便精确记录时间，不方便对时间进行精确的分析；</p>
 </li>
 </ul>
-<h2 id="4-方案"><a href="#4-方案" class="headerlink" title="4 方案"></a>4 方案</h2><ul>
-<li><p>思路：</p>
+<h2 id="4-方案"><a href="#4-方案" class="headerlink" title="4 方案"></a>4 方案</h2><p>思路：</p>
 <ul>
 <li>日记肯定使用，能够保持目标感和宏观的事情，也非常方便记录和总结。</li>
 <li>由于日记不能精确到具体的事情和精确的时间记录，但日历和excel同时使用可以做到它，所以选择日记为主要方式，日历为辅助手段。</li>
 </ul>
-</li>
-<li><p>工具：</p>
+<p>工具：</p>
 <ul>
-<li>日记： markdown工具，github；</li>
+<li>日记：markdown工具，github；</li>
 <li>日历：outlook日历的服务，outlook 手机客户端，手机自带日历，outlook的web页面日历；需要下载outlook手机客户端才能将服务端的数据更新，否则失败。</li>
-<li>excel：  office，石墨文档，百度云；</li>
-</ul>
-</li>
+<li>excel：office，石墨文档，百度云；</li>
 </ul>
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul>
 <li>不可能时刻进行时间记录，可能会出现某段时间精确性的降低，或中断时间记录；</li>
@@ -3275,7 +3125,7 @@ box-shadow: none;
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="思考" scheme="http://www.tomdican.xyz/tags/%E6%80%9D%E8%80%83/"/>
@@ -3287,15 +3137,185 @@ box-shadow: none;
   </entry>
   
   <entry>
+    <title>git-guide</title>
+    <link href="http://www.tomdican.xyz/Docs/git-guide/"/>
+    <id>http://www.tomdican.xyz/Docs/git-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
+<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
+</li>
+<li><p>modify remote url:(old version git)<br>git remote set-url origin ‘<a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a>‘</p>
+</li>
+<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
+</li>
+<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
+</li>
+<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
+</li>
+<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
+</li>
+<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
+</li>
+<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
+</li>
+<li><p>git log -3           view commit log in 3 line</p>
+</li>
+<li><p>git rebase master            make current branch move new branch based on master</p>
+</li>
+<li><p>list files in a commit    </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
+</li>
+<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
+</li>
+<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
+</li>
+<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
+</li>
+<li><p>addd a git repo url in exit project without git repo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
+</li>
+<li><p>undo git add<br>git reset</p>
+</li>
+<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
+</li>
+<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
+</li>
+</ol>
+<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
+<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
+<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
+<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
+<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
+<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
+<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
+<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
+<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
+<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
+<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
+<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;add or update file:&lt;b
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
+    
+      <category term="git" scheme="http://www.tomdican.xyz/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mongodb-guide</title>
+    <link href="http://www.tomdican.xyz/Docs/Mongodb-guide/"/>
+    <id>http://www.tomdican.xyz/Docs/Mongodb-guide/</id>
+    <published>2017-01-19T18:12:11.000Z</published>
+    <updated>2017-01-19T18:26:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
+<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
+</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
+<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
+<pre><code>* yum repolist
+</code></pre><p>Output</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
+<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
+<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
+<pre><code>* sudo yum install mongodb-org
+</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
+<p>Next, start the MongoDB service<br>service mongod start </p>
+<p>configuration </p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
+<p>add below:</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
+<p> create and login admin database<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"admin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure></p>
+ <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u admin -p secret -authenticationDatabase admin</div></pre></td></tr></table></figure>
+<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
+<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>Now try to connect with above credentials through command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mongo -u myadmin -p  --authenticationDatabase admin</div></pre></td></tr></table></figure></p>
+<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
+<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
+<p>To list all users for a database, use following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
+<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
+<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
+<ul>
+<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
+<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
+<p>use DATABASE_NAME</p>
+<ul>
+<li>新建数据库使用use命令新建数据库：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
+<ul>
+<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<ul>
+<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
+</ul>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
+<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
+<p>4) 查询数据</p>
+<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">// 显示</div><div class="line"><span class="keyword">show</span> collections</div><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div><div class="line">//重命名</div><div class="line">db.rrecord.renameCollection(<span class="string">"record"</span>)</div></pre></td></tr></table></figure>
+<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
+<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
+<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
+    
+    </summary>
+    
+      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
+    
+    
+      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="mongo" scheme="http://www.tomdican.xyz/tags/mongo/"/>
+    
+      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-install-config</title>
     <link href="http://www.tomdican.xyz/Docs/HexoInstallConfig/"/>
     <id>http://www.tomdican.xyz/Docs/HexoInstallConfig/</id>
     <published>2017-01-19T18:12:11.000Z</published>
     <updated>2017-07-09T13:17:16.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</li>
-</ul>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="1-Ready"><a href="#1-Ready" class="headerlink" title="1 Ready"></a>1 Ready</h2><ul>
 <li>安装<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node.js</a></li>
 <li>安装<a href="http://git-scm.com/download/" target="_blank" rel="external">git</a></li>
@@ -3413,200 +3433,27 @@ box-shadow: none;
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https:/
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
     
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
-    
-      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
-    
-      <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
     
       <category term="hexo" scheme="http://www.tomdican.xyz/tags/hexo/"/>
     
+      <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
+    
       <category term="install" scheme="http://www.tomdican.xyz/tags/install/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Mongodb-guide</title>
-    <link href="http://www.tomdican.xyz/Docs/Mongodb-guide/"/>
-    <id>http://www.tomdican.xyz/Docs/Mongodb-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Step-1-–-Adding-the-MongoDB-Repository"><a href="#Step-1-–-Adding-the-MongoDB-Repository" class="headerlink" title="Step 1 – Adding the MongoDB Repository"></a>Step 1 – Adding the MongoDB Repository</h2><p>The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let’s add it to our server.<br>With the vi editor, create a .repo file for yum, the package management utility for CentOS:</p>
-<pre><code>* sudo vi /etc/yum.repos.d/mongodb-org.repo
-</code></pre><p>Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">/etc/yum.repos.d/mongodb-org.repo</div><div class="line">[mongodb-org-3.2]</div><div class="line">name=MongoDB Repository</div><div class="line">baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/</div><div class="line">gpgcheck=1</div><div class="line">enabled=1</div><div class="line">gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc</div></pre></td></tr></table></figure>
-<p>Save and close the file.<br>Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:</p>
-<pre><code>* yum repolist
-</code></pre><p>Output</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">repo id                          repo name</div><div class="line">base/7/x86_64                    CentOS-7 - Base</div><div class="line">extras/7/x86_64                  CentOS-7 - Extras</div><div class="line">mongodb-org-3.2/7/x86_64         MongoDB Repository</div><div class="line">updates/7/x86_64                 CentOS-7 - Updates</div></pre></td></tr></table></figure>
-<p>With the MongoDB Repository in place, let’s proceed with the installation.</p>
-<h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p>
-<pre><code>* sudo yum install mongodb-org
-</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p>
-<p>Next, start the MongoDB service<br>service mongod start </p>
-<p>configuration </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/mongo.conf</div></pre></td></tr></table></figure>
-<p>add below:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">security:</div><div class="line">  authorization: enabled</div></pre></td></tr></table></figure>
-<p> create and login admin database<br> <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"admin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure></p>
- <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mongo -u admin -p secret -authenticationDatabase admin</div></pre></td></tr></table></figure>
-<h2 id="manage-user"><a href="#manage-user" class="headerlink" title="manage user"></a>manage user</h2><p>MongoDB is a nosql database server. The default installation provides you the access of database using mongo command through command line without authentication. In this tutorial you will learn how to create users in Mongodb server with proper authentications.</p>
-<h3 id="Create-Admin-User"><a href="#Create-Admin-User" class="headerlink" title="Create Admin User"></a>Create Admin User</h3><p>You can use below commands to create user with admin privileges in your MongoDB server.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$ mongo</div><div class="line"></div><div class="line">&gt; use admin</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">     &#123;</div><div class="line">       user:"myadmin",</div><div class="line">       pwd:"secret",</div><div class="line">       roles:[&#123;role:"root",db:"admin"&#125;]</div><div class="line">     &#125;</div><div class="line">  )</div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>Now try to connect with above credentials through command line.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ mongo -u myadmin -p  --authenticationDatabase admin</div></pre></td></tr></table></figure></p>
-<h3 id="Add-User-for-Database"><a href="#Add-User-for-Database" class="headerlink" title="Add User for Database"></a>Add User for Database</h3><p>You can also create database specific users, that user will have access to that database only. You can also specify access level for that user on database. For example we are creating a user account with read write access on mydb database.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.createUser(</div><div class="line">    &#123;</div><div class="line">      user: "mydbuser",</div><div class="line">      pwd: "mydbsecret",</div><div class="line">      roles: ["readWrite"]</div><div class="line">    &#125;</div><div class="line"> ) </div><div class="line"></div><div class="line">&gt; exit</div></pre></td></tr></table></figure>
-<p>To verify authentication use following command. In result 1 means authentication succeeded.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.auth('mydbuser','mydbsecret')</div></pre></td></tr></table></figure>
-<p>To list all users for a database, use following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; db.getUsers()</div></pre></td></tr></table></figure>
-<p>Drop User for DatabaseYou may also remove user from database using following command.</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; use mydb</div><div class="line"></div><div class="line">&gt; db.dropUser('mydbuser')</div></pre></td></tr></table></figure>
-<h2 id="use-db"><a href="#use-db" class="headerlink" title="use db"></a>use db</h2><p>1)  查看数据库</p>
-<ul>
-<li>查看所有数据库与mySQL查看数据库命令一样，MongoDB也是使用show dbs命令查看当前实例中所有的数据库。</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>查看当前使用数据库要查看当前正在使用的数据库，使用db命令。示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>如上所示，进入Mongo shell后，如果未选择（切换）任何数据库，默认工作在test数据库。</p>
-<p>2) 新建与切换数据库MongoDB新建与切换数据库使用同一个命令use。当数据库存在时，会将工作数据库切换到对应数据库，数据库不存在时，会新建数据库。语法结构如下：</p>
-<p>use DATABASE_NAME</p>
-<ul>
-<li>新建数据库使用use命令新建数据库：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db</div><div class="line">newDB</div></pre></td></tr></table></figure>
-<ul>
-<li>新建的数据库，使用show dbs命令查看不到，要想使用可显示，需要至少插入一个文档：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&gt; show dbs;</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div><div class="line">&gt; db.sites.insert(&#123;name:'itbilu.com'&#125;)</div><div class="line">WriteResult(&#123; "nInserted" : 1 &#125;)</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">newDB         0.078GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<ul>
-<li>切换工作数据库use命令同样可用于切换工作数据库，示例如下：</li>
-</ul>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; use test</div><div class="line">switched to db test</div><div class="line">&gt; db</div><div class="line">test</div></pre></td></tr></table></figure>
-<p>3) 删除数据库db表示对当前使用数据库的引用。删除数据库首先使用use命令切换到要删除的数据库，然后使用db.dropDatabase()命令删除数据库。示例如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&gt; use newDB</div><div class="line">switched to db newDB</div><div class="line">&gt; db.dropDatabase()</div><div class="line">&#123; "dropped" : "newDB", "ok" : 1 &#125;</div><div class="line">&gt; show dbs</div><div class="line">local         0.328GB</div><div class="line">test          (empty)</div></pre></td></tr></table></figure>
-<p>4) 查询数据</p>
-<p>find的第一个参数是查询条件，其形式也是一个文档，决定了要返回哪些文档，空的査询文档{}会匹配集合的全部内容。要是不指定査询文档，默认就是{}，如同SQL中”SELECT * FROM TABLENAME”语句。</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">// 显示</div><div class="line"><span class="keyword">show</span> collections</div><div class="line">//将返回集合中所有文档</div><div class="line">db.collection.find()</div><div class="line">//或者</div><div class="line">db.collection.find(&#123;&#125;)</div><div class="line">//重命名</div><div class="line">db.rrecord.renameCollection(<span class="string">"record"</span>)</div></pre></td></tr></table></figure>
-<p>第一个参数若为键/值对时，查询过程中就意味着执行了条件筛选，就如同我们使用Linq查询数据库一样。下面查询操作将返回user集合中age键值为16的文档集合。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//mongo db</div><div class="line">db.user.find(&#123;age:16&#125;)</div><div class="line">//Linq to sql</div><div class="line">dbContext.user.select(p=&gt;p.age==16)</div></pre></td></tr></table></figure>
-<p>　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。</p>
-<h2 id="import-mongo-collection"><a href="#import-mongo-collection" class="headerlink" title="import mongo collection :"></a>import mongo collection :</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">mongoimport --db <span class="built_in">test</span> --collection bookCategory --file bookCategory.json</div><div class="line">mongoexport --host localhost --port 27017 -u <span class="built_in">test</span> -p tset --collection bookC ategory   --out bookCategory.json</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Step-1-–-Adding-the-MongoDB-Repository&quot;&gt;&lt;a href=&quot;#Step-1-–-Adding-the-MongoDB-Repository&quot; class=&quot;headerlink&quot; title=&quot;Step 1 – Adding 
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
-      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="mongo" scheme="http://www.tomdican.xyz/tags/mongo/"/>
-    
-      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git-guide</title>
-    <link href="http://www.tomdican.xyz/Docs/git-guide/"/>
-    <id>http://www.tomdican.xyz/Docs/git-guide/</id>
-    <published>2017-01-19T18:12:11.000Z</published>
-    <updated>2017-01-19T18:26:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="git-commands"><a href="#git-commands" class="headerlink" title="git commands"></a>git commands</h2><ol>
-<li><p>add or update file:<br>git add *<br>git status<br>git commit -m “scripts”<br>git push -u origin master(contain git pull)</p>
-</li>
-<li><p>modify remote url:(old version git)<br>git remote set-url origin ‘<a href="https://user@github.com/user/scripts.git" target="_blank" rel="external">https://user@github.com/user/scripts.git</a>‘</p>
-</li>
-<li><p>clone remote git<br>git clone <a href="https://github.com/great/scripts.git" target="_blank" rel="external">https://github.com/great/scripts.git</a></p>
-</li>
-<li><p>create branch ,merge branch,delete local or remote branch:<br>git checkout -b master<br>git push -u origin bash<br>git checkout master<br>git merge bash<br>git push -u origin master<br>git branch -d bash<br>git push origin :bash(delete remote branch)</p>
-</li>
-<li><p>delete files:<br>git rm readMe<br>git commit -a -m “delete”<br>git push -u origin master</p>
-</li>
-<li><p>update local git repo<br>git pull origin master (fetch,merge)</p>
-</li>
-<li><p>cache accout<br>git config –global credential.helper cache<br>git config –global credential.helper “cache –timeout=3600”<br>windows：git config –system credential.helper wincred  (store)<br>git config –system –unset credential.helper  (reset)<br>20170208 add</p>
-</li>
-<li><p>checkout remote tag<br>  git tag -l  (show tags)<br>  git checkout tags/<tag_name><br>  git checkout tags/<tag_name> -b <branch_name><br>  (Even better, checkout and create a branch (otherwise you will be on a branch named after the revision number of tag))</branch_name></tag_name></tag_name></p>
-</li>
-<li><p>git log -3           view commit log in 3 line</p>
-</li>
-<li><p>git rebase master            make current branch move new branch based on master</p>
-</li>
-<li><p>list files in a commit    </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git show --stat --oneline  9bb16939e87ef7d4b1c251ec2e7257d411e51621</div></pre></td></tr></table></figure>
-</li>
-<li><p>git delete file from branch<br>git checkout -b mybranch<br>rm myfile.txt<br>git commit -am “delete myfile.txt”</p>
-</li>
-<li><p>add  subdir  including .git in subdir   20170203 17:11<br>rm -rf subdir/.git<br>git rm –cached subdir/<em> -r<br>git add subdir/</em></p>
-</li>
-<li><p>change remote repo  <em>20170224 9:51</em><br>git reset origin/master<br>git remote  set-url origin “git repo url”</p>
-</li>
-<li><p>addd a git repo url in exit project without git repo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add -A</div><div class="line">git commit -am <span class="string">"init"</span></div><div class="line">git push  -u origin master</div></pre></td></tr></table></figure>
-</li>
-<li><p>undo git add<br>git reset</p>
-</li>
-<li><p>git ignore  a file<br>add file path in .gitignore<br>git rm –cache ‘file path’</p>
-</li>
-<li><p>create new tag<br>git tag v1.0<br>git push origin v1.0   or  git push -u --tags origin master</p>
-</li>
-</ol>
-<h2 id="gitlab"><a href="#gitlab" class="headerlink" title="gitlab"></a>gitlab</h2><p>Git global setup</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name <span class="string">"Administrator"</span></div><div class="line">git config --global user.email <span class="string">"register@xxxx.com"</span></div></pre></td></tr></table></figure>
-<p>Create a new repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> http://182.92.xx.xx:9090/software/pro.git</div><div class="line"><span class="built_in">cd</span> professi</div><div class="line">touch README.md</div><div class="line">git add README.md</div><div class="line">git commit -m <span class="string">"add README"</span></div><div class="line">git push -u origin master  (first git pull origin master)</div></pre></td></tr></table></figure></p>
-<p>  Existing folder or Git repository<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> existing_folder</div><div class="line">git init</div><div class="line">git remote add origin http://182.92.xx.xx:9090/software/profe.git</div><div class="line">git add .</div><div class="line">git commit</div><div class="line">git push -u origin master</div></pre></td></tr></table></figure></p>
-<h2 id="install-git-or-upgrade-git"><a href="#install-git-or-upgrade-git" class="headerlink" title="install git or upgrade git"></a>install git or upgrade git</h2><p>-<a href="https://www.edureka.co/blog/install-git/" target="_blank" rel="external"><strong>refrence link</strong></a>：detail install and configure step with sketch map.<br>-my centos is version 6 ,git is version 1.7,the version git is some problem,so upgrade git.</p>
-<h3 id="upgrade-steps"><a href="#upgrade-steps" class="headerlink" title="upgrade steps"></a>upgrade steps</h3><p>ready to some tools<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">1. yum groupinstall <span class="string">"Development Tools"</span></div><div class="line">2. yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel</div><div class="line">3. yum install wget</div></pre></td></tr></table></figure></p>
-<p>download git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">4. wget https://github.com/git/git/archive/v2.7.2.tar.gz -O git.tar.gz</div></pre></td></tr></table></figure></p>
-<p>install and compile git<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">5. tar -zxf git.tar.gz</div><div class="line">6. <span class="built_in">cd</span> git-2.7.2</div><div class="line">7. make configure</div><div class="line">8. ./configure --prefix=/usr/<span class="built_in">local</span></div><div class="line">9. make install</div></pre></td></tr></table></figure></p>
-<p>check git  version<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">10. git --version</div></pre></td></tr></table></figure></p>
-<p>git config<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">11. git config --global user.name <span class="string">"greatestfutility"</span></div><div class="line">12. git config --global user.email <span class="string">"futility@yeah.net"</span></div></pre></td></tr></table></figure></p>
-<p>git account cache<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13. git config --global credential.helper cache</div></pre></td></tr></table></figure></p>
-<h2 id="problem"><a href="#problem" class="headerlink" title="problem"></a>problem</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/lity/re.git</div></pre></td></tr></table></figure>
-<p>fatal: Unable to find remote helper for ‘https’<br>the way1：replace https  with git<br>or the way2：<br>$ yum install curl-devel<br>$ # cd to wherever the source for git is<br>$ make configure<br>$ ./configure –prefix=/usr/local<br>$ make install</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; class=&quot;headerlink&quot; title=&quot;git commands&quot;&gt;&lt;/a&gt;git commands&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;add or update file:&lt;b
-    
-    </summary>
-    
-      <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
-    
-    
       <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
-    
-      <category term="技术" scheme="http://www.tomdican.xyz/tags/%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="指南" scheme="http://www.tomdican.xyz/tags/%E6%8C%87%E5%8D%97/"/>
-    
-      <category term="git" scheme="http://www.tomdican.xyz/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>great-book-record</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/read-record/"/>
-    <id>http://www.tomdican.xyz/0读书/read-record/</id>
+    <link href="http://www.tomdican.xyz/note/read-record/"/>
+    <id>http://www.tomdican.xyz/note/read-record/</id>
     <published>2017-01-19T06:42:41.000Z</published>
     <updated>2017-07-03T17:07:33.000Z</updated>
     
@@ -3774,7 +3621,7 @@ box-shadow: none;
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="书籍" scheme="http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D/"/>
@@ -3787,35 +3634,23 @@ box-shadow: none;
   
   <entry>
     <title>reading-plan-of-life</title>
-    <link href="http://www.tomdican.xyz/0%E8%AF%BB%E4%B9%A6/life-read-plan/"/>
-    <id>http://www.tomdican.xyz/0读书/life-read-plan/</id>
+    <link href="http://www.tomdican.xyz/note/life-read-plan/"/>
+    <id>http://www.tomdican.xyz/note/life-read-plan/</id>
     <published>2017-01-18T20:12:11.000Z</published>
     <updated>2017-01-19T07:26:26.000Z</updated>
     
     <content type="html"><![CDATA[<p>更新日志：</p>
 <ul>
 <li>更新了短期目标和中期目标，花了将近4个小时，0170220晚</li>
-<li></li>
 </ul>
 <p>注：hexo博客中格式混乱，github中格式清晰，<a href="https://github.com/tomdican/tomdican.github.io/blob/source/_posts/life-read-plan.md" target="_blank" rel="external">链接</a></p>
+<p>宗旨，读书要花费大量时间、精力和耐心，但人生太短暂了，最好能够学以致用，从最好的书开始读，结合系统性有计划的读书。</p>
+<p>方案</p>
 <ul>
-<li>宗旨，读书要花费大量时间、精力和耐心，但人生太短暂了，最好能够学以致用，从最好的书开始读，结合系统性有计划的读书。</li>
-<li>方案<ul>
-<li>长期读书计划、中期读书计划和短期读书计划<ul>
-<li>长期读书计划，就是一生的读书计划，计划肯定会随时更新，尽量采用增加法来更新书籍；</li>
-<li>中期读书计划，就是几年的读书计划，侧重于最经典书籍和专题性读书计划，从长期读书计划中筛选出最经典和具有代表性的书籍，根据每个书籍类别来选择；</li>
-<li>短期读书计划，最近一个月和一周的读书计划，侧重于从最经典的书中选择，以一个专题为主线选择；</li>
+<li>长期读书计划、中期读书计划和短期读书计划<br>长期读书计划，就是一生的读书计划，计划肯定会随时更新，尽量采用增加法来更新书籍；<br>中期读书计划，就是几年的读书计划，侧重于最经典书籍和专题性读书计划，从长期读书计划中筛选出最经典和具有代表性的书籍，根据每个书籍类别来选择；<br>短期读书计划，最近一个月和一周的读书计划，侧重于从最经典的书中选择，以一个专题为主线选择；</li>
+<li>专题读书计划、读经典书计划<br>专题包括哲学、历史、文学、随笔、社科、传记等等，先侧重于读哲学和历史，每个专题选择的书籍侧重于代表和经典，尽量少纳入；<br>经典书指经过历史筛选和公认的好书，这些清单来自一些权威的个人和机构；</li>
 </ul>
-</li>
-<li>专题读书计划、读经典书计划<ul>
-<li>专题包括哲学、历史、文学、随笔、社科、传记等等，先侧重于读哲学和历史，每个专题选择的书籍侧重于代表和经典，尽量少纳入；</li>
-<li>经典书指经过历史筛选和公认的好书，这些清单来自一些权威的个人和机构；</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>个人已经读过的书籍尽量不纳入，以后有机会加进来；</li>
-</ul>
+<p>个人已经读过的书籍尽量不纳入，以后有机会加进来；</p>
 <h2 id="中期读书计划"><a href="#中期读书计划" class="headerlink" title="中期读书计划"></a>中期读书计划</h2><ul>
 <li><p>经典</p>
 <ul>
@@ -4102,13 +3937,12 @@ box-shadow: none;
       &lt;p&gt;更新日志：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;更新了短期目标和中期目标，花了将近4个小时，0170220晚&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;注：hexo博客中格式混乱，github中格式清晰，&lt;a href=&quot;https://github.com/tomdican/
+&lt;p&gt;注：hexo博客中格式混乱，github中格式清晰，&lt;a href=&quot;https://github.com/tomdican/tomdican.g
     
     </summary>
     
-      <category term="0读书" scheme="http://www.tomdican.xyz/categories/0%E8%AF%BB%E4%B9%A6/"/>
+      <category term="note" scheme="http://www.tomdican.xyz/categories/note/"/>
     
     
       <category term="阅读" scheme="http://www.tomdican.xyz/tags/%E9%98%85%E8%AF%BB/"/>
@@ -4292,13 +4126,13 @@ box-shadow: none;
       <category term="Docs" scheme="http://www.tomdican.xyz/categories/Docs/"/>
     
     
-      <category term="markdown" scheme="http://www.tomdican.xyz/tags/markdown/"/>
-    
-      <category term="syntax" scheme="http://www.tomdican.xyz/tags/syntax/"/>
-    
       <category term="tech" scheme="http://www.tomdican.xyz/tags/tech/"/>
     
       <category term="guide" scheme="http://www.tomdican.xyz/tags/guide/"/>
+    
+      <category term="markdown" scheme="http://www.tomdican.xyz/tags/markdown/"/>
+    
+      <category term="syntax" scheme="http://www.tomdican.xyz/tags/syntax/"/>
     
   </entry>
   
