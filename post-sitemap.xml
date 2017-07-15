@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://www.tomdican.xyz/Docs/tools-install/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/Docs/good-websites/</loc>
+        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.tomdican.xyz/note/notes-sex/</loc>
         <lastmod>2017-07-14T06:33:09.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,22 +89,6 @@
     <url>
         <loc>http://www.tomdican.xyz/note/read-record/</loc>
         <lastmod>2017-07-03T17:07:33.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/Docs/tools-install/</loc>
-        <lastmod>2017-03-04T15:56:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/Docs/good-websites/</loc>
-        <lastmod>2017-03-04T15:24:32.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

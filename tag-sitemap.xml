@@ -142,34 +142,6 @@
     </url>
 
     <url>
-        <loc>http://www.tomdican.xyz/tags/site/</loc>
-        <lastmod>2017-03-04T15:24:32.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/page/</loc>
-        <lastmod>2017-03-04T15:24:32.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/collect/</loc>
-        <lastmod>2017-03-04T15:24:32.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/tool/</loc>
-        <lastmod>2017-03-04T15:56:17.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.tomdican.xyz/tags/%E4%B9%A6%E7%B1%8D/</loc>
         <lastmod>2017-07-03T17:07:33.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -212,20 +184,6 @@
     </url>
 
     <url>
-        <loc>http://www.tomdican.xyz/tags/install/</loc>
-        <lastmod>2017-07-09T13:17:16.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/guide/</loc>
-        <lastmod>2017-07-09T13:17:16.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.tomdican.xyz/tags/command/</loc>
         <lastmod>2017-07-12T04:07:44.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -242,13 +200,6 @@
     <url>
         <loc>http://www.tomdican.xyz/tags/linux/</loc>
         <lastmod>2017-07-12T04:07:44.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/tech/</loc>
-        <lastmod>2017-07-13T12:51:59.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -340,6 +291,55 @@
     <url>
         <loc>http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2017-07-14T06:33:09.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/site/</loc>
+        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/page/</loc>
+        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/collect/</loc>
+        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/tech/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/guide/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/install/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/tool/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
