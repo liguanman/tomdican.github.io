@@ -13,6 +13,7 @@ ref link: https://spring.io/understanding/HATEOAS
 
 ### what is HATEOAS
 HATEOAS (Hypermedia as the Engine of Application State) is a constraint of the REST application architecture.
+
 A hypermedia-driven site provides information to navigate the site's REST interfaces dynamically by including hypermedia links with the responses. This capability differs from that of SOA-based systems and WSDL-driven interfaces. With SOA, servers and clients usually must access a fixed specification that might be staged somewhere else on the website, on another website, or perhaps distributed by email.
 
 ### example
