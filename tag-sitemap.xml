@@ -296,35 +296,7 @@
     </url>
 
     <url>
-        <loc>http://www.tomdican.xyz/tags/site/</loc>
-        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/page/</loc>
-        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/collect/</loc>
-        <lastmod>2017-07-15T11:31:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.tomdican.xyz/tags/tech/</loc>
-        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/guide/</loc>
         <lastmod>2017-07-15T16:21:15.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -338,8 +310,36 @@
     </url>
 
     <url>
+        <loc>http://www.tomdican.xyz/tags/guide/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://www.tomdican.xyz/tags/tool/</loc>
         <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/site/</loc>
+        <lastmod>2017-07-16T17:10:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/page/</loc>
+        <lastmod>2017-07-16T17:10:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/collect/</loc>
+        <lastmod>2017-07-16T17:10:19.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
