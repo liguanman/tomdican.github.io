@@ -1,5 +1,5 @@
 ---
-title: vim-commands
+title: vim commands
 date: 2017-2-10  13:38:51
 updated: 2017-2-10 13:38:51
 tags: [vim,tech,guide]

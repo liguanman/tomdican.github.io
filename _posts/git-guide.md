@@ -1,5 +1,5 @@
 ---
-title: git-guide
+title: git guide
 date: 2017-01-20 2:12:11
 updated: 2017-01-20 2:26:26
 tags: [技术,git,指南,guide]

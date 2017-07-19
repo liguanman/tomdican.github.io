@@ -1,7 +1,7 @@
 ---
-title: good-websites
+title: good websites
 date: 2017-3-4  23:24:32
-updated: 2017-07-15 19:31:37
+updated: 2017-07-17 01:10:19
 tags: [site,page,collect]
 keywords: site,page,collect
 categories: Docs
@@ -15,7 +15,7 @@ toc: true
 1 leetcode https://leetcode.com
 2 booksc http://booksc.org
 3 free learning  https://www.khanacademy.org
-
+4 bookhub http://www.bookhub.com
 
 - github or open source
 1 vimide https://github.com/liuxd/VimIDE.git

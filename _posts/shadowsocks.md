@@ -1,5 +1,5 @@
 ---
-title: shadowsocks-install
+title: shadowsocks installation
 date: 2017-1-24  3:48:47
 updated: 2017-1-24 3:48:47
 tags: [翻墙,socks,代理]

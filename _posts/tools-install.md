@@ -1,5 +1,5 @@
 ---
-title: tools-install
+title: tools installation
 date: 2017-3-4  23:56:17
 updated: 2017-07-16 00:21:15
 tags: [tool,install,tech,guide]

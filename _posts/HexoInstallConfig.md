@@ -1,5 +1,5 @@
 ---
-title: Hexo-install-config
+title: Hexo installation and config
 date: 2017-01-20 2:12:11
 updated: 2017-07-09 21:17:16
 tags: [hexo,tech,install,guide]

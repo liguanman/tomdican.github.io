@@ -1,5 +1,5 @@
 ---
-title: Mongodb-guide
+title: Mongodb guide
 date: 2017-01-20 02:12:11
 updated: 2017-01-20 02:26:26
 tags: [技术,mongo,指南]

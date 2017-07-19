@@ -1,6 +1,6 @@
 ---
-title: short-read-plan
-categories: note 
+title: short read plan
+categories: Note 
 toc: true
 date: 2017-07-12 15:01:50
 updated: 2017-07-14 14:15:03

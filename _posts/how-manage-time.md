@@ -1,10 +1,10 @@
 ---
-title: how-manage-time
+title: how manage time
 date: 2017-1-20  17:58:9
 updated: 2017-1-20 17:58:9
 tags: [时间,思考,管理]
 keywords: 时间,思考,管理
-categories: note
+categories: Note
 toc: true
 ---
 

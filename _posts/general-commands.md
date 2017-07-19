@@ -1,5 +1,5 @@
 ---
-title: general-tech-tricks
+title: general tech tricks
 date: 2017-2-23  13:51:25
 updated: 2017-07-04 01:43:08
 tags: [guide,command,tech]

@@ -1,10 +1,10 @@
 ---
-title: about-life
+title: about life
 date: 2017-1-22  1:27:48
 updated: 2017-07-14 14:14:31
 tags: [life,思考,体会,笔记]
 keywords: life,思考,体会,笔记
-categories: note
+categories: Note
 toc: true
 ---
 

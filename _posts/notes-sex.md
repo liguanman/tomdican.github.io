@@ -1,10 +1,10 @@
 ---
-title: notes-sex
+title: sexy note
 date: 2017-1-23  2:16:56
 updated: 2017-07-14 14:33:09
 tags: [sex,book,note,读书笔记]
 keywords: sex,book,note,读书笔记
-categories: note
+categories: Note
 toc: true
 ---
 

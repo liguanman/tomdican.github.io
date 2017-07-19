@@ -1,5 +1,5 @@
 ---
-title: linux-command
+title: linux command
 categories: Docs
 toc: true
 date: 2017-07-12 12:07:44
