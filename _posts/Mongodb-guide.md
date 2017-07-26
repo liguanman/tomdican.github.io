@@ -13,82 +13,66 @@ toc: true
 The mongodb-org package does not exist within the default repositories for CentOS. However, MongoDB maintains a dedicated repository. Let's add it to our server.
 With the vi editor, create a .repo file for yum, the package management utility for CentOS:
 
-	* sudo vi /etc/yum.repos.d/mongodb-org.repo
+	sudo vi /etc/yum.repos.d/mongodb-org.repo
 
 Then, visit the Install on Red Hat section of MongoDB’s documentation and add the repository information for the latest stable release to the file:
 
-```xml
-/etc/yum.repos.d/mongodb-org.repo
-[mongodb-org-3.2]
-name=MongoDB Repository
-baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/
-gpgcheck=1
-enabled=1
-gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc
-```
+	/etc/yum.repos.d/mongodb-org.repo
+	[mongodb-org-3.2]
+	name=MongoDB Repository
+	baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/3.2/x86_64/
+	gpgcheck=1
+	enabled=1
+	gpgkey=https://www.mongodb.org/static/pgp/server-3.2.asc
 
 Save and close the file.
 Before we move on, we should verify that the MongoDB repository exists within the yum utility. The repolist command displays a list of enabled repositories:
 
-	* yum repolist
+	yum repolist
 
 Output
 
-```xml
-repo id                          repo name
-base/7/x86_64                    CentOS-7 - Base
-extras/7/x86_64                  CentOS-7 - Extras
-mongodb-org-3.2/7/x86_64         MongoDB Repository
-updates/7/x86_64                 CentOS-7 - Updates
-```
+	repo id                          repo name
+	base/7/x86_64                    CentOS-7 - Base
+	extras/7/x86_64                  CentOS-7 - Extras
+	mongodb-org-3.2/7/x86_64         MongoDB Repository
+	updates/7/x86_64                 CentOS-7 - Updates
 
 With the MongoDB Repository in place, let's proceed with the installation.
 
 ## Step 2 – Installing MongoDB
 We can install the mongodb-org package from the third-party repository using the yum utility.
 
-	* sudo yum install mongodb-org
+	sudo yum install mongodb-org
 
 There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.
 
 Next, start the MongoDB service
 service mongod start 
 
-
-
 configuration 
 
-```bash
-vi /etc/mongo.conf
-```
+	vi /etc/mongo.conf
 
 add below:
 
-```xml
-security:
-  authorization: enabled
- ```
+	security:
+  	  authorization: enabled
  
  create and login admin database
- ```sql
-$ mongo
+	$ mongo
+	> use admin
+	> db.createUser(
+	     {
+	       user:"admin",
+	       pwd:"secret",
+	       roles:[{role:"root",db:"admin"}]
+	     }
+	  )
+	> exit
 
-> use admin
+	mongo -u admin -p secret -authenticationDatabase admin
 
-> db.createUser(
-     {
-       user:"admin",
-       pwd:"secret",
-       roles:[{role:"root",db:"admin"}]
-     }
-  )
-
-> exit
-```
- 
- ```bash
-mongo -u admin -p secret -authenticationDatabase admin
-```
 
 ## manage user
 
@@ -259,7 +243,5 @@ dbContext.user.select(p=>p.age==16)
 
 ## import mongo collection :
 
-```bash
-mongoimport --db test --collection bookCategory --file bookCategory.json
-mongoexport --host localhost --port 27017 -u test -p tset --collection bookC ategory   --out bookCategory.json
-```
+	mongoimport --db test --collection bookCategory --file bookCategory.json
+	mongoexport --host localhost --port 27017 -u test -p tset --collection bookC ategory   --out bookCategory.json
