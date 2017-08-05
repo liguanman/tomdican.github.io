@@ -241,7 +241,19 @@ dbContext.user.select(p=>p.age==16)
 　　上面的查询默认执行“==”操作(就如同linq中 p.age==16)，文档中若存在相同键的值和查询文档中键的值相等的话，就会返回该文档。
 
 
-## import mongo collection :
+## import and export mongo collection
+
 
 	mongoimport --db test --collection bookCategory --file bookCategory.json
-	mongoexport --host localhost --port 27017 -u test -p tset --collection bookC ategory   --out bookCategory.json
+	mongoexport --host localhost --port 27017 -u test -p tset --collection bookCategory   --out bookCategory.json
+
+
+## backup and restore mongodb
+
+
+	mongodump --host mongodb1.example.net --port 37017 --username user --password "pass" --out /opt/backup/mongodump-2011-10-24
+	mongodump --archive=test.20150715.archive --db test
+	mongorestore --host mongodb1.example.net --port 37017 --username user --password "pass" /opt/backup/mongodump-2011-10-24
+	mongorestore --archive=test.20150715.archive --db test
+
+You cannot use the --archive option with the --out option.detail [description](https://docs.mongodb.com/manual/reference/program/mongorestore/#bin.mongodump)
