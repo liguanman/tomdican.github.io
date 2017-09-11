@@ -282,22 +282,8 @@
     </url>
 
     <url>
-        <loc>http://www.tomdican.xyz/tags/note/</loc>
-        <lastmod>2017-07-14T06:33:09.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.tomdican.xyz/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2017-07-14T06:33:09.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.tomdican.xyz/tags/guide/</loc>
-        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -311,6 +297,13 @@
 
     <url>
         <loc>http://www.tomdican.xyz/tags/install/</loc>
+        <lastmod>2017-07-15T16:21:15.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/guide/</loc>
         <lastmod>2017-07-15T16:21:15.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -340,6 +333,34 @@
     <url>
         <loc>http://www.tomdican.xyz/tags/collect/</loc>
         <lastmod>2017-07-16T17:10:19.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/blog/</loc>
+        <lastmod>2017-09-09T13:17:13.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/article/</loc>
+        <lastmod>2017-09-09T13:17:13.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/note/</loc>
+        <lastmod>2017-09-09T13:17:13.038Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.tomdican.xyz/tags/money/</loc>
+        <lastmod>2017-09-09T13:17:13.038Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

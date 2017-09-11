@@ -28,7 +28,9 @@ extras/7/x86_64                  CentOS-7 - Extras
 mongodb-org-3.2/7/x86_64         MongoDB Repository
 updates/7/x86_64                 CentOS-7 - Updates
 </code></pre><p>With the MongoDB Repository in place, let’s proceed with the installation.</p><h2 id="Step-2-–-Installing-MongoDB"><a href="#Step-2-–-Installing-MongoDB" class="headerlink" title="Step 2 – Installing MongoDB"></a>Step 2 – Installing MongoDB</h2><p>We can install the mongodb-org package from the third-party repository using the yum utility.</p><pre><code>sudo yum install mongodb-org
-</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p><p>Next, start the MongoDB service<br>service mongod start</p><p>configuration</p><pre><code>vi /etc/mongo.conf
+</code></pre><p>There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.</p><p>Next, start the MongoDB service</p><pre><code>service mongod start 
+</code></pre><p>configuration</p><pre><code>vi /etc/mongo.conf
+</code></pre><p>remote connection<br>comment this line</p><pre><code># bindIp: 127.0.0.1
 </code></pre><p>add below:</p><pre><code>security:
     authorization: enabled
 </code></pre><p> create and login admin database<br> $ mongo</p><pre><code>&gt; use admin
