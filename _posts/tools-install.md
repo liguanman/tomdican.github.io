@@ -8,6 +8,10 @@ categories: Docs
 toc: true
 ---
 
+## 手机usb共享网络
+首先下载安装aptoide，然后安装foxfi key应用；
+pc端和手机端下载安装[pdanet软件](http://padnet.co/a)
+
 ## 去中心下载工具
 resilio软件从官网免费下载，方便翻墙来下载资料。
 

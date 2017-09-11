@@ -48,12 +48,18 @@ We can install the mongodb-org package from the third-party repository using the
 There are two Is this ok [y/N]: prompts. The first one permits the installation of the MongoDB packages and the second one imports a GPG key. The publisher of MongoDB signs their software and yum uses a key to confirm the integrity of the downloaded packages. At each prompt, type Y and then press the ENTER key.
 
 Next, start the MongoDB service
-service mongod start 
+
+	service mongod start 
 
 configuration 
 
 	vi /etc/mongo.conf
 
+remote connection
+comment this line
+
+	# bindIp: 127.0.0.1
+	
 add below:
 
 	security:
